@@ -1,6 +1,8 @@
 V5UserID=anonymous
 ComputerID=local
 UsePrimenet=0
+MaximumBitArraySize=20
+ECMBestB2=0
 V24OptionsConverted=1
 WorkPreference=0
 V30OptionsConverted=1
