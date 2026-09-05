@@ -1,10 +1,15 @@
-[2026-09-05 09:58:30] Program started with 4 threads (work division mode)
-[2026-09-05 09:58:30] Work directory: /home/z/my-project/A136030_Search
-[2026-09-05 09:58:30] Building small primes sieve...
-[2026-09-05 09:58:30]   669 small primes
-[2026-09-05 09:58:30] Output file copied: /home/z/my-project/A136030_Search/A136030_1_to_8000.txt
-[2026-09-05 09:58:30] Idle thread started
-[2026-09-05 09:58:30] Thread 1 started on M(1277) [idx=192]
-[2026-09-05 09:58:30] Thread 2 started on M(1619) [idx=241]
-[2026-09-05 09:58:30] Thread 3 started on M(1753) [idx=258]
-[2026-09-05 09:58:30] Thread 4 started on M(2267) [idx=320]
+[2026-09-05 10:07:40] Program started - 4 threads on M(1277)
+[2026-09-05 10:07:40] Work directory: /home/z/my-project/A136030_Search
+[2026-09-05 10:07:40] Strategy: work division (each thread searches a different k-range)
+[2026-09-05 10:07:40] Building small primes sieve...
+[2026-09-05 10:07:40]   669 small primes
+[2026-09-05 10:07:40] Output file copied: /home/z/my-project/A136030_Search/A136030_1_to_8000.txt
+[2026-09-05 10:07:40] Thread 1 k-range: [1, 2,500,000,000)
+[2026-09-05 10:07:40] Thread 2 k-range: [2,500,000,001, 5,000,000,000)
+[2026-09-05 10:07:40] Thread 3 k-range: [5,000,000,001, 7,500,000,000)
+[2026-09-05 10:07:40] Thread 4 k-range: [7,500,000,001, 10,000,000,000)
+[2026-09-05 10:07:40] Idle thread started
+[2026-09-05 10:07:40] Thread 1 started on k-range [1, 2,500,000,000)
+[2026-09-05 10:07:40] Thread 2 started on k-range [2,500,000,001, 5,000,000,000)
+[2026-09-05 10:07:40] Thread 3 started on k-range [5,000,000,001, 7,500,000,000)
+[2026-09-05 10:07:40] Thread 4 started on k-range [7,500,000,001, 10,000,000,000)

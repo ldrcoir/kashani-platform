@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-A136030 Factor Finder - 4-Thread Work Division
-==============================================
-Searches for prime factors of Mersenne numbers M(p) = 2^p - 1
-for missing values in A136030_1_to_8000.txt
+A136030 Factor Finder - 4-Thread Work Division on M(1277)
+=========================================================
+Searches for the smallest prime factor of M(1277) = 2^1277 - 1
+which is the missing value at index 192 in A136030.
 
-Features:
-- 4 threads (work DIVISION, not parallel on same number)
-- Each thread works on a DIFFERENT number
-- UTF-8 encoded logs and output
-- Checkpoint in JSON (resume from saved point)
-- idle.txt updated every 10 seconds
-- Separate log for each thread
-- Saves results immediately when found
+Work Division Strategy:
+- Divide the k-range [1, K_LIMIT] into 4 chunks
+- Each thread searches a DIFFERENT k-range (no overlap)
+- Thread 1: k = [1,                  K_LIMIT/4)
+- Thread 2: k = [K_LIMIT/4,          K_LIMIT/2)
+- Thread 3: k = [K_LIMIT/2,          3*K_LIMIT/4)
+- Thread 4: k = [3*K_LIMIT/4,        K_LIMIT]
+- All threads work on the SAME number (M(1277))
+
+This way we get 4x speedup on a single number.
 
 Files created in E:\A136030_Search\:
     - checkpoint.json    checkpoint
@@ -21,7 +23,7 @@ Files created in E:\A136030_Search\:
     - main.log           main log
     - thread_1.log ... thread_4.log   per-thread logs
     - results.txt        found factors
-    - A136030_1_to_8000.txt   output file
+    - A136030_1_to_8000.txt   output file (updated when factor found)
 """
 
 import os
@@ -40,34 +42,19 @@ if sys.platform == 'win32':
     sys.stderr.reconfigure(encoding='utf-8')
 
 # ===== CONFIG =====
-# Windows path
-WORK_DIR_WIN = r"E:\A136030_Search"
-# Linux path (for testing here)
-WORK_DIR_LINUX = "/home/z/my-project/A136030_Search"
-
 if sys.platform == 'win32':
-    WORK_DIR = WORK_DIR_WIN
+    WORK_DIR = r"E:\A136030_Search"
 else:
-    WORK_DIR = WORK_DIR_LINUX
+    WORK_DIR = "/home/z/my-project/A136030_Search"
 
 NUM_THREADS = 4
 CHUNK_SIZE = 10_000_000  # 10M k per chunk
 K_LIMIT = 10_000_000_000  # 10 billion
 IDLE_UPDATE_SEC = 10
 
-# Target values: (idx, p) - first 4 missing values
-# Each thread gets ONE of these (work division)
-TARGETS = [
-    (192, 1277),  # thread 1
-    (241, 1619),  # thread 2
-    (258, 1753),  # thread 3
-    (320, 2267),  # thread 4
-]
-
-MERSENNE_PRIME_EXPONENTS = {
-    2, 3, 5, 7, 13, 17, 19, 31, 61, 89, 107, 127, 521, 607,
-    1279, 2203, 2281, 3217, 4253, 4423
-}
+# Target: M(1277) at idx 192 (the FIRST missing value)
+TARGET_IDX = 192
+TARGET_P = 1277
 
 
 def log(msg, file=None):
@@ -133,14 +120,19 @@ def search_chunk(p, k_start, k_end, small_primes):
     return None, k_end - 1
 
 
-def worker_thread(thread_id, target, result_dict, checkpoint_lock,
+def worker_thread(thread_id, k_start, k_end, p, target_idx,
+                  result_dict, checkpoint_lock, found_event,
                   small_primes, work_dir, stop_event):
-    """Worker thread - works on ONE specific target (work division)."""
-    idx, p = target
+    """Worker thread - searches a SPECIFIC k-range for M(p).
+    This is work division: each thread handles a different k-range.
+    """
     thread_log = os.path.join(work_dir, "thread_{}.log".format(thread_id))
     ckpt_file = os.path.join(work_dir, "checkpoint.json")
 
-    log("Thread {}: starting M({}) [idx={}]".format(thread_id, p, idx), thread_log)
+    log("Thread {}: k-range = [{:,}, {:,})".format(thread_id, k_start, k_end), thread_log)
+    log("Thread {}: searching M({}) [idx={}]".format(thread_id, p, target_idx), thread_log)
+    log("Thread {}: max q in this range = {:.2e}".format(
+        thread_id, 2 * k_end * p), thread_log)
 
     # Load checkpoint
     with checkpoint_lock:
@@ -150,21 +142,22 @@ def worker_thread(thread_id, target, result_dict, checkpoint_lock,
         except:
             ckpt = {}
 
-    k_start = ckpt.get("{}_k".format(idx), 1)
-    log("Thread {}: resuming from k={:,}".format(thread_id, k_start), thread_log)
-    log("Thread {}: target K_LIMIT={:,}".format(thread_id, K_LIMIT), thread_log)
-    log("Thread {}: max q to test = {:.2e}".format(
-        thread_id, 2 * K_LIMIT * p + 1), thread_log)
+    # Resume from checkpoint (per thread)
+    saved_k = ckpt.get("thread_{}_k".format(thread_id), k_start)
+    if saved_k > k_start:
+        k_start = saved_k
+        log("Thread {}: resuming from k={:,}".format(thread_id, k_start), thread_log)
 
     chunk_count = 0
     t_start = time.time()
 
-    for chunk_start in range(k_start, K_LIMIT + 1, CHUNK_SIZE):
-        if stop_event.is_set():
-            log("Thread {}: stopped by user".format(thread_id), thread_log)
+    for chunk_start in range(k_start, k_end + 1, CHUNK_SIZE):
+        if stop_event.is_set() or found_event.is_set():
+            log("Thread {}: stopping (found={} stopped={})".format(
+                thread_id, found_event.is_set(), stop_event.is_set()), thread_log)
             return
 
-        chunk_end = min(chunk_start + CHUNK_SIZE, K_LIMIT + 1)
+        chunk_end = min(chunk_start + CHUNK_SIZE, k_end + 1)
 
         factor, last_k = search_chunk(p, chunk_start, chunk_end, small_primes)
         chunk_count += 1
@@ -177,17 +170,19 @@ def worker_thread(thread_id, target, result_dict, checkpoint_lock,
             log("  time = {:.1f}s".format(elapsed), thread_log)
 
             with checkpoint_lock:
-                result_dict[idx] = factor
+                result_dict['factor'] = factor
+                result_dict['thread'] = thread_id
+                result_dict['k'] = last_k
                 # Save to results.txt
                 results_file = os.path.join(work_dir, "results.txt")
                 with open(results_file, 'a', encoding='utf-8') as f:
-                    f.write("M({}) [idx={}] = {}\n".format(p, idx, factor))
+                    f.write("M({}) [idx={}] = {}\n".format(p, target_idx, factor))
                     f.write("  found by thread {}, k={:,}, time={:.1f}s\n".format(
                         thread_id, last_k, elapsed))
                     f.write("  timestamp: {}\n\n".format(datetime.now().isoformat()))
 
                 # Update output file
-                update_output_file(work_dir, idx, factor)
+                update_output_file(work_dir, target_idx, factor)
 
                 # Update checkpoint
                 try:
@@ -195,10 +190,13 @@ def worker_thread(thread_id, target, result_dict, checkpoint_lock,
                         ckpt = json.load(f)
                 except:
                     ckpt = {}
-                ckpt["{}".format(idx)] = factor
+                ckpt["factor"] = factor
+                ckpt["found_by_thread"] = thread_id
                 with open(ckpt_file, 'w', encoding='utf-8') as f:
                     json.dump(ckpt, f, indent=2, ensure_ascii=False)
 
+            # Signal other threads to stop
+            found_event.set()
             return
 
         # Save checkpoint
@@ -208,19 +206,20 @@ def worker_thread(thread_id, target, result_dict, checkpoint_lock,
                     ckpt = json.load(f)
             except:
                 ckpt = {}
-            ckpt["{}_k".format(idx)] = chunk_end - 1
+            ckpt["thread_{}_k".format(thread_id)] = chunk_end - 1
             with open(ckpt_file, 'w', encoding='utf-8') as f:
                 json.dump(ckpt, f, indent=2, ensure_ascii=False)
 
         # Log progress
         elapsed = time.time() - t_start
         max_q = 2 * (chunk_end - 1) * p + 1
-        log("Thread {}: M({}) chunk {}: k={:,}, max_q={:.2e}, time={:.0f}s".format(
-            thread_id, p, chunk_count, chunk_end - 1, max_q, elapsed), thread_log)
+        pct = (chunk_end - 1 - k_start) / (k_end - k_start) * 100 if k_end > k_start else 100
+        log("Thread {}: chunk {}: k={:,} ({:.1f}% of range), max_q={:.2e}, time={:.0f}s".format(
+            thread_id, chunk_count, chunk_end - 1, pct, max_q, elapsed), thread_log)
 
-    # Finished without finding factor
-    log("Thread {}: M({}) finished, no factor found (up to k={:,})".format(
-        thread_id, p, K_LIMIT), thread_log)
+    # Finished range without finding factor
+    log("Thread {}: range finished, no factor found in [{:,}, {:,})".format(
+        thread_id, k_start, k_end), thread_log)
 
 
 def update_output_file(work_dir, idx, factor):
@@ -245,7 +244,7 @@ def update_output_file(work_dir, idx, factor):
     log("Output file updated: idx {} = {}".format(idx, factor))
 
 
-def idle_updater(work_dir, stop_event, threads_info):
+def idle_updater(work_dir, stop_event, threads_info, k_ranges):
     """Update idle.txt every 10 seconds."""
     idle_file = os.path.join(work_dir, "idle.txt")
     ckpt_file = os.path.join(work_dir, "checkpoint.json")
@@ -255,25 +254,30 @@ def idle_updater(work_dir, stop_event, threads_info):
         with open(idle_file, 'w', encoding='utf-8') as f:
             f.write("=== Program is ALIVE ===\n")
             f.write("Time: {}\n".format(datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
-            f.write("Threads: {}\n".format(NUM_THREADS))
-            f.write("Work directory: {}\n".format(work_dir))
+            f.write("Target: M({}) [idx={}]\n".format(TARGET_P, TARGET_IDX))
+            f.write("Threads: {} (work division on same number)\n".format(NUM_THREADS))
+            f.write("K_LIMIT: {:,}\n".format(K_LIMIT))
             f.write("\n")
 
             # Checkpoint
             try:
                 with open(ckpt_file, 'r', encoding='utf-8') as cf:
                     ckpt = json.load(cf)
-                f.write("--- Progress ---\n")
-                for idx, p in TARGETS:
-                    k = ckpt.get("{}_k".format(idx), 0)
-                    factor = ckpt.get("{}".format(idx))
-                    if factor:
-                        f.write("  idx {} (M{}): FOUND = {}\n".format(idx, p, factor))
-                    else:
-                        max_q = 2 * k * p + 1 if k > 0 else 0
-                        pct = k / K_LIMIT * 100 if K_LIMIT > 0 else 0
-                        f.write("  idx {} (M{}): k = {:,} ({:.1f}%), max_q = {:.2e}\n".format(
-                            idx, p, k, pct, max_q))
+
+                factor = ckpt.get("factor")
+                if factor:
+                    f.write("*** FACTOR FOUND! ***\n")
+                    f.write("  M({}) = {}\n".format(TARGET_P, factor))
+                    f.write("  found by thread {}\n\n".format(ckpt.get("found_by_thread", "?")))
+                else:
+                    f.write("--- Progress (each thread searches a k-range) ---\n")
+                    for i in range(NUM_THREADS):
+                        k_start, k_end = k_ranges[i]
+                        k = ckpt.get("thread_{}_k".format(i+1), k_start)
+                        max_q = 2 * k * TARGET_P + 1 if k > 0 else 0
+                        pct = (k - k_start) / (k_end - k_start) * 100 if k_end > k_start else 0
+                        f.write("  Thread {}: k = {:,} ({:.1f}% of [{:,}-{:,}]), max_q = {:.2e}\n".format(
+                            i+1, k, pct, k_start, k_end, max_q))
             except Exception as e:
                 f.write("  (checkpoint error: {})\n".format(e))
 
@@ -296,28 +300,28 @@ def idle_updater(work_dir, stop_event, threads_info):
 
 def main():
     print("=" * 60)
-    print("A136030 Factor Finder - 4-Thread Work Division")
+    print("A136030 Factor Finder - 4-Thread on M(1277)")
     print("=" * 60)
     print("Work directory: {}".format(WORK_DIR))
     print("Threads: {}".format(NUM_THREADS))
+    print("Target: M({}) [idx={}]".format(TARGET_P, TARGET_IDX))
     print("K_LIMIT: {:,}".format(K_LIMIT))
-    print("Targets (work division):")
-    for i, (idx, p) in enumerate(TARGETS, 1):
-        print("  Thread {} -> idx={}, M({})".format(i, idx, p))
+    print("Strategy: divide k-range into 4 chunks (work division)")
     print("=" * 60)
 
     os.makedirs(WORK_DIR, exist_ok=True)
 
     main_log = os.path.join(WORK_DIR, "main.log")
-    log("Program started with {} threads (work division mode)".format(NUM_THREADS), main_log)
+    log("Program started - {} threads on M({})".format(NUM_THREADS, TARGET_P), main_log)
     log("Work directory: {}".format(WORK_DIR), main_log)
+    log("Strategy: work division (each thread searches a different k-range)", main_log)
 
     # Build small primes
     log("Building small primes sieve...", main_log)
     small_primes = build_small_primes(5000)
     log("  {} small primes".format(len(small_primes)), main_log)
 
-    # Copy output file if not exists
+    # Copy output file if not exists (Linux only)
     if sys.platform != 'win32':
         import shutil
         src = "/home/z/my-project/download/A136030_1_to_8000.txt"
@@ -326,41 +330,55 @@ def main():
             shutil.copy(src, dst)
             log("Output file copied: {}".format(dst), main_log)
 
+    # Divide k-range into 4 chunks
+    chunk_size = K_LIMIT // NUM_THREADS
+    k_ranges = []
+    for i in range(NUM_THREADS):
+        k_start = i * chunk_size + 1
+        k_end = (i + 1) * chunk_size if i < NUM_THREADS - 1 else K_LIMIT
+        k_ranges.append((k_start, k_end))
+        log("Thread {} k-range: [{:,}, {:,})".format(i+1, k_start, k_end), main_log)
+
     result_dict = {}
     checkpoint_lock = threading.Lock()
-    threads_info = {}
+    found_event = threading.Event()
     stop_event = threading.Event()
 
     # Start idle updater
     idle_thread = threading.Thread(
         target=idle_updater,
-        args=(WORK_DIR, stop_event, threads_info),
+        args=(WORK_DIR, stop_event, {}, k_ranges),
         daemon=True
     )
     idle_thread.start()
     log("Idle thread started", main_log)
 
-    # Start worker threads (each on a different target = work division)
+    # Start worker threads - each on a different k-range of M(1277)
     threads = []
-    for i, target in enumerate(TARGETS):
-        if i >= NUM_THREADS:
-            break
+    for i in range(NUM_THREADS):
+        k_start, k_end = k_ranges[i]
         t = threading.Thread(
             target=worker_thread,
-            args=(i+1, target, result_dict, checkpoint_lock,
+            args=(i+1, k_start, k_end, TARGET_P, TARGET_IDX,
+                  result_dict, checkpoint_lock, found_event,
                   small_primes, WORK_DIR, stop_event),
             daemon=True
         )
         t.start()
         threads.append(t)
-        log("Thread {} started on M({}) [idx={}]".format(i+1, target[1], target[0]), main_log)
+        log("Thread {} started on k-range [{:,}, {:,})".format(i+1, k_start, k_end), main_log)
 
-    # Wait for all threads to finish
+    # Wait for all threads
     try:
         while any(t.is_alive() for t in threads):
             time.sleep(60)
             alive = sum(1 for t in threads if t.is_alive())
             log("Active threads: {}/{}".format(alive, NUM_THREADS), main_log)
+            if found_event.is_set():
+                log("Factor found! Waiting for other threads to stop...", main_log)
+                # Give other threads time to stop
+                time.sleep(5)
+                break
     except KeyboardInterrupt:
         log("Stopped by user (Ctrl+C)", main_log)
         stop_event.set()
@@ -368,9 +386,11 @@ def main():
     stop_event.set()
     log("=" * 60, main_log)
     log("Program finished", main_log)
-    log("Factors found: {}".format(len(result_dict)), main_log)
-    for idx, factor in result_dict.items():
-        log("  idx {}: {}".format(idx, factor), main_log)
+    if 'factor' in result_dict:
+        log("FACTOR FOUND: M({}) = {}".format(TARGET_P, result_dict['factor']), main_log)
+        log("  by thread {}, k={:,}".format(result_dict['thread'], result_dict['k']), main_log)
+    else:
+        log("No factor found in k-range [1, {:,}]".format(K_LIMIT), main_log)
     log("=" * 60, main_log)
 
 

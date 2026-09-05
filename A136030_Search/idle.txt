@@ -1,12 +1,13 @@
 === Program is ALIVE ===
-Time: 2026-09-05 09:59:10
-Threads: 4
-Work directory: /home/z/my-project/A136030_Search
+Time: 2026-09-05 10:08:00
+Target: M(1277) [idx=192]
+Threads: 4 (work division on same number)
+K_LIMIT: 10,000,000,000
 
---- Progress ---
-  idx 192 (M1277): k = 40,000,000 (0.4%), max_q = 1.02e+11
-  idx 241 (M1619): k = 30,000,000 (0.3%), max_q = 9.71e+10
-  idx 258 (M1753): k = 30,000,000 (0.3%), max_q = 1.05e+11
-  idx 320 (M2267): k = 30,000,000 (0.3%), max_q = 1.36e+11
+--- Progress (each thread searches a k-range) ---
+  Thread 1: k = 20,000,000 (0.8% of [1-2,500,000,000]), max_q = 5.11e+10
+  Thread 2: k = 2,520,000,000 (0.8% of [2,500,000,001-5,000,000,000]), max_q = 6.44e+12
+  Thread 3: k = 5,010,000,000 (0.4% of [5,000,000,001-7,500,000,000]), max_q = 1.28e+13
+  Thread 4: k = 7,510,000,000 (0.4% of [7,500,000,001-10,000,000,000]), max_q = 1.92e+13
 
 --- No results file yet ---
