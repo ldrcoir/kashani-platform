@@ -17,3 +17,16 @@
 [2026-09-05 11:20:00] Thread 4: max q in this range = 2.55e+13
 [2026-09-05 11:20:00] Thread 4: resuming from k=7,529,999,999
 [2026-09-05 11:20:11] Thread 4: chunk 1: k=7,539,999,998 (0.4% of range), max_q=1.93e+13, time=11s
+[2026-09-05 12:32:02] Thread 4: k-range = [75,000,000,001, 100,000,000,000)
+[2026-09-05 12:32:02] Thread 4: searching M(1277) [idx=192]
+[2026-09-05 12:32:02] Thread 4: max q in this range = 2.55e+14
+[2026-09-05 12:34:34] Thread 4: k-range = [75,000,000,001, 100,000,000,000)
+[2026-09-05 12:34:34] Thread 4: searching M(1277) [idx=192]
+[2026-09-05 12:34:34] Thread 4: max q in this range = 2.55e+14
+[2026-09-05 12:34:46] Thread 4: chunk 1: k=75,010,000,000 (0.0% of range), max_q=1.92e+14, time=11s
+[2026-09-05 12:35:02] Thread 4: chunk 2: k=75,020,000,000 (0.1% of range), max_q=1.92e+14, time=27s
+[2026-09-05 12:35:14] Thread 4: k-range = [75,000,000,001, 100,000,000,000)
+[2026-09-05 12:35:14] Thread 4: searching M(1277) [idx=192]
+[2026-09-05 12:35:14] Thread 4: max q in this range = 2.55e+14
+[2026-09-05 12:35:14] Thread 4: resuming from k=75,020,000,000
+[2026-09-05 12:35:24] Thread 4: chunk 1: k=75,029,999,999 (0.0% of range), max_q=1.92e+14, time=10s
