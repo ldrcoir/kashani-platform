@@ -1,8 +1,3 @@
-# A136030: Smallest prime factor of Mersenne number M(p) = 2^p - 1
-# For prime p, excluding Mersenne prime exponents (where M(p) is itself prime)
-# Indexed sequentially by prime p (skipping Mersenne prime exponents)
-# Format: index<TAB>smallest_prime_factor
-# Value -1 means no factor is known
 1	23
 2	47
 3	233
