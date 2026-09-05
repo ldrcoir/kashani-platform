@@ -41,7 +41,10 @@ if sys.platform == 'win32':
     sys.stdout.reconfigure(encoding='utf-8')
     sys.stderr.reconfigure(encoding='utf-8')
 
-# ===== CONFIG =====
+# ============================================================
+# ===== CONFIG - YOU CAN CHANGE THESE VALUES ================
+# ============================================================
+# Work directory
 if sys.platform == 'win32':
     WORK_DIR = r"E:\A136030_Search"
 else:
@@ -49,8 +52,19 @@ else:
 
 NUM_THREADS = 4
 CHUNK_SIZE = 10_000_000  # 10M k per chunk
-K_LIMIT = 10_000_000_000  # 10 billion
 IDLE_UPDATE_SEC = 10
+
+# *** CHANGE THIS VARIABLE TO EXTEND THE SEARCH ***
+# If the search finishes without finding a factor, increase K_LIMIT and rerun.
+# The program will automatically resume from the checkpoint.
+# Examples:
+#   K_LIMIT = 10_000_000_000       # 10 billion  -> ~40 min
+#   K_LIMIT = 100_000_000_000      # 100 billion -> ~6.5 hours
+#   K_LIMIT = 1_000_000_000_000    # 1 trillion  -> ~2.5 days
+#   K_LIMIT = 10_000_000_000_000   # 10 trillion -> ~25 days
+#   K_LIMIT = 100_000_000_000_000  # 100 trillion-> ~8 months
+K_LIMIT = 10_000_000_000  # 10 billion
+# ============================================================
 
 # Target: M(1277) at idx 192 (the FIRST missing value)
 TARGET_IDX = 192
