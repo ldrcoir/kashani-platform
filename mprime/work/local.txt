@@ -1,12 +1,10 @@
 UsePrimenet=0
 WorkerThreads=1
-OldCpuSpeed=3537
-NewCpuSpeedCount=0
-NewCpuSpeed=0
+OldCpuSpeed=3539
+NewCpuSpeedCount=2
+NewCpuSpeed=2975
 RollingAverage=1000
 RollingAverageIsFromV27=1
 CoresPerTest=2
-ComputerGUID=1005b47a690c7d407672e837a0af50fa
-Pid=6209
-RollingHash=0
-RollingCompleteTime=0
+ComputerGUID=5b416d2ec1dd5378204d96d13d0bfcd0
+Pid=8421
