@@ -30,3 +30,7 @@
 [2026-09-05 12:35:14] Thread 4: max q in this range = 2.55e+14
 [2026-09-05 12:35:14] Thread 4: resuming from k=75,020,000,000
 [2026-09-05 12:35:24] Thread 4: chunk 1: k=75,029,999,999 (0.0% of range), max_q=1.92e+14, time=10s
+[2026-09-05 12:42:41] Thread 4: k-range = [75,000,000,001, 100,000,000,000)
+[2026-09-05 12:42:41] Thread 4: searching M(1277) [idx=192]
+[2026-09-05 12:42:41] Thread 4: max q in this range = 2.55e+14
+[2026-09-05 12:42:41] Thread 4: resuming from k=75,029,999,999
