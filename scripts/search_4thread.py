@@ -54,14 +54,14 @@ else:
 # 4 = default (uses 4 cores, full speed but high CPU)
 # 2 = light load (uses 2 cores, slower but PC stays responsive)
 # 1 = minimum load (uses 1 core, slowest but no pressure on PC)
-NUM_THREADS = 2
+NUM_THREADS = 4
 CHUNK_SIZE = 10_000_000  # 10M k per chunk
 IDLE_UPDATE_SEC = 10
 # Sleep between chunks to reduce CPU load (seconds)
 # 0 = no sleep (full speed)
 # 0.5 = light sleep (slight slowdown)
 # 1.0 = gentle mode (PC stays cool)
-SLEEP_BETWEEN_CHUNKS = 0.5
+SLEEP_BETWEEN_CHUNKS = 0
 
 # *** CHANGE THIS VARIABLE TO EXTEND THE SEARCH ***
 # If the search finishes without finding a factor, increase K_LIMIT and rerun.

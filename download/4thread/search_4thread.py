@@ -50,9 +50,18 @@ if sys.platform == 'win32':
 else:
     WORK_DIR = "/home/z/my-project/A136030_Search"
 
+# *** CHANGE NUM_THREADS IF YOUR CPU IS OVERLOADED ***
+# 4 = default (uses 4 cores, full speed but high CPU)
+# 2 = light load (uses 2 cores, slower but PC stays responsive)
+# 1 = minimum load (uses 1 core, slowest but no pressure on PC)
 NUM_THREADS = 4
 CHUNK_SIZE = 10_000_000  # 10M k per chunk
 IDLE_UPDATE_SEC = 10
+# Sleep between chunks to reduce CPU load (seconds)
+# 0 = no sleep (full speed)
+# 0.5 = light sleep (slight slowdown)
+# 1.0 = gentle mode (PC stays cool)
+SLEEP_BETWEEN_CHUNKS = 0
 
 # *** CHANGE THIS VARIABLE TO EXTEND THE SEARCH ***
 # If the search finishes without finding a factor, increase K_LIMIT and rerun.
@@ -230,6 +239,10 @@ def worker_thread(thread_id, k_start, k_end, p, target_idx,
         pct = (chunk_end - 1 - k_start) / (k_end - k_start) * 100 if k_end > k_start else 100
         log("Thread {}: chunk {}: k={:,} ({:.1f}% of range), max_q={:.2e}, time={:.0f}s".format(
             thread_id, chunk_count, chunk_end - 1, pct, max_q, elapsed), thread_log)
+
+        # Sleep to reduce CPU load
+        if SLEEP_BETWEEN_CHUNKS > 0:
+            time.sleep(SLEEP_BETWEEN_CHUNKS)
 
     # Finished range without finding factor
     log("Thread {}: range finished, no factor found in [{:,}, {:,})".format(
