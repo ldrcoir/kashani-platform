@@ -45,12 +45,12 @@ def small_primes_up_to(limit):
     return [i for i in range(2, limit + 1) if sieve[i]]
 
 
-def pm1_factor(p, B1, B2=None, log_lines=None):
+def pm1_factor(p, B1, B2=None, log_lines=None, base=3):
     """P-1 factoring on M(p) = 2^p - 1.
     Stage 1 bound B1. Optional Stage 2 bound B2.
     Returns a factor (int) or None."""
     M = mpz(2)**p - 1
-    a = mpz(3)
+    a = mpz(base)
     # Stage 1: compute E = product of prime powers q^e <= B1
     primes = small_primes_up_to(B1)
     if log_lines is not None:
@@ -223,7 +223,19 @@ def main():
         t_start = time.time()
         # If B2 is 0, disable stage 2
         b2 = args.b2 if args.b2 > 0 else None
-        factor = pm1_factor(p, args.b1, b2, prime_log)
+        # Try multiple bases to avoid the rare case where gcd == M
+        factor = None
+        for base in [3, 5, 7, 11, 13, 17]:
+            factor = pm1_factor(p, args.b1, b2, prime_log, base=base)
+            if factor is not None:
+                break
+            # If gcd was M, retry with different base; otherwise no point retrying
+            # We can detect this from the log
+            if any('gcd = M' in line for line in prime_log):
+                prime_log.append(f'  retrying with base {base+2}')
+                continue
+            else:
+                break
         elapsed = time.time() - t_start
         for line in prime_log:
             log(f'  {line}')

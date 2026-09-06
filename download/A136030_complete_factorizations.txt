@@ -255,3 +255,12 @@ Total entries: 238
   [MERSE] Mersenne prime:         0
 [PART ] M(1549) = 168920851817441  (smallest known factor; P-1 found)
 [PART ] M(1571) = 33788630721577  (smallest known factor; P-1 found)
+[PART ] M(1699) = 2714024454610151  (smallest known factor; P-1 found)
+[PART ] M(1759) = 5295124011028151  (smallest known factor; P-1 found)
+[PART ] M(1787) = 838124596866091911697  (smallest known factor; P-1 found)
+[PART ] M(1831) = 21919356186601  (smallest known factor; P-1 found)
+[PART ] M(1867) = 597702354293770769  (smallest known factor; P-1 found)
+[PART ] M(1889) = 62178021761  (smallest known factor; P-1 found)
+[PART ] M(1949) = 4936745974543  (smallest known factor; P-1 found)
+[PART ] M(2143) = 412842827917468789558771111  (smallest known factor; P-1 found)
+[PART ] M(2153) = 18651640688993886123716035514303230441  (smallest known factor; P-1 found)

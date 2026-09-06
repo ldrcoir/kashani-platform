@@ -1,18 +1,46 @@
-P-1 factoring log - 2026-09-06 06:03:38
+P-1 factoring log - 2026-09-06 06:50:50
 ============================================================
-B1=10000000, B2=1000000000
-Targets (6): [1549, 1571, 1597, 1619, 1621, 1657]
+B1=2000000, B2=100000000
+Targets (12): [2029, 2053, 2129, 2137, 2143, 2153, 2161, 2221, 2237, 2239, 2243, 2267]
 
-[1/6] M(1549) ...
-    Stage 1: 664579 primes up to B1=10000000
-    Stage 2: primes in (10000000, 1000000000]
-    Stage 2: 129 unique gaps
-    Stage 2 found factor at q=681572191: 168920851817441
-  elapsed: 477.8s
-  >>> FOUND: M(1549) -> 168920851817441
-[2/6] M(1571) ...
-    Stage 1: 664579 primes up to B1=10000000
-    Stage 1 found factor: 33788630721577
-  elapsed: 16.4s
-  >>> FOUND: M(1571) -> 33788630721577
-[3/6] M(1597) ...
+[1/12] M(2029) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 2: primes in (2000000, 100000000]
+    Stage 2: 96 unique gaps
+  elapsed: 97.0s
+  no factor found
+[2/12] M(2053) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 2: primes in (2000000, 100000000]
+    Stage 2: 96 unique gaps
+  elapsed: 99.4s
+  no factor found
+[3/12] M(2129) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 2: primes in (2000000, 100000000]
+    Stage 2: 96 unique gaps
+  elapsed: 103.1s
+  no factor found
+[4/12] M(2137) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 2: primes in (2000000, 100000000]
+    Stage 2: 96 unique gaps
+  elapsed: 103.6s
+  no factor found
+[5/12] M(2143) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 1 found factor: 412842827917468789558771111
+  elapsed: 5.7s
+  >>> FOUND: M(2143) -> 412842827917468789558771111
+[6/12] M(2153) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 1 found factor: 18651640688993886123716035514303230441
+  elapsed: 5.6s
+  >>> FOUND: M(2153) -> 18651640688993886123716035514303230441
+[7/12] M(2161) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 2: primes in (2000000, 100000000]
+    Stage 2: 96 unique gaps
+  elapsed: 104.9s
+  no factor found
+[8/12] M(2221) ...
