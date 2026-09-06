@@ -311,3 +311,6 @@ Total entries: 238
 [PART ] M(5477) = 3199345098166652113897  (smallest known factor; P-1 found)
 [PART ] M(5527) = 249997794593  (smallest known factor; P-1 found)
 [PART ] M(5573) = 194068767222503  (smallest known factor; P-1 found)
+[PART ] M(5653) = 71199037537  (smallest known factor; P-1 found)
+[PART ] M(5669) = 122398868791  (smallest known factor; P-1 found)
+[PART ] M(5689) = 919724609777  (smallest known factor; P-1 found)
