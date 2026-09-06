@@ -1,29 +1,29 @@
-P-1 factoring log - 2026-09-06 13:07:41
+P-1 factoring log - 2026-09-06 13:17:05
 ============================================================
 B1=2000000, B2=30000000
-Targets (12): [5839, 5851, 5857, 5869, 5879, 5897, 5923, 5953, 5987, 6007, 6037, 6043]
+Targets (12): [5879, 5897, 5923, 5953, 5987, 6007, 6037, 6043, 6047, 6053, 6073, 6079]
 
-[1/12] M(5839) ...
+[1/12] M(5879) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 131.2s
+  elapsed: 131.5s
   no factor found
-[2/12] M(5851) ...
+[2/12] M(5897) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 131.1s
+  elapsed: 133.9s
   no factor found
-[3/12] M(5857) ...
+[3/12] M(5923) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 131.0s
+  elapsed: 134.6s
   no factor found
-[4/12] M(5869) ...
+[4/12] M(5953) ...
     Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 1182184688161
-  elapsed: 33.4s
-  >>> FOUND: M(5869) -> 1182184688161
-[5/12] M(5879) ...
+    Stage 1 found factor: 2694642773231
+  elapsed: 35.7s
+  >>> FOUND: M(5953) -> 2694642773231
+[5/12] M(5987) ...
