@@ -167,18 +167,37 @@ def get_missing_primes(path, min_n=1500, max_n=8000, limit=None):
 
 
 def update_factor(path, p, factor):
+    """Update entry p in factors table with the newly found factor.
+    Only update if existing value is -1 OR new factor is smaller and prime.
+    Never overwrite a smaller existing prime factor with a larger composite."""
     lines = path.read_text(encoding='utf-8').splitlines()
     out = []
+    updated = False
     for line in lines:
         if line.startswith('#') or not line:
             out.append(line)
             continue
         parts = line.split('\t')
         if len(parts) == 2 and parts[0] == str(p):
-            out.append(f'{p}\t{factor}')
+            existing = parts[1]
+            if existing == '-1':
+                out.append(f'{p}\t{factor}')
+                updated = True
+            else:
+                try:
+                    existing_val = int(existing)
+                    if factor < existing_val and is_prime(factor):
+                        out.append(f'{p}\t{factor}')
+                        updated = True
+                    else:
+                        out.append(line)  # keep existing smaller factor
+                except ValueError:
+                    out.append(line)
         else:
             out.append(line)
-    path.write_text('\n'.join(out) + '\n', encoding='utf-8')
+    if updated:
+        path.write_text('\n'.join(out) + '\n', encoding='utf-8')
+    return updated
 
 
 def append_to_complete(path, p, factor):
@@ -199,7 +218,12 @@ def main():
     args = parser.parse_args()
 
     if args.specific:
-        targets = sorted(args.specific)
+        # Filter to only those that are actually -1 in the file
+        all_missing = set(get_missing_primes(FACTORS_FILE, 0, 100000))
+        targets = sorted(set(args.specific) & all_missing)
+        if len(targets) < len(args.specific):
+            skipped = set(args.specific) - all_missing
+            print(f'Note: skipping {len(skipped)} primes that are not -1: {sorted(skipped)[:10]}', file=sys.stderr)
     else:
         targets = get_missing_primes(FACTORS_FILE, args.min_n, args.max_n,
                                      args.max_primes)
@@ -228,9 +252,29 @@ def main():
         for base in [3, 5, 7, 11, 13, 17]:
             factor = pm1_factor(p, args.b1, b2, prime_log, base=base)
             if factor is not None:
+                # P-1 gcd can return a composite product of multiple factors.
+                # Try to extract the smallest prime factor of the gcd.
+                if not is_prime(factor):
+                    prime_log.append(f'  gcd is composite ({factor}); factoring')
+                    # Trial-divide the composite to find a smaller prime factor
+                    f = factor
+                    smallest_prime = None
+                    for pr in [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]:
+                        while f % pr == 0:
+                            smallest_prime = pr if smallest_prime is None or pr < smallest_prime else smallest_prime
+                            f //= pr
+                    # If remaining is > 1 and prime, that's a candidate too
+                    if f > 1 and is_prime(f):
+                        smallest_prime = f if smallest_prime is None or f < smallest_prime else smallest_prime
+                    if smallest_prime is not None:
+                        prime_log.append(f'  extracted smallest prime factor: {smallest_prime}')
+                        factor = smallest_prime
+                    else:
+                        prime_log.append(f'  could not extract prime factor; skipping')
+                        factor = None
+                        continue
                 break
             # If gcd was M, retry with different base; otherwise no point retrying
-            # We can detect this from the log
             if any('gcd = M' in line for line in prime_log):
                 prime_log.append(f'  retrying with base {base+2}')
                 continue
