@@ -295,3 +295,5 @@ Total entries: 238
 [PART ] M(3739) = 321846958129  (smallest known factor; P-1 found)
 [PART ] M(3821) = 1202044752409  (smallest known factor; P-1 found)
 [PART ] M(3877) = 118528101487  (smallest known factor; P-1 found)
+[PART ] M(4093) = 2397911088359  (smallest known factor; P-1 found)
+[PART ] M(4219) = 1634011915849  (smallest known factor; P-1 found)

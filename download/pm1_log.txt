@@ -1,63 +1,52 @@
-P-1 factoring log - 2026-09-06 10:57:50
+P-1 factoring log - 2026-09-06 11:15:19
 ============================================================
 B1=2000000, B2=30000000
-Targets (10): [3637, 3671, 3673, 3691, 3697, 3709, 3739, 3821, 3847, 3877]
+Targets (12): [4051, 4091, 4093, 4111, 4157, 4159, 4177, 4219, 4231, 4241, 4259, 4261]
 
-[1/10] M(3637) ...
+[1/12] M(4051) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 68.3s
+  elapsed: 79.6s
   no factor found
-[2/10] M(3671) ...
+[2/12] M(4091) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 69.0s
+  elapsed: 79.8s
   no factor found
-[3/10] M(3673) ...
+[3/12] M(4093) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 1 found factor: 2397911088359
+  elapsed: 17.5s
+  >>> FOUND: M(4093) -> 2397911088359
+[4/12] M(4111) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 69.1s
+  elapsed: 81.8s
   no factor found
-[4/10] M(3691) ...
+[5/12] M(4157) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 69.3s
+  elapsed: 82.6s
   no factor found
-[5/10] M(3697) ...
-    Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 74979034457
-  elapsed: 14.3s
-  >>> FOUND: M(3697) -> 74979034457
-[6/10] M(3709) ...
+[6/12] M(4159) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 69.8s
+  elapsed: 82.7s
   no factor found
-[7/10] M(3739) ...
-    Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 321846958129
-  elapsed: 15.1s
-  >>> FOUND: M(3739) -> 321846958129
-[8/10] M(3821) ...
-    Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 1202044752409
-  elapsed: 15.5s
-  >>> FOUND: M(3821) -> 1202044752409
-[9/10] M(3847) ...
+[7/12] M(4177) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 75.0s
+  elapsed: 83.3s
   no factor found
-[10/10] M(3877) ...
+[8/12] M(4219) ...
     Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 118528101487
-  elapsed: 16.6s
-  >>> FOUND: M(3877) -> 118528101487
-
-Summary: 4/10 primes factored
+    Stage 1 found factor: 1634011915849
+  elapsed: 18.5s
+  >>> FOUND: M(4219) -> 1634011915849
+[9/12] M(4231) ...
