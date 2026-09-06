@@ -1,52 +1,47 @@
-P-1 factoring log - 2026-09-06 11:15:19
+P-1 factoring log - 2026-09-06 11:24:40
 ============================================================
 B1=2000000, B2=30000000
-Targets (12): [4051, 4091, 4093, 4111, 4157, 4159, 4177, 4219, 4231, 4241, 4259, 4261]
+Targets (12): [4231, 4241, 4259, 4261, 4283, 4339, 4349, 4357, 4363, 4397, 4421, 4481]
 
-[1/12] M(4051) ...
+[1/12] M(4231) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 79.6s
+  elapsed: 84.7s
   no factor found
-[2/12] M(4091) ...
+[2/12] M(4241) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 79.8s
+  elapsed: 84.6s
   no factor found
-[3/12] M(4093) ...
-    Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 2397911088359
-  elapsed: 17.5s
-  >>> FOUND: M(4093) -> 2397911088359
-[4/12] M(4111) ...
+[3/12] M(4259) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 81.8s
+  elapsed: 85.0s
   no factor found
-[5/12] M(4157) ...
+[4/12] M(4261) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 82.6s
+  elapsed: 85.4s
   no factor found
-[6/12] M(4159) ...
+[5/12] M(4283) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 82.7s
+  elapsed: 85.4s
   no factor found
-[7/12] M(4177) ...
+[6/12] M(4339) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 1 found factor: 36055069969873
+  elapsed: 19.4s
+  >>> FOUND: M(4339) -> 36055069969873
+[7/12] M(4349) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 83.3s
+  elapsed: 86.9s
   no factor found
-[8/12] M(4219) ...
-    Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 1634011915849
-  elapsed: 18.5s
-  >>> FOUND: M(4219) -> 1634011915849
-[9/12] M(4231) ...
+[8/12] M(4357) ...
