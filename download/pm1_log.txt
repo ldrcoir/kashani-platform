@@ -1,42 +1,77 @@
-P-1 factoring log - 2026-09-06 07:00:18
+P-1 factoring log - 2026-09-06 10:11:27
 ============================================================
-B1=2000000, B2=100000000
-Targets (12): [2221, 2237, 2239, 2243, 2267, 2269, 2273, 2287, 2293, 2311, 2341, 2357]
+B1=2000000, B2=30000000
+Targets (12): [2221, 2237, 2267, 2269, 2273, 2287, 2293, 2311, 2341, 2357, 2371, 2377]
 
 [1/12] M(2221) ...
     Stage 1: 148933 primes up to B1=2000000
-    Stage 2: primes in (2000000, 100000000]
-    Stage 2: 96 unique gaps
-  elapsed: 108.0s
+    Stage 2: primes in (2000000, 30000000]
+    Stage 2: 82 unique gaps
+  elapsed: 38.7s
   no factor found
 [2/12] M(2237) ...
     Stage 1: 148933 primes up to B1=2000000
-    Stage 2: primes in (2000000, 100000000]
-    Stage 2: 96 unique gaps
-  elapsed: 109.5s
+    Stage 2: primes in (2000000, 30000000]
+    Stage 2: 82 unique gaps
+  elapsed: 37.2s
   no factor found
-[3/12] M(2239) ...
+[3/12] M(2267) ...
     Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 2746922796891756258156170641
+    Stage 2: primes in (2000000, 30000000]
+    Stage 2: 82 unique gaps
+  elapsed: 38.1s
+  no factor found
+[4/12] M(2269) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 2: primes in (2000000, 30000000]
+    Stage 2: 82 unique gaps
+  elapsed: 39.0s
+  no factor found
+[5/12] M(2273) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 2: primes in (2000000, 30000000]
+    Stage 2: 82 unique gaps
+  elapsed: 38.1s
+  no factor found
+[6/12] M(2287) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 2: primes in (2000000, 30000000]
+    Stage 2: 82 unique gaps
+  elapsed: 38.2s
+  no factor found
+[7/12] M(2293) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 1 found factor: 496155128047919
+  elapsed: 6.2s
+  >>> FOUND: M(2293) -> 496155128047919
+[8/12] M(2311) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 1 found factor: 77567729423209
   elapsed: 6.9s
-  >>> FOUND: M(2239) -> 2746922796891756258156170641
-[4/12] M(2243) ...
+  >>> FOUND: M(2311) -> 77567729423209
+[9/12] M(2341) ...
     Stage 1: 148933 primes up to B1=2000000
-    Stage 2: primes in (2000000, 100000000]
-    Stage 2: 96 unique gaps
-    Stage 2 found factor at q=20396683: 22373457765765203287
-  elapsed: 32.2s
-  >>> FOUND: M(2243) -> 22373457765765203287
-[5/12] M(2267) ...
+    Stage 2: primes in (2000000, 30000000]
+    Stage 2: 82 unique gaps
+    Stage 2 found factor at q=13180837: 40812238546032146541247
+  elapsed: 21.7s
+  >>> FOUND: M(2341) -> 40812238546032146541247
+[10/12] M(2357) ...
     Stage 1: 148933 primes up to B1=2000000
-    Stage 2: primes in (2000000, 100000000]
-    Stage 2: 96 unique gaps
-  elapsed: 110.8s
+    Stage 2: primes in (2000000, 30000000]
+    Stage 2: 82 unique gaps
+  elapsed: 40.1s
   no factor found
-[6/12] M(2269) ...
+[11/12] M(2371) ...
     Stage 1: 148933 primes up to B1=2000000
-    Stage 2: primes in (2000000, 100000000]
-    Stage 2: 96 unique gaps
-  elapsed: 111.3s
+    Stage 1 found factor: 5565162362143
+  elapsed: 6.9s
+  >>> FOUND: M(2371) -> 5565162362143
+[12/12] M(2377) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 2: primes in (2000000, 30000000]
+    Stage 2: 82 unique gaps
+  elapsed: 40.3s
   no factor found
-[7/12] M(2273) ...
+
+Summary: 4/12 primes factored

@@ -266,3 +266,7 @@ Total entries: 238
 [PART ] M(2153) = 18651640688993886123716035514303230441  (smallest known factor; P-1 found)
 [PART ] M(2239) = 2746922796891756258156170641  (smallest known factor; P-1 found)
 [PART ] M(2243) = 22373457765765203287  (smallest known factor; P-1 found)
+[PART ] M(2293) = 496155128047919  (smallest known factor; P-1 found)
+[PART ] M(2311) = 77567729423209  (smallest known factor; P-1 found)
+[PART ] M(2341) = 40812238546032146541247  (smallest known factor; P-1 found)
+[PART ] M(2371) = 5565162362143  (smallest known factor; P-1 found)
