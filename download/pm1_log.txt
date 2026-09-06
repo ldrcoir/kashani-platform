@@ -1,57 +1,29 @@
-P-1 factoring log - 2026-09-06 12:58:19
+P-1 factoring log - 2026-09-06 13:07:41
 ============================================================
 B1=2000000, B2=30000000
-Targets (12): [5701, 5737, 5749, 5783, 5813, 5839, 5851, 5857, 5869, 5879, 5897, 5923]
+Targets (12): [5839, 5851, 5857, 5869, 5879, 5897, 5923, 5953, 5987, 6007, 6037, 6043]
 
-[1/12] M(5701) ...
+[1/12] M(5839) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-    Stage 2 found factor at q=2605523: 15288773136296711823241
-  elapsed: 36.5s
-  >>> FOUND: M(5701) -> 15288773136296711823241
-[2/12] M(5737) ...
-    Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 6140438980469023985122390722021155879
-    gcd is composite (6140438980469023985122390722021155879); factoring
-    could not extract prime factor; skipping
-    Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 6140438980469023985122390722021155879
-    gcd is composite (6140438980469023985122390722021155879); factoring
-    could not extract prime factor; skipping
-    Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 6140438980469023985122390722021155879
-    gcd is composite (6140438980469023985122390722021155879); factoring
-    could not extract prime factor; skipping
-    Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 6140438980469023985122390722021155879
-    gcd is composite (6140438980469023985122390722021155879); factoring
-    could not extract prime factor; skipping
-    Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 6140438980469023985122390722021155879
-    gcd is composite (6140438980469023985122390722021155879); factoring
-    could not extract prime factor; skipping
-    Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 6140438980469023985122390722021155879
-    gcd is composite (6140438980469023985122390722021155879); factoring
-    could not extract prime factor; skipping
-  elapsed: 194.7s
+  elapsed: 131.2s
   no factor found
-[3/12] M(5749) ...
-    Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 4088779944647
-  elapsed: 32.4s
-  >>> FOUND: M(5749) -> 4088779944647
-[4/12] M(5783) ...
+[2/12] M(5851) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 129.4s
+  elapsed: 131.1s
   no factor found
-[5/12] M(5813) ...
+[3/12] M(5857) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 30000000]
     Stage 2: 82 unique gaps
-  elapsed: 129.5s
+  elapsed: 131.0s
   no factor found
-[6/12] M(5839) ...
+[4/12] M(5869) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 1 found factor: 1182184688161
+  elapsed: 33.4s
+  >>> FOUND: M(5869) -> 1182184688161
+[5/12] M(5879) ...
