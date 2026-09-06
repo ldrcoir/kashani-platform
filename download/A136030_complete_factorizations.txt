@@ -253,3 +253,5 @@ Total entries: 238
   [FULL]  complete factorization: 221
   [PART]  partial factorization:  17
   [MERSE] Mersenne prime:         0
+[PART ] M(1549) = 168920851817441  (smallest known factor; P-1 found)
+[PART ] M(1571) = 33788630721577  (smallest known factor; P-1 found)

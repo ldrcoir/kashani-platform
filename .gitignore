@@ -1,2 +1,7 @@
 skills/
 node_modules/
+
+# Build artifacts
+build/
+libtool_*.deb
+*.deb
