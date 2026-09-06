@@ -1,46 +1,42 @@
-P-1 factoring log - 2026-09-06 06:50:50
+P-1 factoring log - 2026-09-06 07:00:18
 ============================================================
 B1=2000000, B2=100000000
-Targets (12): [2029, 2053, 2129, 2137, 2143, 2153, 2161, 2221, 2237, 2239, 2243, 2267]
+Targets (12): [2221, 2237, 2239, 2243, 2267, 2269, 2273, 2287, 2293, 2311, 2341, 2357]
 
-[1/12] M(2029) ...
+[1/12] M(2221) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 100000000]
     Stage 2: 96 unique gaps
-  elapsed: 97.0s
+  elapsed: 108.0s
   no factor found
-[2/12] M(2053) ...
+[2/12] M(2237) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 100000000]
     Stage 2: 96 unique gaps
-  elapsed: 99.4s
+  elapsed: 109.5s
   no factor found
-[3/12] M(2129) ...
+[3/12] M(2239) ...
+    Stage 1: 148933 primes up to B1=2000000
+    Stage 1 found factor: 2746922796891756258156170641
+  elapsed: 6.9s
+  >>> FOUND: M(2239) -> 2746922796891756258156170641
+[4/12] M(2243) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 100000000]
     Stage 2: 96 unique gaps
-  elapsed: 103.1s
-  no factor found
-[4/12] M(2137) ...
+    Stage 2 found factor at q=20396683: 22373457765765203287
+  elapsed: 32.2s
+  >>> FOUND: M(2243) -> 22373457765765203287
+[5/12] M(2267) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 100000000]
     Stage 2: 96 unique gaps
-  elapsed: 103.6s
+  elapsed: 110.8s
   no factor found
-[5/12] M(2143) ...
-    Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 412842827917468789558771111
-  elapsed: 5.7s
-  >>> FOUND: M(2143) -> 412842827917468789558771111
-[6/12] M(2153) ...
-    Stage 1: 148933 primes up to B1=2000000
-    Stage 1 found factor: 18651640688993886123716035514303230441
-  elapsed: 5.6s
-  >>> FOUND: M(2153) -> 18651640688993886123716035514303230441
-[7/12] M(2161) ...
+[6/12] M(2269) ...
     Stage 1: 148933 primes up to B1=2000000
     Stage 2: primes in (2000000, 100000000]
     Stage 2: 96 unique gaps
-  elapsed: 104.9s
+  elapsed: 111.3s
   no factor found
-[8/12] M(2221) ...
+[7/12] M(2273) ...
