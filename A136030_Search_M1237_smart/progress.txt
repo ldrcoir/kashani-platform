@@ -1,50 +1,50 @@
 smart search v1
-time: 2026-09-07 01:46:53
+time: 2026-09-07 01:49:53
 workers_active: 6
 
 worker 1 (3*7*m):
-  m_current: 519140340
-  primes: 30415696
-  candidates: 259570170
+  m_current: 602868159
+  primes: 35144505
+  candidates: 301434079
   factors: 0
   progress: 0.1%
 
 worker 6 (3*7*2^a*m_a5):
-  m_current: 304557486
-  primes: 32502753
-  candidates: 304557486
+  m_current: 353888309
+  primes: 37591814
+  candidates: 353888309
   factors: 0
   progress: 0.0%
 
 worker 5 (3*7*2^a*m_a2):
-  m_current: 330342382
-  primes: 37539627
-  candidates: 330342382
+  m_current: 383517898
+  primes: 43369913
+  candidates: 383517898
   factors: 0
   progress: 0.0%
 
 worker 3 (3*7*2^a*m_a4):
-  m_current: 311793498
-  primes: 33964322
-  candidates: 311793498
+  m_current: 362063610
+  primes: 39255667
+  candidates: 362063610
   factors: 0
   progress: 0.0%
 
 worker 2 (3*7*Y1*m):
-  m_current: 234827741
-  primes: 6891378
-  candidates: 117413871
+  m_current: 271999205
+  primes: 7963109
+  candidates: 135999603
   factors: 0
   progress: 0.0%
 
 worker 4 (3*7*2^a*m_a3):
-  m_current: 321170560
-  primes: 35727402
-  candidates: 321170560
+  m_current: 373340165
+  primes: 41331640
+  candidates: 373340165
   factors: 0
   progress: 0.0%
 
 
 === totals ===
-total_primes_tested: 177,041,178
-total_candidates_tested: 1,644,847,967
+total_primes_tested: 204,656,648
+total_candidates_tested: 1,910,243,664
