@@ -4,3 +4,33 @@ k_end   = 100,000,001,000,000
 تعداد k برای بررسی: 1,000,000
 
 k=100,000,000,000,212 | total=213 | form_ok=107 | primes=4 | factors=0 | speed=7 k/s | factordb=107
+k=100,000,000,000,316 | total=317 | form_ok=159 | primes=6 | factors=0 | speed=5 k/s | factordb=159
+k=100,000,000,000,436 | total=437 | form_ok=219 | primes=9 | factors=0 | speed=5 k/s | factordb=219
+k=100,000,000,000,560 | total=561 | form_ok=281 | primes=11 | factors=0 | speed=5 k/s | factordb=281
+k=100,000,000,000,683 | total=684 | form_ok=342 | primes=14 | factors=0 | speed=5 k/s | factordb=342
+k=100,000,000,000,795 | total=796 | form_ok=398 | primes=19 | factors=0 | speed=4 k/s | factordb=398
+k=100,000,000,000,916 | total=917 | form_ok=459 | primes=21 | factors=0 | speed=4 k/s | factordb=459
+k=100,000,000,001,028 | total=1,029 | form_ok=515 | primes=25 | factors=0 | speed=4 k/s | factordb=515
+k=100,000,000,001,139 | total=1,140 | form_ok=570 | primes=27 | factors=0 | speed=4 k/s | factordb=570
+k=100,000,000,001,260 | total=1,261 | form_ok=631 | primes=30 | factors=0 | speed=4 k/s | factordb=631
+k=100,000,000,001,380 | total=1,381 | form_ok=691 | primes=31 | factors=0 | speed=4 k/s | factordb=691
+k=100,000,000,001,488 | total=1,489 | form_ok=745 | primes=33 | factors=0 | speed=4 k/s | factordb=745
+k=100,000,000,001,604 | total=1,605 | form_ok=803 | primes=36 | factors=0 | speed=4 k/s | factordb=803
+k=100,000,000,001,716 | total=1,717 | form_ok=859 | primes=37 | factors=0 | speed=4 k/s | factordb=859
+k=100,000,000,001,832 | total=1,833 | form_ok=917 | primes=42 | factors=0 | speed=4 k/s | factordb=917
+k=100,000,000,001,947 | total=1,948 | form_ok=974 | primes=44 | factors=0 | speed=4 k/s | factordb=974
+k=100,000,000,002,071 | total=2,072 | form_ok=1,036 | primes=48 | factors=0 | speed=4 k/s | factordb=1036
+k=100,000,000,002,176 | total=2,177 | form_ok=1,089 | primes=52 | factors=0 | speed=4 k/s | factordb=1089
+k=100,000,000,002,296 | total=2,297 | form_ok=1,149 | primes=55 | factors=0 | speed=4 k/s | factordb=1149
+k=100,000,000,002,411 | total=2,412 | form_ok=1,206 | primes=58 | factors=0 | speed=4 k/s | factordb=1206
+k=100,000,000,002,532 | total=2,533 | form_ok=1,267 | primes=65 | factors=0 | speed=4 k/s | factordb=1267
+k=100,000,000,002,647 | total=2,648 | form_ok=1,324 | primes=69 | factors=0 | speed=4 k/s | factordb=1324
+k=100,000,000,002,763 | total=2,764 | form_ok=1,382 | primes=73 | factors=0 | speed=4 k/s | factordb=1382
+k=100,000,000,002,872 | total=2,873 | form_ok=1,437 | primes=76 | factors=0 | speed=4 k/s | factordb=1437
+k=100,000,000,002,992 | total=2,993 | form_ok=1,497 | primes=79 | factors=0 | speed=4 k/s | factordb=1497
+k=100,000,000,003,108 | total=3,109 | form_ok=1,555 | primes=81 | factors=0 | speed=4 k/s | factordb=1555
+k=100,000,000,003,227 | total=3,228 | form_ok=1,614 | primes=86 | factors=0 | speed=4 k/s | factordb=1614
+k=100,000,000,003,344 | total=3,345 | form_ok=1,673 | primes=87 | factors=0 | speed=4 k/s | factordb=1673
+k=100,000,000,003,455 | total=3,456 | form_ok=1,728 | primes=90 | factors=0 | speed=4 k/s | factordb=1728
+k=100,000,000,003,556 | total=3,557 | form_ok=1,779 | primes=94 | factors=0 | speed=4 k/s | factordb=1779
+k=100,000,000,003,675 | total=3,676 | form_ok=1,838 | primes=99 | factors=0 | speed=4 k/s | factordb=1838
