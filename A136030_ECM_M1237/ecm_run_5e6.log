@@ -9492,3 +9492,7 @@ Computing 1/F took 206ms
 Initializing table of differences for G took 58ms
 Computing roots of G took 672ms
 Building G from its roots took 526ms
+Computing roots of G took 681ms
+Building G from its roots took 534ms
+Computing G * H took 107ms
+Reducing  G * H mod F took 120ms
