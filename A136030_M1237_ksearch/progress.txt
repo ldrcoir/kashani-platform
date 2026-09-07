@@ -1,0 +1,9 @@
+k_current: 100000000000212
+k_range: [100000000000000, 100000001000000]
+total_checked: 213
+form_ok: 107
+primes: 4
+factors: 0
+speed: 7 k/s
+elapsed: 30s
+time: 2026-09-07 03:31:43
