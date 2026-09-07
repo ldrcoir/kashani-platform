@@ -1,10 +1,10 @@
 worker_id: 5
 pattern: 3*7*2^a*m_a2
-m_current: 544005715
+m_current: 915638641
 m_range: [1, 1000000000000]
-primes_tested: 60832113
-candidates_tested: 544005715
+primes_tested: 100712527
+candidates_tested: 915638641
 factors_found: 0
 f2_digits: 303
 progress_pct: 0.1
-time: 2026-09-07 01:58:24
+time: 2026-09-07 02:19:24
