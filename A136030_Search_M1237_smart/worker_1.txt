@@ -1,0 +1,10 @@
+worker_id: 1
+pattern: 3*7*m
+m_current: 28650132
+m_range: [1, 1000000000000]
+primes_tested: 1857708
+candidates_tested: 14325066
+factors_found: 0
+f2_digits: 303
+progress_pct: 0.0
+time: 2026-09-07 01:28:53

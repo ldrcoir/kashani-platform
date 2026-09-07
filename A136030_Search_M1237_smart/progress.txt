@@ -1,0 +1,50 @@
+smart search v1
+time: 2026-09-07 01:28:53
+workers_active: 6
+
+worker 1 (3*7*m):
+  m_current: 28650132
+  primes: 1857708
+  candidates: 14325066
+  factors: 0
+  progress: 0.0%
+
+worker 6 (3*7*2^a*m_a5):
+  m_current: 16489030
+  primes: 1931799
+  candidates: 16489030
+  factors: 0
+  progress: 0.0%
+
+worker 5 (3*7*2^a*m_a2):
+  m_current: 8960522
+  primes: 1153009
+  candidates: 8960522
+  factors: 0
+  progress: 0.0%
+
+worker 3 (3*7*2^a*m_a4):
+  m_current: 8584883
+  primes: 1052475
+  candidates: 8584883
+  factors: 0
+  progress: 0.0%
+
+worker 2 (3*7*Y1*m):
+  m_current: 6427096
+  primes: 201203
+  candidates: 3213548
+  factors: 0
+  progress: 0.0%
+
+worker 4 (3*7*2^a*m_a3):
+  m_current: 8856944
+  primes: 1111902
+  candidates: 8856944
+  factors: 0
+  progress: 0.0%
+
+
+=== totals ===
+total_primes_tested: 7,308,096
+total_candidates_tested: 60,429,993
