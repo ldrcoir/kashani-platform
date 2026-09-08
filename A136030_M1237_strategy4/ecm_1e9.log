@@ -1,0 +1,21 @@
+GMP-ECM 7.0.6 [configured with GMP 6.3.0, --enable-asm-redc] [ECM]
+Tuned for x86_64/params.h
+Running on c-6aa07166-14d96228-794aab7e40b9
+Input number is 932346997627937198512116805585638652223533192516806816522982865866804199262267590070758266268742758283545150004345986721379992894347882545052483695173645594473520682900937642680132877292150643356579486299211525438560741941531670625397281199369604215535391846857906233364905825622441048803673998858526737 (303 digits)
+[Tue Sep  8 21:04:59 2026]
+Using special division for factor of 2^1237-1
+Using B1=1000000000, B2=19071176724616, polynomial Dickson(30), sigma=0:3720646520396370055
+dF=524288, k=6, d=5705700, d2=17, i0=159
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+14	44	154	599	2553	11843	59619	319570	1823365	1.1e+07
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 3490279ms
+Using 35 small primes for NTT
+Estimated memory usage: 3.26GB
+Initializing tables of differences for F took 279ms
+Computing roots of F took 84104ms
+Building F from its roots took 25653ms
+Computing 1/F took 8185ms
+Initializing table of differences for G took 855ms
+Computing roots of G took 87495ms
