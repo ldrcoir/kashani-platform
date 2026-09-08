@@ -1,0 +1,2718 @@
+GMP-ECM 7.0.6 [configured with GMP 6.3.0, --enable-asm-redc] [ECM]
+Tuned for x86_64/params.h
+Running on c-6aa04e1c-14d96228-e466d2e7e184
+Input number is 932346997627937198512116805585638652223533192516806816522982865866804199262267590070758266268742758283545150004345986721379992894347882545052483695173645594473520682900937642680132877292150643356579486299211525438560741941531670625397281199369604215535391846857906233364905825622441048803673998858526737 (303 digits)
+[Tue Sep  8 18:09:16 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:1562692061408583095
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 860ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 390ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.75d	362.34d	23.06y	623.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 2 out of 600:
+[Tue Sep  8 18:09:18 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:1018943458052243256
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 859ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 15ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 70ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 389ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.02d	17.72d	361.76d	23.02y	622.16y	1e+06y	2e+11y	2e+16y	Inf
+Run 3 out of 600:
+[Tue Sep  8 18:09:19 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:4413016051671057505
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 861ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 73ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 394ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.82d	363.78d	23.15y	625.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 4 out of 600:
+[Tue Sep  8 18:09:20 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:9620875500845984447
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 855ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 38ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 70ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 390ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.02d	17.69d	361.18d	22.98y	621.16y	1e+06y	2e+11y	2e+16y	Inf
+Run 5 out of 600:
+[Tue Sep  8 18:09:21 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:14015930149487037815
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 865ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 20ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 70ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 394ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.72h	1.03d	17.88d	364.94d	23.22y	627.64y	1e+06y	2e+11y	2e+16y	Inf
+Run 6 out of 600:
+[Tue Sep  8 18:09:23 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:75290474651392832
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 857ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 19ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 394ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.77d	362.62d	23.07y	623.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 7 out of 600:
+[Tue Sep  8 18:09:24 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:5938150378483806619
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 861ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 391ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.78d	362.91d	23.09y	624.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 8 out of 600:
+[Tue Sep  8 18:09:25 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:4939938983329870855
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 862ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 392ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.82d	363.78d	23.15y	625.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 9 out of 600:
+[Tue Sep  8 18:09:27 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:3163716475651703297
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 857ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 19ms
+Building F from its roots took 40ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 37ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 391ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.02d	17.72d	361.76d	23.02y	622.16y	1e+06y	2e+11y	2e+16y	Inf
+Run 10 out of 600:
+[Tue Sep  8 18:09:28 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:4220972954395141092
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 854ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 38ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 390ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.02d	17.68d	360.89d	22.96y	620.66y	1e+06y	2e+11y	2e+16y	Inf
+Run 11 out of 600:
+[Tue Sep  8 18:09:29 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:3445397036981102417
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 856ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 391ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.02d	17.71d	361.47d	23.00y	621.66y	1e+06y	2e+11y	2e+16y	Inf
+Run 12 out of 600:
+[Tue Sep  8 18:09:30 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:15611479333995211260
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 887ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 37ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 18ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 17ms
+Building G from its roots took 37ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 391ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.74h	1.05d	18.15d	1.01y	23.57y	637.11y	1e+06y	2e+11y	2e+16y	Inf
+Run 13 out of 600:
+[Tue Sep  8 18:09:32 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:12786210615346166472
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 863ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 22ms
+Building G from its roots took 38ms
+Computing roots of G took 21ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 15ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 402ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.73h	1.04d	17.96d	1.00y	23.33y	630.63y	1e+06y	2e+11y	2e+16y	Inf
+Run 14 out of 600:
+[Tue Sep  8 18:09:33 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:3484172202103849544
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 857ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 40ms
+Computing 1/F took 22ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 70ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 390ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.02d	17.71d	361.47d	23.00y	621.66y	1e+06y	2e+11y	2e+16y	Inf
+Run 15 out of 600:
+[Tue Sep  8 18:09:34 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:7095479441683337958
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 852ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 392ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.02d	17.67d	360.60d	22.94y	620.16y	1e+06y	2e+11y	2e+16y	Inf
+Run 16 out of 600:
+[Tue Sep  8 18:09:35 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:7580321397267761281
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 868ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 393ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.72h	1.04d	17.91d	1.00y	23.26y	628.64y	1e+06y	2e+11y	2e+16y	Inf
+Run 17 out of 600:
+[Tue Sep  8 18:09:37 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:6368586946340911144
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 863ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 20ms
+Building F from its roots took 38ms
+Computing 1/F took 25ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 396ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.72h	1.03d	17.88d	364.94d	23.22y	627.64y	1e+06y	2e+11y	2e+16y	Inf
+Run 18 out of 600:
+[Tue Sep  8 18:09:38 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:13529258630990034559
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 860ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 392ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.78d	362.91d	23.09y	624.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 19 out of 600:
+[Tue Sep  8 18:09:39 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:12156619003576168309
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 861ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 38ms
+Computing 1/F took 25ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 393ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.81d	363.49d	23.13y	625.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 20 out of 600:
+[Tue Sep  8 18:09:40 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:16444901590745256664
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 858ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 391ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.03d	17.74d	362.05d	23.04y	622.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 21 out of 600:
+[Tue Sep  8 18:09:42 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:9175921874449778957
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 858ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 70ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 393ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.77d	362.62d	23.07y	623.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 22 out of 600:
+[Tue Sep  8 18:09:43 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:2948301843233349445
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 996ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 18ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 70ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 391ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.89h	1.14d	19.70d	1.10y	25.58y	691.45y	1e+06y	2e+11y	2e+16y	Inf
+Run 23 out of 600:
+[Tue Sep  8 18:09:44 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:14758702954373787659
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 864ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 18ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 395ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.72h	1.03d	17.88d	364.94d	23.22y	627.64y	1e+06y	2e+11y	2e+16y	Inf
+Run 24 out of 600:
+[Tue Sep  8 18:09:45 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:18324288051696546988
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 876ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 391ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.73h	1.04d	17.99d	1.01y	23.37y	631.63y	1e+06y	2e+11y	2e+16y	Inf
+Run 25 out of 600:
+[Tue Sep  8 18:09:47 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:9160171047736649523
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 857ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 391ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.03d	17.74d	362.05d	23.04y	622.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 26 out of 600:
+[Tue Sep  8 18:09:48 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:18282501045848214206
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 856ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 391ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.02d	17.72d	361.76d	23.02y	622.16y	1e+06y	2e+11y	2e+16y	Inf
+Run 27 out of 600:
+[Tue Sep  8 18:09:49 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:9344924676062823897
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 858ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 15ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 395ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.79d	363.20d	23.11y	624.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 28 out of 600:
+[Tue Sep  8 18:09:51 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:11474185559886252763
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 865ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 19ms
+Building F from its roots took 49ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 403ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.73h	1.04d	18.01d	1.01y	23.39y	632.13y	1e+06y	2e+11y	2e+16y	Inf
+Run 29 out of 600:
+[Tue Sep  8 18:09:52 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:10738635083239821265
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 868ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 17ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 397ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.73h	1.04d	17.96d	1.00y	23.33y	630.63y	1e+06y	2e+11y	2e+16y	Inf
+Run 30 out of 600:
+[Tue Sep  8 18:09:53 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:15993886989956891430
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 858ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 20ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 394ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.78d	362.91d	23.09y	624.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 31 out of 600:
+[Tue Sep  8 18:09:54 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:15081088001464317715
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 878ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 393ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.73h	1.04d	18.05d	1.01y	23.44y	633.62y	1e+06y	2e+11y	2e+16y	Inf
+Run 32 out of 600:
+[Tue Sep  8 18:09:56 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:2172818773899421657
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 869ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 37ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 392ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.72h	1.04d	17.91d	1.00y	23.26y	628.64y	1e+06y	2e+11y	2e+16y	Inf
+Run 33 out of 600:
+[Tue Sep  8 18:09:57 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:8467011799275712934
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 884ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 395ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.74h	1.05d	18.16d	1.02y	23.59y	637.61y	1e+06y	2e+11y	2e+16y	Inf
+Run 34 out of 600:
+[Tue Sep  8 18:09:58 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:14611672564820384835
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 861ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 40ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 394ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.82d	363.78d	23.15y	625.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 35 out of 600:
+[Tue Sep  8 18:09:59 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:787520024589345440
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 884ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 30ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 16ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 404ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.76h	1.06d	18.29d	1.02y	23.76y	642.10y	1e+06y	2e+11y	2e+16y	Inf
+Run 36 out of 600:
+[Tue Sep  8 18:10:01 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:700270803011269157
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 861ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 395ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.84d	364.07d	23.17y	626.14y	1e+06y	2e+11y	2e+16y	Inf
+Run 37 out of 600:
+[Tue Sep  8 18:10:02 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:1469644041290437157
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 857ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 70ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 392ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.03d	17.74d	362.05d	23.04y	622.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 38 out of 600:
+[Tue Sep  8 18:10:03 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:13729060553301550391
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 857ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 20ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 394ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.77d	362.62d	23.07y	623.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 39 out of 600:
+[Tue Sep  8 18:10:04 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:3434830732519656494
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 853ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 395ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.03d	17.74d	362.05d	23.04y	622.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 40 out of 600:
+[Tue Sep  8 18:10:06 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:7899134873333896695
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 857ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 17ms
+Building G from its roots took 40ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 70ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 395ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.78d	362.91d	23.09y	624.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 41 out of 600:
+[Tue Sep  8 18:10:07 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:10047598432905561227
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 883ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 394ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.74h	1.05d	18.13d	1.01y	23.55y	636.61y	1e+06y	2e+11y	2e+16y	Inf
+Run 42 out of 600:
+[Tue Sep  8 18:10:08 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:12865666812318123075
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 877ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 20ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 394ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.73h	1.04d	18.05d	1.01y	23.44y	633.62y	1e+06y	2e+11y	2e+16y	Inf
+Run 43 out of 600:
+[Tue Sep  8 18:10:09 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:7325993077980001709
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 859ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 37ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 15ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 396ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.82d	363.78d	23.15y	625.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 44 out of 600:
+[Tue Sep  8 18:10:11 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:2946814064317785219
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 859ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 18ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 396ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.82d	363.78d	23.15y	625.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 45 out of 600:
+[Tue Sep  8 18:10:12 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:3115284813777575812
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 858ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 392ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.75d	362.34d	23.06y	623.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 46 out of 600:
+[Tue Sep  8 18:10:13 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:10439847350753516304
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 867ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 15ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 394ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.72h	1.04d	17.91d	1.00y	23.26y	628.64y	1e+06y	2e+11y	2e+16y	Inf
+Run 47 out of 600:
+[Tue Sep  8 18:10:15 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:10580999660740984019
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 856ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 15ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 394ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.75d	362.34d	23.06y	623.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 48 out of 600:
+[Tue Sep  8 18:10:16 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:4851646944145554440
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 859ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 20ms
+Building G from its roots took 45ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 74ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 407ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.73h	1.04d	17.98d	1.01y	23.35y	631.13y	1e+06y	2e+11y	2e+16y	Inf
+Run 49 out of 600:
+[Tue Sep  8 18:10:17 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:2925209440947674386
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 867ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 15ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 396ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.72h	1.04d	17.94d	1.00y	23.29y	629.63y	1e+06y	2e+11y	2e+16y	Inf
+Run 50 out of 600:
+[Tue Sep  8 18:10:18 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:1884998347143061720
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 862ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 25ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 15ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 397ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.72h	1.03d	17.88d	364.94d	23.22y	627.64y	1e+06y	2e+11y	2e+16y	Inf
+Run 51 out of 600:
+[Tue Sep  8 18:10:20 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:13826600030736002662
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 858ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 70ms
+Computing product of all F(g_i) took 2ms
+Step 2 took 394ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.78d	362.91d	23.09y	624.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 52 out of 600:
+[Tue Sep  8 18:10:21 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:14268241815844685423
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 859ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 37ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 12ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 393ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.78d	362.91d	23.09y	624.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 53 out of 600:
+[Tue Sep  8 18:10:22 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:8698181092802072822
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 865ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 19ms
+Building F from its roots took 40ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 15ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 398ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.72h	1.04d	17.94d	1.00y	23.29y	629.63y	1e+06y	2e+11y	2e+16y	Inf
+Run 54 out of 600:
+[Tue Sep  8 18:10:23 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:3762200464084024477
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 861ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 39ms
+Computing 1/F took 22ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 46ms
+Computing G * H took 18ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 402ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.72h	1.04d	17.94d	1.00y	23.29y	629.63y	1e+06y	2e+11y	2e+16y	Inf
+Run 55 out of 600:
+[Tue Sep  8 18:10:25 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:2929530174748437051
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 896ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 15ms
+Computing polyeval(F,G) took 73ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 399ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.77h	1.06d	18.39d	1.03y	23.89y	645.59y	1e+06y	2e+11y	2e+16y	Inf
+Run 56 out of 600:
+[Tue Sep  8 18:10:26 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:3623437134100960573
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 864ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 20ms
+Reducing  G * H mod F took 15ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 399ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.72h	1.04d	17.94d	1.00y	23.29y	629.63y	1e+06y	2e+11y	2e+16y	Inf
+Run 57 out of 600:
+[Tue Sep  8 18:10:27 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:5329995872455181963
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 859ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 394ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.79d	363.20d	23.11y	624.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 58 out of 600:
+[Tue Sep  8 18:10:28 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:7094752579174576460
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 861ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 395ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.84d	364.07d	23.17y	626.14y	1e+06y	2e+11y	2e+16y	Inf
+Run 59 out of 600:
+[Tue Sep  8 18:10:30 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:3535251107221344729
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 861ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 2ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 393ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.81d	363.49d	23.13y	625.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 60 out of 600:
+[Tue Sep  8 18:10:31 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:794841874226616605
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 857ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 393ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.75d	362.34d	23.06y	623.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 61 out of 600:
+[Tue Sep  8 18:10:32 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:5965535010496047614
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 860ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 392ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.78d	362.91d	23.09y	624.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 62 out of 600:
+[Tue Sep  8 18:10:33 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:16251404739609267102
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 856ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 391ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.02d	17.71d	361.47d	23.00y	621.66y	1e+06y	2e+11y	2e+16y	Inf
+Run 63 out of 600:
+[Tue Sep  8 18:10:35 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:11444058779852626929
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 854ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 40ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 393ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.02d	17.71d	361.47d	23.00y	621.66y	1e+06y	2e+11y	2e+16y	Inf
+Run 64 out of 600:
+[Tue Sep  8 18:10:36 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:12835839395463934334
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 861ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 22ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 43ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 400ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.72h	1.04d	17.91d	1.00y	23.26y	628.64y	1e+06y	2e+11y	2e+16y	Inf
+Run 65 out of 600:
+[Tue Sep  8 18:10:37 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:1200077019229558993
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 852ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 37ms
+Computing roots of G took 17ms
+Building G from its roots took 37ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 389ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.69h	1.02d	17.64d	360.02d	22.91y	619.17y	1e+06y	2e+11y	2e+16y	Inf
+Run 66 out of 600:
+[Tue Sep  8 18:10:38 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:9166921351886599420
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 854ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 3ms
+Computing roots of F took 18ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 394ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.03d	17.74d	362.05d	23.04y	622.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 67 out of 600:
+[Tue Sep  8 18:10:40 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:2121783739109632004
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 853ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 25ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 395ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.02d	17.72d	361.76d	23.02y	622.16y	1e+06y	2e+11y	2e+16y	Inf
+Run 68 out of 600:
+[Tue Sep  8 18:10:41 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:2725065419498156639
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 857ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 395ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.78d	362.91d	23.09y	624.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 69 out of 600:
+[Tue Sep  8 18:10:42 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:13903146182418727234
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 862ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 40ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 398ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.72h	1.03d	17.89d	1.00y	23.24y	628.14y	1e+06y	2e+11y	2e+16y	Inf
+Run 70 out of 600:
+[Tue Sep  8 18:10:43 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:16376800042618596920
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 875ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing roots of G took 18ms
+Building G from its roots took 40ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 397ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.74h	1.04d	18.06d	1.01y	23.46y	634.12y	1e+06y	2e+11y	2e+16y	Inf
+Run 71 out of 600:
+[Tue Sep  8 18:10:45 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:17460019922826147169
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 860ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 397ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.85d	364.36d	23.18y	626.64y	1e+06y	2e+11y	2e+16y	Inf
+Run 72 out of 600:
+[Tue Sep  8 18:10:46 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:16269782356565833837
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 858ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 27ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 42ms
+Computing G * H took 28ms
+Reducing  G * H mod F took 26ms
+Computing roots of G took 25ms
+Building G from its roots took 84ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 16ms
+Computing polyeval(F,G) took 89ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 500ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.85h	1.12d	19.29d	1.08y	25.05y	676.99y	1e+06y	2e+11y	2e+16y	Inf
+Run 73 out of 600:
+[Tue Sep  8 18:10:47 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:5614351958023874163
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 862ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 70ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 390ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.78d	362.91d	23.09y	624.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 74 out of 600:
+[Tue Sep  8 18:10:49 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:448443210911010631
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 858ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 38ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 39ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 70ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 394ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.78d	362.91d	23.09y	624.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 75 out of 600:
+[Tue Sep  8 18:10:50 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:12998689645516528413
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 850ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 20ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 19ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 393ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.02d	17.65d	360.31d	22.93y	619.66y	1e+06y	2e+11y	2e+16y	Inf
+Run 76 out of 600:
+[Tue Sep  8 18:10:51 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:15961420597080982081
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 859ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 393ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.78d	362.91d	23.09y	624.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 77 out of 600:
+[Tue Sep  8 18:10:52 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:9726159135744267644
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 861ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 37ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 393ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.81d	363.49d	23.13y	625.15y	1e+06y	2e+11y	2e+16y	Inf
+Run 78 out of 600:
+[Tue Sep  8 18:10:54 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:13998780619005028366
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 859ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 2ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 71ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 390ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.03d	17.74d	362.05d	23.04y	622.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 79 out of 600:
+[Tue Sep  8 18:10:55 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:13187385838607433925
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 863ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 24ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 17ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 18ms
+Building G from its roots took 39ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing polyeval(F,G) took 72ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 393ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.84d	364.07d	23.17y	626.14y	1e+06y	2e+11y	2e+16y	Inf
+Run 80 out of 600:
+[Tue Sep  8 18:10:56 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:247061112014133146
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 860ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 20ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 18ms
+Building G from its roots took 56ms
+Computing G * H took 34ms
+Reducing  G * H mod F took 16ms
+Computing polyeval(F,G) took 82ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 445ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.78h	1.07d	18.53d	1.04y	24.07y	650.57y	1e+06y	2e+11y	2e+16y	Inf
+Run 81 out of 600:
+[Tue Sep  8 18:10:57 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:10560903847255521987
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 868ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 4ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 13ms
+Computing roots of G took 18ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 70ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 387ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.71h	1.03d	17.82d	363.78d	23.15y	625.65y	1e+06y	2e+11y	2e+16y	Inf
+Run 82 out of 600:
+[Tue Sep  8 18:10:59 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:17385514885845477804
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
+Step 1 took 856ms
+Using 35 small primes for NTT
+Estimated memory usage: 17.77MB
+Initializing tables of differences for F took 2ms
+Computing roots of F took 19ms
+Building F from its roots took 39ms
+Computing 1/F took 23ms
+Initializing table of differences for G took 3ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 14ms
+Computing roots of G took 17ms
+Building G from its roots took 38ms
+Computing G * H took 16ms
+Reducing  G * H mod F took 13ms
+Computing polyeval(F,G) took 69ms
+Computing product of all F(g_i) took 1ms
+Step 2 took 387ms
+Expected time to find a factor of n digits:
+35	40	45	50	55	60	65	70	75	80
+1.70h	1.02d	17.65d	360.31d	22.93y	619.66y	1e+06y	2e+11y	2e+16y	Inf
+Run 83 out of 600:
+[Tue Sep  8 18:11:00 2026]
+Using special division for factor of 2^1237-1
+Using B1=250000, B2=128992510, polynomial Dickson(3), sigma=0:5013429656526209829
+dF=2048, k=3, d=19110, d2=11, i0=3
+Expected number of curves to find a factor of n digits (assuming one exists):
+35	40	45	50	55	60	65	70	75	80
+4911	70940	1226976	2.5e+07	5.8e+08	1.6e+10	2.7e+13	4e+18	5.4e+23	Inf
+Lchain_codes.dat file failed to open, using prac
