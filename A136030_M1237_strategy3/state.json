@@ -1,6 +1,6 @@
 {
   "phase": "start",
-  "last_step": 1,
-  "last_phase": "ecm_50K",
-  "last_elapsed": 69.89587426185608
+  "last_step": 2,
+  "last_phase": "ecm_250K",
+  "last_elapsed": 1016.5403783321381
 }

@@ -1,6 +1,6 @@
-phase: ecm_50K
-step: 1/7
-B1: 5e4
-curves: 250
-elapsed: 70s
-time: 2026-09-08 18:09:16
+phase: ecm_250K
+step: 2/7
+B1: 2.5e5
+curves: 600
+elapsed: 1017s
+time: 2026-09-08 18:34:59
