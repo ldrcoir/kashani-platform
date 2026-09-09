@@ -1,4 +1,4 @@
-phase: pp1_1e8
-step: 2/10
-elapsed: 191s
-time: 2026-09-09 05:14:17
+phase: pm1_1e9
+step: 4/10
+elapsed: 1011s
+time: 2026-09-09 22:32:52
