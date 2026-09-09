@@ -9,3 +9,7 @@ Probability of finding a factor of n digits (assuming one exists):
 20	25	30	35	40	45	50	55	60	65
 0.7	0.4	0.18	0.069	0.022	0.0064	0.0016	0.00038	8.2e-05	1.6e-05
 Using special division for factor of 2^1237-1
+Step 1 took 667810ms
+Computing F from factored S_1 took 30637ms
+Computing h_x and h_y took 8840ms
+Computing DCT-I of h_x
