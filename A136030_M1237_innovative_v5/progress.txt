@@ -1,6 +1,6 @@
-phase: Z_ecm_1e6
-step: 1/6
-elapsed: 18s
+phase: Z_ecm_1e7
+step: 2/6
+elapsed: 126s
 z_factors: 2
 f2_factors: 0
-time: 2026-09-09 05:50:08
+time: 2026-09-09 05:52:14

@@ -10,3 +10,28 @@ Expected number of curves to find a factor of n digits (assuming one exists):
 35	40	45	50	55	60	65	70	75	80
 144	835	5613	43291	374852	3596840	3.8e+07	4.3e+08	5.5e+09	7.2e+10
 Computing batch product (of 14424844 bits) of primes up to B1=10000000 took 241ms
+Step 1 took 32897ms
+Using 35 small primes for NTT
+Estimated memory usage: 243.66MB
+Initializing tables of differences for F took 41ms
+Computing roots of F took 1042ms
+Building F from its roots took 1181ms
+Computing 1/F took 440ms
+Initializing table of differences for G took 34ms
+Computing roots of G took 929ms
+Building G from its roots took 1176ms
+Computing roots of G took 924ms
+Building G from its roots took 1178ms
+Computing G * H took 216ms
+Reducing  G * H mod F took 249ms
+Computing roots of G took 924ms
+Building G from its roots took 1224ms
+Computing G * H took 219ms
+Reducing  G * H mod F took 244ms
+Computing polyeval(F,G) took 1908ms
+Computing product of all F(g_i) took 17ms
+Step 2 took 12031ms
+********** Factor found in step 2: 18641439966407
+Found prime factor of 14 digits: 18641439966407
+Prime cofactor 120334218833298104536604548702588378365791515320342282742388984553009321898145046186509920767149619597647361224112031104159377051089982807697549128468943237627992949178727349673703438184409567254625591484613193218616688782477265387389941750568120467062052945838796451725995419643693039 has 285 digits
+Peak memory usage: 251MB
