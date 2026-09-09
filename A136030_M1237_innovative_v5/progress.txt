@@ -1,6 +1,6 @@
-phase: Z_ecm_1e7
-step: 2/6
-elapsed: 126s
+phase: pm1_with_Z
+step: 4/6
+elapsed: 270s
 z_factors: 2
 f2_factors: 0
-time: 2026-09-09 05:52:14
+time: 2026-09-09 06:11:55
