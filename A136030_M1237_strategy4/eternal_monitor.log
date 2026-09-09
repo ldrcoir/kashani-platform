@@ -397,3 +397,6 @@
 [2026-09-09 04:30:16] [OK] watcher جدید شروع شد
 [2026-09-09 04:30:16] [STATUS] watcher=0, strategy=1, state: step=0, phase=?
 [2026-09-09 04:31:17] [STATUS] watcher=1, strategy=1, state: step=0, phase=?
+[2026-09-09 04:32:17] [STATUS] watcher=1, strategy=1, state: step=0, phase=?
+[2026-09-09 04:33:17] [STATUS] watcher=1, strategy=1, state: step=0, phase=?
+[2026-09-09 04:34:17] [STATUS] watcher=1, strategy=1, state: step=0, phase=?

@@ -134,3 +134,4 @@
 [2026-09-09 04:27:09] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=2 | state: step=1/8, phase=ecm_1e9
 [2026-09-09 04:29:10] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=2 | state: step=1/8, phase=ecm_1e9
 [2026-09-09 04:31:10] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=0/8, phase=?
+[2026-09-09 04:33:10] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=0/8, phase=?
