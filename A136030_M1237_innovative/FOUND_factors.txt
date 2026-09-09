@@ -1,5 +1,5 @@
 === FACTOR FOUND ===
-time: 2026-09-09 03:36:44
+time: 2026-09-09 03:56:47
 phase: pm1_with_Y1
 factor: 7001833
 factor digits: 7
