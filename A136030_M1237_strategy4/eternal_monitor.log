@@ -269,3 +269,10 @@
 [2026-09-09 01:52:15] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
 [2026-09-09 01:53:15] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
 [2026-09-09 01:54:16] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-09 02:30:51] === Eternal Monitor v2 شروع شد (PID 1025) ===
+[2026-09-09 02:30:51] [ALERT] watcher نیست! شروع مجدد...
+[2026-09-09 02:30:51] [OK] watcher جدید شروع شد
+[2026-09-09 02:30:51] [ALERT] strategy4 اجرا نیست! watcher باید restart کنه...
+[2026-09-09 02:30:51] [STATUS] watcher=0, strategy=0, state: step=1, phase=ecm_1e9
+[2026-09-09 02:31:11] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-09 02:32:11] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
