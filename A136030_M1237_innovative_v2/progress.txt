@@ -1,0 +1,5 @@
+phase: trial_1e7
+step: 2/10
+elapsed: 4s
+factors_found: 0
+time: 2026-09-09 04:41:24
