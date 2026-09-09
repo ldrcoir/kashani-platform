@@ -70,3 +70,7 @@
 [2026-09-09 01:50:34] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
 [2026-09-09 01:52:34] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
 [2026-09-09 01:54:34] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 02:30:51] === Super Monitor شروع شد (PID 1015) ===
+[2026-09-09 02:30:51] [ALERT] eternal monitor نیست! شروع مجدد...
+[2026-09-09 02:30:51] [OK] eternal monitor restart شد
+[2026-09-09 02:30:51] [STATUS] super=1, eternal=2, watcher=1, strategy=1, ecm=0 | state: step=1/8, phase=ecm_1e9
