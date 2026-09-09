@@ -1,5 +1,5 @@
-phase: trial_1e7
-step: 2/10
-elapsed: 4s
+phase: pm1_with_X1
+step: 4/10
+elapsed: 11s
 factors_found: 0
-time: 2026-09-09 04:41:24
+time: 2026-09-09 04:42:10
