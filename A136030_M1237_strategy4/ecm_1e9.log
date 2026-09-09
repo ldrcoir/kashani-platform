@@ -10,3 +10,9 @@ Expected number of curves to find a factor of n digits (assuming one exists):
 35	40	45	50	55	60	65	70	75	80
 14	44	154	599	2553	11843	59619	319570	1823365	1.1e+07
 Lchain_codes.dat file failed to open, using prac
+Step 1 took 3513306ms
+Using 35 small primes for NTT
+Estimated memory usage: 3.26GB
+Initializing tables of differences for F took 284ms
+Computing roots of F took 85852ms
+Building F from its roots took 26596ms
