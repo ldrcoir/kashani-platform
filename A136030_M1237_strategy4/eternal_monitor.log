@@ -391,3 +391,9 @@
 [2026-09-09 04:25:15] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
 [2026-09-09 04:26:16] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
 [2026-09-09 04:27:16] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-09 04:28:16] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-09 04:29:16] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-09 04:30:16] [ALERT] watcher نیست! شروع مجدد...
+[2026-09-09 04:30:16] [OK] watcher جدید شروع شد
+[2026-09-09 04:30:16] [STATUS] watcher=0, strategy=1, state: step=0, phase=?
+[2026-09-09 04:31:17] [STATUS] watcher=1, strategy=1, state: step=0, phase=?
