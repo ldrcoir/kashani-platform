@@ -74,3 +74,30 @@
 [2026-09-09 02:30:51] [ALERT] eternal monitor نیست! شروع مجدد...
 [2026-09-09 02:30:51] [OK] eternal monitor restart شد
 [2026-09-09 02:30:51] [STATUS] super=1, eternal=2, watcher=1, strategy=1, ecm=0 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 02:32:51] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 02:34:51] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 02:36:52] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 02:38:52] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 02:40:52] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 02:42:53] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 02:44:53] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 02:46:53] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 02:48:54] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 02:50:54] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 02:52:54] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 02:54:55] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 02:56:55] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 02:58:55] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 03:00:55] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 03:02:56] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 03:04:56] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 03:06:56] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 03:08:57] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 03:10:57] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 03:12:57] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 03:14:57] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 03:16:58] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 03:18:58] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 03:20:59] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 03:22:59] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
+[2026-09-09 03:24:59] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=1 | state: step=1/8, phase=ecm_1e9
