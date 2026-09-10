@@ -1308,3 +1308,19 @@
 [2026-09-10 23:11:17] === Eternal Monitor v2 شروع شد (PID 1082) ===
 [2026-09-10 23:11:17] [ALERT] strategy4 اجرا نیست! watcher باید restart کنه...
 [2026-09-10 23:11:18] [STATUS] watcher=1, strategy=0, state: step=1, phase=ecm_1e9
+[2026-09-10 23:12:18] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-10 23:13:18] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-10 23:14:18] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-10 23:15:18] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-10 23:16:19] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-10 23:17:19] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-10 23:18:19] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-10 23:19:19] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-10 23:20:00] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-10 23:21:00] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-10 23:22:00] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-10 23:23:00] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-10 23:24:01] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-10 23:25:01] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-10 23:26:01] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-10 23:27:01] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
