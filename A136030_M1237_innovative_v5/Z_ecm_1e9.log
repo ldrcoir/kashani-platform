@@ -9,3 +9,4 @@ dF=524288, k=6, d=5705700, d2=17, i0=159
 Expected number of curves to find a factor of n digits (assuming one exists):
 35	40	45	50	55	60	65	70	75	80
 16	49	171	667	2864	13367	67663	364486	2089806	1.3e+07
+Computing batch product (of 1442697344 bits) of primes up to B1=1000000000 took 51602ms
