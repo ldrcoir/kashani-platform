@@ -388,3 +388,5 @@
 [2026-09-10 02:23:12] [STATUS] super=1, eternal=3, watcher=2, strategy=1, ecm=2 | state: step=1/8, phase=ecm_1e9
 [2026-09-10 02:24:03] [STATUS] super=1, eternal=3, watcher=2, strategy=1, ecm=2 | state: step=1/8, phase=ecm_1e9
 [2026-09-10 02:25:13] [STATUS] super=1, eternal=3, watcher=2, strategy=1, ecm=2 | state: step=1/8, phase=ecm_1e9
+[2026-09-10 11:02:34] === Super Monitor شروع شد (PID 979) ===
+[2026-09-10 11:02:35] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=2 | state: step=1/8, phase=ecm_1e9
