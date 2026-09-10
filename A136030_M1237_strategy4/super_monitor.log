@@ -297,3 +297,10 @@
 [2026-09-09 23:33:54] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=2 | state: step=1/8, phase=ecm_1e9
 [2026-09-09 23:35:55] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=2 | state: step=1/8, phase=ecm_1e9
 [2026-09-09 23:37:55] [STATUS] super=1, eternal=1, watcher=1, strategy=1, ecm=2 | state: step=1/8, phase=ecm_1e9
+[2026-09-10 00:11:30] === Super Monitor شروع شد (PID 988) ===
+[2026-09-10 00:11:30] [ALERT] eternal monitor نیست! شروع مجدد...
+[2026-09-10 00:11:30] [OK] eternal monitor restart شد
+[2026-09-10 00:11:31] [ALERT] gmpy2 از بین رفته! نصب مجدد...
+[2026-09-10 00:11:32] [OK] gmpy2 نصب شد
+[2026-09-10 00:11:32] [STATUS] super=1, eternal=2, watcher=1, strategy=0, ecm=0 | state: step=1/8, phase=ecm_1e9
+[2026-09-10 00:13:32] [STATUS] super=1, eternal=2, watcher=1, strategy=1, ecm=2 | state: step=1/8, phase=ecm_1e9
