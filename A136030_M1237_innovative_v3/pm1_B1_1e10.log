@@ -10,3 +10,5 @@ P = 198843645, l = 67108864, s_1 = 33177600, k = s_2 = 2, m_1 = 20
 Probability of finding a factor of n digits (assuming one exists):
 20	25	30	35	40	45	50	55	60	65
 0.82	0.56	0.31	0.14	0.057	0.02	0.0066	0.002	0.00053	0.00014
+Step 1 took 3312002ms
+Computing F from factored S_1
