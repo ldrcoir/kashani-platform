@@ -1390,3 +1390,6 @@
 [2026-09-11 00:31:17] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
 [2026-09-11 00:32:17] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
 [2026-09-11 00:33:18] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-12 21:35:59] === Eternal Monitor v2 شروع شد (PID 1130) ===
+[2026-09-12 21:35:59] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
+[2026-09-12 21:36:19] [STATUS] watcher=1, strategy=1, state: step=1, phase=ecm_1e9
