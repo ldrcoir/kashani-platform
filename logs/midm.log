@@ -1,0 +1,18 @@
+======================================================================
+Mersenne-Invariant Discriminant Method (MIDM)
+  Target: M(1237)/F1, 303 digits
+  Try: (2^a * 3^b)^p mod N for various a, b; check gcd.
+======================================================================
+Trying b = 1, 2, ..., 1000:
+  Done b=1..1000 in 0.0s
+
+Trying with base 5 instead of 3:
+  No factor with base 5
+Trying with base 7:
+  No factor with base 7
+Trying bases 11, 13, ..., 97 with b up to 200:
+  No factor found with bases up to 97
+
+Trying powers of 2*p:
+  No factor with 2*p multiplier
+No factor found via MIDM

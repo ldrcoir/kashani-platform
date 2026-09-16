@@ -1,0 +1,18 @@
+======================================================================
+Power-Order Discriminant Factoring (PODF)
+  Target: M(1237)/F1, 303 digits
+  Discovery: 2^(N-1) ≡ 1 mod N, but 3^(N-1) ≢ 1 mod N
+  Strategy: use various bases a, compute a^((N-1)/p) mod N, look for discriminating GCDs
+======================================================================
+(N-1)/p has 300 digits
+
+Computing r_a for 198 bases...
+  Computed 198 r values in 0.1s
+Pairwise gcd of r values...
+  Pairwise done in 0.2s
+
+Checking r^p mod N for each base (= a^(N-1) mod N):
+
+Trying exponent (N-1)/2 with various bases:
+Trying exponent (N-1)/4 with various bases:
+No factor found via PODF
