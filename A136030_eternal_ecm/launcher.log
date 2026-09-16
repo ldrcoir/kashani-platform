@@ -145,3 +145,7 @@
 [Tue Sep 15 23:28:56 UTC 2026] ECM PID: 2156, B1=5e9, 5000 curves
 [Tue Sep 15 23:53:41 UTC 2026] Launcher v2 شروع شد
 [Tue Sep 15 23:53:41 UTC 2026] ECM PID: 2356, B1=1e10, 10000 curves
+[Wed Sep 16 00:03:41 UTC 2026] ECM تموم شد، restart...
+[Wed Sep 16 00:03:41 UTC 2026] ECM PID: 2458
+[Wed Sep 16 00:11:41 UTC 2026] ECM تموم شد، restart...
+[Wed Sep 16 00:11:41 UTC 2026] ECM PID: 2478
