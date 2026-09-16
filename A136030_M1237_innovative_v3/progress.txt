@@ -1,4 +1,0 @@
-phase: pm1_1e10
-step: 5/10
-elapsed: 8898s
-time: 2026-09-13 00:04:17

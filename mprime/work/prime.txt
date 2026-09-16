@@ -1,5 +1,0 @@
-V5UserID=anonymous
-ComputerID=local
-UsePrimenet=0
-MaximumBitArraySize=20
-ECMBestB2=0
