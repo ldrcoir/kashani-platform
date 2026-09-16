@@ -1,0 +1,65 @@
+======================================================================
+Gaussian Integer P-1 (GI-P1) — novel method
+  Target: M(1237)/F1, 303 digits
+  p = 1237 = 9^2 + 34^2
+  Gaussian base: (9 + 34i)
+  Norm(base) = p = 1237
+  In Z[i]/N: base order divides (q-1)^2 (split) or q^2-1 (inert) for q | N
+======================================================================
+Trying B1 = 1000000
+  GI-P1: base (9, 34), norm = 1237
+  Stage 1: 78498 primes up to B1=1000000
+  No factor found in stage 1
+  Total time: 4.1s
+Trying B1 = 10000000
+  GI-P1: base (9, 34), norm = 1237
+  Stage 1: 664579 primes up to B1=10000000
+  No factor found in stage 1
+  Total time: 40.6s
+
+======================================================================
+Trying GI-P1 on all 204 missing primes
+======================================================================
+  Primes with a^2+b^2 decomposition: 105
+  Primes without (p ≡ 3 mod 4): 99
+  [1/105] p=1277 = 11^2 + 34^2, GI-P1 with B1=1000000
+  GI-P1: base (11, 34), norm = 1277
+  Stage 1: 78498 primes up to B1=1000000
+  No factor found in stage 1
+    time: 5.4s
+  [2/105] p=1597 = 21^2 + 34^2, GI-P1 with B1=1000000
+  GI-P1: base (21, 34), norm = 1597
+  Stage 1: 78498 primes up to B1=1000000
+  No factor found in stage 1
+    time: 7.5s
+  [3/105] p=1621 = 10^2 + 39^2, GI-P1 with B1=1000000
+  GI-P1: base (10, 39), norm = 1621
+  Stage 1: 78498 primes up to B1=1000000
+  No factor found in stage 1
+    time: 7.8s
+  [4/105] p=1657 = 19^2 + 36^2, GI-P1 with B1=1000000
+  GI-P1: base (19, 36), norm = 1657
+  Stage 1: 78498 primes up to B1=1000000
+  No factor found in stage 1
+    time: 7.9s
+  [5/105] p=1669 = 15^2 + 38^2, GI-P1 with B1=1000000
+  GI-P1: base (15, 38), norm = 1669
+  Stage 1: 78498 primes up to B1=1000000
+  No factor found in stage 1
+    time: 8.2s
+  [6/105] p=1733 = 17^2 + 38^2, GI-P1 with B1=1000000
+  GI-P1: base (17, 38), norm = 1733
+  Stage 1: 78498 primes up to B1=1000000
+  No factor found in stage 1
+    time: 8.6s
+  [7/105] p=1753 = 27^2 + 32^2, GI-P1 with B1=1000000
+  GI-P1: base (27, 32), norm = 1753
+  Stage 1: 78498 primes up to B1=1000000
+  No factor found in stage 1
+    time: 8.7s
+  [8/105] p=1873 = 28^2 + 33^2, GI-P1 with B1=1000000
+  GI-P1: base (28, 33), norm = 1873
+  Stage 1: 78498 primes up to B1=1000000
+  No factor found in stage 1
+    time: 9.7s
+  [9/105] p=2029 = 2^2 + 45^2, GI-P1 with B1=1000000
