@@ -1,0 +1,14 @@
+======================================================================
+Polynomial GCD Factorization (PGCD)
+  Target: N = M(1237)/F1, 303 digits
+  Algorithm: compute gcd(Phi_p(x), x^2 - 2) mod N
+  If asymmetric (2/q_i) signs, gcd gives a factor!
+======================================================================
+(2/N) = 1 (should be +1)
+
+Computing gcd(Phi_p, x^2 - 2) mod N...
+  Phi_p has degree 1236, Q has degree 2
+  Expected: a polynomial of degree 0 or 1, or a factor found via non-invertible leading coeff
+  GCD computed in 0.0s
+  Result has degree 1
+  Coefficients: [mpz(2175541218577478036232553294038911497542013410209922757424923190068852981190050786259609609278379154099770693575665668158859588967025488852621393833027941793561932885341770625153958412287), mpz(1087770609288739018116276647019455748771006705104961378712461595034426490595025393129804804639189577049885346787832834079429794483512744426310696916513970896780966442670885312576979206143)]
