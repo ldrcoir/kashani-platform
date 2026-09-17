@@ -1,0 +1,12 @@
+======================================================================
+Cipolla with v-coefficient analysis
+  Target: N = M(1237)/F1, 303 digits
+  Find sqrt(2474) mod N via Cipolla; check gcd(v, N) when v != 0
+======================================================================
+(a/N) = 1 (need +1 for sqrt to exist)
+
+Running Cipolla with many t values...
+  Tested 2000 t values in 5.9s
+  Non-trivial v: 2000
+
+No factor found via Cipolla v-coefficient
