@@ -1,0 +1,66 @@
+======================================================================
+Structured k Search for M(1237) factors
+  Target: q = 2*k*p + 1, q prime, q | M(p)
+  Try structured k: powers of 2, Mersenne-like, smooth, etc.
+======================================================================
+
+Strategy 1: k = 2^j for j = 60 to 230 (gives q ≈ 18 to 70+ digits)
+  k = 2^71 = (small), q has 25 digits
+
+Strategy 2: k = 2^j - 1 (Mersenne-like)
+  k = 2^176-1, q has 57 digits
+  k = 2^200-1, q has 64 digits
+  k = 2^232-1, q has 74 digits
+  k = 2^238-1, q has 76 digits
+
+Strategy 3: k = 2^j + 1 (Fermat-like)
+  k = 2^70+1, q has 25 digits
+  k = 2^71+1, q has 25 digits
+  k = 2^142+1, q has 47 digits
+  k = 2^214+1, q has 68 digits
+  k = 2^224+1, q has 71 digits
+
+Strategy 4: k = a^j for small a, various j
+  k = 2^57, q has 21 digits
+  k = 2^71, q has 25 digits
+  k = 3^23, q has 15 digits
+  k = 3^33, q has 20 digits
+  k = 3^41, q has 23 digits
+  k = 3^123, q has 63 digits
+  k = 5^27, q has 23 digits
+  k = 5^53, q has 41 digits
+  k = 5^93, q has 69 digits
+  k = 17^21, q has 30 digits
+  k = 17^29, q has 40 digits
+  k = 17^113, q has 143 digits
+
+Strategy 5: k = j! for j up to 70
+  k = 4!, q has 5 digits
+  k = 8!, q has 8 digits
+  k = 11!, q has 11 digits
+  k = 13!, q has 14 digits
+  k = 15!, q has 16 digits
+  k = 41!, q has 53 digits
+  k = 48!, q has 65 digits
+
+Strategy 6: k = primorial(m) for m up to 60
+  k = primorial(6), q has 8 digits
+  k = primorial(7), q has 10 digits
+  k = primorial(8), q has 11 digits
+  k = primorial(9), q has 12 digits
+  k = primorial(10), q has 14 digits
+  k = primorial(23), q has 36 digits
+  k = primorial(49), q has 93 digits
+
+Strategy 7: k = product of small primes to powers, k ≈ 10^66 (70-digit q)
+  k = 2^25 * 3^85 * 5^18 * 7^17, q has 79 digits
+  k = 2^9 * 3^75 * 5^25 * 7^5, q has 64 digits
+  k = 2^58 * 3^130 * 5^0 * 7^5, q has 88 digits
+  k = 2^66 * 3^44 * 5^3 * 7^51, q has 90 digits
+  k = 2^79 * 3^44 * 5^62 * 7^4, q has 95 digits
+  k = 2^76 * 3^60 * 5^12 * 7^6, q has 69 digits
+  k = 2^183 * 3^31 * 5^11 * 7^14, q has 93 digits
+  k = 2^3 * 3^28 * 5^77 * 7^22, q has 91 digits
+  k = 2^127 * 3^56 * 5^8 * 7^25, q has 96 digits
+
+No factor found via structured search

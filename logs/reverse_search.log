@@ -1,0 +1,25 @@
+======================================================================
+Reverse Search: Use F1 structure to generate related factor candidates
+======================================================================
+
+Strategy 1: q = nextprime near F1
+  No prime of form 2kp+1 found within 100000 of F1+0
+  No prime of form 2kp+1 found within 100000 of F1+2
+  No prime of form 2kp+1 found within 100000 of F1+4
+  No prime of form 2kp+1 found within 100000 of F1+6
+  No prime of form 2kp+1 found within 100000 of F1+8
+  No prime of form 2kp+1 found within 100000 of F1+10
+  No prime of form 2kp+1 found within 100000 of F1+100
+  No prime of form 2kp+1 found within 100000 of F1+1000
+
+Strategy 2: q = F1 ± small primes
+
+Strategy 3: q derived from F1
+
+Strategy 4: q = 2*F1 ± 1, F1^2 ± small, etc.
+
+Strategy 5: q = 2^a * F1 + 1
+
+Strategy 6: q = nextprime(F1 + n*small_modulus) for various n
+
+No factor found via reverse search
