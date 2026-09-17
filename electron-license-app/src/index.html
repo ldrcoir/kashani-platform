@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self';" />
+  <title>LicenseDemo - دمو سیستم لایسنس</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- هدر -->
+    <header class="header">
+      <div class="header-right">
+        <div class="logo">
+          <div class="logo-icon">L</div>
+          <div class="logo-text">
+            <div class="logo-title">LicenseDemo</div>
+            <div class="logo-subtitle">سامانه دمو لایسنس و آزمایش</div>
+          </div>
+        </div>
+      </div>
+      <div class="header-left">
+        <span class="status-badge" id="statusBadge">در حال بارگذاری...</span>
+      </div>
+    </header>
+
+    <!-- محتوای اصلی -->
+    <main class="main">
+      <!-- کارت وضعیت -->
+      <section class="card status-card">
+        <div class="card-header">
+          <h2>وضعیت فعلی برنامه</h2>
+        </div>
+        <div class="card-body">
+          <div class="status-grid">
+            <div class="status-item">
+              <div class="status-label">وضعیت لایسنس</div>
+              <div class="status-value" id="licStatus">—</div>
+            </div>
+            <div class="status-item">
+              <div class="status-label">روزهای باقی‌مانده (آزمایشی)</div>
+              <div class="status-value" id="trialDays">—</div>
+            </div>
+            <div class="status-item">
+              <div class="status-label">نسخه برنامه</div>
+              <div class="status-value" id="appVersion">—</div>
+            </div>
+            <div class="status-item">
+              <div class="status-label">تاریخ اولین اجرا</div>
+              <div class="status-value" id="firstLaunch">—</div>
+            </div>
+          </div>
+
+          <!-- نوار پیشرفت دوره آزمایشی -->
+          <div class="trial-bar-wrap" id="trialBarWrap">
+            <div class="trial-bar-header">
+              <span>پیشرفت دوره آزمایشی</span>
+              <span id="trialPercent">۰٪</span>
+            </div>
+            <div class="trial-bar">
+              <div class="trial-bar-fill" id="trialBarFill"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- کارت شناسه دستگاه -->
+      <section class="card machine-card">
+        <div class="card-header">
+          <h2>شناسه دستگاه (Machine ID)</h2>
+          <button class="btn btn-ghost btn-sm" id="copyMachineBtn">کپی</button>
+        </div>
+        <div class="card-body">
+          <p class="hint">
+            این شناسه منحصربه‌فرد برای دستگاه شماست. آن را کپی کرده و به تولیدکننده لایسنس بدهید
+            تا کلید لایسنس متناظر را برای شما تولید کند.
+          </p>
+          <div class="machine-id-box" id="machineIdBox">—</div>
+        </div>
+      </section>
+
+      <!-- کارت فعال‌سازی لایسنس -->
+      <section class="card license-card">
+        <div class="card-header">
+          <h2>فعال‌سازی لایسنس</h2>
+        </div>
+        <div class="card-body">
+          <p class="hint">
+            کلید لایسنس دریافتی از تولیدکننده را در کادر زیر وارد کنید و روی «فعال‌سازی» بزنید.
+            پس از فعال‌سازی موفق، برنامه به‌صورت دائمی فعال خواهد بود.
+          </p>
+          <input
+            type="text"
+            id="licenseInput"
+            class="license-input"
+            placeholder="مثال: A1B2C3D4-E5F67890-12345678-ABCDEF12"
+            dir="ltr"
+            spellcheck="false"
+            autocomplete="off"
+          />
+          <div class="action-row">
+            <button class="btn btn-primary" id="activateBtn">فعال‌سازی</button>
+            <button class="btn btn-danger" id="deactivateBtn" disabled>غیرفعال‌سازی</button>
+            <button class="btn btn-ghost" id="resetTrialBtn" title="فقط برای تست: بازنشانی دوره آزمایشی">بازنشانی آزمایشی</button>
+          </div>
+          <div class="message" id="message"></div>
+        </div>
+      </section>
+
+      <!-- صفحه قفل (وقتی دوره تمام شده و لایسنس فعال نیست) -->
+      <section class="card lock-card hidden" id="lockCard">
+        <div class="card-body lock-body">
+          <div class="lock-icon">🔒</div>
+          <h2>دوره آزمایشی به پایان رسید</h2>
+          <p>
+            دوره آزمایشی ۱۴ روزه شما به پایان رسیده است. برای ادامه استفاده از برنامه،
+            لطفاً شناسه دستگاه خود را به تولیدکننده بدهید و کلید لایسنس معتبر دریافت کنید
+            و سپس آن را در کادر بالا وارد نمایید.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- فوتر -->
+    <footer class="footer">
+      <div>ساخته‌شده با Electron — دمو آموزشی سیستم لایسنس</div>
+      <div class="footer-link">نسخه <span id="footerVersion">۱.۰.۰</span></div>
+    </footer>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

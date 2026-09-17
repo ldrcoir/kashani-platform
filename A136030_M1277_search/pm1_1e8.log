@@ -1,0 +1,30 @@
+GMP-ECM 7.0.6 [configured with GMP 6.3.0, --enable-asm-redc] [P-1]
+Tuned for x86_64/params.h
+Running on c-6aa0c253-14d96228-15fa56c65644
+Input number is 2601983048666099770481310081841021384653815561816676201329778087600902014918340074503059860433081046210605403488570251947845891562080866227034976651419330190731032377347305086443295837415395887618239855136922452802923419286887119716740625346109565072933087221327790207134604146257063901166556207972729700461767055550785130256674608872183239507219512717434046725178680177638925792182271 (385 digits)
+[Wed Sep  9 04:18:16 2026]
+Using special division for factor of 2^1277-1
+Using lmax = 1048576 with NTT which takes about 540MB of memory
+Using B1=100000000, B2=4537592002678, polynomial x^1, x0=2829865364
+P = 4279275, l = 1048576, s_1 = 518400, k = s_2 = 3, m_1 = 9
+Probability of finding a factor of n digits (assuming one exists):
+20	25	30	35	40	45	50	55	60	65
+0.55	0.25	0.089	0.026	0.0064	0.0014	0.00026	4.5e-05	7.1e-06	1e-06
+Step 1 took 33234ms
+Computing F from factored S_1 took 4388ms
+Computing h took 643ms
+Computing DCT-I of h took 940ms
+Multi-point evaluation 1 of 3:
+Computing g_i took 2322ms
+Computing g*h took 2070ms
+Computing gcd of coefficients and N took 711ms
+Multi-point evaluation 2 of 3:
+Computing g_i took 2282ms
+Computing g*h took 2043ms
+Computing gcd of coefficients and N took 710ms
+Multi-point evaluation 3 of 3:
+Computing g_i took 2286ms
+Computing g*h took 2082ms
+Computing gcd of coefficients and N took 720ms
+Step 2 took 21304ms
+Peak memory usage: 633MB

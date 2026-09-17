@@ -1,0 +1,28 @@
+[04:38:53] Starting A136030 missing value computation...
+[04:38:53] Missing entries to compute: 750
+[04:38:53] Still missing after checkpoint: 750
+[04:38:55] [1/750] idx=192 M(1277): not found (elapsed 0.0s)
+[04:38:58] [2/750] idx=241 M(1619): not found (elapsed 2.5s)
+[04:39:00] [3/750] idx=258 M(1753): not found (elapsed 5.0s)
+[04:39:03] [4/750] idx=320 M(2267): not found (elapsed 7.5s)
+[04:39:05] [5/750] idx=322 M(2273): not found (elapsed 10.0s)
+[04:39:08] [6/750] idx=343 M(2423): not found (elapsed 12.5s)
+[04:39:10] [7/750] idx=352 M(2521): not found (elapsed 15.0s)
+[04:39:13] [8/750] idx=379 M(2713): not found (elapsed 17.5s)
+[04:39:15] [9/750] idx=380 M(2719): not found (elapsed 20.0s)
+[04:39:18] [10/750] idx=397 M(2851): not found (elapsed 22.6s)
+[04:39:18]   Checkpoint saved. Found so far: 0
+[04:39:20] [11/750] idx=420 M(3049): not found (elapsed 25.0s)
+[04:39:23] [12/750] idx=495 M(3673): not found (elapsed 27.6s)
+[04:39:25] [13/750] idx=497 M(3691): not found (elapsed 30.1s)
+[04:39:28] [14/750] idx=515 M(3847): not found (elapsed 32.6s)
+[04:39:30] [15/750] idx=520 M(3881): not found (elapsed 35.1s)
+[04:39:33] [16/750] idx=525 M(3919): not found (elapsed 37.6s)
+[04:39:36] [17/750] idx=535 M(4007): not found (elapsed 40.2s)
+[04:39:38] [18/750] idx=540 M(4049): not found (elapsed 42.8s)
+[04:39:41] [19/750] idx=566 M(4261): not found (elapsed 45.3s)
+[04:39:43] [20/750] idx=577 M(4363): not found (elapsed 47.9s)
+[04:39:43]   Checkpoint saved. Found so far: 0
+[04:39:46] [21/750] idx=599 M(4567): not found (elapsed 50.4s)
+[04:39:48] [22/750] idx=600 M(4583): not found (elapsed 53.0s)
+[04:39:51] [23/750] idx=615 M(4703): not found (elapsed 55.6s)

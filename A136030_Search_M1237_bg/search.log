@@ -1,0 +1,823 @@
+
+============================================================
+شروع: 2026-09-06 23:15:07
+k_start = 1000000001
+F2 digits = 303
+workers = 2
+============================================================
+sqrt(F2) digits = 152
+max useful k ≈ 12342100912965182233299172369832552025797983548269013506037902223518790817822144375701659330084646015032080075772503089684498899670922685405027799266
+
+
+============================================================
+شروع: 2026-09-06 23:16:09
+k_start = 1000000001
+F2 digits = 303
+workers = 2
+============================================================
+sqrt(F2) digits = 152
+max useful k ≈ 12342100912965182233299172369832552025797983548269013506037902223518790817822144375701659330084646015032080075772503089684498899670922685405027799266
+
+
+پایان: 2026-09-06 23:16:29
+k_done = 1017400000
+primes_tested = 610532
+
+============================================================
+شروع: 2026-09-06 23:16:38
+k_start = 1017400001
+F2 digits = 303
+workers = 2
+============================================================
+sqrt(F2) digits = 152
+max useful k ≈ 12342100912965182233299172369832552025797983548269013506037902223518790817822144375701659330084646015032080075772503089684498899670922685405027799266
+
+
+============================================================
+شروع: 2026-09-06 23:18:17
+k_start = 1017400001
+F2 digits = 303
+workers = 2
+============================================================
+sqrt(F2) digits = 152
+max useful k ≈ 12342100912965182233299172369832552025797983548269013506037902223518790817822144375701659330084646015032080075772503089684498899670922685405027799266
+
+
+============================================================
+شروع: 2026-09-06 23:20:46
+k_start = 1017400001
+F2 digits = 303
+workers = 2
+============================================================
+sqrt(F2) digits = 152
+max useful k ≈ 12342100912965182233299172369832552025797983548269013506037902223518790817822144375701659330084646015032080075772503089684498899670922685405027799266
+
+
+============================================================
+شروع: 2026-09-06 23:23:28
+k_start = 1017400001
+F2 digits = 303
+workers = 2
+============================================================
+sqrt(F2) digits = 152
+max useful k ≈ 12342100912965182233299172369832552025797983548269013506037902223518790817822144375701659330084646015032080075772503089684498899670922685405027799266
+
+
+پایان: 2026-09-06 23:39:26
+k_done = 3764400000
+primes_tested = 94305457
+
+============================================================
+شروع: 2026-09-06 23:39:28
+k_start = 3764400001
+F2 digits = 303
+workers = 4
+chunk_size = 50000
+============================================================
+sqrt(F2) digits = 152
+max useful k ≈ 12342100912965182233299172369832552025797983548269013506037902223518790817822144375701659330084646015032080075772503089684498899670922685405027799266
+
+
+============================================================
+شروع: 2026-09-07 00:02:01
+k_start = 3764400001
+F2 digits = 303
+workers = 4
+chunk_size = 50000
+============================================================
+sqrt(F2) digits = 152
+max useful k ≈ 12342100912965182233299172369832552025797983548269013506037902223518790817822144375701659330084646015032080075772503089684498899670922685405027799266
+
+
+============================================================
+شروع: 2026-09-07 00:04:31
+k_start = 3764400001
+F2 digits = 303
+workers = 4
+chunk_size = 50000
+============================================================
+sqrt(F2) digits = 152
+max useful k ≈ 12342100912965182233299172369832552025797983548269013506037902223518790817822144375701659330084646015032080075772503089684498899670922685405027799266
+
+progress: k=3812400000 primes=95913574 factors=0 F2_digits=303
+progress: k=3860400000 primes=97521008 factors=0 F2_digits=303
+progress: k=3908400000 primes=99128192 factors=0 F2_digits=303
+progress: k=3956400000 primes=100734450 factors=0 F2_digits=303
+progress: k=4004400000 primes=102340634 factors=0 F2_digits=303
+
+پایان: 2026-09-07 00:09:38
+k_done = 4007600000
+primes_tested = 102447569
+factors_found = 0
+F2_remaining_digits = 303
+
+============================================================
+شروع v3: 2026-09-07 00:09:40
+k_start = 4007600001
+workers = 4
+chunk_size = 10000000
+============================================================
+worker 1 start: k=[4007600001, 4017600000]
+worker 2 start: k=[4017600001, 4027600000]
+worker 3 start: k=[4027600001, 4037600000]
+worker 4 start: k=[4037600001, 4047600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_1.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_2.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_3.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_4.json'
+worker 5 start: k=[4047600001, 4057600000]
+worker 6 start: k=[4057600001, 4067600000]
+worker 7 start: k=[4067600001, 4077600000]
+worker 8 start: k=[4077600001, 4087600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_5.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_6.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_7.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_8.json'
+worker 9 start: k=[4087600001, 4097600000]
+worker 10 start: k=[4097600001, 4107600000]
+worker 11 start: k=[4107600001, 4117600000]
+worker 12 start: k=[4117600001, 4127600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_9.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_10.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_11.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_12.json'
+worker 13 start: k=[4127600001, 4137600000]
+worker 14 start: k=[4137600001, 4147600000]
+worker 15 start: k=[4147600001, 4157600000]
+worker 16 start: k=[4157600001, 4167600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_13.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_14.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_15.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_16.json'
+worker 17 start: k=[4167600001, 4177600000]
+worker 18 start: k=[4177600001, 4187600000]
+worker 19 start: k=[4187600001, 4197600000]
+worker 20 start: k=[4197600001, 4207600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_17.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_18.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_19.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_20.json'
+worker 21 start: k=[4207600001, 4217600000]
+worker 22 start: k=[4217600001, 4227600000]
+worker 23 start: k=[4227600001, 4237600000]
+worker 24 start: k=[4237600001, 4247600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_21.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_22.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_23.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_24.json'
+worker 25 start: k=[4247600001, 4257600000]
+worker 26 start: k=[4257600001, 4267600000]
+worker 27 start: k=[4267600001, 4277600000]
+worker 28 start: k=[4277600001, 4287600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_25.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_26.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_27.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_28.json'
+worker 29 start: k=[4287600001, 4297600000]
+worker 30 start: k=[4297600001, 4307600000]
+worker 31 start: k=[4307600001, 4317600000]
+worker 32 start: k=[4317600001, 4327600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_29.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_30.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_31.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_32.json'
+worker 33 start: k=[4327600001, 4337600000]
+worker 34 start: k=[4337600001, 4347600000]
+worker 35 start: k=[4347600001, 4357600000]
+worker 36 start: k=[4357600001, 4367600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_33.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_34.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_35.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_36.json'
+worker 37 start: k=[4367600001, 4377600000]
+worker 38 start: k=[4377600001, 4387600000]
+worker 39 start: k=[4387600001, 4397600000]
+worker 40 start: k=[4397600001, 4407600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_37.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_38.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_39.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_40.json'
+worker 41 start: k=[4407600001, 4417600000]
+worker 42 start: k=[4417600001, 4427600000]
+worker 43 start: k=[4427600001, 4437600000]
+worker 44 start: k=[4437600001, 4447600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_41.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_42.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_43.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_44.json'
+worker 45 start: k=[4447600001, 4457600000]
+worker 46 start: k=[4457600001, 4467600000]
+worker 47 start: k=[4467600001, 4477600000]
+worker 48 start: k=[4477600001, 4487600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_45.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_46.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_47.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_48.json'
+worker 49 start: k=[4487600001, 4497600000]
+worker 50 start: k=[4497600001, 4507600000]
+worker 51 start: k=[4507600001, 4517600000]
+worker 52 start: k=[4517600001, 4527600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_49.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_50.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_51.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_52.json'
+worker 53 start: k=[4527600001, 4537600000]
+worker 54 start: k=[4537600001, 4547600000]
+worker 55 start: k=[4547600001, 4557600000]
+worker 56 start: k=[4557600001, 4567600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_53.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_54.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_55.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_56.json'
+worker 57 start: k=[4567600001, 4577600000]
+worker 58 start: k=[4577600001, 4587600000]
+worker 59 start: k=[4587600001, 4597600000]
+worker 60 start: k=[4597600001, 4607600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_57.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_58.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_59.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_60.json'
+worker 61 start: k=[4607600001, 4617600000]
+worker 62 start: k=[4617600001, 4627600000]
+worker 63 start: k=[4627600001, 4637600000]
+worker 64 start: k=[4637600001, 4647600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_61.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_62.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_63.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_64.json'
+worker 65 start: k=[4647600001, 4657600000]
+worker 66 start: k=[4657600001, 4667600000]
+worker 67 start: k=[4667600001, 4677600000]
+worker 68 start: k=[4677600001, 4687600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_65.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_66.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_67.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_68.json'
+worker 69 start: k=[4687600001, 4697600000]
+worker 70 start: k=[4697600001, 4707600000]
+worker 71 start: k=[4707600001, 4717600000]
+worker 72 start: k=[4717600001, 4727600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_69.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_70.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_71.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_72.json'
+worker 73 start: k=[4727600001, 4737600000]
+worker 74 start: k=[4737600001, 4747600000]
+worker 75 start: k=[4747600001, 4757600000]
+worker 76 start: k=[4757600001, 4767600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_73.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_74.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_75.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_76.json'
+worker 77 start: k=[4767600001, 4777600000]
+worker 78 start: k=[4777600001, 4787600000]
+worker 79 start: k=[4787600001, 4797600000]
+worker 80 start: k=[4797600001, 4807600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_77.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_78.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_79.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_80.json'
+worker 81 start: k=[4807600001, 4817600000]
+worker 82 start: k=[4817600001, 4827600000]
+worker 83 start: k=[4827600001, 4837600000]
+worker 84 start: k=[4837600001, 4847600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_81.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_82.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_83.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_84.json'
+worker 85 start: k=[4847600001, 4857600000]
+worker 86 start: k=[4857600001, 4867600000]
+worker 87 start: k=[4867600001, 4877600000]
+worker 88 start: k=[4877600001, 4887600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_85.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_86.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_87.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_88.json'
+worker 89 start: k=[4887600001, 4897600000]
+worker 90 start: k=[4897600001, 4907600000]
+worker 91 start: k=[4907600001, 4917600000]
+worker 92 start: k=[4917600001, 4927600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_89.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_90.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_91.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_92.json'
+worker 93 start: k=[4927600001, 4937600000]
+worker 94 start: k=[4937600001, 4947600000]
+worker 95 start: k=[4947600001, 4957600000]
+worker 96 start: k=[4957600001, 4967600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_93.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_94.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_95.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_96.json'
+worker 97 start: k=[4967600001, 4977600000]
+worker 98 start: k=[4977600001, 4987600000]
+worker 99 start: k=[4987600001, 4997600000]
+worker 100 start: k=[4997600001, 5007600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_97.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_98.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_99.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_100.json'
+worker 101 start: k=[5007600001, 5017600000]
+worker 102 start: k=[5017600001, 5027600000]
+worker 103 start: k=[5027600001, 5037600000]
+worker 104 start: k=[5037600001, 5047600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_101.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_102.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_103.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_104.json'
+worker 105 start: k=[5047600001, 5057600000]
+worker 106 start: k=[5057600001, 5067600000]
+worker 107 start: k=[5067600001, 5077600000]
+worker 108 start: k=[5077600001, 5087600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_105.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_106.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_107.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_108.json'
+worker 109 start: k=[5087600001, 5097600000]
+worker 110 start: k=[5097600001, 5107600000]
+worker 111 start: k=[5107600001, 5117600000]
+worker 112 start: k=[5117600001, 5127600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_109.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_110.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_111.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_112.json'
+worker 113 start: k=[5127600001, 5137600000]
+worker 114 start: k=[5137600001, 5147600000]
+worker 115 start: k=[5147600001, 5157600000]
+worker 116 start: k=[5157600001, 5167600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_113.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_114.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_115.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_116.json'
+worker 117 start: k=[5167600001, 5177600000]
+worker 118 start: k=[5177600001, 5187600000]
+worker 119 start: k=[5187600001, 5197600000]
+worker 120 start: k=[5197600001, 5207600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_117.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_118.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_119.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_120.json'
+progress: k=4007600000 speed=0 primes=102447569 factors=0
+worker 121 start: k=[5207600001, 5217600000]
+worker 122 start: k=[5217600001, 5227600000]
+worker 123 start: k=[5227600001, 5237600000]
+worker 124 start: k=[5237600001, 5247600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_121.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_122.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_123.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_124.json'
+worker 125 start: k=[5247600001, 5257600000]
+worker 126 start: k=[5257600001, 5267600000]
+worker 127 start: k=[5267600001, 5277600000]
+worker 128 start: k=[5277600001, 5287600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_125.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_126.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_127.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_128.json'
+worker 129 start: k=[5287600001, 5297600000]
+worker 130 start: k=[5297600001, 5307600000]
+worker 131 start: k=[5307600001, 5317600000]
+worker 132 start: k=[5317600001, 5327600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_129.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_130.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_131.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_132.json'
+worker 133 start: k=[5327600001, 5337600000]
+worker 134 start: k=[5337600001, 5347600000]
+worker 135 start: k=[5347600001, 5357600000]
+worker 136 start: k=[5357600001, 5367600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_133.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_134.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_135.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_136.json'
+worker 137 start: k=[5367600001, 5377600000]
+worker 138 start: k=[5377600001, 5387600000]
+worker 139 start: k=[5387600001, 5397600000]
+worker 140 start: k=[5397600001, 5407600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_137.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_138.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_139.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_140.json'
+worker 141 start: k=[5407600001, 5417600000]
+worker 142 start: k=[5417600001, 5427600000]
+worker 143 start: k=[5427600001, 5437600000]
+worker 144 start: k=[5437600001, 5447600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_141.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_142.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_143.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_144.json'
+worker 145 start: k=[5447600001, 5457600000]
+worker 146 start: k=[5457600001, 5467600000]
+worker 147 start: k=[5467600001, 5477600000]
+worker 148 start: k=[5477600001, 5487600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_145.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_146.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_147.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_148.json'
+worker 149 start: k=[5487600001, 5497600000]
+worker 150 start: k=[5497600001, 5507600000]
+worker 151 start: k=[5507600001, 5517600000]
+worker 152 start: k=[5517600001, 5527600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_149.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_150.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_151.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_152.json'
+worker 153 start: k=[5527600001, 5537600000]
+worker 154 start: k=[5537600001, 5547600000]
+worker 155 start: k=[5547600001, 5557600000]
+worker 156 start: k=[5557600001, 5567600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_153.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_154.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_155.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_156.json'
+worker 157 start: k=[5567600001, 5577600000]
+worker 158 start: k=[5577600001, 5587600000]
+worker 159 start: k=[5587600001, 5597600000]
+worker 160 start: k=[5597600001, 5607600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_157.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_158.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_159.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_160.json'
+worker 161 start: k=[5607600001, 5617600000]
+worker 162 start: k=[5617600001, 5627600000]
+worker 163 start: k=[5627600001, 5637600000]
+worker 164 start: k=[5637600001, 5647600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_161.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_162.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_163.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_164.json'
+worker 165 start: k=[5647600001, 5657600000]
+worker 166 start: k=[5657600001, 5667600000]
+worker 167 start: k=[5667600001, 5677600000]
+worker 168 start: k=[5677600001, 5687600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_165.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_166.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_167.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_168.json'
+worker 169 start: k=[5687600001, 5697600000]
+worker 170 start: k=[5697600001, 5707600000]
+worker 171 start: k=[5707600001, 5717600000]
+worker 172 start: k=[5717600001, 5727600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_169.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_170.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_171.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_172.json'
+worker 173 start: k=[5727600001, 5737600000]
+worker 174 start: k=[5737600001, 5747600000]
+worker 175 start: k=[5747600001, 5757600000]
+worker 176 start: k=[5757600001, 5767600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_173.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_174.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_175.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_176.json'
+worker 177 start: k=[5767600001, 5777600000]
+worker 178 start: k=[5777600001, 5787600000]
+worker 179 start: k=[5787600001, 5797600000]
+worker 180 start: k=[5797600001, 5807600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_177.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_178.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_179.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_180.json'
+worker 181 start: k=[5807600001, 5817600000]
+worker 182 start: k=[5817600001, 5827600000]
+worker 183 start: k=[5827600001, 5837600000]
+worker 184 start: k=[5837600001, 5847600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_181.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_182.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_183.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_184.json'
+worker 185 start: k=[5847600001, 5857600000]
+worker 186 start: k=[5857600001, 5867600000]
+worker 187 start: k=[5867600001, 5877600000]
+worker 188 start: k=[5877600001, 5887600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_185.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_186.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_187.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_188.json'
+worker 189 start: k=[5887600001, 5897600000]
+worker 190 start: k=[5897600001, 5907600000]
+worker 191 start: k=[5907600001, 5917600000]
+worker 192 start: k=[5917600001, 5927600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_189.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_190.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_191.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_192.json'
+worker 193 start: k=[5927600001, 5937600000]
+worker 194 start: k=[5937600001, 5947600000]
+worker 195 start: k=[5947600001, 5957600000]
+worker 196 start: k=[5957600001, 5967600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_193.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_194.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_195.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_196.json'
+worker 197 start: k=[5967600001, 5977600000]
+worker 198 start: k=[5977600001, 5987600000]
+worker 199 start: k=[5987600001, 5997600000]
+worker 200 start: k=[5997600001, 6007600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_197.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_198.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_199.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_200.json'
+worker 201 start: k=[6007600001, 6017600000]
+worker 202 start: k=[6017600001, 6027600000]
+worker 203 start: k=[6027600001, 6037600000]
+worker 204 start: k=[6037600001, 6047600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_201.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_202.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_203.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_204.json'
+worker 205 start: k=[6047600001, 6057600000]
+worker 206 start: k=[6057600001, 6067600000]
+worker 207 start: k=[6067600001, 6077600000]
+worker 208 start: k=[6077600001, 6087600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_205.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_206.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_207.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_208.json'
+worker 209 start: k=[6087600001, 6097600000]
+worker 210 start: k=[6097600001, 6107600000]
+worker 211 start: k=[6107600001, 6117600000]
+worker 212 start: k=[6117600001, 6127600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_209.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_210.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_211.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_212.json'
+worker 213 start: k=[6127600001, 6137600000]
+worker 214 start: k=[6137600001, 6147600000]
+worker 215 start: k=[6147600001, 6157600000]
+worker 216 start: k=[6157600001, 6167600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_213.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_214.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_215.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_216.json'
+worker 217 start: k=[6167600001, 6177600000]
+worker 218 start: k=[6177600001, 6187600000]
+worker 219 start: k=[6187600001, 6197600000]
+worker 220 start: k=[6197600001, 6207600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_217.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_218.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_219.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_220.json'
+worker 221 start: k=[6207600001, 6217600000]
+worker 222 start: k=[6217600001, 6227600000]
+worker 223 start: k=[6227600001, 6237600000]
+worker 224 start: k=[6237600001, 6247600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_221.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_222.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_223.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_224.json'
+worker 225 start: k=[6247600001, 6257600000]
+worker 226 start: k=[6257600001, 6267600000]
+worker 227 start: k=[6267600001, 6277600000]
+worker 228 start: k=[6277600001, 6287600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_225.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_226.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_227.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_228.json'
+worker 229 start: k=[6287600001, 6297600000]
+worker 230 start: k=[6297600001, 6307600000]
+worker 231 start: k=[6307600001, 6317600000]
+worker 232 start: k=[6317600001, 6327600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_229.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_230.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_231.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_232.json'
+worker 233 start: k=[6327600001, 6337600000]
+worker 234 start: k=[6337600001, 6347600000]
+worker 235 start: k=[6347600001, 6357600000]
+worker 236 start: k=[6357600001, 6367600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_233.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_234.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_235.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_236.json'
+worker 237 start: k=[6367600001, 6377600000]
+worker 238 start: k=[6377600001, 6387600000]
+worker 239 start: k=[6387600001, 6397600000]
+worker 240 start: k=[6397600001, 6407600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_237.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_238.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_239.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_240.json'
+progress: k=4007600000 speed=0 primes=102447569 factors=0
+worker 241 start: k=[6407600001, 6417600000]
+worker 242 start: k=[6417600001, 6427600000]
+worker 243 start: k=[6427600001, 6437600000]
+worker 244 start: k=[6437600001, 6447600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_241.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_242.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_243.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_244.json'
+worker 245 start: k=[6447600001, 6457600000]
+worker 246 start: k=[6457600001, 6467600000]
+worker 247 start: k=[6467600001, 6477600000]
+worker 248 start: k=[6477600001, 6487600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_245.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_246.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_247.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_248.json'
+worker 249 start: k=[6487600001, 6497600000]
+worker 250 start: k=[6497600001, 6507600000]
+worker 251 start: k=[6507600001, 6517600000]
+worker 252 start: k=[6517600001, 6527600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_249.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_250.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_251.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_252.json'
+worker 253 start: k=[6527600001, 6537600000]
+worker 254 start: k=[6537600001, 6547600000]
+worker 255 start: k=[6547600001, 6557600000]
+worker 256 start: k=[6557600001, 6567600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_253.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_254.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_255.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_256.json'
+worker 257 start: k=[6567600001, 6577600000]
+worker 258 start: k=[6577600001, 6587600000]
+worker 259 start: k=[6587600001, 6597600000]
+worker 260 start: k=[6597600001, 6607600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_257.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_258.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_259.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_260.json'
+worker 261 start: k=[6607600001, 6617600000]
+worker 262 start: k=[6617600001, 6627600000]
+worker 263 start: k=[6627600001, 6637600000]
+worker 264 start: k=[6637600001, 6647600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_261.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_262.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_263.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_264.json'
+worker 265 start: k=[6647600001, 6657600000]
+worker 266 start: k=[6657600001, 6667600000]
+worker 267 start: k=[6667600001, 6677600000]
+worker 268 start: k=[6677600001, 6687600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_265.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_266.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_267.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_268.json'
+worker 269 start: k=[6687600001, 6697600000]
+worker 270 start: k=[6697600001, 6707600000]
+worker 271 start: k=[6707600001, 6717600000]
+worker 272 start: k=[6717600001, 6727600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_269.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_270.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_271.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_272.json'
+worker 273 start: k=[6727600001, 6737600000]
+worker 274 start: k=[6737600001, 6747600000]
+worker 275 start: k=[6747600001, 6757600000]
+worker 276 start: k=[6757600001, 6767600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_273.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_274.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_275.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_276.json'
+worker 277 start: k=[6767600001, 6777600000]
+worker 278 start: k=[6777600001, 6787600000]
+worker 279 start: k=[6787600001, 6797600000]
+worker 280 start: k=[6797600001, 6807600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_277.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_278.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_279.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_280.json'
+worker 281 start: k=[6807600001, 6817600000]
+worker 282 start: k=[6817600001, 6827600000]
+worker 283 start: k=[6827600001, 6837600000]
+worker 284 start: k=[6837600001, 6847600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_281.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_282.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_283.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_284.json'
+worker 285 start: k=[6847600001, 6857600000]
+worker 286 start: k=[6857600001, 6867600000]
+worker 287 start: k=[6867600001, 6877600000]
+worker 288 start: k=[6877600001, 6887600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_285.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_286.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_287.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_288.json'
+worker 289 start: k=[6887600001, 6897600000]
+worker 290 start: k=[6897600001, 6907600000]
+worker 291 start: k=[6907600001, 6917600000]
+worker 292 start: k=[6917600001, 6927600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_289.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_290.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_291.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_292.json'
+worker 293 start: k=[6927600001, 6937600000]
+worker 294 start: k=[6937600001, 6947600000]
+worker 295 start: k=[6947600001, 6957600000]
+worker 296 start: k=[6957600001, 6967600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_293.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_294.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_295.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_296.json'
+worker 297 start: k=[6967600001, 6977600000]
+worker 298 start: k=[6977600001, 6987600000]
+worker 299 start: k=[6987600001, 6997600000]
+worker 300 start: k=[6997600001, 7007600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_297.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_298.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_299.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_300.json'
+worker 301 start: k=[7007600001, 7017600000]
+worker 302 start: k=[7017600001, 7027600000]
+worker 303 start: k=[7027600001, 7037600000]
+worker 304 start: k=[7037600001, 7047600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_301.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_302.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_303.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_304.json'
+worker 305 start: k=[7047600001, 7057600000]
+worker 306 start: k=[7057600001, 7067600000]
+worker 307 start: k=[7067600001, 7077600000]
+worker 308 start: k=[7077600001, 7087600000]
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_305.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_306.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_307.json'
+ERROR: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_M1237_bg/results/result_308.json'
+worker 309 start: k=[7087600001, 7097600000]
+worker 310 start: k=[7097600001, 7107600000]
+worker 311 start: k=[7107600001, 7117600000]
+worker 312 start: k=[7117600001, 7127600000]
+
+پایان: 2026-09-07 00:12:16
+k_done = 4007600000
+primes_tested = 102447569
+factors_found = 0
+
+============================================================
+شروع v3: 2026-09-07 00:12:16
+k_start = 4007600001
+workers = 4
+chunk_size = 10000000
+============================================================
+worker 1 start: k=[4007600001, 4017600000]
+worker 2 start: k=[4017600001, 4027600000]
+worker 3 start: k=[4027600001, 4037600000]
+worker 4 start: k=[4037600001, 4047600000]
+worker 5 start: k=[4047600001, 4057600000]
+worker 6 start: k=[4057600001, 4067600000]
+worker 7 start: k=[4067600001, 4077600000]
+worker 8 start: k=[4077600001, 4087600000]
+worker 9 start: k=[4087600001, 4097600000]
+worker 10 start: k=[4097600001, 4107600000]
+worker 11 start: k=[4107600001, 4117600000]
+worker 12 start: k=[4117600001, 4127600000]
+worker 13 start: k=[4127600001, 4137600000]
+worker 14 start: k=[4137600001, 4147600000]
+worker 15 start: k=[4147600001, 4157600000]
+worker 16 start: k=[4157600001, 4167600000]
+worker 17 start: k=[4167600001, 4177600000]
+worker 18 start: k=[4177600001, 4187600000]
+worker 19 start: k=[4187600001, 4197600000]
+worker 20 start: k=[4197600001, 4207600000]
+worker 21 start: k=[4207600001, 4217600000]
+worker 22 start: k=[4217600001, 4227600000]
+worker 23 start: k=[4227600001, 4237600000]
+worker 24 start: k=[4237600001, 4247600000]
+progress: k=4247600000 speed=3996297 primes=110465126 factors=0
+worker 25 start: k=[4247600001, 4257600000]
+worker 26 start: k=[4257600001, 4267600000]
+worker 27 start: k=[4267600001, 4277600000]
+worker 28 start: k=[4277600001, 4287600000]
+worker 29 start: k=[4287600001, 4297600000]
+worker 30 start: k=[4297600001, 4307600000]
+worker 31 start: k=[4307600001, 4317600000]
+worker 32 start: k=[4317600001, 4327600000]
+worker 33 start: k=[4327600001, 4337600000]
+worker 34 start: k=[4337600001, 4347600000]
+worker 35 start: k=[4347600001, 4357600000]
+worker 36 start: k=[4357600001, 4367600000]
+worker 37 start: k=[4367600001, 4377600000]
+worker 38 start: k=[4377600001, 4387600000]
+worker 39 start: k=[4387600001, 4397600000]
+worker 40 start: k=[4397600001, 4407600000]
+worker 41 start: k=[4407600001, 4417600000]
+worker 42 start: k=[4417600001, 4427600000]
+worker 43 start: k=[4427600001, 4437600000]
+worker 44 start: k=[4437600001, 4447600000]
+worker 45 start: k=[4447600001, 4457600000]
+worker 46 start: k=[4457600001, 4467600000]
+worker 47 start: k=[4467600001, 4477600000]
+worker 48 start: k=[4477600001, 4487600000]
+progress: k=4487600000 speed=3997053 primes=118470752 factors=0
+worker 49 start: k=[4487600001, 4497600000]
+worker 50 start: k=[4497600001, 4507600000]
+worker 51 start: k=[4507600001, 4517600000]
+worker 52 start: k=[4517600001, 4527600000]
+worker 53 start: k=[4527600001, 4537600000]
+worker 54 start: k=[4537600001, 4547600000]
+worker 55 start: k=[4547600001, 4557600000]
+worker 56 start: k=[4557600001, 4567600000]
+worker 57 start: k=[4567600001, 4577600000]
+worker 58 start: k=[4577600001, 4587600000]
+worker 59 start: k=[4587600001, 4597600000]
+worker 60 start: k=[4597600001, 4607600000]
+worker 61 start: k=[4607600001, 4617600000]
+worker 62 start: k=[4617600001, 4627600000]
+worker 63 start: k=[4627600001, 4637600000]
+worker 64 start: k=[4637600001, 4647600000]
+worker 65 start: k=[4647600001, 4657600000]
+worker 66 start: k=[4657600001, 4667600000]
+worker 67 start: k=[4667600001, 4677600000]
+worker 68 start: k=[4677600001, 4687600000]

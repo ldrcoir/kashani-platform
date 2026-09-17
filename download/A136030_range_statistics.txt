@@ -1,0 +1,24 @@
+A136030 Range Statistics
+================================================================================
+
+For each range [lo, hi], shows:
+  - Total primes: count of prime numbers in range
+  - Mersenne: count of Mersenne prime exponents in range
+  - Need factor: total primes minus Mersenne exponents
+  - Found: count of primes where we have a smallest factor
+  - Missing: count of primes still marked -1
+  - Coverage: Found / Need factor * 100
+
+Range              Total primes   Mersenne   Need factor  Found    Missing  Coverage  
+--------------------------------------------------------------------------------
+[2, 100]         25             10         15           15       0        100.0%
+[101, 200]         21             2          19           19       0        100.0%
+[201, 500]         49             0          49           49       0        100.0%
+[501, 1000]         73             2          71           71       0        100.0%
+[1001, 2000]         135            1          134          123      11       91.8%
+[2001, 3000]         127            2          125          97       28       77.6%
+[3001, 5000]         239            3          236          177      59       75.0%
+[5001, 8000]         338            0          338          232      106      68.6%
+[8001, 12000]         431            3          428          271      157      63.3%
+--------------------------------------------------------------------------------
+Total            1438           23         1415         1054     361      74.5%

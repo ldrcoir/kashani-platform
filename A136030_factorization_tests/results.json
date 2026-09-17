@@ -1,0 +1,147 @@
+{
+  "10 digit": {
+    "test_cases": 1,
+    "methods": {
+      "msieve": {
+        "success": 1,
+        "total": 1,
+        "percentage": 100.0,
+        "avg_time": 0.003569364547729492
+      },
+      "FFT": {
+        "success": 0,
+        "total": 1,
+        "percentage": 0.0,
+        "avg_time": 0.0978555679321289
+      },
+      "Fermat": {
+        "success": 1,
+        "total": 1,
+        "percentage": 100.0,
+        "avg_time": 1.7642974853515625e-05
+      },
+      "Ultimate": {
+        "success": 1,
+        "total": 1,
+        "percentage": 100.0,
+        "avg_time": 0.09446096420288086
+      }
+    }
+  },
+  "15 digit": {
+    "test_cases": 2,
+    "methods": {
+      "msieve": {
+        "success": 2,
+        "total": 2,
+        "percentage": 100.0,
+        "avg_time": 0.04317808151245117
+      },
+      "FFT": {
+        "success": 0,
+        "total": 2,
+        "percentage": 0.0,
+        "avg_time": 0.09652519226074219
+      },
+      "Fermat": {
+        "success": 2,
+        "total": 2,
+        "percentage": 100.0,
+        "avg_time": 1.049041748046875e-05
+      },
+      "Ultimate": {
+        "success": 2,
+        "total": 2,
+        "percentage": 100.0,
+        "avg_time": 0.0946279764175415
+      }
+    }
+  },
+  "20 digit": {
+    "test_cases": 1,
+    "methods": {
+      "msieve": {
+        "success": 1,
+        "total": 1,
+        "percentage": 100.0,
+        "avg_time": 0.02735733985900879
+      },
+      "FFT": {
+        "success": 1,
+        "total": 1,
+        "percentage": 100.0,
+        "avg_time": 0.0
+      },
+      "Fermat": {
+        "success": 1,
+        "total": 1,
+        "percentage": 100.0,
+        "avg_time": 0.0
+      },
+      "Ultimate": {
+        "success": 1,
+        "total": 1,
+        "percentage": 100.0,
+        "avg_time": 0.0
+      }
+    }
+  },
+  "25 digit": {
+    "test_cases": 1,
+    "methods": {
+      "msieve": {
+        "success": 1,
+        "total": 1,
+        "percentage": 100.0,
+        "avg_time": 0.001955747604370117
+      },
+      "FFT": {
+        "success": 1,
+        "total": 1,
+        "percentage": 100.0,
+        "avg_time": 0.0
+      },
+      "Fermat": {
+        "success": 1,
+        "total": 1,
+        "percentage": 100.0,
+        "avg_time": 0.0
+      },
+      "Ultimate": {
+        "success": 1,
+        "total": 1,
+        "percentage": 100.0,
+        "avg_time": 0.0
+      }
+    }
+  },
+  "30 digit": {
+    "test_cases": 1,
+    "methods": {
+      "msieve": {
+        "success": 1,
+        "total": 1,
+        "percentage": 100.0,
+        "avg_time": 0.3997817039489746
+      },
+      "FFT": {
+        "success": 0,
+        "total": 1,
+        "percentage": 0.0,
+        "avg_time": 0.0974123477935791
+      },
+      "Fermat": {
+        "success": 1,
+        "total": 1,
+        "percentage": 100.0,
+        "avg_time": 3.743171691894531e-05
+      },
+      "Ultimate": {
+        "success": 1,
+        "total": 1,
+        "percentage": 100.0,
+        "avg_time": 0.09724640846252441
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>factordb.com</title>
+	<script type="text/javascript" src="ajax.js"></script>
+    </head>
+    <body><table border=0 width="98%"><tr><td align="center" bgcolor="#BBBBBB"><a href="index.php">Search</a></td>
+<td align="center" bgcolor="#BBBBBB"><a href="sequences.php">Sequences</a></td>
+<td align="center" bgcolor="#BBBBBB"><a href="result.php">Report results</a></td>
+<td align="center" bgcolor="#BBBBBB"><a href="tables.php">Factor tables</a></td>
+<td align="center" bgcolor="#BBBBBB"><a href="status.php">Status</a></td>
+<td align="center" bgcolor="#BBBBBB"><a href="downloads.php">Downloads</a></td>
+<td align="center" bgcolor="#BBBBBB"><a href="docs.php">API</a></td>
+<td align="center" bgcolor="#BBBBBB"><a href="login.php">Login</a></td>
+</tr></table><br><form action="index.php" method="get">
+<center>
+<input type="text" size=100 name="query" value="2^1237-1">
+<input type="submit" value="Factorize!">
+</center>
+<br /><br />
+</form><table border=0 width="98%"><tr><td align="center" colspan=3 bgcolor="#BBBBBB"><b>Result:</b></td>
+</tr><tr><td bgcolor="#DDDDDD">status <a href="status.html" target="_blank">(?)</a></td>
+<td bgcolor="#DDDDDD">digits</td>
+<td bgcolor="#DDDDDD">number</td>
+</tr><tr><td>CF</td>
+<td>373 <a href="index.php?showid=1000000000000001237">(show)</a></td>
+<td><a href="index.php?id=1000000000000001237"><font color="#002099">2^1237-1</font></a><sub>&lt;373&gt;</sub> = <a href="index.php?id=1100000000226529795"><font color="#000000">2538207129...83</font></a><sub>&lt;70&gt;</sub> &middot; <a href="index.php?id=1100000000226529793"><font color="#002099">9323469976...37</font></a><sub>&lt;303&gt;</sub></td>
+</tr></table><br><br><div id="moreinfo"><table border=0 width="98%"><tr><td align="center" bgcolor="#BBBBBB"><b>More information</b> <a onclick="getdata('moreinfo','frame_moreinfo.php?id=1000000000000001237')"><img src="expand.png" border=0></a></td>
+</tr></table></div><br /><div id="ecm"><table border=0 width="98%"><tr><td align="center" bgcolor="#BBBBBB"><b>ECM</b> <a onclick="getdata('ecm','frame_ecm.php?id=1000000000000001237')"><img src="expand.png" border=0></a></td>
+</tr></table></div><br /><form action="index.php?id=1000000000000001237" method="POST"><center><table border=0 width="800"><tr><td align="center" bgcolor="#BBBBBB"><b>Report factors</b></td>
+</tr><tr><td align="center" bgcolor="#DDDDDD"><textarea name="report" rows=4 cols=110></textarea></td>
+</tr><tr><td align="center">Format: <select name="format" size=1>
+<option value="0">Auto detect
+<option value="1">One factor per line, base 2
+<option value="2">One factor per line, base 8
+<option value="3">One factor per line, base 10 (accepts terms)
+<option value="4">One factor per line, base 16 
+<option value="5">Multiple factors per line, base 2
+<option value="6">Multiple factors per line, base 8
+<option value="7">Multiple factors per line, base 10
+<option value="8">Multiple factors per line, base 16 
+<option value="9">GMP-ECM output
+<option value="10">Msieve output
+<option value="11">Yafu output
+</select></td>
+</tr><tr><td align="center" bgcolor="#DDDDDD"><input type="submit" value="Report"></td>
+</tr></table></center></form><br><br>
+<center>
+    <font size="-1">
+    factordb.com - 23 queries to generate this page (0.24 seconds) (<a href="res.php">limits</a>) (<a href="datenschutz.php">Privacy Policy / Imprint / Impressum</a>)
+    </font>
+</center>
+</body>
+</html>
+
+

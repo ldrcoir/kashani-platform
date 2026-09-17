@@ -1,0 +1,24 @@
+GMP-ECM 7.0.6 [configured with GMP 6.3.0, --enable-asm-redc] [P+1]
+Tuned for x86_64/params.h
+Running on c-6aa0c253-14d96228-15fa56c65644
+Input number is 932346997627937198512116805585638652223533192516806816522982865866804199262267590070758266268742758283545150004345986721379992894347882545052483695173645594473520682900937642680132877292150643356579486299211525438560741941531670625397281199369604215535391846857906233364905825622441048803673998858526737 (303 digits)
+[Wed Sep  9 05:11:06 2026]
+Using B1=100000000, B2=6083968236318, polynomial x^1, x0=4284739764
+P = 2807805, l = 2097152, s_1 = 1013760, k = s_2 = 1, m_1 = 14
+Probability of finding a factor of n digits (assuming one exists):
+20	25	30	35	40	45	50	55	60	65
+0.56	0.26	0.092	0.027	0.0067	0.0014	0.00028	4.8e-05	7.5e-06	1.1e-06
+Using special division for factor of 2^1237-1
+Step 1 took 66440ms
+Computing F from factored S_1 took 6864ms
+Computing h_x and h_y took 2152ms
+Computing DCT-I of h_x took 1844ms
+Computing DCT-I of h_y took 1861ms
+Multi-point evaluation 1 of 1:
+Computing g_x and g_y took 7864ms
+Computing forward NTT of g_x took 2002ms
+Computing forward NTT of g_y took 2034ms
+Adding and computing inverse NTT of sum took 1986ms
+Computing gcd of coefficients and N took 1106ms
+Step 2 took 27835ms
+Peak memory usage: 1812MB

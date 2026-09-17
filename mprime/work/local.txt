@@ -1,0 +1,5 @@
+UsePrimenet=0
+WorkerThreads=1
+OldCpuSpeed=3539
+NewCpuSpeedCount=0
+NewCpuSpeed=0

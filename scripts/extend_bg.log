@@ -1,0 +1,8 @@
+Reading existing factors file ...
+  Source: A136030_factors_1_to_8000.txt
+  8000 entries read.
+
+--- Resume log - 2026-09-06 18:40:29 ---
+Range: n=8001 to n=15000
+Loaded 8000 existing entries from A136030_factors_1_to_8000.txt
+Processing n from 8001 to 15000 ...

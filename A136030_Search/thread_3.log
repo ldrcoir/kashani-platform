@@ -1,0 +1,36 @@
+[2026-09-05 10:32:28] Thread 3: k-range = [5,000,000,001, 7,500,000,000)
+[2026-09-05 10:32:28] Thread 3: searching M(1277) [idx=192]
+[2026-09-05 10:32:28] Thread 3: max q in this range = 1.92e+13
+[2026-09-05 10:32:40] Thread 3: chunk 1: k=5,010,000,000 (0.4% of range), max_q=1.28e+13, time=11s
+[2026-09-05 10:35:33] Thread 3: k-range = [5,000,000,001, 7,500,000,000)
+[2026-09-05 10:35:33] Thread 3: searching M(1277) [idx=192]
+[2026-09-05 10:35:33] Thread 3: max q in this range = 1.92e+13
+[2026-09-05 10:35:33] Thread 3: resuming from k=5,010,000,000
+[2026-09-05 10:37:55] Thread 3: k-range = [5,000,000,001, 7,500,000,000)
+[2026-09-05 10:37:55] Thread 3: searching M(1277) [idx=192]
+[2026-09-05 10:37:55] Thread 3: max q in this range = 1.92e+13
+[2026-09-05 10:37:55] Thread 3: resuming from k=5,010,000,000
+[2026-09-05 10:38:06] Thread 3: chunk 1: k=5,019,999,999 (0.4% of range), max_q=1.28e+13, time=11s
+[2026-09-05 10:38:17] Thread 3: chunk 2: k=5,029,999,999 (0.8% of range), max_q=1.28e+13, time=22s
+[2026-09-05 11:20:00] Thread 3: k-range = [5,000,000,001, 7,500,000,000)
+[2026-09-05 11:20:00] Thread 3: searching M(1277) [idx=192]
+[2026-09-05 11:20:00] Thread 3: max q in this range = 1.92e+13
+[2026-09-05 11:20:00] Thread 3: resuming from k=5,029,999,999
+[2026-09-05 11:20:11] Thread 3: chunk 1: k=5,039,999,998 (0.4% of range), max_q=1.29e+13, time=11s
+[2026-09-05 12:32:02] Thread 3: k-range = [50,000,000,001, 75,000,000,000)
+[2026-09-05 12:32:02] Thread 3: searching M(1277) [idx=192]
+[2026-09-05 12:32:02] Thread 3: max q in this range = 1.92e+14
+[2026-09-05 12:34:34] Thread 3: k-range = [50,000,000,001, 75,000,000,000)
+[2026-09-05 12:34:34] Thread 3: searching M(1277) [idx=192]
+[2026-09-05 12:34:34] Thread 3: max q in this range = 1.92e+14
+[2026-09-05 12:34:46] Thread 3: chunk 1: k=50,010,000,000 (0.0% of range), max_q=1.28e+14, time=11s
+[2026-09-05 12:34:55] Thread 3: chunk 2: k=50,020,000,000 (0.1% of range), max_q=1.28e+14, time=21s
+[2026-09-05 12:35:14] Thread 3: k-range = [50,000,000,001, 75,000,000,000)
+[2026-09-05 12:35:14] Thread 3: searching M(1277) [idx=192]
+[2026-09-05 12:35:14] Thread 3: max q in this range = 1.92e+14
+[2026-09-05 12:35:14] Thread 3: resuming from k=50,020,000,000
+[2026-09-05 12:35:25] Thread 3: chunk 1: k=50,029,999,999 (0.0% of range), max_q=1.28e+14, time=11s
+[2026-09-05 12:42:41] Thread 3: k-range = [50,000,000,001, 75,000,000,000)
+[2026-09-05 12:42:41] Thread 3: searching M(1277) [idx=192]
+[2026-09-05 12:42:41] Thread 3: max q in this range = 1.92e+14
+[2026-09-05 12:42:41] Thread 3: resuming from k=50,029,999,999

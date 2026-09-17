@@ -1,0 +1,15 @@
+[2026-09-05 12:19:26] Program started - 4 threads on M(1277)
+[2026-09-05 12:19:26] Work directory: /home/z/my-project/A136030_Search_100B
+[2026-09-05 12:19:26] Strategy: work division (each thread searches a different k-range)
+[2026-09-05 12:19:26] Building small primes sieve...
+[2026-09-05 12:19:26]   669 small primes
+[2026-09-05 12:19:26] Output file copied: /home/z/my-project/A136030_Search_100B/A136030_1_to_8000.txt
+[2026-09-05 12:19:26] Thread 1 k-range: [1, 25,000,000,000)
+[2026-09-05 12:19:26] Thread 2 k-range: [25,000,000,001, 50,000,000,000)
+[2026-09-05 12:19:26] Thread 3 k-range: [50,000,000,001, 75,000,000,000)
+[2026-09-05 12:19:26] Thread 4 k-range: [75,000,000,001, 100,000,000,000)
+[2026-09-05 12:19:26] Idle thread started
+[2026-09-05 12:19:26] Thread 1 started on k-range [1, 25,000,000,000)
+[2026-09-05 12:19:26] Thread 2 started on k-range [25,000,000,001, 50,000,000,000)
+[2026-09-05 12:19:26] Thread 3 started on k-range [50,000,000,001, 75,000,000,000)
+[2026-09-05 12:19:26] Thread 4 started on k-range [75,000,000,001, 100,000,000,000)
