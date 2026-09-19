@@ -1,0 +1,46 @@
+{
+  "count": 50000,
+  "pnt_errors": {
+    "simple_at_50000": 0.11596329420639473,
+    "better_at_50000": 0.0030971278558807706,
+    "best_at_50000": 0.0002171663309680287
+  },
+  "gaps": {
+    "average": 12.239264785295706,
+    "median": 10,
+    "max": 114,
+    "twin_prime_count": 5423,
+    "cousin_count": 5418,
+    "sexy_count": 8890
+  },
+  "mod_distribution": {
+    "mod_6": {
+      "5": 25041,
+      "1": 24957
+    },
+    "mod_30": {
+      "7": 6259,
+      "11": 6259,
+      "13": 6263,
+      "17": 6246,
+      "19": 6207,
+      "23": 6273,
+      "29": 6262,
+      "1": 6228
+    }
+  },
+  "prime_race": {
+    "mod4_count_1": 24985,
+    "mod4_count_3": 25014,
+    "mod3_count_1": 24957,
+    "mod3_count_2": 25041
+  },
+  "ulam_diagonals": {
+    "y_equals_x": 62,
+    "y_equals_neg_x": 36,
+    "x_axis": 46,
+    "y_axis": 44
+  },
+  "triplets": 1987,
+  "quadruplets": 118
+}
