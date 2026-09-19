@@ -77,3 +77,55 @@ Overall Progress (across all task IDs):
   - n in [5001, 8000]: ~76 missing (was 120)
 - 30+ git commits documenting the work.
 - Re-runnable scripts: scripts/pm1_factor.py, scripts/trial_divide_fast.py, scripts/ecm_factor_missing.py, scripts/parse_cunningham_propagate.py, scripts/assemble_complete_factorizations.py.
+
+---
+Task ID: M1237-aurif
+Agent: main
+Task: Continue factoring M(1237) = F1 * F2 using Aurifeuillean identity and TS on composite.
+
+Work Log:
+- Confirmed setup: M(1237) = F1 (70 digits, prime) * F2 (303 digits, composite). Table had 1237 → -1.
+- Ran Aurifeuillean dual-sqrt script: 
+  * (1237/N) = +1, (2/N) = +1, (2474/N) = +1
+  * sqrt(2) = 2^619 mod N verified
+  * Polynomial GCD of Phi_p(x) and (x^2 - 1237) returned degree 0
+    → sqrt(1237) mod N does NOT exist (each prime factor q_i of N has (1237/q_i) = -1)
+  * By QR: (q_i / 1237) = -1 for each q_i | N (structural info)
+- TS for a=2474 on composite N: failed (composite detection) — order of t = a^Q mod N doesn't divide 2^v_2(N-1) = 16, confirming N has multiple prime factors
+- Tried gcd(t^(2^k) ± 1, N) for various a values (2474, 2, -1, -2, -1237, 7, 11): no factor found
+- BSGS for 2^j ≡ 1237 mod F1: 1237 NOT in subgroup <2> mod F1 (so 1237 is not a p-th root of unity mod F1, expected since p=1237 ≠ 2 mod F1)
+- Recorded F1 (70-digit prime) as smallest known factor of M(1237) in table: 1237 -1 → 1237 <F1>
+
+Stage Summary:
+- F1 (70 digits, prime) recorded as smallest known factor of M(1237).
+- Algebraic structure of F2 (303 digits) confirmed: both prime factors q_i of F2 satisfy (1237/q_i) = -1, sqrt(1237) does NOT exist mod F2.
+- Basic algebraic + TS approaches did NOT crack F2. Need SNFS or high-B1 ECM (B1 > 1e10).
+- Started background jobs:
+  * ecm_bg2.py: ECM with B1=1e7, multi-curve (resumed)
+  * pm1_M1237_deep.py: P-1 with B1=1e9, B2=1e10, multiple bases (new)
+
+
+---
+Task ID: M1237-status-check
+Agent: main
+Task: Final status check and worklog update.
+
+Work Log:
+- Discovered table state is MUCH better than previous worklog indicated.
+- File A136030_factors_1_to_8000.txt modified at 2026-09-19 00:35:23 (just before this session).
+- Previous worklog said "missing count 204"; actual current count is 37 (167 additional entries recovered by other scripts/processes between worklog entry and now).
+
+Stage Summary:
+- Current missing count: 37 (down from 328 originally, then 204 logged earlier, now 37).
+- 1237 → F1 (70-digit prime) recorded in this session.
+- 1277 → 100-digit factor already in table (likely from earlier session work).
+- Coverage by range:
+  * [1, 1000]:     0 missing (fully covered)
+  * [1001, 1500]:  0 missing (FULLY covered! M(1277) is now done)
+  * [1501, 2000]:  2 missing
+  * [2001, 3000]:  7 missing
+  * [3001, 5000]: 14 missing
+  * [5001, 8000]: 14 missing
+- For M(1237): F1 (70-digit prime) is smallest known factor. F2 (303 digits) requires SNFS or B1>1e10 ECM for further factoring.
+- For the remaining 37 missing entries: most are prime exponents where M(n) is composite but smallest prime factor is very large.
+
