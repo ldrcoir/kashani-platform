@@ -1,9 +1,9 @@
 {
-  "last_k_processed": 50101814265,
-  "timestamp": "2026-09-29 12:49:11",
-  "total_tested": 24128016,
-  "total_primes": 9132878,
+  "last_k_processed": 87650453567,
+  "timestamp": "2026-09-29 22:44:14",
+  "total_tested": 48741256,
+  "total_primes": 18375484,
   "total_pow_hits": 0,
-  "elapsed": 105,
-  "rate": 238725885
+  "worker0_last_k": 75228907134,
+  "worker1_last_k": 87650453567
 }
