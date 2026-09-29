@@ -1,8 +1,9 @@
 {
-  "last_k_processed": 15200741,
-  "timestamp": "2026-09-28 21:59:16",
-  "primes_checked": 20400000,
-  "mod_2474_count": 16428,
-  "pow_count": 0,
-  "elapsed_seconds": 90.76162838935852
+  "last_k_processed": 50015814264,
+  "timestamp": "2026-09-29 09:13:44",
+  "total_tested": 2727338,
+  "total_primes": 1208897,
+  "total_pow_hits": 0,
+  "elapsed": 60.00253963470459,
+  "rate": 833311632.6143012
 }
