@@ -1,0 +1,10 @@
+{
+  "last_k_processed": 550062856679,
+  "timestamp": "2026-10-01 22:18:30",
+  "total_tested": 20498853,
+  "total_primes": 7460379,
+  "elapsed": 90,
+  "rate": 5000499679,
+  "worker0_last_k": 100057301889,
+  "worker1_last_k": 550062856679
+}
