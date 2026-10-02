@@ -1,0 +1,9 @@
+{
+  "worker_id": 1,
+  "last_k": 100000000000,
+  "tested": 6573357,
+  "primes": 2452020,
+  "factors": 0,
+  "elapsed": 31.862056732177734,
+  "done": true
+}
