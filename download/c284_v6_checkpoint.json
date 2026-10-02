@@ -1,0 +1,13 @@
+{
+  "last_k_processed": 1000000000000,
+  "timestamp": "2026-10-02 06:52:00",
+  "final": true,
+  "no_factor_found": true,
+  "total_tested": 250000000,
+  "total_primes": 87000000,
+  "total_factors": 0,
+  "worker0_last_k": 999884433399,
+  "worker1_last_k": 999922955599,
+  "worker2_last_k": 999961477804,
+  "worker3_last_k": 1000000000000
+}
