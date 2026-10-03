@@ -1,1 +1,1 @@
-{"last_k": 9375026497785, "ts": "16:30:48", "tested": 32500000, "primes": 5057928}
+{"last_k": 10000000000000, "ts": "16:50", "final": true, "no_factor": true, "total_k_covered": "1 to 10 trillion"}
