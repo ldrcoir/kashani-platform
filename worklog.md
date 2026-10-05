@@ -158,3 +158,31 @@ Stage Summary:
 - No factor of F2 found in this session via ECM.
 - This confirms (independently from previous Python-based attempts) that F2's factors are likely > 45 digits.
 
+
+---
+Task ID: SNFS-Research
+Agent: main
+Task: Research SNFS history, hardware requirements, and feasibility for C284 of M_1229.
+
+Work Log:
+- Launched general-purpose subagent to research SNFS via web search.
+- Subagent researched:
+  * SNFS inventors: Lenstra, Lenstra, Manasse, Pollard (1989-1990)
+  * First success: F9 factorization June 1990 (Math. Comp. 61, 1993)
+  * Record milestones up to current: M_1277 (SNFS-384, Sept 2026)
+  * Hardware calibration: M_1061 (335 CPU-yr), Mersenne Factory (7500 CPU-yr), RSA-250 (2700 CPU-yr), RSA-260 (13.5 GPU-yr ~$400k)
+  * SNFS vs GNFS complexity: ~588× L-function advantage at 284 digits
+  * ECM has plateaued at 83-digit record (Propper 2013, unchanged 13 years)
+  * C284 already ECM'd to t65/t70 by Cunningham Project
+- Critical finding: M_1277 (SNFS-384) was factored September 2026 — current record, M_1229 is now EASIER
+- Generated PDF report: /home/z/my-project/download/SNFS_Research_Report.pdf (9 pages, 45 KB)
+- Generated markdown report: /home/z/my-project/SNFS_Research_Report.md (28 KB)
+
+Stage Summary:
+- SNFS feasibility for C284: YES, clearly feasible
+- Estimated effort: ~1,500-2,500 CPU core-years (or 3-6 GPU-years)
+- Hardware: 10,000-core NFS@Home grid for sieving + 32-64 node Infiniband cluster (256-512 GB RAM/node) for LA
+- Calendar time: ~6-12 months
+- Cost: $0 (academic/volunteer route, recommended) OR $150k-$500k (cloud GPU route)
+- This is a routine Cunningham-Project-scale job, not a record attempt
+- SNFS is the only viable path; GNFS would need ~69,000 CPU core-years (infeasible); ECM has plateaued
