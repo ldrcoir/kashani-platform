@@ -1,0 +1,1913 @@
+[
+  {
+    "n": 1,
+    "type": "1",
+    "factors": [],
+    "digits": 1
+  },
+  {
+    "n": 2,
+    "type": "P",
+    "factors": [
+      2
+    ],
+    "digits": 1
+  },
+  {
+    "n": 3,
+    "type": "P",
+    "factors": [
+      3
+    ],
+    "digits": 1
+  },
+  {
+    "n": 4,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2
+    ],
+    "digits": 1
+  },
+  {
+    "n": 5,
+    "type": "P",
+    "factors": [
+      5
+    ],
+    "digits": 1
+  },
+  {
+    "n": 6,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3
+    ],
+    "digits": 1
+  },
+  {
+    "n": 7,
+    "type": "P",
+    "factors": [
+      7
+    ],
+    "digits": 1
+  },
+  {
+    "n": 8,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2
+    ],
+    "digits": 1
+  },
+  {
+    "n": 9,
+    "type": "C-factored",
+    "factors": [
+      3,
+      3
+    ],
+    "digits": 1
+  },
+  {
+    "n": 10,
+    "type": "C-factored",
+    "factors": [
+      2,
+      5
+    ],
+    "digits": 2
+  },
+  {
+    "n": 11,
+    "type": "P",
+    "factors": [
+      11
+    ],
+    "digits": 2
+  },
+  {
+    "n": 12,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      3
+    ],
+    "digits": 2
+  },
+  {
+    "n": 13,
+    "type": "P",
+    "factors": [
+      13
+    ],
+    "digits": 2
+  },
+  {
+    "n": 14,
+    "type": "C-factored",
+    "factors": [
+      2,
+      7
+    ],
+    "digits": 2
+  },
+  {
+    "n": 15,
+    "type": "C-factored",
+    "factors": [
+      3,
+      5
+    ],
+    "digits": 2
+  },
+  {
+    "n": 16,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "digits": 2
+  },
+  {
+    "n": 17,
+    "type": "P",
+    "factors": [
+      17
+    ],
+    "digits": 2
+  },
+  {
+    "n": 18,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      3
+    ],
+    "digits": 2
+  },
+  {
+    "n": 19,
+    "type": "P",
+    "factors": [
+      19
+    ],
+    "digits": 2
+  },
+  {
+    "n": 20,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      5
+    ],
+    "digits": 2
+  },
+  {
+    "n": 21,
+    "type": "C-factored",
+    "factors": [
+      3,
+      7
+    ],
+    "digits": 2
+  },
+  {
+    "n": 22,
+    "type": "C-factored",
+    "factors": [
+      2,
+      11
+    ],
+    "digits": 2
+  },
+  {
+    "n": 23,
+    "type": "P",
+    "factors": [
+      23
+    ],
+    "digits": 2
+  },
+  {
+    "n": 24,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "digits": 2
+  },
+  {
+    "n": 25,
+    "type": "C-factored",
+    "factors": [
+      5,
+      5
+    ],
+    "digits": 2
+  },
+  {
+    "n": 26,
+    "type": "C-factored",
+    "factors": [
+      2,
+      13
+    ],
+    "digits": 2
+  },
+  {
+    "n": 27,
+    "type": "C-factored",
+    "factors": [
+      3,
+      3,
+      3
+    ],
+    "digits": 2
+  },
+  {
+    "n": 28,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      7
+    ],
+    "digits": 2
+  },
+  {
+    "n": 29,
+    "type": "P",
+    "factors": [
+      29
+    ],
+    "digits": 2
+  },
+  {
+    "n": 30,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      5
+    ],
+    "digits": 2
+  },
+  {
+    "n": 31,
+    "type": "P",
+    "factors": [
+      31
+    ],
+    "digits": 2
+  },
+  {
+    "n": 32,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "digits": 2
+  },
+  {
+    "n": 33,
+    "type": "C-factored",
+    "factors": [
+      3,
+      11
+    ],
+    "digits": 2
+  },
+  {
+    "n": 34,
+    "type": "C-factored",
+    "factors": [
+      2,
+      17
+    ],
+    "digits": 2
+  },
+  {
+    "n": 35,
+    "type": "C-factored",
+    "factors": [
+      5,
+      7
+    ],
+    "digits": 2
+  },
+  {
+    "n": 36,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      3,
+      3
+    ],
+    "digits": 2
+  },
+  {
+    "n": 37,
+    "type": "P",
+    "factors": [
+      37
+    ],
+    "digits": 2
+  },
+  {
+    "n": 38,
+    "type": "C-factored",
+    "factors": [
+      2,
+      19
+    ],
+    "digits": 2
+  },
+  {
+    "n": 39,
+    "type": "C-factored",
+    "factors": [
+      3,
+      13
+    ],
+    "digits": 2
+  },
+  {
+    "n": 40,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      5
+    ],
+    "digits": 2
+  },
+  {
+    "n": 41,
+    "type": "P",
+    "factors": [
+      41
+    ],
+    "digits": 2
+  },
+  {
+    "n": 42,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      7
+    ],
+    "digits": 2
+  },
+  {
+    "n": 43,
+    "type": "P",
+    "factors": [
+      43
+    ],
+    "digits": 2
+  },
+  {
+    "n": 44,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      11
+    ],
+    "digits": 2
+  },
+  {
+    "n": 45,
+    "type": "C-factored",
+    "factors": [
+      3,
+      3,
+      5
+    ],
+    "digits": 2
+  },
+  {
+    "n": 46,
+    "type": "C-factored",
+    "factors": [
+      2,
+      23
+    ],
+    "digits": 2
+  },
+  {
+    "n": 47,
+    "type": "P",
+    "factors": [
+      47
+    ],
+    "digits": 2
+  },
+  {
+    "n": 48,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "digits": 2
+  },
+  {
+    "n": 49,
+    "type": "C-factored",
+    "factors": [
+      7,
+      7
+    ],
+    "digits": 2
+  },
+  {
+    "n": 50,
+    "type": "C-factored",
+    "factors": [
+      2,
+      5,
+      5
+    ],
+    "digits": 2
+  },
+  {
+    "n": 51,
+    "type": "C-factored",
+    "factors": [
+      3,
+      17
+    ],
+    "digits": 2
+  },
+  {
+    "n": 52,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      13
+    ],
+    "digits": 2
+  },
+  {
+    "n": 53,
+    "type": "P",
+    "factors": [
+      53
+    ],
+    "digits": 2
+  },
+  {
+    "n": 54,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      3,
+      3
+    ],
+    "digits": 2
+  },
+  {
+    "n": 55,
+    "type": "C-factored",
+    "factors": [
+      5,
+      11
+    ],
+    "digits": 2
+  },
+  {
+    "n": 56,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      7
+    ],
+    "digits": 2
+  },
+  {
+    "n": 57,
+    "type": "C-factored",
+    "factors": [
+      3,
+      19
+    ],
+    "digits": 2
+  },
+  {
+    "n": 58,
+    "type": "C-factored",
+    "factors": [
+      2,
+      29
+    ],
+    "digits": 2
+  },
+  {
+    "n": 59,
+    "type": "P",
+    "factors": [
+      59
+    ],
+    "digits": 2
+  },
+  {
+    "n": 60,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      3,
+      5
+    ],
+    "digits": 2
+  },
+  {
+    "n": 61,
+    "type": "P",
+    "factors": [
+      61
+    ],
+    "digits": 2
+  },
+  {
+    "n": 62,
+    "type": "C-factored",
+    "factors": [
+      2,
+      31
+    ],
+    "digits": 2
+  },
+  {
+    "n": 63,
+    "type": "C-factored",
+    "factors": [
+      3,
+      3,
+      7
+    ],
+    "digits": 2
+  },
+  {
+    "n": 64,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "digits": 2
+  },
+  {
+    "n": 65,
+    "type": "C-factored",
+    "factors": [
+      5,
+      13
+    ],
+    "digits": 2
+  },
+  {
+    "n": 66,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      11
+    ],
+    "digits": 2
+  },
+  {
+    "n": 67,
+    "type": "P",
+    "factors": [
+      67
+    ],
+    "digits": 2
+  },
+  {
+    "n": 68,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      17
+    ],
+    "digits": 2
+  },
+  {
+    "n": 69,
+    "type": "C-factored",
+    "factors": [
+      3,
+      23
+    ],
+    "digits": 2
+  },
+  {
+    "n": 70,
+    "type": "C-factored",
+    "factors": [
+      2,
+      5,
+      7
+    ],
+    "digits": 2
+  },
+  {
+    "n": 71,
+    "type": "P",
+    "factors": [
+      71
+    ],
+    "digits": 2
+  },
+  {
+    "n": 72,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "digits": 2
+  },
+  {
+    "n": 73,
+    "type": "P",
+    "factors": [
+      73
+    ],
+    "digits": 2
+  },
+  {
+    "n": 74,
+    "type": "C-factored",
+    "factors": [
+      2,
+      37
+    ],
+    "digits": 2
+  },
+  {
+    "n": 75,
+    "type": "C-factored",
+    "factors": [
+      3,
+      5,
+      5
+    ],
+    "digits": 2
+  },
+  {
+    "n": 76,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      19
+    ],
+    "digits": 2
+  },
+  {
+    "n": 77,
+    "type": "C-factored",
+    "factors": [
+      7,
+      11
+    ],
+    "digits": 2
+  },
+  {
+    "n": 78,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      13
+    ],
+    "digits": 2
+  },
+  {
+    "n": 79,
+    "type": "P",
+    "factors": [
+      79
+    ],
+    "digits": 2
+  },
+  {
+    "n": 80,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      2,
+      5
+    ],
+    "digits": 2
+  },
+  {
+    "n": 81,
+    "type": "C-factored",
+    "factors": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "digits": 2
+  },
+  {
+    "n": 82,
+    "type": "C-factored",
+    "factors": [
+      2,
+      41
+    ],
+    "digits": 2
+  },
+  {
+    "n": 83,
+    "type": "P",
+    "factors": [
+      83
+    ],
+    "digits": 2
+  },
+  {
+    "n": 84,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      3,
+      7
+    ],
+    "digits": 2
+  },
+  {
+    "n": 85,
+    "type": "C-factored",
+    "factors": [
+      5,
+      17
+    ],
+    "digits": 2
+  },
+  {
+    "n": 86,
+    "type": "C-factored",
+    "factors": [
+      2,
+      43
+    ],
+    "digits": 2
+  },
+  {
+    "n": 87,
+    "type": "C-factored",
+    "factors": [
+      3,
+      29
+    ],
+    "digits": 2
+  },
+  {
+    "n": 88,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      11
+    ],
+    "digits": 2
+  },
+  {
+    "n": 89,
+    "type": "P",
+    "factors": [
+      89
+    ],
+    "digits": 2
+  },
+  {
+    "n": 90,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      3,
+      5
+    ],
+    "digits": 2
+  },
+  {
+    "n": 91,
+    "type": "C-factored",
+    "factors": [
+      7,
+      13
+    ],
+    "digits": 2
+  },
+  {
+    "n": 92,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      23
+    ],
+    "digits": 2
+  },
+  {
+    "n": 93,
+    "type": "C-factored",
+    "factors": [
+      3,
+      31
+    ],
+    "digits": 2
+  },
+  {
+    "n": 94,
+    "type": "C-factored",
+    "factors": [
+      2,
+      47
+    ],
+    "digits": 2
+  },
+  {
+    "n": 95,
+    "type": "C-factored",
+    "factors": [
+      5,
+      19
+    ],
+    "digits": 2
+  },
+  {
+    "n": 96,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "digits": 2
+  },
+  {
+    "n": 97,
+    "type": "P",
+    "factors": [
+      97
+    ],
+    "digits": 2
+  },
+  {
+    "n": 98,
+    "type": "C-factored",
+    "factors": [
+      2,
+      7,
+      7
+    ],
+    "digits": 2
+  },
+  {
+    "n": 99,
+    "type": "C-factored",
+    "factors": [
+      3,
+      3,
+      11
+    ],
+    "digits": 2
+  },
+  {
+    "n": 100,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      5,
+      5
+    ],
+    "digits": 3
+  },
+  {
+    "n": 101,
+    "type": "P",
+    "factors": [
+      101
+    ],
+    "digits": 3
+  },
+  {
+    "n": 102,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      17
+    ],
+    "digits": 3
+  },
+  {
+    "n": 103,
+    "type": "P",
+    "factors": [
+      103
+    ],
+    "digits": 3
+  },
+  {
+    "n": 104,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      13
+    ],
+    "digits": 3
+  },
+  {
+    "n": 105,
+    "type": "C-factored",
+    "factors": [
+      3,
+      5,
+      7
+    ],
+    "digits": 3
+  },
+  {
+    "n": 106,
+    "type": "C-factored",
+    "factors": [
+      2,
+      53
+    ],
+    "digits": 3
+  },
+  {
+    "n": 107,
+    "type": "P",
+    "factors": [
+      107
+    ],
+    "digits": 3
+  },
+  {
+    "n": 108,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      3,
+      3,
+      3
+    ],
+    "digits": 3
+  },
+  {
+    "n": 109,
+    "type": "P",
+    "factors": [
+      109
+    ],
+    "digits": 3
+  },
+  {
+    "n": 110,
+    "type": "C-factored",
+    "factors": [
+      2,
+      5,
+      11
+    ],
+    "digits": 3
+  },
+  {
+    "n": 111,
+    "type": "C-factored",
+    "factors": [
+      3,
+      37
+    ],
+    "digits": 3
+  },
+  {
+    "n": 112,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      2,
+      7
+    ],
+    "digits": 3
+  },
+  {
+    "n": 113,
+    "type": "P",
+    "factors": [
+      113
+    ],
+    "digits": 3
+  },
+  {
+    "n": 114,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      19
+    ],
+    "digits": 3
+  },
+  {
+    "n": 115,
+    "type": "C-factored",
+    "factors": [
+      5,
+      23
+    ],
+    "digits": 3
+  },
+  {
+    "n": 116,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      29
+    ],
+    "digits": 3
+  },
+  {
+    "n": 117,
+    "type": "C-factored",
+    "factors": [
+      3,
+      3,
+      13
+    ],
+    "digits": 3
+  },
+  {
+    "n": 118,
+    "type": "C-factored",
+    "factors": [
+      2,
+      59
+    ],
+    "digits": 3
+  },
+  {
+    "n": 119,
+    "type": "C-factored",
+    "factors": [
+      7,
+      17
+    ],
+    "digits": 3
+  },
+  {
+    "n": 120,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      3,
+      5
+    ],
+    "digits": 3
+  },
+  {
+    "n": 121,
+    "type": "C-factored",
+    "factors": [
+      11,
+      11
+    ],
+    "digits": 3
+  },
+  {
+    "n": 122,
+    "type": "C-factored",
+    "factors": [
+      2,
+      61
+    ],
+    "digits": 3
+  },
+  {
+    "n": 123,
+    "type": "C-factored",
+    "factors": [
+      3,
+      41
+    ],
+    "digits": 3
+  },
+  {
+    "n": 124,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      31
+    ],
+    "digits": 3
+  },
+  {
+    "n": 125,
+    "type": "C-factored",
+    "factors": [
+      5,
+      5,
+      5
+    ],
+    "digits": 3
+  },
+  {
+    "n": 126,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      3,
+      7
+    ],
+    "digits": 3
+  },
+  {
+    "n": 127,
+    "type": "P",
+    "factors": [
+      127
+    ],
+    "digits": 3
+  },
+  {
+    "n": 128,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "digits": 3
+  },
+  {
+    "n": 129,
+    "type": "C-factored",
+    "factors": [
+      3,
+      43
+    ],
+    "digits": 3
+  },
+  {
+    "n": 130,
+    "type": "C-factored",
+    "factors": [
+      2,
+      5,
+      13
+    ],
+    "digits": 3
+  },
+  {
+    "n": 131,
+    "type": "P",
+    "factors": [
+      131
+    ],
+    "digits": 3
+  },
+  {
+    "n": 132,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      3,
+      11
+    ],
+    "digits": 3
+  },
+  {
+    "n": 133,
+    "type": "C-factored",
+    "factors": [
+      7,
+      19
+    ],
+    "digits": 3
+  },
+  {
+    "n": 134,
+    "type": "C-factored",
+    "factors": [
+      2,
+      67
+    ],
+    "digits": 3
+  },
+  {
+    "n": 135,
+    "type": "C-factored",
+    "factors": [
+      3,
+      3,
+      3,
+      5
+    ],
+    "digits": 3
+  },
+  {
+    "n": 136,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      17
+    ],
+    "digits": 3
+  },
+  {
+    "n": 137,
+    "type": "P",
+    "factors": [
+      137
+    ],
+    "digits": 3
+  },
+  {
+    "n": 138,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      23
+    ],
+    "digits": 3
+  },
+  {
+    "n": 139,
+    "type": "P",
+    "factors": [
+      139
+    ],
+    "digits": 3
+  },
+  {
+    "n": 140,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      5,
+      7
+    ],
+    "digits": 3
+  },
+  {
+    "n": 141,
+    "type": "C-factored",
+    "factors": [
+      3,
+      47
+    ],
+    "digits": 3
+  },
+  {
+    "n": 142,
+    "type": "C-factored",
+    "factors": [
+      2,
+      71
+    ],
+    "digits": 3
+  },
+  {
+    "n": 143,
+    "type": "C-factored",
+    "factors": [
+      11,
+      13
+    ],
+    "digits": 3
+  },
+  {
+    "n": 144,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "digits": 3
+  },
+  {
+    "n": 145,
+    "type": "C-factored",
+    "factors": [
+      5,
+      29
+    ],
+    "digits": 3
+  },
+  {
+    "n": 146,
+    "type": "C-factored",
+    "factors": [
+      2,
+      73
+    ],
+    "digits": 3
+  },
+  {
+    "n": 147,
+    "type": "C-factored",
+    "factors": [
+      3,
+      7,
+      7
+    ],
+    "digits": 3
+  },
+  {
+    "n": 148,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      37
+    ],
+    "digits": 3
+  },
+  {
+    "n": 149,
+    "type": "P",
+    "factors": [
+      149
+    ],
+    "digits": 3
+  },
+  {
+    "n": 150,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      5,
+      5
+    ],
+    "digits": 3
+  },
+  {
+    "n": 151,
+    "type": "P",
+    "factors": [
+      151
+    ],
+    "digits": 3
+  },
+  {
+    "n": 152,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      19
+    ],
+    "digits": 3
+  },
+  {
+    "n": 153,
+    "type": "C-factored",
+    "factors": [
+      3,
+      3,
+      17
+    ],
+    "digits": 3
+  },
+  {
+    "n": 154,
+    "type": "C-factored",
+    "factors": [
+      2,
+      7,
+      11
+    ],
+    "digits": 3
+  },
+  {
+    "n": 155,
+    "type": "C-factored",
+    "factors": [
+      5,
+      31
+    ],
+    "digits": 3
+  },
+  {
+    "n": 156,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      3,
+      13
+    ],
+    "digits": 3
+  },
+  {
+    "n": 157,
+    "type": "P",
+    "factors": [
+      157
+    ],
+    "digits": 3
+  },
+  {
+    "n": 158,
+    "type": "C-factored",
+    "factors": [
+      2,
+      79
+    ],
+    "digits": 3
+  },
+  {
+    "n": 159,
+    "type": "C-factored",
+    "factors": [
+      3,
+      53
+    ],
+    "digits": 3
+  },
+  {
+    "n": 160,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      5
+    ],
+    "digits": 3
+  },
+  {
+    "n": 161,
+    "type": "C-factored",
+    "factors": [
+      7,
+      23
+    ],
+    "digits": 3
+  },
+  {
+    "n": 162,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "digits": 3
+  },
+  {
+    "n": 163,
+    "type": "P",
+    "factors": [
+      163
+    ],
+    "digits": 3
+  },
+  {
+    "n": 164,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      41
+    ],
+    "digits": 3
+  },
+  {
+    "n": 165,
+    "type": "C-factored",
+    "factors": [
+      3,
+      5,
+      11
+    ],
+    "digits": 3
+  },
+  {
+    "n": 166,
+    "type": "C-factored",
+    "factors": [
+      2,
+      83
+    ],
+    "digits": 3
+  },
+  {
+    "n": 167,
+    "type": "P",
+    "factors": [
+      167
+    ],
+    "digits": 3
+  },
+  {
+    "n": 168,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      3,
+      7
+    ],
+    "digits": 3
+  },
+  {
+    "n": 169,
+    "type": "C-factored",
+    "factors": [
+      13,
+      13
+    ],
+    "digits": 3
+  },
+  {
+    "n": 170,
+    "type": "C-factored",
+    "factors": [
+      2,
+      5,
+      17
+    ],
+    "digits": 3
+  },
+  {
+    "n": 171,
+    "type": "C-factored",
+    "factors": [
+      3,
+      3,
+      19
+    ],
+    "digits": 3
+  },
+  {
+    "n": 172,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      43
+    ],
+    "digits": 3
+  },
+  {
+    "n": 173,
+    "type": "P",
+    "factors": [
+      173
+    ],
+    "digits": 3
+  },
+  {
+    "n": 174,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      29
+    ],
+    "digits": 3
+  },
+  {
+    "n": 175,
+    "type": "C-factored",
+    "factors": [
+      5,
+      5,
+      7
+    ],
+    "digits": 3
+  },
+  {
+    "n": 176,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      2,
+      11
+    ],
+    "digits": 3
+  },
+  {
+    "n": 177,
+    "type": "C-factored",
+    "factors": [
+      3,
+      59
+    ],
+    "digits": 3
+  },
+  {
+    "n": 178,
+    "type": "C-factored",
+    "factors": [
+      2,
+      89
+    ],
+    "digits": 3
+  },
+  {
+    "n": 179,
+    "type": "P",
+    "factors": [
+      179
+    ],
+    "digits": 3
+  },
+  {
+    "n": 180,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      3,
+      3,
+      5
+    ],
+    "digits": 3
+  },
+  {
+    "n": 181,
+    "type": "P",
+    "factors": [
+      181
+    ],
+    "digits": 3
+  },
+  {
+    "n": 182,
+    "type": "C-factored",
+    "factors": [
+      2,
+      7,
+      13
+    ],
+    "digits": 3
+  },
+  {
+    "n": 183,
+    "type": "C-factored",
+    "factors": [
+      3,
+      61
+    ],
+    "digits": 3
+  },
+  {
+    "n": 184,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      23
+    ],
+    "digits": 3
+  },
+  {
+    "n": 185,
+    "type": "C-factored",
+    "factors": [
+      5,
+      37
+    ],
+    "digits": 3
+  },
+  {
+    "n": 186,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      31
+    ],
+    "digits": 3
+  },
+  {
+    "n": 187,
+    "type": "C-factored",
+    "factors": [
+      11,
+      17
+    ],
+    "digits": 3
+  },
+  {
+    "n": 188,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      47
+    ],
+    "digits": 3
+  },
+  {
+    "n": 189,
+    "type": "C-factored",
+    "factors": [
+      3,
+      3,
+      3,
+      7
+    ],
+    "digits": 3
+  },
+  {
+    "n": 190,
+    "type": "C-factored",
+    "factors": [
+      2,
+      5,
+      19
+    ],
+    "digits": 3
+  },
+  {
+    "n": 191,
+    "type": "P",
+    "factors": [
+      191
+    ],
+    "digits": 3
+  },
+  {
+    "n": 192,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "digits": 3
+  },
+  {
+    "n": 193,
+    "type": "P",
+    "factors": [
+      193
+    ],
+    "digits": 3
+  },
+  {
+    "n": 194,
+    "type": "C-factored",
+    "factors": [
+      2,
+      97
+    ],
+    "digits": 3
+  },
+  {
+    "n": 195,
+    "type": "C-factored",
+    "factors": [
+      3,
+      5,
+      13
+    ],
+    "digits": 3
+  },
+  {
+    "n": 196,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      7,
+      7
+    ],
+    "digits": 3
+  },
+  {
+    "n": 197,
+    "type": "P",
+    "factors": [
+      197
+    ],
+    "digits": 3
+  },
+  {
+    "n": 198,
+    "type": "C-factored",
+    "factors": [
+      2,
+      3,
+      3,
+      11
+    ],
+    "digits": 3
+  },
+  {
+    "n": 199,
+    "type": "P",
+    "factors": [
+      199
+    ],
+    "digits": 3
+  },
+  {
+    "n": 200,
+    "type": "C-factored",
+    "factors": [
+      2,
+      2,
+      2,
+      5,
+      5
+    ],
+    "digits": 3
+  }
+]
