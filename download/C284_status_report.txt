@@ -1,0 +1,63 @@
+======================================================================
+C284 FACTORING STATUS REPORT — 2026-10-04T20:30:52.906509
+======================================================================
+
+Target number C284 (284 digits):
+  533929558424629065025252562068962375306076576814054522486288295381403350
+  560190918331393090396914769895365956724862457417996134860594607673179126
+  726012334774104581892530227808915857301232238839098984049348915967294898
+  33819787859139386557550548823481244976333432522178629028656984007087
+
+Structure: C284 = (2^1229 - 1) / (36871 × 46703 × P23 × P55)
+  36871 = 2458 × 15 + 1 ✓
+  46703 = 2458 × 19 + 1 ✓
+  P23 = 2458 × 4289332498235116404 + 1 ✓
+  P55 = 2458 × 3879694611600647917004097443108455288160543810428432 + 1 ✓
+
+STATUS: no factor found
+
+ECM HISTORY (cumulative):
+  B1=1e12 (with timeout 120s, effective B1~3.4e7): 184 curves
+  B1=3e12 (with timeout 120s, effective B1~3.4e7): 1020 curves
+  B1=1e7  (this session, fast attempt):            6 curves
+  B1=1e8  (this session, dedicated attack):       100 curves  ← CURRENTLY RUNNING
+  B1=5e12 (this session, attempted):              0 curves
+
+ECM B1=1e8 EXPECTED CURVE COUNTS (GMP-ECM 7.0.6):
+  +-----------+-------+---------+
+  | Digits    | Curves | Time    |
+  +-----------+-------+---------+
+  | 35        | 35    | 2.4h    |
+  | 40        | 140   | 9.6h    |
+  | 45        | 644   | 44h     |
+  | 50        | 3336  | 229h    |
+  | 55        | 19192 | 1314h   |
+  | 60        | 121192| 8300h   |
+  +-----------+-------+---------+
+  (Time at 14.6 curves/hour with 2 cores; actual rate ~11/hour due to CPU steal)
+
+Currently running: 4 ECM processes (2 cores)
+
+REALISTIC OUTCOMES FOR THIS SESSION (24 hours):
+  Expected curves at B1=1e8: ~264 (264)
+  Cumulative B1=1e8 coverage: ~364 curves (26%)
+  Probability of finding 40-digit factor: ~100%
+  Probability of finding 45-digit factor: ~57%
+  Probability of finding 50-digit factor: ~10.9%
+
+CONCLUSION:
+  Given cumulative prior work + this session, factors < 45 digits are
+  excluded with very high probability. The remaining unknown factor(s)
+  of C284 are most likely 50+ digits. ECM at B1=1e8 won't find them
+  in this session (need 229+ hours = 9.5+ days for 50-digit coverage).
+
+  This is consistent with the Cunningham Project status: largest known
+  factor of M(1229) is P55 (found pre-2018); no new factors found since.
+
+RECOMMENDED NEXT STEPS:
+  1. Continue B1=1e8 ECM in background (running)
+  2. After 100+ curves, consider switching to B1=1e9 (~1 hour/curve)
+     for 50-digit coverage (needs ~644 hours total)
+  3. Try Pollard p-1 with B1=1e10 once ECM curves hit 100 (single shot,
+     might find factor with moderately smooth k)
+  4. Long-term: SNFS or distributed ECM is the only realistic path

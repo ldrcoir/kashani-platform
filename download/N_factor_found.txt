@@ -1,0 +1,8 @@
+GMP-ECM 7.0.6 [configured with GMP 6.3.0, --enable-asm-redc] [ECM]
+Input number is 42448645709965179520186712586272410887949285176201216206957538377 (65 digits)
+Using B1=10000000, B2=35132741290, polynomial Dickson(12), sigma=0:207327761
+Step 1 took 5179ms
+Step 2 took 2683ms
+********** Factor found in step 2: 75726178255933814612422807097819
+Found prime factor of 32 digits: 75726178255933814612422807097819
+Prime cofactor 560554443491131197715507366112683 has 33 digits
