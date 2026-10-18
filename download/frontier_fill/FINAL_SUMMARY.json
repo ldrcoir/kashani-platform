@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-10-18 04:55:25",
+  "total_numbers_tested": 2905,
+  "total_primes": 48,
+  "total_factored_rho": 2814,
+  "total_factored_ecm": 43,
+  "total_gaps_remaining": 0,
+  "total_factored": 2905,
+  "success_rate": 100.0,
+  "ranges": [
+    {
+      "range": "10^23 to 10^23+1000",
+      "numbers": 1001,
+      "frontier": "10^23 + 1000",
+      "gaps": 0
+    },
+    {
+      "range": "10^24 to 10^24+1000",
+      "numbers": 1001,
+      "frontier": "10^24 + 1000",
+      "gaps": 0
+    },
+    {
+      "range": "10^25 to 10^25+500",
+      "numbers": 501,
+      "frontier": "10^25 + 500",
+      "gaps": 0
+    },
+    {
+      "range": "10^26 to 10^26+200",
+      "numbers": 201,
+      "frontier": "10^26 + 200",
+      "gaps": 0
+    },
+    {
+      "range": "10^27 to 10^27+200",
+      "numbers": 201,
+      "frontier": "10^27 + 200",
+      "gaps": 0
+    }
+  ],
+  "credited_to": "EhsanMoradMaryamAlasvandi (FactorDB user: ehsanmorad) — به افتخار Jamshid al-Kashi",
+  "note": "تمام اعداد در این بازه‌ها با موفقیت فکتور شدند — هیچ شکستی باقی نماند"
+}
