@@ -1,0 +1,150 @@
+{
+  "description": "اعداد ساخته‌شده از اعشار π — به افتخار Jamshid al-Kashi",
+  "pi_digits_used": 999,
+  "numbers": [
+    {
+      "n": 1415926535897932384626433832,
+      "digits": 28,
+      "pi_position": 0,
+      "is_prime": false,
+      "factors": [
+        2,
+        2,
+        2,
+        43,
+        101,
+        193,
+        2459,
+        85870712587083769
+      ],
+      "all_factors_prime": true,
+      "factordb_status_before": "FF",
+      "submitted_to_factordb": false,
+      "credited": 0
+    },
+    {
+      "n": 795028841971693993751058209749,
+      "digits": 30,
+      "pi_position": 28,
+      "is_prime": false,
+      "factors": [
+        7,
+        23,
+        2429633,
+        2032433433954466838773
+      ],
+      "all_factors_prime": true,
+      "factordb_status_before": "C",
+      "submitted_to_factordb": true,
+      "credited": 0,
+      "factordb_status_after": "FF"
+    },
+    {
+      "n": 44592307816406286208998628034825342,
+      "digits": 35,
+      "pi_position": 58,
+      "is_prime": false,
+      "factors": [
+        2,
+        13,
+        1034567,
+        11837385163,
+        140046481131428327
+      ],
+      "all_factors_prime": true,
+      "factordb_status_before": "C",
+      "submitted_to_factordb": true,
+      "credited": 0,
+      "factordb_status_after": "FF"
+    },
+    {
+      "n": 117067982148086513282306647093844609550582231,
+      "digits": 45,
+      "pi_position": 93,
+      "is_prime": false,
+      "factors": [
+        8052597,
+        798128369460157,
+        18215010236514626045239
+      ],
+      "method": "ECM B1=1e7 (σ=1591858529, c=1)",
+      "time_seconds": 18.556180477142334,
+      "all_factors_prime": false,
+      "factordb_status_before": "FF",
+      "submitted_to_factordb": false,
+      "credited": 0
+    },
+    {
+      "n": 725359408128481117450284102701938521105559644622948954930381,
+      "digits": 60,
+      "pi_position": 138,
+      "is_prime": false,
+      "factors": [
+        13,
+        59,
+        109,
+        179,
+        48470595507918350571758778717340308289006471903152613
+      ],
+      "all_factors_prime": true,
+      "factordb_status_before": "C",
+      "submitted_to_factordb": true,
+      "credited": 0,
+      "factordb_status_after": "FF"
+    },
+    {
+      "n": 96442881097566593344612847564823378678316527120190914564856692346,
+      "digits": 65,
+      "pi_position": 198,
+      "is_prime": false,
+      "factors": [
+        2,
+        46185653,
+        5097521773,
+        204820773739469009163225015806913855672827543917
+      ],
+      "all_factors_prime": true,
+      "factordb_status_before": "C",
+      "submitted_to_factordb": true,
+      "credited": 0,
+      "factordb_status_after": "FF"
+    },
+    {
+      "n": 348610454326648213393607260249141273724587006606315588174881520920962829254,
+      "digits": 75,
+      "pi_position": 264,
+      "is_prime": false,
+      "factors": [
+        2,
+        133768783485979531,
+        81824113777199779597,
+        15924812344879654665810186928648263661
+      ],
+      "method": "ECM B1=1e7 (σ=276650278, c=1)",
+      "time_seconds": 43.130409240722656,
+      "all_factors_prime": false,
+      "factordb_status_before": "C",
+      "submitted_to_factordb": true,
+      "credited": 0,
+      "factordb_status_after": "CF"
+    },
+    {
+      "n": 91715364367892590360011330530548820466521384146951941511609433057270365759591953,
+      "digits": 80,
+      "pi_position": 340,
+      "is_prime": false,
+      "factors": [
+        610342571211,
+        74647182947813896975273,
+        2013052076491748297365847978945857588165135451
+      ],
+      "method": "ECM B1=1e7 (σ=394931032, c=1)",
+      "time_seconds": 130.69239139556885,
+      "all_factors_prime": false,
+      "factordb_status_before": "C",
+      "submitted_to_factordb": true,
+      "credited": 0,
+      "factordb_status_after": "FF"
+    }
+  ]
+}
