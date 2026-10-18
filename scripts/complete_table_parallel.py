@@ -96,21 +96,23 @@ def process_chunk(args):
 def main():
     import argparse
     parser = argparse.ArgumentParser()
+    parser.add_argument('--start', type=int, default=1)
     parser.add_argument('--N', type=int, default=100000, help='جدول 1 تا N')
     parser.add_argument('--workers', type=int, default=4, help='تعداد worker')
     args = parser.parse_args()
     
     N = args.N
+    start_default = args.start
     num_workers = args.workers
     
-    print(f"🚀 ساختن جدول ۱ تا {N} با {num_workers} worker")
+    print(f"🚀 ساختن جدول {start_default} تا {N} با {num_workers} worker")
     print(f"⏱️  شروع: {time.strftime('%H:%M:%S')}")
     print()
     
     # Dividir el rango en chunks
-    chunk_size = max(1000, N // (num_workers * 10))
+    chunk_size = max(1000, (N - start_default + 1) // (num_workers * 10))
     chunks = []
-    for start in range(1, N + 1, chunk_size):
+    for start in range(start_default, N + 1, chunk_size):
         end = min(start + chunk_size, N + 1)
         chunks.append((start, end))
     
@@ -171,10 +173,10 @@ def main():
         'workers': num_workers,
         'method': 'Pollard rho with 200k iterations, multiprocessing',
     }
-    with open(f"{OUTPUT_DIR}/table_1_to_{N}.json", 'w') as f:
+    with open(f"{OUTPUT_DIR}/table_{start_default}_to_{N}.json", 'w') as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
     
-    print(f"  💾 ذخیره شد: {OUTPUT_DIR}/table_1_to_{N}.json")
+    print(f"  💾 ذخیره شد: {OUTPUT_DIR}/table_{start_default}_to_{N}.json")
 
 
 if __name__ == '__main__':
