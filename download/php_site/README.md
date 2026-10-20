@@ -15,7 +15,7 @@
 | `oloom-iran.ir` | علوم ایران |
 | `danesh-platform.ir` | دانش پلتفرم |
 | `khayyam-biruni.ir` | خیام و بیرونی |
-| `alkashani.ir` | الکاشانی |
+| `kashani.ir` | الکاشانی |
 
 ## 📁 ساختار پلتفرم
 

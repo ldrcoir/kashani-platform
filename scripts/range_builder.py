@@ -5,7 +5,7 @@
 ورودی: بازه‌ی [start, end)
 خروجی: جدول کامل با اعداد اول و فاکتور شده
 
-به افتخار Jamshid al-Kashi (الکاشی)
+به افتخار غیاث‌الدین جمشید کاشانی
 """
 import sys, os, time, json, random
 from multiprocessing import Pool

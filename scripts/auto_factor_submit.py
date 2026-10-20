@@ -193,7 +193,7 @@ def generate_and_factor(digits_p1, digits_p2, count=10):
 def main():
     log("=" * 80)
     log("🔧 برنامه‌ی خودکار: ساخت + فاکتور + ثبت")
-    log("به افتخار Jamshid al-Kashi (الکاشی)")
+    log("به افتخار غیاث‌الدین جمشید کاشانی")
     log("=" * 80)
     
     random.seed(int(time.time()))

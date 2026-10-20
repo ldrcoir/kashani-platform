@@ -1,5 +1,5 @@
 // 🦀 Kashani Volunteer Client
-// به افتخار Jamshid al-Kashi (الکاشی)
+// به افتخار غیاث‌الدین جمشید کاشانی
 // شبکه داوطلبین پردازش ریاضی
 
 use clap::Parser;
@@ -34,7 +34,7 @@ struct Args {
 fn main() {
     let args = Args::parse();
     if args.verbose { env_logger::init(); }
-    println!("🕌 Kashani Volunteer Client — به افتخار Jamshid al-Kashi");
+    println!("🕌 Kashani Volunteer Client — به افتخار غیاث‌الدین جمشید کاشانی");
     println!();
     if args.benchmark { run_benchmark(args.workers); return; }
     println!("Server: {} | Workers: {}", args.server, args.workers);
