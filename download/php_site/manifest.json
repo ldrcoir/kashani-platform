@@ -1,25 +1,33 @@
 {
   "name": "پلتفرم علمی چندرشته‌ای پارسی",
   "short_name": "علم پارسی",
-  "description": "به افتخار غیاث‌الدین جمشید کاشانی",
+  "description": "به افتخار غیاث‌الدین جمشید کاشانی — پلتفرم بین‌المللی علوم",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#f59e0b",
   "orientation": "any",
-  "lang": "fa",
+  "lang": "fa-IR",
   "dir": "rtl",
+  "categories": ["education", "science", "math", "medical", "physics", "pharmacy", "computer"],
   "icons": [
-    {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png"},
-    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"}
+    {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
   ],
-  "categories": ["education", "science", "math", "medical", "physics", "pharmacy"],
+  "screenshots": [],
   "features": [
     "Interactive lessons",
-    "International chat",
-    "AI assistant",
-    "Virtual laboratory",
-    "Volunteer computing",
-    "Daily challenge"
+    "International chat rooms",
+    "AI assistant for science",
+    "Virtual laboratory for factoring",
+    "Volunteer computing network",
+    "Daily challenge",
+    "Mathematician museum"
+  ],
+  "shortcuts": [
+    {"name": "آزمایشگاه", "url": "/factor", "icons": [{"src": "/icon-192.png", "sizes": "192x192"}]},
+    {"name": "آموزش", "url": "/lessons", "icons": [{"src": "/icon-192.png", "sizes": "192x192"}]},
+    {"name": "چت", "url": "/chat", "icons": [{"src": "/icon-192.png", "sizes": "192x192"}]},
+    {"name": "AI دستیار", "url": "/ai/chat", "icons": [{"src": "/icon-192.png", "sizes": "192x192"}]}
   ]
 }

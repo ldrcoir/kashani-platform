@@ -24,7 +24,9 @@ $categories = ['math'=>['label'=>'ریاضی','icon'=>'🔢'],'science'=>['label
 ?>
 <!DOCTYPE html>
 <html lang="<?= $lang ?>" dir="<?= $dir ?>"><head>
-<meta charset="UTF-8"><title>📚 مجله</title>
+<meta charset="UTF-8">
+    <link rel="canonical" href="<?= site_url() ?>/magazine.php">
+<title>📚 مجله</title>
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2/dist/tailwind.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
 <style>body{font-family:'Vazirmatn',Tahoma,sans-serif}</style></head>

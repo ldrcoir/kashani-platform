@@ -52,6 +52,8 @@ $difficulties = [
 <html lang="<?= $lang ?>" dir="<?= $dir ?>">
 <head>
     <meta charset="UTF-8">
+    <link rel="canonical" href="<?= site_url() ?>/lessons.php">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>📚 آموزش تعاملی</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2/dist/tailwind.min.css" rel="stylesheet">

@@ -11,6 +11,8 @@ $dir = in_array($lang, ['fa','ar','ur']) ? 'rtl' : 'ltr';
 <html lang="<?= $lang ?>" dir="<?= $dir ?>">
 <head>
 <meta charset="UTF-8">
+    <link rel="canonical" href="<?= site_url() ?>/download.php">
+
 <title>📥 دانلود نرم‌افزار</title>
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2/dist/tailwind.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
@@ -25,19 +27,31 @@ $dir = in_array($lang, ['fa','ar','ur']) ? 'rtl' : 'ltr';
 </header>
 <div class="max-w-4xl mx-auto p-4">
     <div class="bg-gradient-to-br from-amber-50 to-rose-50 rounded-xl p-6 mb-6">
-        <h2 class="text-2xl font-bold mb-2">🚀 نرم‌افزار داوطلبین (Rust)</h2>
-        <p class="text-sm text-gray-700 mb-4">نرم‌افزار دسکتاپ چندسکویی برای مشارکت در پردازش‌های علمی. با Rust نوشته شده و آپدیت خودکار می‌گیرد.</p>
+        <h2 class="text-2xl font-bold mb-2">🚀 نرم‌افزار داوطلبین (Python)</h2>
+        <p class="text-sm text-gray-700 mb-4">نرم‌افزار دسکتاپ چندسکویی برای مشارکت در پردازش‌های علمی. با Python + tkinter نوشته شده و بر روی ویندوز، مک و لینوکس کار می‌کند.</p>
         <div class="bg-white rounded-lg p-4 text-sm">
             <strong>ویژگی‌ها:</strong>
             <ul class="list-disc mr-5 mt-2 space-y-1">
-                <li>⚡ بسیار سریع — با Rust</li>
-                <li>🔄 آپدیت خودکار از سرور</li>
-                <li>🎨 چندسکویی (ویندوز، مک، لینوکس)</li>
-                <li>🔐 رمزنگاری end-to-end</li>
-                <li>🚀 اجرا روی CPU چند هسته‌ای</li>
-                <li>🧠 تشخیص خودکار سیستم شما (CPU, RAM, GPU, disk)</li>
-                <li>📋 دریافت کار متناسب با سیستم شما</li>
+                <li>🖥️ GUI زیبا با ۴ تب (اتصال، سیستم، کار، لاگ)</li>
+                <li>💻 تشخیص خودکار CPU، RAM، GPU، disk</li>
+                <li>🧠 دریافت کار متناسب با سیستم شما</li>
+                <li>⚡ اجرای محاسبات (فاکتور، prime hunt، benchmark)</li>
+                <li>🏆 ثبت credit در حساب شما</li>
+                <li>🔄 حالت آفلاین (اگر سرور قطع باشد)</li>
+                <li>🚀 چندسکویی (ویندوز، مک، لینوکس)</li>
+                <li>🔐 امن (HTTPS، API key محلی)</li>
+                <li>📦 قابل‌تبدیل به executable (.exe)</li>
             </ul>
+            <div class="mt-3 bg-blue-50 p-3 rounded">
+                <strong class="text-blue-700">📥 نصب سریع:</strong>
+                <pre class="mt-2 text-xs bg-slate-900 text-emerald-400 p-2 rounded" dir="ltr">pip install psutil  # اختیاری
+python3 volunteer_app.py</pre>
+            </div>
+            <div class="mt-3 bg-purple-50 p-3 rounded">
+                <strong class="text-purple-700">📦 ساخت executable:</strong>
+                <pre class="mt-2 text-xs bg-slate-900 text-emerald-400 p-2 rounded" dir="ltr">pip install pyinstaller
+pyinstaller --onefile --windowed volunteer_app.py</pre>
+            </div>
         </div>
     </div>
     <div class="grid md:grid-cols-3 gap-4 mb-6">

@@ -17,7 +17,11 @@ $comments = $comments->fetchAll();
 $user = current_user();
 ?>
 <!DOCTYPE html><html lang="<?= $lang ?>" dir="<?= $dir ?>"><head>
-<meta charset="UTF-8"><title><?= sanitize($article["title"]) ?></title>
+<meta charset="UTF-8">
+    <link rel="canonical" href="<?= site_url() ?>/article.php?slug=<?= urlencode($article['slug']) ?>">
+<title><?= sanitize($article["title"]) ?></title>
+<meta name="description" content="<?= sanitize(mb_substr(strip_tags($article["content"]), 0, 160)) ?>">
+<?= seo_jsonld_article(sanitize($article["title"]), sanitize(mb_substr(strip_tags($article["content"]), 0, 160)), site_url() . '/article.php?slug=' . urlencode($article["slug"]), $article["image_url"] ?? null, $article["author_name"] ?? null, date('Y-m-d', strtotime($article["created_at"]))) ?>
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2/dist/tailwind.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>

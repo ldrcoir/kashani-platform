@@ -1,0 +1,20 @@
+# ============================================================
+# robots.txt — SEO
+# ============================================================
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /api/
+Disallow: /install.php
+Disallow: /*.sql$
+Disallow: /*.log$
+Disallow: /cache/
+Disallow: /logs/
+Disallow: /backups/
+
+# Sitemap
+Sitemap: https://platform-oloom.ir/sitemap.xml
+
+# Crawl delay (be nice to our server)
+Crawl-delay: 1

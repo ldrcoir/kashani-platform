@@ -34,11 +34,15 @@ $ranges = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?= seo_meta(t('title', $lang) . ' — ' . t('dedicated', $lang), t('subtitle', $lang)) ?>
+    <link rel="canonical" href="<?= site_url() ?>/">
+    <?= seo_meta(t('title', $lang) . ' — ' . t('dedicated', $lang), t('subtitle', $lang) ?>
+    <?= seo_jsonld_website() ?>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#f59e0b">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="علم پارسی">
     <style>
         body { font-family: 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif; }
         .gradient-amber { background: linear-gradient(135deg, #f59e0b, #ea580c); }

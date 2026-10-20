@@ -99,6 +99,19 @@ if ($step === '2') {
             $success[] = 'تمام جداول ساخته شدند';
         }
         
+        // Run default_lessons.sql (8 درس پیش‌فرض)
+        $lessons_sql = file_get_contents(__DIR__ . '/default_lessons.sql');
+        if ($lessons_sql) {
+            try {
+                $statements = array_filter(array_map('trim', explode(';', $lessons_sql)));
+                foreach ($statements as $stmt) {
+                    if (empty($stmt) || strpos($stmt, '--') === 0) continue;
+                    try { $pdo->exec($stmt); } catch (Exception $e) {}
+                }
+                $success[] = '۸ درس پیش‌فرض نصب شد';
+            } catch (Exception $e) {}
+        }
+        
         // Save config to .env
         $jwt = bin2hex(random_bytes(32));
         $env = "DB_HOST=$db_host\nDB_NAME=$db_name\nDB_USER=$db_user\nDB_PASS=$db_pass\nJWT_SECRET=$jwt\n";

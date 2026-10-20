@@ -23,6 +23,8 @@ $ach = $s[$ach_field] ?? $s['achievements_en'] ?? '';
 <html lang="<?= $lang ?>" dir="<?= $dir ?>">
 <head>
 <meta charset="UTF-8">
+    <link rel="canonical" href="<?= site_url() ?>/scientist.php?slug=<?= urlencode($s['slug']) ?>">
+
 <title>🎓 <?= sanitize($name) ?></title>
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2/dist/tailwind.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">

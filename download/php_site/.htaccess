@@ -98,3 +98,7 @@ RewriteRule ^/?(.*) "ws://localhost:8080/$1" [P,L]
 # PWA
 RewriteRule ^manifest.json$ manifest.json [L]
 RewriteRule ^sw.js$ sw.js [L]
+
+# SEO files
+RewriteRule ^robots.txt$ robots.txt [L]
+RewriteRule ^sitemap.xml$ sitemap.php [L]

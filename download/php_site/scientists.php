@@ -13,6 +13,8 @@ try { $scientists = $pdo->query("SELECT * FROM scientists ORDER BY sort_order, c
 <html lang="<?= $lang ?>" dir="<?= $dir ?>">
 <head>
 <meta charset="UTF-8">
+    <link rel="canonical" href="<?= site_url() ?>/scientists.php">
+
 <title>🎓 موزه‌ی دانشمندان</title>
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2/dist/tailwind.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">

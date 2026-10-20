@@ -463,12 +463,76 @@ function get_site_stats() {
 function seo_meta($title, $description, $image = null, $url = null) {
     $html = "<title>" . sanitize($title) . "</title>\n";
     $html .= "<meta name='description' content='" . sanitize($description) . "'>\n";
+    $html .= "<meta name='keywords' content='ریاضی, فیزیک, پزشکی, داروسازی, کامپیوتر, علوم, اعداد اول, فاکتور, علم, پژوهش, کاشانی, jamshid al-kashi, persian science, multidisciplinary'>\n";
     $html .= "<meta property='og:title' content='" . sanitize($title) . "'>\n";
     $html .= "<meta property='og:description' content='" . sanitize($description) . "'>\n";
+    $html .= "<meta property='og:type' content='website'>\n";
+    $html .= "<meta property='og:locale' content='fa_IR'>\n";
     if ($image) $html .= "<meta property='og:image' content='" . sanitize($image) . "'>\n";
     if ($url) $html .= "<meta property='og:url' content='" . sanitize($url) . "'>\n";
     $html .= "<meta name='twitter:card' content='summary_large_image'>\n";
+    $html .= "<meta name='twitter:title' content='" . sanitize($title) . "'>\n";
+    $html .= "<meta name='twitter:description' content='" . sanitize($description) . "'>\n";
     return $html;
+}
+
+// JSON-LD structured data (rich snippets)
+function seo_jsonld_article($title, $description, $url, $image = null, $author = null, $datePublished = null) {
+    $data = [
+        '@context' => 'https://schema.org',
+        '@type' => 'Article',
+        'headline' => $title,
+        'description' => $description,
+        'url' => $url,
+        'inLanguage' => 'fa-IR',
+        'author' => ['@type' => 'Person', 'name' => $author ?: 'پلتفرم علمی پارسی'],
+        'publisher' => [
+            '@type' => 'Organization',
+            'name' => 'پلتفرم علمی چندرشته‌ای پارسی',
+            'description' => 'به افتخار غیاث‌الدین جمشید کاشانی',
+        ],
+    ];
+    if ($image) $data['image'] = $image;
+    if ($datePublished) $data['datePublished'] = $datePublished;
+    return '<script type="application/ld+json">' . json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . '</script>';
+}
+
+function seo_jsonld_website() {
+    $data = [
+        '@context' => 'https://schema.org',
+        '@type' => 'WebSite',
+        'name' => 'پلتفرم علمی چندرشته‌ای پارسی',
+        'alternateName' => 'Persian Multidisciplinary Science Platform',
+        'url' => site_url(),
+        'description' => 'پلتفرم بین‌المللی علوم: ریاضی، فیزیک، پزشکی، داروسازی، کامپیوتر — به افتخار غیاث‌الدین جمشید کاشانی',
+        'inLanguage' => ['fa-IR', 'en', 'ar', 'fr', 'de', 'es', 'ru', 'zh', 'tr', 'ur'],
+        'potentialAction' => [
+            '@type' => 'SearchAction',
+            'target' => site_url() . '/magazine.php?search={search_term_string}',
+            'query-input' => 'required name=search_term_string',
+        ],
+    ];
+    return '<script type="application/ld+json">' . json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . '</script>';
+}
+
+function seo_jsonld_lesson($title, $description, $url, $difficulty, $duration_min) {
+    $data = [
+        '@context' => 'https://schema.org',
+        '@type' => 'LearningResource',
+        'name' => $title,
+        'description' => $description,
+        'url' => $url,
+        'inLanguage' => 'fa-IR',
+        'learningResourceType' => 'Lesson',
+        'educationalLevel' => $difficulty,
+        'timeRequired' => 'PT' . $duration_min . 'M',
+        'provider' => [
+            '@type' => 'Organization',
+            'name' => 'پلتفرم علمی چندرشته‌ای پارسی',
+            'url' => site_url(),
+        ],
+    ];
+    return '<script type="application/ld+json">' . json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . '</script>';
 }
 
 // ===== JWT helper =====
