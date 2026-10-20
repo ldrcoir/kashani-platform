@@ -1,8 +1,6 @@
-<?php
-// ============================================================
-// .htaccess — Apache rewrite rules (no .php in URL)
-// تمام URL‌ها تمیز و بدون پسوند
-// ============================================================
+# ============================================================
+# .htaccess — Apache rewrite + security
+# ============================================================
 
 RewriteEngine On
 
@@ -16,25 +14,33 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^\.]+)$ $1.php [L]
 
 # API routing
+RewriteRule ^api/?$ api.php [L,QSA]
 RewriteRule ^api/(.*)$ api.php [L,QSA]
 
-# Admin panel
+# AI routing
+RewriteRule ^ai/?$ ai/chat.php [L]
+RewriteRule ^ai/chat/?$ ai/chat.php [L]
+
+# Admin
 RewriteRule ^admin/?$ admin/index.php [L]
 RewriteRule ^admin/([^/]+)/?$ admin/$1.php [L,QSA]
 
 # Article URLs
 RewriteRule ^article/([a-z0-9-]+)/?$ article.php?slug=$1 [L,QSA]
+RewriteRule ^lesson/([a-z0-9-]+)/?$ lesson.php?slug=$1 [L,QSA]
 
-# Magazine
+# Magazine, Network, etc
 RewriteRule ^magazine/?$ magazine.php [L]
-RewriteRule ^magazine/([a-z0-9-]+)/?$ article.php?slug=$1 [L,QSA]
-
-# Network
+RewriteRule ^lessons/?$ lessons.php [L]
 RewriteRule ^network/?$ network.php [L]
 RewriteRule ^download/?$ download.php [L]
+RewriteRule ^scientists/?$ scientists.php [L]
+RewriteRule ^factor/?$ factor.php [L]
+RewriteRule ^chat/?$ chat.php [L]
+RewriteRule ^profile/?$ profile.php [L]
 
 # Security — protect config files
-<FilesMatch "\.(sql|md|log)$">
+<FilesMatch "\.(sql|md|log|env|toml|rs|lock|sh|py)$">
     Require all denied
 </FilesMatch>
 <Files "config.php">
@@ -44,6 +50,15 @@ RewriteRule ^download/?$ download.php [L]
     Require all denied
 </Files>
 <Files "functions.php">
+    Require all denied
+</Files>
+<Files "security.php">
+    Require all denied
+</Files>
+<Files "jwt-helper.php">
+    Require all denied
+</Files>
+<Files ".env">
     Require all denied
 </Files>
 
@@ -71,4 +86,15 @@ Options -Indexes
     Header set X-Frame-Options "SAMEORIGIN"
     Header set X-XSS-Protection "1; mode=block"
     Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+    Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net; img-src 'self' data: https:; connect-src 'self' wss: https:; font-src 'self' data: cdn.jsdelivr.net"
 </IfModule>
+
+# WebSocket proxy for chat
+RewriteCond %{HTTP:Upgrade} websocket [NC]
+RewriteCond %{HTTP:Connection} upgrade [NC]
+RewriteRule ^/?(.*) "ws://localhost:8080/$1" [P,L]
+
+# PWA
+RewriteRule ^manifest.json$ manifest.json [L]
+RewriteRule ^sw.js$ sw.js [L]

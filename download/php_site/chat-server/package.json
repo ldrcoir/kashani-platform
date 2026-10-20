@@ -1,0 +1,19 @@
+{
+  "name": "kashani-chat-server",
+  "version": "1.0.0",
+  "description": "WebSocket chat server for Persian Multidisciplinary Science Platform",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0",
+    "mysql2": "^3.11.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

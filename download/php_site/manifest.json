@@ -1,0 +1,25 @@
+{
+  "name": "پلتفرم علمی چندرشته‌ای پارسی",
+  "short_name": "علم پارسی",
+  "description": "به افتخار غیاث‌الدین جمشید کاشانی",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#f59e0b",
+  "orientation": "any",
+  "lang": "fa",
+  "dir": "rtl",
+  "icons": [
+    {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ],
+  "categories": ["education", "science", "math", "medical", "physics", "pharmacy"],
+  "features": [
+    "Interactive lessons",
+    "International chat",
+    "AI assistant",
+    "Virtual laboratory",
+    "Volunteer computing",
+    "Daily challenge"
+  ]
+}
