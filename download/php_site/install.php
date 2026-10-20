@@ -112,6 +112,71 @@ if ($step === '2') {
             } catch (Exception $e) {}
         }
         
+        // Run ai_knowledge_base.sql (مخزن دانش AI)
+        $kb_sql = file_get_contents(__DIR__ . '/ai_knowledge_base.sql');
+        if ($kb_sql) {
+            try {
+                $statements = array_filter(array_map('trim', explode(';', $kb_sql)));
+                foreach ($statements as $stmt) {
+                    if (empty($stmt) || strpos($stmt, '--') === 0) continue;
+                    try { $pdo->exec($stmt); } catch (Exception $e) {}
+                }
+                $success[] = 'مخزن دانش AI نصب شد (۱۱+ سوال آماده)';
+            } catch (Exception $e) {}
+        }
+        
+        // Run local_factors_db.sql (دیتابیس محلی فاکتورها)
+        $lf_sql = file_get_contents(__DIR__ . '/local_factors_db.sql');
+        if ($lf_sql) {
+            try {
+                $statements = array_filter(array_map('trim', explode(';', $lf_sql)));
+                foreach ($statements as $stmt) {
+                    if (empty($stmt) || strpos($stmt, '--') === 0) continue;
+                    try { $pdo->exec($stmt); } catch (Exception $e) {}
+                }
+                $success[] = 'دیتابیس محلی فاکتورها نصب شد';
+            } catch (Exception $e) {}
+        }
+        
+        // Run ai_training_system.sql (سیستم آموزش AI)
+        $train_sql = file_get_contents(__DIR__ . '/ai_training_system.sql');
+        if ($train_sql) {
+            try {
+                $statements = array_filter(array_map('trim', explode(';', $train_sql)));
+                foreach ($statements as $stmt) {
+                    if (empty($stmt) || strpos($stmt, '--') === 0) continue;
+                    try { $pdo->exec($stmt); } catch (Exception $e) {}
+                }
+                $success[] = 'سیستم آموزش AI نصب شد (۴ جدول + ۱۱+ سوال)';
+            } catch (Exception $e) {}
+        }
+        
+        // Run ai_more_rules.sql (قواعد بیشتر برای AI)
+        $rules_sql = file_get_contents(__DIR__ . '/ai_more_rules.sql');
+        if ($rules_sql) {
+            try {
+                $statements = array_filter(array_map('trim', explode(';', $rules_sql)));
+                foreach ($statements as $stmt) {
+                    if (empty($stmt) || strpos($stmt, '--') === 0) continue;
+                    try { $pdo->exec($stmt); } catch (Exception $e) {}
+                }
+                $success[] = 'قواعد بیشتر AI نصب شد (۹ قاعده + ۱۰ سوال)';
+            } catch (Exception $e) {}
+        }
+        
+        // Run ai_training_advanced.sql (آموزش پیشرفته — ۲۰+ سوال)
+        $adv_sql = file_get_contents(__DIR__ . '/ai_training_advanced.sql');
+        if ($adv_sql) {
+            try {
+                $statements = array_filter(array_map('trim', explode(';', $adv_sql)));
+                foreach ($statements as $stmt) {
+                    if (empty($stmt) || strpos($stmt, '--') === 0) continue;
+                    try { $pdo->exec($stmt); } catch (Exception $e) {}
+                }
+                $success[] = 'آموزش پیشرفته AI نصب شد (۲۰+ سوال + ۵ قاعده)';
+            } catch (Exception $e) {}
+        }
+        
         // Save config to .env
         $jwt = bin2hex(random_bytes(32));
         $env = "DB_HOST=$db_host\nDB_NAME=$db_name\nDB_USER=$db_user\nDB_PASS=$db_pass\nJWT_SECRET=$jwt\n";
