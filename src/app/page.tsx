@@ -1,489 +1,460 @@
-'use client'
+"use client";
 
-import { useEffect, useState } from 'react'
-import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
-import { Separator } from '@/components/ui/separator'
-import { Progress } from '@/components/ui/progress'
-import { ScrollArea } from '@/components/ui/scroll-area'
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip'
-
-interface StrategyData {
-  name: string
-  description: string
-  prime_count: number
-  sum: number
-  error: number
-  primes: number[]
-  log10_values: number[]
-  cumulative_sum: number[]
-}
-
-interface DataResults {
-  metadata: {
-    p: number
-    F1_digits: number
-    F2_digits: number
-    F1_first_50: string
-    F1_last_20: string
-    F2_first_50: string
-    F2_last_20: string
-    log10_F1: number
-    log10_F2: number
-    diff: number
-    target: number
-    computed_at: string
-  }
-  strategies: StrategyData[]
-  best_strategy_index: number
-}
+import { useState, useEffect } from "react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Progress } from "@/components/ui/progress";
+import {
+  Calculator, BookOpen, Users, Trophy, Globe, Zap,
+  Star, Award, TrendingUp, Cpu, Shield, Mail
+} from "lucide-react";
 
 export default function Home() {
-  const [data, setData] = useState<DataResults | null>(null)
-  const [loading, setLoading] = useState(true)
-  const [selectedStrategy, setSelectedStrategy] = useState(0)
+  const [lang, setLang] = useState<"fa" | "en" | "ar">("fa");
+  const [stats, setStats] = useState({
+    contributions: 18474,
+    frontier: 200000000,
+    series: 7,
+    articles: 0,
+    users: 0,
+  });
 
-  useEffect(() => {
-    fetch('/log10_data.json')
-      .then(r => r.json())
-      .then(d => {
-        setData(d)
-        setSelectedStrategy(d.best_strategy_index ?? 0)
-        setLoading(false)
-      })
-      .catch(e => {
-        console.error('Failed to load:', e)
-        setLoading(false)
-      })
-  }, [])
+  const t = {
+    fa: {
+      title: "پلتفرم ریاضی پارسی",
+      subtitle: "به افتخار ریاضیدانان پارسی-اسلامی",
+      dedicated: "تقدیم به Jamshid al-Kashi (الکاشی)",
+      tabHome: "خانه",
+      tabSeries: "سری‌ها",
+      tabRange: "بازه‌ها",
+      tabMagazine: "مجله",
+      tabAbout: "درباره",
+      contributions: "مشارکت‌ها در FactorDB",
+      frontier: "فرانتیر پیوسته",
+      series: "سری‌های ریاضی",
+      articles: "مقالات مجله",
+      users: "کاربران",
+      startFactoring: "شروع فاکتور کردن",
+      joinNetwork: "پیوستن به شبکه",
+      readMagazine: "خواندن مجله",
+      kashani: "کاشانی",
+      khayyam: "خیام",
+      biruni: "بیرونی",
+      karaji: "کرجی",
+      khwarizmi: "خوارزمی",
+      tusi: "طوسی",
+      soltani: "سلطانی",
+      forProcessing: "برای پردازش ریاضی و علمی",
+      medicalResearch: "تحقیقات پزشکی و دارویی",
+      volunteerNetwork: "شبکه داوطلبین",
+      securePlatform: "پلتفرم امن",
+      loginGmail: "ورود با Gmail",
+      loginPhone: "ورود با شماره موبایل",
+      description: "پلتفرم چندزبانه برای فاکتور کردن اعداد، مجله ریاضی، و شبکه داوطلبین پردازش",
+      rangeComplete: "کامل شده",
+      rangeInProgress: "در حال اجرا",
+      digits: "رقم",
+      numbers: "عدد",
+      primes: "اعداد اول",
+      composites: "مرکب فاکتور شده",
+      noGaps: "بدون شکست",
+      motivation: "با هم بریم برای جایزه بزرگ",
+    },
+    en: {
+      title: "Persian Math Platform",
+      subtitle: "Honoring Persian-Islamic mathematicians",
+      dedicated: "Dedicated to Jamshid al-Kashi",
+      tabHome: "Home",
+      tabSeries: "Series",
+      tabRange: "Ranges",
+      tabMagazine: "Magazine",
+      tabAbout: "About",
+      contributions: "FactorDB Contributions",
+      frontier: "Continuous Frontier",
+      series: "Math Series",
+      articles: "Magazine Articles",
+      users: "Users",
+      startFactoring: "Start Factoring",
+      joinNetwork: "Join Network",
+      readMagazine: "Read Magazine",
+      kashani: "Kashani",
+      khayyam: "Khayyam",
+      biruni: "Biruni",
+      karaji: "Karaji",
+      khwarizmi: "Khwarizmi",
+      tusi: "Tusi",
+      soltani: "Soltani",
+      forProcessing: "For mathematical and scientific processing",
+      medicalResearch: "Medical and pharmaceutical research",
+      volunteerNetwork: "Volunteer Network",
+      securePlatform: "Secure Platform",
+      loginGmail: "Login with Gmail",
+      loginPhone: "Login with Phone",
+      description: "Multilingual platform for number factoring, math magazine, and volunteer computing network",
+      rangeComplete: "Complete",
+      rangeInProgress: "In Progress",
+      digits: "digits",
+      numbers: "numbers",
+      primes: "primes",
+      composites: "factored composites",
+      noGaps: "no gaps",
+      motivation: "Let's go for the grand prize together",
+    },
+    ar: {
+      title: "منصة الرياضيات الفارسية",
+      subtitle: "تكريماً للرياضيين الفرس",
+      dedicated: "إهداء إلى جمشيد الكاشاني",
+      tabHome: "الرئيسية",
+      tabSeries: "السلاسل",
+      tabRange: "النطاقات",
+      tabMagazine: "المجلة",
+      tabAbout: "حول",
+      contributions: "مساهمات FactorDB",
+      frontier: "الحد المستمر",
+      series: "السلاسل الرياضية",
+      articles: "مقالات المجلة",
+      users: "المستخدمون",
+      startFactoring: "ابدأ التحليل",
+      joinNetwork: "انضم للشبكة",
+      readMagazine: "اقرأ المجلة",
+      kashani: "الكاشاني",
+      khayyam: "الخيام",
+      biruni: "البيروني",
+      karaji: "الكرجي",
+      khwarizmi: "الخوارزمي",
+      tusi: "الطوسي",
+      soltani: "السلطاني",
+      forProcessing: "للمعالجة الرياضية والعلمية",
+      medicalResearch: "البحوث الطبية والصيدلانية",
+      volunteerNetwork: "شبكة المتطوعين",
+      securePlatform: "منصة آمنة",
+      loginGmail: "تسجيل الدخول بـ Gmail",
+      loginPhone: "تسجيل الدخول بالهاتف",
+      description: "منصة متعددة اللغات لتحليل الأرقام ومجلة الرياضيات وشبكة الحوسبة التطوعية",
+      rangeComplete: "مكتمل",
+      rangeInProgress: "قيد التنفيذ",
+      digits: "أرقام",
+      numbers: "أرقام",
+      primes: "أعداد أولية",
+      composites: "أعداد مركبة محللة",
+      noGaps: "بدون فجوات",
+      motivation: "لنذهب للجائزة الكبرى معاً",
+    },
+  };
 
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-zinc-50">
-        <div className="text-zinc-600 font-mono animate-pulse">در حال بارگذاری محاسبات...</div>
-      </div>
-    )
-  }
+  const tr = t[lang];
 
-  if (!data) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-red-50">
-        <div className="text-red-600">خطا در بارگذاری داده‌ها</div>
-      </div>
-    )
-  }
+  const series = [
+    { name: tr.kashani, icon: "🔢", color: "from-amber-500 to-orange-600", desc: lang === "fa" ? "اعشار π" : lang === "ar" ? "كسور π" : "Digits of π", oeis: "—" },
+    { name: tr.khayyam, icon: "📐", color: "from-emerald-500 to-teal-600", desc: lang === "fa" ? "مثلث خیام" : lang === "ar" ? "مثلث الخيام" : "Khayyam Triangle", oeis: "A007318" },
+    { name: tr.biruni, icon: "🌍", color: "from-blue-500 to-indigo-600", desc: lang === "fa" ? "فاصله‌های اول" : lang === "ar" ? "فجوات الأعداد الأولية" : "Prime gaps", oeis: "A005250" },
+    { name: tr.karaji, icon: "🔺", color: "from-purple-500 to-violet-600", desc: lang === "fa" ? "اعداد مثلثی" : lang === "ar" ? "أعداد مثلثية" : "Triangular numbers", oeis: "A000217" },
+    { name: tr.khwarizmi, icon: "📝", color: "from-rose-500 to-pink-600", desc: lang === "fa" ? "جبر" : lang === "ar" ? "الجبر" : "Algebra", oeis: "A007917" },
+    { name: tr.tusi, icon: "♊", color: "from-cyan-500 to-blue-600", desc: lang === "fa" ? "زوج‌های اول" : lang === "ar" ? "أولية توأمة" : "Twin primes", oeis: "A001359" },
+    { name: tr.soltani, icon: "⭐", color: "from-yellow-500 to-amber-600", desc: lang === "fa" ? "اعداد کامل" : lang === "ar" ? "أعداد كاملة" : "Perfect numbers", oeis: "A000396" },
+  ];
 
-  const meta = data.metadata
-  const best = data.strategies[data.best_strategy_index]
+  const ranges = [
+    { range: "1 - 100K", digits: 5, primes: 9592, composites: 90407, complete: true },
+    { range: "1 - 1M", digits: 6, primes: 78498, composites: 921501, complete: true },
+    { range: "1 - 10M", digits: 7, primes: 664579, composites: 9335420, complete: true },
+    { range: "1 - 100M", digits: 8, primes: 5761455, composites: 94238544, complete: true },
+    { range: "1 - 200M", digits: 9, primes: 5317482, composites: 94682519, complete: true },
+    { range: "200M - 1B", digits: 9, primes: 0, composites: 0, complete: false },
+  ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-zinc-50 via-white to-zinc-100 text-zinc-900">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-950 dark:to-slate-900" dir={lang === "fa" || lang === "ar" ? "rtl" : "ltr"}>
       {/* Header */}
-      <header className="border-b border-zinc-200 bg-white/80 backdrop-blur sticky top-0 z-10">
-        <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+      <header className="sticky top-0 z-50 border-b bg-white/80 backdrop-blur-md dark:bg-slate-950/80">
+        <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="text-3xl">🕌</div>
             <div>
-              <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-900">
-                فاصله‌ی log₁۰ بین دو عامل اول M(1237)
-              </h1>
-              <p className="text-sm text-zinc-600 mt-1" dir="rtl">
-                M(1237) = 2¹²³⁷ − 1 = F₁ × F₂  —  تقریب فاصله‌ی log₁۰(F₂) − log₁₀(F₁) با جمع log₁₀ اعداد اول
-              </p>
+              <h1 className="text-xl font-bold">{tr.title}</h1>
+              <p className="text-xs text-slate-500">{tr.subtitle}</p>
             </div>
-            <Badge variant="secondary" className="self-start">
-              {meta.computed_at}
-            </Badge>
+          </div>
+          <div className="flex items-center gap-2">
+            {/* Language switcher */}
+            <div className="flex gap-1">
+              <Button size="sm" variant={lang === "fa" ? "default" : "ghost"} onClick={() => setLang("fa")}>🇮🇷 فارسی</Button>
+              <Button size="sm" variant={lang === "en" ? "default" : "ghost"} onClick={() => setLang("en")}>🇬🇧 EN</Button>
+              <Button size="sm" variant={lang === "ar" ? "default" : "ghost"} onClick={() => setLang("ar")}>🇵🇸 عربی</Button>
+            </div>
           </div>
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
-        {/* The Big Numbers Section */}
-        <section>
-          <h2 className="text-lg font-semibold mb-3 text-zinc-800">اعداد پایه</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Card className="border-2 border-amber-300 bg-amber-50/50">
-              <CardHeader className="pb-3">
-                <div className="flex items-center justify-between">
-                  <CardTitle className="text-amber-900">F₁</CardTitle>
-                  <Badge className="bg-amber-500">{meta.F1_digits} رقم</Badge>
-                </div>
-                <CardDescription className="text-amber-700">عامل اول شناخته‌شده — اول ✓</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-2 font-mono text-xs">
-                <div className="break-all text-zinc-700 overflow-x-auto">
-                  <span className="text-zinc-500">ابتدا:</span> {meta.F1_first_50}
-                  <span className="text-zinc-400">...</span>
-                </div>
-                <div className="break-all text-zinc-700 overflow-x-auto">
-                  <span className="text-zinc-500">انتها:</span>
-                  <span className="text-zinc-400">...</span>{meta.F1_last_20}
-                </div>
-                <Separator />
-                <div className="flex items-center justify-between">
-                  <span className="text-zinc-500">log₁₀(F₁) =</span>
-                  <span className="text-base font-bold text-amber-900">{meta.log10_F1.toFixed(10)}</span>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 border-rose-300 bg-rose-50/50">
-              <CardHeader className="pb-3">
-                <div className="flex items-center justify-between">
-                  <CardTitle className="text-rose-900">F₂ (c303)</CardTitle>
-                  <Badge className="bg-rose-500">{meta.F2_digits} رقم</Badge>
-                </div>
-                <CardDescription className="text-rose-700">هم‌عامل = M(1237) / F₁ — مرکب</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-2 font-mono text-xs">
-                <div className="break-all text-zinc-700 overflow-x-auto">
-                  <span className="text-zinc-500">ابتدا:</span> {meta.F2_first_50}
-                  <span className="text-zinc-400">...</span>
-                </div>
-                <div className="break-all text-zinc-700 overflow-x-auto">
-                  <span className="text-zinc-500">انتها:</span>
-                  <span className="text-zinc-400">...</span>{meta.F2_last_20}
-                </div>
-                <Separator />
-                <div className="flex items-center justify-between">
-                  <span className="text-zinc-500">log₁₀(F₂) =</span>
-                  <span className="text-base font-bold text-rose-900">{meta.log10_F2.toFixed(10)}</span>
-                </div>
-              </CardContent>
-            </Card>
+      {/* Hero Section */}
+      <section className="container mx-auto px-4 py-12">
+        <div className="text-center mb-12">
+          <div className="text-6xl mb-4">🔢</div>
+          <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent">
+            {tr.title}
+          </h2>
+          <p className="text-lg text-slate-600 dark:text-slate-400 mb-2">{tr.description}</p>
+          <Badge variant="secondary" className="text-sm">
+            {tr.dedicated} (1380-1429)
+          </Badge>
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
+            <Button size="lg" className="gap-2">
+              <Calculator className="w-5 h-5" />
+              {tr.startFactoring}
+            </Button>
+            <Button size="lg" variant="outline" className="gap-2">
+              <Users className="w-5 h-5" />
+              {tr.joinNetwork}
+            </Button>
+            <Button size="lg" variant="outline" className="gap-2">
+              <BookOpen className="w-5 h-5" />
+              {tr.readMagazine}
+            </Button>
           </div>
-        </section>
+        </div>
 
-        {/* The Target: difference */}
-        <Card className="border-2 border-emerald-400 bg-emerald-50/50">
-          <CardHeader>
-            <div className="flex items-center justify-between">
-              <CardTitle className="text-emerald-900 text-xl">
-                هدف: log₁₀(F₂) − log₁₀(F₁) = log₁₀(F₂/F₁)
-              </CardTitle>
-              <Badge className="bg-emerald-600 text-white">هدف ≈ {meta.target.toFixed(6)}</Badge>
-            </div>
-            <CardDescription className="text-emerald-800">
-              می‌خواهیم این مقدار را به‌صورت <strong>Σ log₁₀(pᵢ)</strong> (جمع لگاریتم اعداد اول) تقریب بزنیم
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <div className="font-mono text-3xl sm:text-4xl font-bold text-center text-emerald-900 py-4">
-              {meta.target.toFixed(10)}
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* Strategies Tabs */}
-        <section>
-          <h2 className="text-lg font-semibold mb-3 text-zinc-800">استراتژی‌های تقریب</h2>
-          <Tabs defaultValue={String(selectedStrategy)} onValueChange={(v) => setSelectedStrategy(Number(v))}>
-            <TabsList className="grid grid-cols-2 sm:grid-cols-4 w-full mb-4">
-              {data.strategies.map((s, i) => (
-                <TabsTrigger key={i} value={String(i)} className="text-xs sm:text-sm">
-                  استراتژی {String.fromCharCode(65 + i)}
-                </TabsTrigger>
-              ))}
-            </TabsList>
-
-            {data.strategies.map((s, i) => (
-              <TabsContent key={i} value={String(i)}>
-                <StrategyView strategy={s} target={meta.target} />
-              </TabsContent>
-            ))}
-          </Tabs>
-        </section>
-
-        {/* Number Line Visualization */}
-        <section>
-          <h2 className="text-lg font-semibold mb-3 text-zinc-800">نمودار خط‌عددی: سفر از 0 تا هدف</h2>
-          <Card>
-            <CardHeader>
-              <CardTitle>تجمع جمع log₁۰(pᵢ) برای بهترین استراتژی</CardTitle>
-              <CardDescription>
-                هر نقطه نشان‌دهنده‌ی یک عدد اول است که به جمع اضافه شده. محور y = جمع تجمعی.
-              </CardDescription>
+        {/* Stats Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+          <Card className="text-center">
+            <CardHeader className="pb-2">
+              <Trophy className="w-8 h-8 mx-auto text-amber-500" />
+              <CardTitle className="text-3xl font-bold">{stats.contributions.toLocaleString()}</CardTitle>
             </CardHeader>
             <CardContent>
-              <CumulativeChart strategy={best} target={meta.target} />
+              <p className="text-sm text-slate-500">{tr.contributions}</p>
             </CardContent>
           </Card>
-        </section>
-
-        {/* Final Answer */}
-        <Card className="border-2 border-zinc-900 bg-zinc-900 text-zinc-50">
-          <CardHeader>
-            <div className="flex items-center justify-between">
-              <CardTitle>نتیجه‌ی نهایی</CardTitle>
-              <Badge className="bg-emerald-500 text-zinc-900">بهترین تقریب</Badge>
-            </div>
-            <CardDescription className="text-zinc-300">
-              استراتژی: {best.name}
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-4 font-mono">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
-              <div>
-                <div className="text-xs text-zinc-400">تعداد اعداد اول</div>
-                <div className="text-2xl font-bold text-emerald-400">{best.prime_count}</div>
-              </div>
-              <div>
-                <div className="text-xs text-zinc-400">جمع log₁₀(pᵢ)</div>
-                <div className="text-2xl font-bold text-emerald-400">{best.sum.toFixed(10)}</div>
-              </div>
-              <div>
-                <div className="text-xs text-zinc-400">خطا (هدف − جمع)</div>
-                <div className={`text-2xl font-bold ${Math.abs(best.error) < 0.001 ? 'text-emerald-400' : 'text-amber-400'}`}>
-                  {best.error > 0 ? '+' : ''}{best.error.toExponential(3)}
-                </div>
-              </div>
-            </div>
-            <Separator className="bg-zinc-700" />
-            <div className="text-sm text-zinc-300" dir="rtl">
-              یعنی: <span className="font-bold text-emerald-300">F₁ × ∏ pᵢ ≈ F₂</span> با دقت نسبی{' '}
-              <span className="font-bold text-emerald-300">{(Math.abs(best.error) / meta.target * 100).toExponential(3)}%</span>
-            </div>
-            <div className="text-sm text-zinc-300" dir="rtl">
-              به عبارت دیگر، ضرب {best.prime_count} عدد اول به F₁، عددی به‌دست می‌آید که تقریباً با F₂ برابر است.
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* Primes list */}
-        <section>
-          <h2 className="text-lg font-semibold mb-3 text-zinc-800">اعداد اول انتخاب‌شده (بهترین)</h2>
-          <Card>
-            <CardContent className="pt-6">
-              <PrimesGrid primes={best.primes} log10_values={best.log10_values} />
+          <Card className="text-center">
+            <CardHeader className="pb-2">
+              <TrendingUp className="w-8 h-8 mx-auto text-emerald-500" />
+              <CardTitle className="text-3xl font-bold">200M</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm text-slate-500">{tr.frontier}</p>
             </CardContent>
           </Card>
-        </section>
+          <Card className="text-center">
+            <CardHeader className="pb-2">
+              <Star className="w-8 h-8 mx-auto text-purple-500" />
+              <CardTitle className="text-3xl font-bold">{stats.series}</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm text-slate-500">{tr.series}</p>
+            </CardContent>
+          </Card>
+          <Card className="text-center">
+            <CardHeader className="pb-2">
+              <Users className="w-8 h-8 mx-auto text-blue-500" />
+              <CardTitle className="text-3xl font-bold">{stats.users}</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm text-slate-500">{tr.users}</p>
+            </CardContent>
+          </Card>
+        </div>
 
-        {/* Footer */}
-        <footer className="mt-12 pt-6 border-t border-zinc-200 text-center text-xs text-zinc-500">
-          <p>M(1237) = 2¹²³⁷ − 1 — A136030 — محاسبه شده با Python + gmpy2 + mpmath</p>
-        </footer>
-      </main>
-    </div>
-  )
-}
+        {/* Main Tabs */}
+        <Tabs defaultValue="home" className="w-full">
+          <TabsList className="grid w-full grid-cols-5 mb-6">
+            <TabsTrigger value="home">{tr.tabHome}</TabsTrigger>
+            <TabsTrigger value="series">{tr.tabSeries}</TabsTrigger>
+            <TabsTrigger value="range">{tr.tabRange}</TabsTrigger>
+            <TabsTrigger value="magazine">{tr.tabMagazine}</TabsTrigger>
+            <TabsTrigger value="about">{tr.tabAbout}</TabsTrigger>
+          </TabsList>
 
-function StrategyView({ strategy, target }: { strategy: StrategyData; target: number }) {
-  const errorAbs = Math.abs(strategy.error)
-  const errorPct = (errorAbs / target) * 100
-  const accuracy = 100 - errorPct
-  const isBest = errorPct < 0.01
-
-  return (
-    <div className="space-y-4">
-      <Card className={isBest ? "border-2 border-emerald-400" : ""}>
-        <CardHeader>
-          <div className="flex items-center justify-between">
-            <div>
-              <CardTitle>{strategy.name}</CardTitle>
-              <CardDescription>{strategy.description}</CardDescription>
+          {/* Home Tab */}
+          <TabsContent value="home" className="space-y-6">
+            <div className="grid md:grid-cols-3 gap-6">
+              <Card className="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-950 dark:to-cyan-950">
+                <CardHeader>
+                  <Cpu className="w-10 h-10 mb-2 text-blue-600" />
+                  <CardTitle>{tr.forProcessing}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
+                    {lang === "fa" ? "پردازش ریاضی، علمی، پزشکی و دارویی با شبکه داوطلبین" : lang === "ar" ? "معالجة الرياضيات والعلوم والطب والصيدلة مع شبكة المتطوعين" : "Math, science, medical and pharmaceutical processing with volunteer network"}
+                  </p>
+                </CardContent>
+              </Card>
+              <Card className="bg-gradient-to-br from-emerald-50 to-green-50 dark:from-emerald-950 dark:to-green-950">
+                <CardHeader>
+                  <Shield className="w-10 h-10 mb-2 text-emerald-600" />
+                  <CardTitle>{tr.securePlatform}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
+                    {lang === "fa" ? "امنیت بالا، احراز هویت با Gmail و شماره موبایل" : lang === "ar" ? "أمان عالي، مصادقة بـ Gmail والهاتف" : "High security, authentication with Gmail and phone"}
+                  </p>
+                </CardContent>
+              </Card>
+              <Card className="bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950 dark:to-orange-950">
+                <CardHeader>
+                  <Globe className="w-10 h-10 mb-2 text-amber-600" />
+                  <CardTitle>{tr.volunteerNetwork}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
+                    {lang === "fa" ? "نرم‌افزار Rust برای پردازش سریع، شبکه داوطلبین" : lang === "ar" ? "برنامج Rust للمعالجة السريعة، شبكة المتطوعين" : "Rust software for fast processing, volunteer network"}
+                  </p>
+                </CardContent>
+              </Card>
             </div>
-            {isBest && <Badge className="bg-emerald-500 text-white">بهترین</Badge>}
-          </div>
-        </CardHeader>
-        <CardContent className="space-y-3">
-          {/* Accuracy bar */}
-          <div>
-            <div className="flex items-center justify-between text-sm mb-2">
-              <span className="text-zinc-600">دقت تقریب</span>
-              <span className="font-mono font-bold text-zinc-900">
-                {accuracy.toPrecision(6)}%
-              </span>
+
+            {/* Login buttons */}
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-center">{lang === "fa" ? "ورود / ثبت‌نام" : lang === "ar" ? "تسجيل الدخول / التسجيل" : "Login / Register"}</CardTitle>
+              </CardHeader>
+              <CardContent className="flex flex-wrap justify-center gap-3">
+                <Button variant="outline" className="gap-2">
+                  <Mail className="w-5 h-5" />
+                  {tr.loginGmail}
+                </Button>
+                <Button variant="outline" className="gap-2">
+                  <span className="text-lg">📱</span>
+                  {tr.loginPhone}
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Motivation */}
+            <div className="text-center py-8">
+              <div className="text-4xl mb-2">🏆</div>
+              <p className="text-xl font-bold bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent">
+                {tr.motivation}
+              </p>
+              <p className="text-sm text-slate-500 mt-2">
+                {lang === "fa" ? "EFF Prize: $150,000 برای عدد اول ۱۰۰ میلیون رقمی" : lang === "ar" ? "جائزة EFF: 150,000$ للعدد الأولي 100 مليون رقم" : "EFF Prize: $150,000 for 100-million-digit prime"}
+              </p>
             </div>
-            <Progress value={Math.min(100, accuracy)} className="h-3" />
-          </div>
+          </TabsContent>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-sm">
-            <Stat label="تعداد اعداد اول" value={String(strategy.prime_count)} />
-            <Stat label="جمع Σlog₁₀(pᵢ)" value={strategy.sum.toFixed(8)} mono />
-            <Stat label="هدف" value={target.toFixed(8)} mono />
-            <Stat
-              label="خطا مطلق"
-              value={errorAbs.toExponential(3)}
-              mono
-              tone={errorAbs < 0.001 ? "good" : errorAbs < 0.1 ? "ok" : "warn"}
-            />
-          </div>
-
-          {/* Mini visualization */}
-          <div className="pt-2">
-            <MiniBar sum={strategy.sum} target={target} />
-          </div>
-        </CardContent>
-      </Card>
-
-      {/* Show prime list */}
-      <Card>
-        <CardHeader>
-          <CardTitle className="text-base">اعداد اول انتخاب‌شده</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <ScrollArea className="h-32 rounded border border-zinc-200 p-3">
-            <div className="flex flex-wrap gap-1.5">
-              {strategy.primes.map((p, idx) => (
-                <Badge key={idx} variant="outline" className="font-mono text-xs">
-                  {p}
-                </Badge>
+          {/* Series Tab */}
+          <TabsContent value="series">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {series.map((s, i) => (
+                <Card key={i} className={`bg-gradient-to-br ${s.color} text-white overflow-hidden`}>
+                  <CardHeader>
+                    <div className="text-4xl mb-2">{s.icon}</div>
+                    <CardTitle className="text-2xl">{s.name}</CardTitle>
+                    <Badge variant="secondary" className="w-fit">{s.oeis}</Badge>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm opacity-90">{s.desc}</p>
+                  </CardContent>
+                </Card>
               ))}
             </div>
-          </ScrollArea>
-        </CardContent>
-      </Card>
-    </div>
-  )
-}
+          </TabsContent>
 
-function Stat({ label, value, mono, tone }: { label: string; value: string; mono?: boolean; tone?: 'good' | 'ok' | 'warn' }) {
-  const color = tone === 'good' ? 'text-emerald-600' : tone === 'ok' ? 'text-amber-600' : tone === 'warn' ? 'text-rose-600' : 'text-zinc-900'
-  return (
-    <div className="bg-zinc-50 rounded p-2.5 border border-zinc-200">
-      <div className="text-xs text-zinc-500">{label}</div>
-      <div className={`font-bold ${mono ? 'font-mono' : ''} ${color}`}>{value}</div>
-    </div>
-  )
-}
-
-function MiniBar({ sum, target }: { sum: number; target: number }) {
-  const pct = (sum / target) * 100
-  return (
-    <div className="relative h-6 bg-zinc-100 rounded overflow-hidden border border-zinc-200">
-      <div
-        className={`absolute inset-y-0 left-0 ${pct > 100 ? 'bg-amber-500' : 'bg-emerald-500'}`}
-        style={{ width: `${Math.min(100, pct)}%` }}
-      />
-      <div className="absolute inset-y-0 flex items-center px-2 text-xs font-mono font-bold text-white">
-        {pct.toFixed(4)}%
-      </div>
-      <div className="absolute inset-y-0 right-2 flex items-center text-xs font-mono text-zinc-700">
-        هدف = 100%
-      </div>
-    </div>
-  )
-}
-
-function CumulativeChart({ strategy, target }: { strategy: StrategyData; target: number }) {
-  const maxVal = target * 1.05  // give a bit of headroom
-  const width = 1000
-  const height = 200
-  const padding = { top: 10, right: 10, bottom: 20, left: 50 }
-  const innerW = width - padding.left - padding.right
-  const innerH = height - padding.top - padding.bottom
-
-  const xScale = (i: number) => padding.left + (i / (strategy.prime_count - 1)) * innerW
-  const yScale = (v: number) => padding.top + innerH - (v / maxVal) * innerH
-
-  // Generate path
-  let pathD = ''
-  strategy.cumulative_sum.forEach((v, i) => {
-    const x = xScale(i)
-    const y = yScale(v)
-    pathD += (i === 0 ? 'M' : 'L') + x + ',' + y + ' '
-  })
-
-  return (
-    <div className="w-full overflow-x-auto">
-      <svg viewBox={`0 0 ${width} ${height}`} className="w-full min-w-[600px] h-auto">
-        {/* Y-axis gridlines */}
-        {[0, 0.25, 0.5, 0.75, 1].map(f => {
-          const v = maxVal * f
-          const y = yScale(v)
-          return (
-            <g key={f}>
-              <line x1={padding.left} y1={y} x2={width - padding.right} y2={y} stroke="#e4e4e7" strokeWidth="0.5" />
-              <text x={padding.left - 4} y={y + 4} textAnchor="end" className="text-[10px] fill-zinc-500 font-mono">
-                {v.toFixed(1)}
-              </text>
-            </g>
-          )
-        })}
-        {/* Target line */}
-        <line
-          x1={padding.left}
-          y1={yScale(target)}
-          x2={width - padding.right}
-          y2={yScale(target)}
-          stroke="#dc2626"
-          strokeWidth="1.5"
-          strokeDasharray="4 2"
-        />
-        <text x={width - padding.right - 4} y={yScale(target) - 4} textAnchor="end" className="text-[11px] fill-rose-600 font-bold">
-          هدف = {target.toFixed(4)}
-        </text>
-        {/* Cumulative path */}
-        <path d={pathD} fill="none" stroke="#10b981" strokeWidth="2" />
-        {/* Dots at each prime */}
-        {strategy.cumulative_sum.map((v, i) => (
-          <TooltipProvider key={i}>
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <circle
-                  cx={xScale(i)}
-                  cy={yScale(v)}
-                  r={2.5}
-                  fill="#10b981"
-                  stroke="white"
-                  strokeWidth="0.5"
-                  className="cursor-pointer hover:r-4"
-                />
-              </TooltipTrigger>
-              <TooltipContent>
-                <div className="font-mono text-xs">
-                  <div>عدد اول #{i + 1}: p = {strategy.primes[i]}</div>
-                  <div>log₁₀(p) = {strategy.log10_values[i].toFixed(6)}</div>
-                  <div>جمع تجمعی = {v.toFixed(6)}</div>
-                  <div>باقی‌مانده تا هدف = {(target - v).toFixed(6)}</div>
+          {/* Range Tab */}
+          <TabsContent value="range">
+            <Card>
+              <CardHeader>
+                <CardTitle>{lang === "fa" ? "پیشرفت بازه‌ها" : lang === "ar" ? "تقدم النطاقات" : "Range Progress"}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  {ranges.map((r, i) => (
+                    <div key={i} className="space-y-2">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-2">
+                          <Badge variant={r.complete ? "default" : "secondary"}>
+                            {r.complete ? `✅ ${tr.rangeComplete}` : `⏳ ${tr.rangeInProgress}`}
+                          </Badge>
+                          <span className="font-mono text-sm">{r.range}</span>
+                          <span className="text-xs text-slate-500">({r.digits} {tr.digits})</span>
+                        </div>
+                        <div className="text-sm text-slate-500">
+                          {r.primes > 0 ? `${r.primes.toLocaleString()} ${tr.primes}` : "—"}
+                        </div>
+                      </div>
+                      <Progress value={r.complete ? 100 : 30} className="h-2" />
+                      <div className="flex justify-between text-xs text-slate-500">
+                        <span>{r.composites > 0 ? `${r.composites.toLocaleString()} ${tr.composites}` : "—"}</span>
+                        <span>{r.complete ? `✅ ${tr.noGaps}` : ""}</span>
+                      </div>
+                    </div>
+                  ))}
                 </div>
-              </TooltipContent>
-            </Tooltip>
-          </TooltipProvider>
-        ))}
-        {/* X-axis */}
-        <line x1={padding.left} y1={padding.top + innerH} x2={width - padding.right} y2={padding.top + innerH} stroke="#a1a1aa" strokeWidth="0.5" />
-        {/* X-axis label */}
-        <text x={width / 2} y={height - 4} textAnchor="middle" className="text-[10px] fill-zinc-500">
-          شماره‌ی عدد اول (از ۱ تا {strategy.prime_count})
-        </text>
-      </svg>
-    </div>
-  )
-}
+              </CardContent>
+            </Card>
+          </TabsContent>
 
-function PrimesGrid({ primes, log10_values }: { primes: number[]; log10_values: number[] }) {
-  const maxLog10 = Math.max(...log10_values)
-  return (
-    <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2">
-      {primes.map((p, i) => {
-        const intensity = log10_values[i] / maxLog10
-        const bg = `rgba(16, 185, 129, ${0.1 + intensity * 0.4})`
-        return (
-          <TooltipProvider key={i}>
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <div
-                  className="rounded p-2 border border-zinc-200 cursor-help text-center font-mono text-sm"
-                  style={{ background: bg }}
-                >
-                  <div className="font-bold text-zinc-900">{p}</div>
-                  <div className="text-[10px] text-zinc-600">{log10_values[i].toFixed(4)}</div>
+          {/* Magazine Tab */}
+          <TabsContent value="magazine">
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <BookOpen className="w-6 h-6" />
+                  {lang === "fa" ? "مجله ریاضی" : lang === "ar" ? "مجلة الرياضيات" : "Math Magazine"}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="text-center py-12">
+                  <div className="text-5xl mb-4">📚</div>
+                  <p className="text-slate-500">
+                    {lang === "fa" ? "مجله به‌زودی راه‌اندازی می‌شه — با AI تولید محتوا و SEO" : lang === "ar" ? "المجلة قريباً — مع الذكاء الاصطناعي وتحسين محركات البحث" : "Magazine coming soon — with AI content generation and SEO"}
+                  </p>
+                  <p className="text-sm text-slate-400 mt-2">
+                    {lang === "fa" ? "اخبار ریاضی، علمی، پزشکی از منابع انگلیسی و ترجمه" : lang === "ar" ? "أخبار الرياضيات والعلوم والطب من مصادر إنجليزية وترجمة" : "Math, science, medical news from English sources with translation"}
+                  </p>
                 </div>
-              </TooltipTrigger>
-              <TooltipContent>
-                <div className="font-mono text-xs">
-                  <div>عدد اول #{i + 1}: <span className="font-bold">{p}</span></div>
-                  <div>log₁₀({p}) = {log10_values[i].toFixed(10)}</div>
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          {/* About Tab */}
+          <TabsContent value="about">
+            <Card>
+              <CardHeader>
+                <CardTitle>{lang === "fa" ? "درباره ما" : lang === "ar" ? "من نحن" : "About Us"}</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p className="text-slate-600 dark:text-slate-400">
+                  {lang === "fa" ? "این پلتفرم به افتخار ریاضیدانان پارسی-اسلامی ساخته شده است. هدف ما ساخت یه پایگاه داده کامل از اعداد فاکتور شده، مجله ریاضی، و شبکه داوطلبین پردازش است." : lang === "ar" ? "تم بناء هذه المنصة تكريماً للرياضيين الفرس. هدفنا بناء قاعدة بيانات كاملة للأعداد المحللة ومجلة رياضية وشبكة متطوعين." : "This platform is built to honor Persian-Islamic mathematicians. Our goal is to build a complete database of factored numbers, a math magazine, and a volunteer computing network."}
+                </p>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="flex items-center gap-2">
+                    <Zap className="w-5 h-5 text-amber-500" />
+                    <span className="text-sm">Rust + Assembly</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Shield className="w-5 h-5 text-emerald-500" />
+                    <span className="text-sm">Security + Anti-hack</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Globe className="w-5 h-5 text-blue-500" />
+                    <span className="text-sm">Multilingual (FA/EN/AR)</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Award className="w-5 h-5 text-purple-500" />
+                    <span className="text-sm">FactorDB Integration</span>
+                  </div>
                 </div>
-              </TooltipContent>
-            </Tooltip>
-          </TooltipProvider>
-        )
-      })}
+              </CardContent>
+            </Card>
+          </TabsContent>
+        </Tabs>
+      </section>
+
+      {/* Footer */}
+      <footer className="mt-auto border-t bg-white dark:bg-slate-950 py-6">
+        <div className="container mx-auto px-4 text-center">
+          <p className="text-sm text-slate-500">
+            © 2026 {tr.title} — {tr.dedicated}
+          </p>
+          <div className="flex justify-center gap-4 mt-2 text-xs text-slate-400">
+            <span>FactorDB API</span>
+            <span>OEIS</span>
+            <span>Cunningham Project</span>
+            <span>GIMPS</span>
+          </div>
+        </div>
+      </footer>
     </div>
-  )
+  );
 }
