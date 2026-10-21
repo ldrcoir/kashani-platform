@@ -1,4 +1,4 @@
-// kashani-volunteer — نرم‌افزار داوطلبین پلتفرم علمی چندرشته‌ای پارسی
+// volunteer-client — نرم‌افزار داوطلبین پلتفرم علمی چندرشته‌ای پارسی
 // به افتخار غیاث‌الدین جمشید کاشانی
 // ============================================================
 // نسخه‌ی یکپارچه (تمام ماژول‌ها در یک فایل — برای پایداری)
@@ -13,7 +13,7 @@ use serde::{Deserialize, Serialize};
 
 // ===== CLI Args =====
 #[derive(Parser, Debug, Clone)]
-#[command(name = "kashani-volunteer", version = "1.0.0")]
+#[command(name = "volunteer-client", version = "1.0.0")]
 #[command(about = "Volunteer computing client — Persian Multidisciplinary Science Platform")]
 struct Args {
     #[arg(short, long, default_value = "https://platform-oloom.ir")]
@@ -52,7 +52,7 @@ fn main() {
     }
 
     println!("═══════════════════════════════════════════════════════════════");
-    println!("  kashani-volunteer v{} (Rust)", VERSION);
+    println!("  volunteer-client v{} (Rust)", VERSION);
     println!("  پلتفرم علمی چندرسته‌ای پارسی");
     println!("═══════════════════════════════════════════════════════════════");
     println!();
@@ -87,8 +87,8 @@ fn main() {
 
     if args.api_key.is_none() {
         eprintln!("❌ API key لازم است.");
-        eprintln!("💡 یا فقط benchmark: ./kashani-volunteer --benchmark");
-        eprintln!("📚 زبان‌ها: ./kashani-volunteer --list-languages");
+        eprintln!("💡 یا فقط benchmark: ./volunteer-client --benchmark");
+        eprintln!("📚 زبان‌ها: ./volunteer-client --list-languages");
         return;
     }
 

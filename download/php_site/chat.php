@@ -77,9 +77,11 @@ body{font-family:'Vazirmatn',Tahoma,sans-serif;height:100vh;overflow:hidden}
         <div id="messages" class="flex-1 overflow-y-auto p-3 bg-gray-50"></div>
         <form id="msg-form" class="bg-white border-t p-3 flex gap-2">
             <button type="button" id="latex-toggle" class="px-2 py-1 bg-purple-100 text-purple-700 rounded text-sm" title="LaTeX">∑</button>
-            <textarea id="msg-input" placeholder="پیام بنویسید... (Enter برای ارسال)" class="flex-1 px-3 py-2 border rounded text-sm" rows="1" maxlength="500"></textarea>
+            <button type="button" id="voice-btn" class="px-2 py-1 bg-red-100 text-red-700 rounded text-sm" title="چت صوتی">🎤</button>
+            <textarea id="msg-input" placeholder="پیام بنویسید... (Enter ارسال)" class="flex-1 px-3 py-2 border rounded text-sm" rows="1" maxlength="500"></textarea>
             <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded text-sm">📤</button>
         </form>
+        <div id="voice-status" class="hidden px-4 py-1 text-sm text-red-600 bg-red-50">🔴 در حال ضبط صدا... (دوباره کلیک برای توقف)</div>
     </main>
 </div>
 
@@ -164,6 +166,65 @@ document.getElementById('msg-input').addEventListener('input', () => {
 document.getElementById('msg-input').addEventListener('keydown', (e) => {
     if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); document.getElementById('msg-form').dispatchEvent(new Event('submit')); }
 });
+
+// ====== Voice Chat (Web Speech API) ======
+let recognition = null;
+let isRecording = false;
+
+const voiceBtn = document.getElementById('voice-btn');
+const voiceStatus = document.getElementById('voice-status');
+
+if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    recognition = new SR();
+    recognition.lang = 'fa-IR';
+    recognition.continuous = true;
+    recognition.interimResults = true;
+    
+    recognition.onresult = (e) => {
+        let transcript = '';
+        for (let i = e.resultIndex; i < e.results.length; i++) {
+            transcript += e.results[i][0].transcript;
+        }
+        document.getElementById('msg-input').value = transcript;
+    };
+    
+    recognition.onerror = (e) => { console.log('Voice error:', e.error); };
+    recognition.onend = () => {
+        isRecording = false;
+        voiceBtn.classList.remove('bg-red-600', 'text-white');
+        voiceBtn.classList.add('bg-red-100', 'text-red-700');
+        voiceStatus.classList.add('hidden');
+    };
+    
+    voiceBtn.addEventListener('click', () => {
+        if (isRecording) {
+            recognition.stop();
+        } else {
+            recognition.lang = document.getElementById('voice-lang')?.value || 'fa-IR';
+            recognition.start();
+            isRecording = true;
+            voiceBtn.classList.remove('bg-red-100', 'text-red-700');
+            voiceBtn.classList.add('bg-red-600', 'text-white');
+            voiceStatus.classList.remove('hidden');
+        }
+    });
+} else {
+    voiceBtn.style.opacity = '0.5';
+    voiceBtn.title = 'مرورگر شما از چت صوتی پشتیبانی نمی‌کند';
+}
+
+// ====== Text-to-Speech (خواندن پیام‌های دریافتی) ======
+function speakMessage(text) {
+    if (!('speechSynthesis' in window)) return;
+    // حذف HTML tags
+    const clean = text.replace(/<[^>]*>/g, '').replace(/\\[()\\]/g, '');
+    if (clean.length > 200) return; // فقط پیام‌های کوتاه
+    const utterance = new SpeechSynthesisUtterance(clean);
+    utterance.lang = 'fa-IR';
+    utterance.rate = 1.0;
+    speechSynthesis.speak(utterance);
+}
 
 connect();
 </script>

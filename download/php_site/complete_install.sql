@@ -486,7 +486,7 @@ CREATE TABLE IF NOT EXISTS themes (
 -- ============================================================
 
 INSERT INTO math_series (name, name_en, name_ar, mathematician, mathematician_en, century, born_year, died_year, description, description_en, oeis_ref, formula, color, icon, sort_order) VALUES
-('کاشانی', 'Kashani', 'الكاشاني', 'جمشید کاشانی', 'Jamshid al-Kashi', 15, 1380, 1429, 'اعشار π و سینوس', 'Digits of π and sine', null, 'floor(10^p × sin(π/p))', 'amber', '🔢', 1),
+('کاشانی', 'Science', 'الكاشاني', 'جمشید کاشانی', 'Jamshid al-Kashi', 15, 1380, 1429, 'اعشار π و سینوس', 'Digits of π and sine', null, 'floor(10^p × sin(π/p))', 'amber', '🔢', 1),
 ('خیام', 'Khayyam', 'الخيام', 'عمر خیام', 'Omar Khayyam', 11, 1048, 1131, 'مثلث خیام', 'Khayyam triangle', 'A007318', 'C(n,k) mod 2', 'emerald', '📐', 2),
 ('بیرونی', 'Biruni', 'البيروني', 'ابوریحان بیرونی', 'al-Biruni', 10, 973, 1048, 'فاصله‌های اول', 'Prime gaps', 'A005250', null, 'blue', '🌍', 3),
 ('کرجی', 'Karaji', 'الكرجي', 'ابوبکر کرجی', 'al-Karaji', 10, 953, 1029, 'اعداد مثلثی', 'Triangular numbers', 'A000217', 'n(n+1)/2', 'purple', '🔺', 4),
@@ -495,7 +495,7 @@ INSERT INTO math_series (name, name_en, name_ar, mathematician, mathematician_en
 ON DUPLICATE KEY UPDATE name=VALUES(name);
 
 INSERT INTO scientists (slug, name_fa, name_en, name_ar, full_name_fa, full_name_en, field, century, born_year, died_year, born_place, died_place, bio_fa, bio_en, icon, color, sort_order, is_featured) VALUES
-('kashani', 'جمشید کاشانی', 'Jamshid al-Kashi', 'جمشيد الكاشاني', 'غیاث‌الدین جمشید مسعود کاشانی', 'Ghiyath al-Din Jamshid al-Kashi', 'ریاضی و ستاره‌شناسی', 15, 1380, 1429, 'کاشان', 'سمرقند', 'ریاضیدان و ستاره‌شناس پارسی که π را تا ۱۶ رقم محاسبه کرد', 'Persian mathematician who calculated pi to 16 digits', '🔢', 'amber', 1, 1),
+('science', 'جمشید کاشانی', 'Jamshid al-Kashi', 'جمشيد الكاشاني', 'غیاث‌الدین جمشید مسعود کاشانی', 'Ghiyath al-Din Jamshid al-Kashi', 'ریاضی و ستاره‌شناسی', 15, 1380, 1429, 'کاشان', 'سمرقند', 'ریاضیدان و ستاره‌شناس پارسی که π را تا ۱۶ رقم محاسبه کرد', 'Persian mathematician who calculated pi to 16 digits', '🔢', 'amber', 1, 1),
 ('khayyam', 'عمر خیام', 'Omar Khayyam', 'عمر الخيام', 'غیاث‌الدین عمر خیام نیشابوری', 'Omar Khayyam', 'ریاضی و شعر', 11, 1048, 1131, 'نیشابور', 'نیشابور', 'ریاضیدان و شاعر', 'Mathematician and poet', '📐', 'emerald', 2, 1),
 ('biruni', 'ابوریحان بیرونی', 'Al-Biruni', 'البيروني', 'ابوریحان بیرونی', 'Al-Biruni', 'همه‌ی علوم', 10, 973, 1048, 'خوارزم', 'غزنی', 'دانشمند پارسی', 'Persian polymath', '🌍', 'blue', 3, 1),
 ('khwarizmi', 'محمد خوارزمی', 'Al-Khwarizmi', 'الخوارزمي', 'محمد خوارزمی', 'Al-Khwarizmi', 'ریاضی', 9, 780, 850, 'خوارزم', 'بغداد', 'پدر جبر', 'Father of algebra', '📝', 'rose', 4, 1),
@@ -591,3 +591,28 @@ INSERT INTO ranges (start_num, end_num, primes_count, composites_count, is_compl
 (1, 100000000, 5761455, 94238544, 1),
 (1, 200000000, 5317482, 94682519, 1)
 ON DUPLICATE KEY UPDATE is_complete=VALUES(is_complete);
+
+-- ============================================================
+-- دانشمندان بین‌المللی
+-- ============================================================
+INSERT INTO scientists (slug, name_fa, name_en, name_ar, full_name_fa, full_name_en, field, century, born_year, died_year, born_place, died_place, bio_fa, bio_en, icon, color, sort_order, is_featured) VALUES
+('euclid', 'اقلیدس', 'Euclid', 'إقليدس', 'اقلیدس اسکندرانی', 'Euclid of Alexandria', 'هندسه', -3, -300, -265, 'اسکندریه', 'اسکندریه', 'پدر هندسه — کتاب اصول', 'Father of geometry — Elements', '📐', 'blue', 20, 1),
+('archimedes', 'ارشمیدس', 'Archimedes', 'أرخميدس', 'ارشمیدس', 'Archimedes of Syracuse', 'فیزیک و ریاضی', -3, -287, -212, 'سیراکوز', 'سیراکوز', 'ریاضیدان و فیزیک‌دان — قانون شناور', 'Mathematician and physicist — buoyancy', '⚖️', 'amber', 21, 1),
+('pythagoras', 'فیثاغورس', 'Pythagoras', 'فيثاغورس', 'فیثاغورس', 'Pythagoras of Samos', 'ریاضی', -6, -570, -495, 'ساموس', 'متاپنتوم', 'قضیه‌ی فیثاغورس', 'Pythagorean theorem', '📐', 'green', 22, 1),
+('newton', 'اسحاق نیوتن', 'Isaac Newton', 'إسحاق نيوتن', 'سیر اسحاق نیوتن', 'Sir Isaac Newton', 'فیزیک و ریاضی', 17, 1643, 1727, 'لینکولن‌شایر', 'لندن', 'قوانین حرکت و جاذبه — حساب دیفرانسیل', 'Laws of motion and gravity — calculus', '🍎', 'red', 23, 1),
+('euler', 'لئونارد اویلر', 'Leonhard Euler', 'ليونارد أويلر', 'لئونارد اویلر', 'Leonhard Euler', 'ریاضی', 18, 1707, 1783, 'بازل', 'سنت‌پترزبورگ', 'پربازده‌ترین ریاضیدان تاریخ — فرمول e^(iπ)+1=0', 'Most prolific mathematician — Euler formula', '∑', 'indigo', 24, 1),
+('gauss', 'کارل فریدریش گاوس', 'Carl Friedrich Gauss', 'كارل فريدريش غاوس', 'کارل فریدریش گاوس', 'Carl Friedrich Gauss', 'ریاضی', 18, 1777, 1855, 'براونشوایگ', 'گوتینگن', 'شاهزاده‌ی ریاضیدانان — نظریه‌ی اعداد', 'Prince of mathematicians — number theory', '🔢', 'purple', 25, 1),
+('riemann', 'برنارد ریمان', 'Bernhard Riemann', 'برنارد ريمان', 'برنارد ریمان', 'Bernhard Riemann', 'ریاضی', 19, 1826, 1866, 'هانوفر', 'سلبیا', 'هندسه‌ی ریمانی — فرضیه‌ی ریمان', 'Riemannian geometry — Riemann hypothesis', '📐', 'cyan', 26, 1),
+('ramanujan', 'سرینواسا رامانوجان', 'Srinivasa Ramanujan', 'سرينيفاسا رامانوجان', 'سرینواسا رامانوجان', 'Srinivasa Ramanujan', 'ریاضی', 19, 1887, 1920, 'ایرود', 'چنای', 'نابغه‌ی هندی — اعداد خاص رامانوجان', 'Indian genius — Ramanujan numbers', '🔢', 'amber', 27, 1),
+('tesla', 'نیکولا تسلا', 'Nikola Tesla', 'نيكولا تسلا', 'نیکولا تسلا', 'Nikola Tesla', 'فیزیک و مهندسی', 19, 1856, 1943, 'اسمیلجان', 'نیویورک', 'مخترع برق متناوب — کویل تسلا', 'AC electricity inventor — Tesla coil', '⚡', 'blue', 28, 1),
+('curie', 'ماری کوری', 'Marie Curie', 'ماري كوري', 'ماریا اسکودوفسکا کوری', 'Marie Curie', 'فیزیک و شیمی', 19, 1867, 1934, 'ورشو', 'پاریس', 'نخستین برنده‌ی دو جایزه‌ی نوبل — رادیوم', 'First double Nobel winner — radium', '☢️', 'rose', 29, 1),
+('einstein', 'آلبرت انیشتین', 'Albert Einstein', 'ألبرت أينشتاين', 'آلبرت انیشتین', 'Albert Einstein', 'فیزیک', 19, 1879, 1955, 'اولم', 'پریسنتون', 'نسبیت عام و خاص — E=mc²', 'General and special relativity', '⚛️', 'indigo', 30, 1),
+('turing', 'آلن تورینگ', 'Alan Turing', 'آلان تورينغ', 'آلن ماتیسون تورینگ', 'Alan Turing', 'کامپیوتر', 20, 1912, 1954, 'لندن', 'وینسلتون', 'پدر علم کامپیوتر — ماشین تورینگ', 'Father of computer science — Turing machine', '💻', 'cyan', 31, 1),
+('darwin', 'چارلز داروین', 'Charles Darwin', 'تشارلز داروين', 'چارلز داروین', 'Charles Darwin', 'زیست‌شناسی', 19, 1809, 1882, 'شروزبری', 'داون', 'نظریه‌ی تکامل — انتخاب طبیعی', 'Evolution theory — natural selection', '🧬', 'green', 32, 1),
+('maxwell', 'جیمز کلرک ماکسول', 'James Clerk Maxwell', 'جيمس كليرك ماكسويل', 'جیمز کلرک ماکسول', 'James Clerk Maxwell', 'فیزیک', 19, 1831, 1879, 'ادینبرگ', 'کمبریج', 'معادلات ماکسول — الکترومغناطیس', 'Maxwell equations — electromagnetism', '📡', 'blue', 33, 1),
+('nobel', 'آلفرد نوبل', 'Alfred Nobel', 'ألفريد نوبل', 'آلفرد برنارد نوبل', 'Alfred Nobel', 'شیمی', 19, 1833, 1896, 'استکهلم', 'سنریمو', 'مخترع دینامیت — بنیان‌گذار جایزه‌ی نوبل', 'Dynamite inventor — Nobel Prize founder', '🧪', 'amber', 34, 0),
+('fibonacci', 'لئوناردو فیبوناچی', 'Leonardo Fibonacci', 'ليوناردو فيبوناتشي', 'لئوناردو پیزانو فیبوناچی', 'Leonardo Fibonacci', 'ریاضی', 12, 1170, 1250, 'پیزا', 'پیزا', 'دنباله‌ی فیبوناچی — اعداد هندی-عربی در اروپا', 'Fibonacci sequence — brought Hindu-Arabic numerals', '🔢', 'emerald', 35, 1),
+('galileo', 'گالیله', 'Galileo Galilei', 'غاليليو غاليلي', 'گالیله گالیله', 'Galileo Galilei', 'فیزیک و ستاره‌شناسی', 16, 1564, 1642, 'پیزا', 'آرچتری', 'پدر علم فیزیک — تلسکوپ — حرکت زمین', 'Father of physics — telescope — heliocentrism', '🔭', 'amber', 36, 1),
+('bohr', 'نیلز بوهر', 'Niels Bohr', 'نيلز بوهر', 'نیلز هنریک داوید بوهر', 'Niels Bohr', 'فیزیک', 19, 1885, 1962, 'کپنهاگ', 'کپنهاگ', 'مدل اتم بوهر — مکانیک کوانتومی', 'Bohr model — quantum mechanics', '⚛️', 'blue', 37, 0),
+('shannon', 'کلود شانون', 'Claude Shannon', 'كلود شانون', 'کلود الوود شانون', 'Claude Shannon', 'کامپیوتر', 20, 1916, 2001, 'پتوسکی', 'مفورد', 'پدر نظریه‌ی اطلاعات — بیت', 'Father of information theory — bit', '💾', 'cyan', 38, 0)
+ON DUPLICATE KEY UPDATE name_fa=VALUES(name_fa);
