@@ -1,0 +1,520 @@
+{
+  "file": "/home/z/my-project/download/A136030_Mersenne_composite_factorizations_to_8000.txt",
+  "total_fully_factored": 276,
+  "mersenne_chains": {
+    "type_A_complete": [
+      {
+        "p": 11,
+        "q_factor": 89,
+        "q_digits": 2,
+        "chain_type": "A",
+        "M_q_status": "Mersenne prime"
+      },
+      {
+        "p": 967,
+        "q_factor": 23209,
+        "q_digits": 5,
+        "chain_type": "A",
+        "M_q_status": "Mersenne prime"
+      }
+    ],
+    "type_B_broken_count": 1090,
+    "type_C_composite_count": 0
+  },
+  "sinus_verification": {
+    "consistent": 276,
+    "total": 276,
+    "consistent_rate": "276/276",
+    "inconsistent_cases": []
+  },
+  "three_factor_mersennes_count": 61,
+  "three_factor_examples": [
+    {
+      "p": 29,
+      "M_p_digits": 9,
+      "n_factors": 3,
+      "factors": [
+        233,
+        1103,
+        2089
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 43,
+      "M_p_digits": 13,
+      "n_factors": 3,
+      "factors": [
+        431,
+        9719,
+        2099863
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 0,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 47,
+      "M_p_digits": 15,
+      "n_factors": 3,
+      "factors": [
+        2351,
+        4513,
+        13264529
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 53,
+      "M_p_digits": 16,
+      "n_factors": 3,
+      "factors": [
+        6361,
+        69431,
+        20394401
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 71,
+      "M_p_digits": 22,
+      "n_factors": 3,
+      "factors": [
+        228479,
+        48544121,
+        212885833
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 73,
+      "M_p_digits": 22,
+      "n_factors": 3,
+      "factors": [
+        439,
+        2298041,
+        9361973132609
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 79,
+      "M_p_digits": 24,
+      "n_factors": 3,
+      "factors": [
+        2687,
+        202029703,
+        1113491139767
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 0,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 179,
+      "M_p_digits": 54,
+      "n_factors": 3,
+      "factors": [
+        359,
+        1433,
+        1489459109360039866456940197095433721664951999121
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 193,
+      "M_p_digits": 59,
+      "n_factors": 3,
+      "factors": [
+        13821503,
+        61654440233248340616559,
+        14732265321145317331353282383
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 0,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 211,
+      "M_p_digits": 64,
+      "n_factors": 3,
+      "factors": [
+        15193,
+        60272956433838849161,
+        3593875704495823757388199894268773153439
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 257,
+      "M_p_digits": 78,
+      "n_factors": 3,
+      "factors": [
+        535006138814359,
+        1155685395246619182673033,
+        374550598501810936581776630096313181393
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 277,
+      "M_p_digits": 84,
+      "n_factors": 3,
+      "factors": [
+        1121297,
+        31133636305610209482201109050392404721,
+        6955979459776540052280934851589652278783
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 283,
+      "M_p_digits": 86,
+      "n_factors": 3,
+      "factors": [
+        9623,
+        68492481833,
+        23579543011798993222850893929565870383844167873851502677311057483194673
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 311,
+      "M_p_digits": 94,
+      "n_factors": 3,
+      "factors": [
+        5344847,
+        2647649373910205158468946067671,
+        294803681348959296477194164064643062187559537539328375831
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 0,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 331,
+      "M_p_digits": 100,
+      "n_factors": 3,
+      "factors": [
+        16937389168607,
+        865118802936559,
+        298542624980197463613767215333569428005686468835821253721796682625551919
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 0,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 349,
+      "M_p_digits": 106,
+      "n_factors": 3,
+      "factors": [
+        1779973928671,
+        34720396273212657799920861294559,
+        18555393648630683868229284313709360336855095474246691696225599
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 0,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 353,
+      "M_p_digits": 107,
+      "n_factors": 3,
+      "factors": [
+        931921,
+        2927455476800301964116805545194017,
+        6725414756111955781503880188940925566051960039574573675843402666863
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 389,
+      "M_p_digits": 118,
+      "n_factors": 3,
+      "factors": [
+        56478911,
+        4765678679,
+        4684435266636161232578932847604331726884269415306219621279642876954933236537677535849040755779223719
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 0,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 409,
+      "M_p_digits": 124,
+      "n_factors": 3,
+      "factors": [
+        4480666067023,
+        76025626689833,
+        3881196575913244673719425770871246487895686937951690944453838586764072695131586617955811936945129
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 443,
+      "M_p_digits": 134,
+      "n_factors": 3,
+      "factors": [
+        887,
+        207818990653657,
+        123219439267346362049744425289349676468781136823956005602631224069302162695430546376768705960936201429580820215522273
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 467,
+      "M_p_digits": 141,
+      "n_factors": 3,
+      "factors": [
+        121606801,
+        1148984537885906196977362003686090739460725564747973734847,
+        2727318928892040009397199815225412029789790574177544409019502626344207905841
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 499,
+      "M_p_digits": 151,
+      "n_factors": 3,
+      "factors": [
+        20959,
+        1998447222711143545931606352264121,
+        39075504626391841678304934944805852280404731716385642050296152320994438836806257083337312828162589099799400566633
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 563,
+      "M_p_digits": 170,
+      "n_factors": 3,
+      "factors": [
+        2815747080256641401887817,
+        13299213974872825932452460424235657,
+        806246686530274231554002548822879844631710799886320977786718630531739958469131883287342678637275814925394111503
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 577,
+      "M_p_digits": 174,
+      "n_factors": 3,
+      "factors": [
+        3463,
+        132305774316967,
+        1079633141772892852450713464662329764119217100464362618290526362027911012565069142996396993157133020422681868025602819574600599624729277860300320636162145551
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 0,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 599,
+      "M_p_digits": 181,
+      "n_factors": 3,
+      "factors": [
+        16659379034607403556537,
+        148296291984475077955727317447564721950969097,
+        839804700900123195473468092497901750422530587828620063507554515144683510250490874819119570309824866293030799718783
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 613,
+      "M_p_digits": 185,
+      "n_factors": 3,
+      "factors": [
+        44599476833089207,
+        332817722770314187794325446534549089,
+        2290082526100134480992198124951512750039139339635155094272008280546850886939008711730865851616722892614369047154769105713048457413017
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 631,
+      "M_p_digits": 190,
+      "n_factors": 3,
+      "factors": [
+        333628015107245479,
+        474640860193534882628078580680807822523991,
+        56272943145171606416041974272779967237377245135400982739236727888151415549771970573866251017208467153984404288129453336803370700223
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 0,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 643,
+      "M_p_digits": 194,
+      "n_factors": 3,
+      "factors": [
+        3189281,
+        22532429052605670225026391054393428833168207234802434915090881303620353,
+        507909591297683949138862971271266635431758872031092542127980551589004038646657157217329569167343063743426799521984799
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 647,
+      "M_p_digits": 195,
+      "n_factors": 3,
+      "factors": [
+        303303806129303896428103,
+        11502383762931955619183430785983,
+        167394614336255622287892974563562062279515450939194955645810372698957070837766887487273372150456980944216508605805295762403884169162369962423
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 0,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 683,
+      "M_p_digits": 206,
+      "n_factors": 3,
+      "factors": [
+        1367,
+        434836499112609694795723958417048861299768144283442662402095922180462812746769,
+        67513796971703570854592232797421324116119881147340327278928245456644619398078155616494185719845536064262986241999463764460809
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    }
+  ],
+  "factor_size_distribution": {
+    "small (<10 digits)": 293,
+    "medium (10-30 digits)": 318,
+    "large (30-60 digits)": 196,
+    "huge (60-80 digits)": 60,
+    "massive (80+ digits)": 225
+  }
+}

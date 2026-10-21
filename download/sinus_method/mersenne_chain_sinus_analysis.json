@@ -1,0 +1,1764 @@
+{
+  "mersenne_chains": {
+    "type_A_complete": [
+      {
+        "p": 11,
+        "q_factor": 89,
+        "q_digits": 2,
+        "chain_type": "A",
+        "M_q_status": "Mersenne prime"
+      }
+    ],
+    "type_B_broken": [
+      {
+        "p": 11,
+        "q_factor": 23,
+        "q_digits": 2,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 23,
+        "q_factor": 47,
+        "q_digits": 2,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 23,
+        "q_factor": 178481,
+        "q_digits": 6,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 29,
+        "q_factor": 233,
+        "q_digits": 3,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 29,
+        "q_factor": 1103,
+        "q_digits": 4,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 29,
+        "q_factor": 2089,
+        "q_digits": 4,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 37,
+        "q_factor": 223,
+        "q_digits": 3,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 37,
+        "q_factor": 616318177,
+        "q_digits": 9,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 41,
+        "q_factor": 13367,
+        "q_digits": 5,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 41,
+        "q_factor": 164511353,
+        "q_digits": 9,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 43,
+        "q_factor": 431,
+        "q_digits": 3,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 43,
+        "q_factor": 9719,
+        "q_digits": 4,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 43,
+        "q_factor": 2099863,
+        "q_digits": 7,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 47,
+        "q_factor": 2351,
+        "q_digits": 4,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 47,
+        "q_factor": 4513,
+        "q_digits": 4,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 47,
+        "q_factor": 13264529,
+        "q_digits": 8,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 53,
+        "q_factor": 6361,
+        "q_digits": 4,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 53,
+        "q_factor": 69431,
+        "q_digits": 5,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 53,
+        "q_factor": 20394401,
+        "q_digits": 8,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 59,
+        "q_factor": 179951,
+        "q_digits": 6,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 59,
+        "q_factor": 3203431780337,
+        "q_digits": 13,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 67,
+        "q_factor": 193707721,
+        "q_digits": 9,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 67,
+        "q_factor": 761838257287,
+        "q_digits": 12,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 71,
+        "q_factor": 228479,
+        "q_digits": 6,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 71,
+        "q_factor": 48544121,
+        "q_digits": 8,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 71,
+        "q_factor": 212885833,
+        "q_digits": 9,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 73,
+        "q_factor": 439,
+        "q_digits": 3,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 73,
+        "q_factor": 2298041,
+        "q_digits": 7,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 73,
+        "q_factor": 9361973132609,
+        "q_digits": 13,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 79,
+        "q_factor": 2687,
+        "q_digits": 4,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 79,
+        "q_factor": 202029703,
+        "q_digits": 9,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 79,
+        "q_factor": 1113491139767,
+        "q_digits": 13,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 83,
+        "q_factor": 167,
+        "q_digits": 3,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 83,
+        "q_factor": 57912614113275649087721,
+        "q_digits": 23,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 97,
+        "q_factor": 11447,
+        "q_digits": 5,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 97,
+        "q_factor": 13842607235828485645766393,
+        "q_digits": 26,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 101,
+        "q_factor": 7432339208719,
+        "q_digits": 13,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 101,
+        "q_factor": 341117531003194129,
+        "q_digits": 18,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 103,
+        "q_factor": 2550183799,
+        "q_digits": 10,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 103,
+        "q_factor": 3976656429941438590393,
+        "q_digits": 22,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 109,
+        "q_factor": 745988807,
+        "q_digits": 9,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 109,
+        "q_factor": 870035986098720987332873,
+        "q_digits": 24,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 113,
+        "q_factor": 3391,
+        "q_digits": 4,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 113,
+        "q_factor": 23279,
+        "q_digits": 5,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 113,
+        "q_factor": 65993,
+        "q_digits": 5,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 113,
+        "q_factor": 1868569,
+        "q_digits": 7,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 113,
+        "q_factor": 1066818132868207,
+        "q_digits": 16,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 131,
+        "q_factor": 263,
+        "q_digits": 3,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 131,
+        "q_factor": 10350794431055162386718619237468234569,
+        "q_digits": 38,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 137,
+        "q_factor": 32032215596496435569,
+        "q_digits": 20,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 137,
+        "q_factor": 5439042183600204290159,
+        "q_digits": 22,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 139,
+        "q_factor": 5625767248687,
+        "q_digits": 13,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 139,
+        "q_factor": 123876132205208335762278423601,
+        "q_digits": 30,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 149,
+        "q_factor": 86656268566282183151,
+        "q_digits": 20,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 149,
+        "q_factor": 8235109336690846723986161,
+        "q_digits": 25,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 151,
+        "q_factor": 18121,
+        "q_digits": 5,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 151,
+        "q_factor": 55871,
+        "q_digits": 5,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 151,
+        "q_factor": 165799,
+        "q_digits": 6,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 151,
+        "q_factor": 2332951,
+        "q_digits": 7,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 151,
+        "q_factor": 7289088383388253664437433,
+        "q_digits": 25,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 157,
+        "q_factor": 852133201,
+        "q_digits": 9,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 157,
+        "q_factor": 60726444167,
+        "q_digits": 11,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 157,
+        "q_factor": 1654058017289,
+        "q_digits": 13,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 157,
+        "q_factor": 2134387368610417,
+        "q_digits": 16,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 163,
+        "q_factor": 150287,
+        "q_digits": 6,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 163,
+        "q_factor": 704161,
+        "q_digits": 6,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 163,
+        "q_factor": 110211473,
+        "q_digits": 9,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 163,
+        "q_factor": 27669118297,
+        "q_digits": 11,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 163,
+        "q_factor": 36230454570129675721,
+        "q_digits": 20,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 167,
+        "q_factor": 2349023,
+        "q_digits": 7,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 167,
+        "q_factor": 79638304766856507377778616296087448490695649,
+        "q_digits": 44,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 173,
+        "q_factor": 730753,
+        "q_digits": 6,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 173,
+        "q_factor": 1505447,
+        "q_digits": 7,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 173,
+        "q_factor": 70084436712553223,
+        "q_digits": 17,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 173,
+        "q_factor": 155285743288572277679887,
+        "q_digits": 24,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 179,
+        "q_factor": 359,
+        "q_digits": 3,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 179,
+        "q_factor": 1433,
+        "q_digits": 4,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 179,
+        "q_factor": 1489459109360039866456940197095433721664951999121,
+        "q_digits": 49,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 181,
+        "q_factor": 43441,
+        "q_digits": 5,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 181,
+        "q_factor": 1164193,
+        "q_digits": 7,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 181,
+        "q_factor": 7648337,
+        "q_digits": 7,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 181,
+        "q_factor": 7923871097285295625344647665764672671,
+        "q_digits": 37,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 191,
+        "q_factor": 383,
+        "q_digits": 3,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 191,
+        "q_factor": 7068569257,
+        "q_digits": 10,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 191,
+        "q_factor": 39940132241,
+        "q_digits": 11,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 191,
+        "q_factor": 332584516519201,
+        "q_digits": 15,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 191,
+        "q_factor": 87274497124602996457,
+        "q_digits": 20,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 193,
+        "q_factor": 13821503,
+        "q_digits": 8,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 193,
+        "q_factor": 61654440233248340616559,
+        "q_digits": 23,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 193,
+        "q_factor": 14732265321145317331353282383,
+        "q_digits": 29,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 197,
+        "q_factor": 7487,
+        "q_digits": 4,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 197,
+        "q_factor": 26828803997912886929710867041891989490486893845712448833,
+        "q_digits": 56,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 199,
+        "q_factor": 164504919713,
+        "q_digits": 12,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      },
+      {
+        "p": 199,
+        "q_factor": 4884164093883941177660049098586324302977543600799,
+        "q_digits": 49,
+        "chain_type": "B",
+        "M_q_status": "Mersenne composite (known)"
+      }
+    ],
+    "type_C_composite": [],
+    "counts": {
+      "A": 1,
+      "B": 94,
+      "C": 0,
+      "total_factors": 95
+    }
+  },
+  "sinus_verification": {
+    "consistent": 34,
+    "inconsistent": 0,
+    "total": 34,
+    "consistent_rate": "34/34",
+    "results": [
+      {
+        "p": 11,
+        "M_p_digits": 4,
+        "n_factors": 2,
+        "factors": [
+          23,
+          89
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 23,
+        "M_p_digits": 7,
+        "n_factors": 2,
+        "factors": [
+          47,
+          178481
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 29,
+        "M_p_digits": 9,
+        "n_factors": 3,
+        "factors": [
+          233,
+          1103,
+          2089
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 2,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 37,
+        "M_p_digits": 12,
+        "n_factors": 2,
+        "factors": [
+          223,
+          616318177
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 41,
+        "M_p_digits": 13,
+        "n_factors": 2,
+        "factors": [
+          13367,
+          164511353
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 43,
+        "M_p_digits": 13,
+        "n_factors": 3,
+        "factors": [
+          431,
+          9719,
+          2099863
+        ],
+        "neg_count_factors": 3,
+        "pos_count_factors": 0,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 47,
+        "M_p_digits": 15,
+        "n_factors": 3,
+        "factors": [
+          2351,
+          4513,
+          13264529
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 2,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 53,
+        "M_p_digits": 16,
+        "n_factors": 3,
+        "factors": [
+          6361,
+          69431,
+          20394401
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 2,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 59,
+        "M_p_digits": 18,
+        "n_factors": 2,
+        "factors": [
+          179951,
+          3203431780337
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 67,
+        "M_p_digits": 21,
+        "n_factors": 2,
+        "factors": [
+          193707721,
+          761838257287
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 71,
+        "M_p_digits": 22,
+        "n_factors": 3,
+        "factors": [
+          228479,
+          48544121,
+          212885833
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 2,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 73,
+        "M_p_digits": 22,
+        "n_factors": 3,
+        "factors": [
+          439,
+          2298041,
+          9361973132609
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 2,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 79,
+        "M_p_digits": 24,
+        "n_factors": 3,
+        "factors": [
+          2687,
+          202029703,
+          1113491139767
+        ],
+        "neg_count_factors": 3,
+        "pos_count_factors": 0,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 83,
+        "M_p_digits": 25,
+        "n_factors": 2,
+        "factors": [
+          167,
+          57912614113275649087721
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 97,
+        "M_p_digits": 30,
+        "n_factors": 2,
+        "factors": [
+          11447,
+          13842607235828485645766393
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 101,
+        "M_p_digits": 31,
+        "n_factors": 2,
+        "factors": [
+          7432339208719,
+          341117531003194129
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 103,
+        "M_p_digits": 32,
+        "n_factors": 2,
+        "factors": [
+          2550183799,
+          3976656429941438590393
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 109,
+        "M_p_digits": 33,
+        "n_factors": 2,
+        "factors": [
+          745988807,
+          870035986098720987332873
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 113,
+        "M_p_digits": 35,
+        "n_factors": 5,
+        "factors": [
+          3391,
+          23279,
+          65993,
+          1868569,
+          1066818132868207
+        ],
+        "neg_count_factors": 3,
+        "pos_count_factors": 2,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 131,
+        "M_p_digits": 40,
+        "n_factors": 2,
+        "factors": [
+          263,
+          10350794431055162386718619237468234569
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 137,
+        "M_p_digits": 42,
+        "n_factors": 2,
+        "factors": [
+          32032215596496435569,
+          5439042183600204290159
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 139,
+        "M_p_digits": 42,
+        "n_factors": 2,
+        "factors": [
+          5625767248687,
+          123876132205208335762278423601
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 149,
+        "M_p_digits": 45,
+        "n_factors": 2,
+        "factors": [
+          86656268566282183151,
+          8235109336690846723986161
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 151,
+        "M_p_digits": 46,
+        "n_factors": 5,
+        "factors": [
+          18121,
+          55871,
+          165799,
+          2332951,
+          7289088383388253664437433
+        ],
+        "neg_count_factors": 3,
+        "pos_count_factors": 2,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 157,
+        "M_p_digits": 48,
+        "n_factors": 4,
+        "factors": [
+          852133201,
+          60726444167,
+          1654058017289,
+          2134387368610417
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 3,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 163,
+        "M_p_digits": 50,
+        "n_factors": 5,
+        "factors": [
+          150287,
+          704161,
+          110211473,
+          27669118297,
+          36230454570129675721
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 4,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 167,
+        "M_p_digits": 51,
+        "n_factors": 2,
+        "factors": [
+          2349023,
+          79638304766856507377778616296087448490695649
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 173,
+        "M_p_digits": 53,
+        "n_factors": 4,
+        "factors": [
+          730753,
+          1505447,
+          70084436712553223,
+          155285743288572277679887
+        ],
+        "neg_count_factors": 3,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 179,
+        "M_p_digits": 54,
+        "n_factors": 3,
+        "factors": [
+          359,
+          1433,
+          1489459109360039866456940197095433721664951999121
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 2,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 181,
+        "M_p_digits": 55,
+        "n_factors": 4,
+        "factors": [
+          43441,
+          1164193,
+          7648337,
+          7923871097285295625344647665764672671
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 3,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 191,
+        "M_p_digits": 58,
+        "n_factors": 5,
+        "factors": [
+          383,
+          7068569257,
+          39940132241,
+          332584516519201,
+          87274497124602996457
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 4,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 193,
+        "M_p_digits": 59,
+        "n_factors": 3,
+        "factors": [
+          13821503,
+          61654440233248340616559,
+          14732265321145317331353282383
+        ],
+        "neg_count_factors": 3,
+        "pos_count_factors": 0,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 197,
+        "M_p_digits": 60,
+        "n_factors": 2,
+        "factors": [
+          7487,
+          26828803997912886929710867041891989490486893845712448833
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      },
+      {
+        "p": 199,
+        "M_p_digits": 60,
+        "n_factors": 2,
+        "factors": [
+          164504919713,
+          4884164093883941177660049098586324302977543600799
+        ],
+        "neg_count_factors": 1,
+        "pos_count_factors": 1,
+        "neg_count_parity": "odd",
+        "predicted_sin_30Mp": -0.5,
+        "M_p_mod_12": 7,
+        "M_p_in_neg_class": true
+      }
+    ]
+  },
+  "sin_neg_mersennes": [
+    {
+      "p": 11,
+      "M_p_digits": 4,
+      "n_factors": 2,
+      "factors": [
+        23,
+        89
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 23,
+      "M_p_digits": 7,
+      "n_factors": 2,
+      "factors": [
+        47,
+        178481
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 29,
+      "M_p_digits": 9,
+      "n_factors": 3,
+      "factors": [
+        233,
+        1103,
+        2089
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 37,
+      "M_p_digits": 12,
+      "n_factors": 2,
+      "factors": [
+        223,
+        616318177
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 41,
+      "M_p_digits": 13,
+      "n_factors": 2,
+      "factors": [
+        13367,
+        164511353
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 43,
+      "M_p_digits": 13,
+      "n_factors": 3,
+      "factors": [
+        431,
+        9719,
+        2099863
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 0,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 47,
+      "M_p_digits": 15,
+      "n_factors": 3,
+      "factors": [
+        2351,
+        4513,
+        13264529
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 53,
+      "M_p_digits": 16,
+      "n_factors": 3,
+      "factors": [
+        6361,
+        69431,
+        20394401
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 59,
+      "M_p_digits": 18,
+      "n_factors": 2,
+      "factors": [
+        179951,
+        3203431780337
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 67,
+      "M_p_digits": 21,
+      "n_factors": 2,
+      "factors": [
+        193707721,
+        761838257287
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 71,
+      "M_p_digits": 22,
+      "n_factors": 3,
+      "factors": [
+        228479,
+        48544121,
+        212885833
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 73,
+      "M_p_digits": 22,
+      "n_factors": 3,
+      "factors": [
+        439,
+        2298041,
+        9361973132609
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 79,
+      "M_p_digits": 24,
+      "n_factors": 3,
+      "factors": [
+        2687,
+        202029703,
+        1113491139767
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 0,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 83,
+      "M_p_digits": 25,
+      "n_factors": 2,
+      "factors": [
+        167,
+        57912614113275649087721
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 97,
+      "M_p_digits": 30,
+      "n_factors": 2,
+      "factors": [
+        11447,
+        13842607235828485645766393
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 101,
+      "M_p_digits": 31,
+      "n_factors": 2,
+      "factors": [
+        7432339208719,
+        341117531003194129
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 103,
+      "M_p_digits": 32,
+      "n_factors": 2,
+      "factors": [
+        2550183799,
+        3976656429941438590393
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 109,
+      "M_p_digits": 33,
+      "n_factors": 2,
+      "factors": [
+        745988807,
+        870035986098720987332873
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 113,
+      "M_p_digits": 35,
+      "n_factors": 5,
+      "factors": [
+        3391,
+        23279,
+        65993,
+        1868569,
+        1066818132868207
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 131,
+      "M_p_digits": 40,
+      "n_factors": 2,
+      "factors": [
+        263,
+        10350794431055162386718619237468234569
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 137,
+      "M_p_digits": 42,
+      "n_factors": 2,
+      "factors": [
+        32032215596496435569,
+        5439042183600204290159
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 139,
+      "M_p_digits": 42,
+      "n_factors": 2,
+      "factors": [
+        5625767248687,
+        123876132205208335762278423601
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 149,
+      "M_p_digits": 45,
+      "n_factors": 2,
+      "factors": [
+        86656268566282183151,
+        8235109336690846723986161
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 151,
+      "M_p_digits": 46,
+      "n_factors": 5,
+      "factors": [
+        18121,
+        55871,
+        165799,
+        2332951,
+        7289088383388253664437433
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 157,
+      "M_p_digits": 48,
+      "n_factors": 4,
+      "factors": [
+        852133201,
+        60726444167,
+        1654058017289,
+        2134387368610417
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 3,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 163,
+      "M_p_digits": 50,
+      "n_factors": 5,
+      "factors": [
+        150287,
+        704161,
+        110211473,
+        27669118297,
+        36230454570129675721
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 4,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 167,
+      "M_p_digits": 51,
+      "n_factors": 2,
+      "factors": [
+        2349023,
+        79638304766856507377778616296087448490695649
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 173,
+      "M_p_digits": 53,
+      "n_factors": 4,
+      "factors": [
+        730753,
+        1505447,
+        70084436712553223,
+        155285743288572277679887
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 179,
+      "M_p_digits": 54,
+      "n_factors": 3,
+      "factors": [
+        359,
+        1433,
+        1489459109360039866456940197095433721664951999121
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 2,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 181,
+      "M_p_digits": 55,
+      "n_factors": 4,
+      "factors": [
+        43441,
+        1164193,
+        7648337,
+        7923871097285295625344647665764672671
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 3,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 191,
+      "M_p_digits": 58,
+      "n_factors": 5,
+      "factors": [
+        383,
+        7068569257,
+        39940132241,
+        332584516519201,
+        87274497124602996457
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 4,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 193,
+      "M_p_digits": 59,
+      "n_factors": 3,
+      "factors": [
+        13821503,
+        61654440233248340616559,
+        14732265321145317331353282383
+      ],
+      "neg_count_factors": 3,
+      "pos_count_factors": 0,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 197,
+      "M_p_digits": 60,
+      "n_factors": 2,
+      "factors": [
+        7487,
+        26828803997912886929710867041891989490486893845712448833
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    },
+    {
+      "p": 199,
+      "M_p_digits": 60,
+      "n_factors": 2,
+      "factors": [
+        164504919713,
+        4884164093883941177660049098586324302977543600799
+      ],
+      "neg_count_factors": 1,
+      "pos_count_factors": 1,
+      "neg_count_parity": "odd",
+      "predicted_sin_30Mp": -0.5,
+      "M_p_mod_12": 7,
+      "M_p_in_neg_class": true
+    }
+  ]
+}

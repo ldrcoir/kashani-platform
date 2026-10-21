@@ -59,3 +59,7 @@ download/auto_factor/held_30_digit_factors.json
 download/auto_factor/named_factors.json
 download/prompts/*_solutions.json
 download/tasks_v3/*/solutions.json
+
+# Private sinus factor data — don't push to public repo
+download/sinus_method/sinus_303_with_factors_PRIVATE.json
+db/sinus_303.db

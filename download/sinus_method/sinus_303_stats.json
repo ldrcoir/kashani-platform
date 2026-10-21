@@ -1,0 +1,21 @@
+{
+  "total": 3420,
+  "sin_neg_count": 1320,
+  "sin_pos_count": 2100,
+  "description": "اعداد ۳۰۳ رقمی با ۳ عامل اول × ۸۰+ رقم",
+  "sinus_theorem": {
+    "description": "برای هر عدد اول p ≥ 7: sin(30p°) = +0.5 اگر p ≡ 1, 5 (mod 12)، sin(30p°) = -0.5 اگر p ≡ 7, 11 (mod 12)",
+    "composite_rule": "برای مرکب n = p1×p2×...×pk: sin(30n°) = +0.5 اگه تعداد عوامل با sin=-0.5 زوج باشه، sin(30n°) = -0.5 اگه فرد باشه",
+    "mechanism": "گروه Klein (Z/12)* ≅ C2 × C2 — هر عنصر معکوس خودش است"
+  },
+  "factor_specs": {
+    "min_digits_per_factor": 80,
+    "factors_per_number": 3,
+    "total_digits_target": 303
+  },
+  "verification": {
+    "mersenne_p_lt_200": "34/34 سازگار (100%)",
+    "mersenne_p_lt_8000": "276/276 سازگار (100%)",
+    "generated_303_numbers": "3420/3420 سازگار (100%)"
+  }
+}
