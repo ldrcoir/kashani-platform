@@ -1,9 +1,9 @@
 // ============================================================
 // sw.js — Service Worker برای PWA (نسخه‌ی پیشرفته)
 // ============================================================
-const CACHE_NAME = 'kashani-platform-v4';
-const STATIC_CACHE = 'kashani-static-v4';
-const RUNTIME_CACHE = 'kashani-runtime-v4';
+const CACHE_NAME = 'science-platform-v4';
+const STATIC_CACHE = 'science-static-v4';
+const RUNTIME_CACHE = 'science-runtime-v4';
 
 const STATIC_ASSETS = [
   '/',
@@ -109,7 +109,7 @@ self.addEventListener('push', e => {
       body: data.body || 'پیام جدیدی دارید',
       icon: '/icon-192.png',
       badge: '/icon-192.png',
-      tag: data.tag || 'kashani',
+      tag: data.tag || 'science',
       data: { url: data.url || '/' },
       vibrate: [100, 50, 100],
     })

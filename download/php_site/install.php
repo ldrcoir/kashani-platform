@@ -51,7 +51,7 @@ if ($step === '1') {
                 <h3 class="font-bold">اطلاعات دیتابیس MySQL:</h3>
                 <div class="grid md:grid-cols-2 gap-3">
                     <div><label class="block text-xs text-gray-500 mb-1">DB Host</label><input type="text" name="db_host" value="localhost" class="w-full px-3 py-2 border rounded text-sm" dir="ltr"></div>
-                    <div><label class="block text-xs text-gray-500 mb-1">DB Name</label><input type="text" name="db_name" value="kashani" class="w-full px-3 py-2 border rounded text-sm" dir="ltr"></div>
+                    <div><label class="block text-xs text-gray-500 mb-1">DB Name</label><input type="text" name="db_name" value="science" class="w-full px-3 py-2 border rounded text-sm" dir="ltr"></div>
                     <div><label class="block text-xs text-gray-500 mb-1">DB User</label><input type="text" name="db_user" class="w-full px-3 py-2 border rounded text-sm" dir="ltr"></div>
                     <div><label class="block text-xs text-gray-500 mb-1">DB Pass</label><input type="password" name="db_pass" class="w-full px-3 py-2 border rounded text-sm" dir="ltr"></div>
                 </div>
@@ -68,7 +68,7 @@ if ($step === '1') {
 
 if ($step === '2') {
     $db_host = $_POST['db_host'] ?? 'localhost';
-    $db_name = $_POST['db_name'] ?? 'kashani';
+    $db_name = $_POST['db_name'] ?? 'science';
     $db_user = $_POST['db_user'] ?? '';
     $db_pass = $_POST['db_pass'] ?? '';
     $site_url = $_POST['site_url'] ?? '';

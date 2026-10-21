@@ -15,7 +15,7 @@
 | `oloom-iran.ir` | علوم ایران |
 | `danesh-platform.ir` | دانش پلتفرم |
 | `khayyam-biruni.ir` | خیام و بیرونی |
-| `kashani.ir` | الکاشانی |
+| `science.ir` | الکاشانی |
 
 ## 📁 ساختار پلتفرم
 
@@ -86,7 +86,7 @@ volunteer-client/  (نرم‌افزار دسکتاپ)
 ## 🚀 نصب روی cPanel (ParsWebHost)
 
 ### ۱. آپلود
-فایل `kashani_platform.zip` را در `public_html/` آپلود و اکسترکت کنید.
+فایل `science_platform.zip` را در `public_html/` آپلود و اکسترکت کنید.
 
 ### ۲. ساخت دیتابیس
 cPanel → **MySQL Databases** → ساخت database + user

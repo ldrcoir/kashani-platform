@@ -1,5 +1,5 @@
 {
-  "name": "kashani-chat-server",
+  "name": "science-chat-server",
   "version": "1.0.0",
   "description": "WebSocket chat server for Persian Multidisciplinary Science Platform",
   "main": "server.js",

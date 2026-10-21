@@ -68,7 +68,7 @@ $translations = [
     'en' => [
         'title' => 'Persian Multidisciplinary Science Platform',
         'subtitle' => 'Dedicated to Ghiyath al-Din غیاث‌الدین جمشید کاشانی',
-        'dedicated' => 'Ghiyath al-Din Jamshid Kashani',
+        'dedicated' => 'Ghiyath al-Din Jamshid Science',
         'home' => 'Home', 'series' => 'Series', 'ranges' => 'Ranges',
         'magazine' => 'Magazine', 'about' => 'About', 'lessons' => 'Lessons',
         'login_gmail' => 'Login with Gmail', 'login_phone' => 'Login with Phone',
@@ -81,7 +81,7 @@ $translations = [
         'composites' => 'factored', 'motivation' => 'Going for the grand prize',
         'eff_prize' => 'EFF Prize: $150,000 for 100-million-digit prime',
         'admin_panel' => 'Admin Panel', 'api_docs' => 'API Docs',
-        'copyright' => '© 2026 — Dedicated to Jamshid Kashani',
+        'copyright' => '© 2026 — Dedicated to Jamshid Science',
     ],
     'ar' => [
         'title' => 'منصة العلوم متعددة التخصصات الفارسية',
@@ -103,22 +103,22 @@ $translations = [
     ],
     'fr' => [
         'title' => 'Plateforme Scientifique Pluridisciplinaire Perse',
-        'subtitle' => 'Dédiée à Ghiyath al-Din Jamshid Kashani',
-        'dedicated' => 'Jamshid Kashani', 'home' => 'Accueil', 'magazine' => 'Magazine',
+        'subtitle' => 'Dédiée à Ghiyath al-Din Jamshid Science',
+        'dedicated' => 'Jamshid Science', 'home' => 'Accueil', 'magazine' => 'Magazine',
         'lessons' => 'Leçons', 'chat_intl' => 'Chat International',
         'admin_panel' => 'Panneau Admin', 'copyright' => '© 2026',
     ],
     'de' => [
         'title' => 'Persische Multidisziplinäre Wissenschaftsplattform',
-        'subtitle' => 'Gewidmet Ghiyath al-Din Jamshid Kashani',
-        'dedicated' => 'Jamshid Kashani', 'home' => 'Startseite', 'magazine' => 'Magazin',
+        'subtitle' => 'Gewidmet Ghiyath al-Din Jamshid Science',
+        'dedicated' => 'Jamshid Science', 'home' => 'Startseite', 'magazine' => 'Magazin',
         'lessons' => 'Lektionen', 'chat_intl' => 'Internationaler Chat',
         'admin_panel' => 'Admin', 'copyright' => '© 2026',
     ],
     'es' => [
         'title' => 'Plataforma Científica Multidisciplinaria Persa',
-        'subtitle' => 'Dedicada a Ghiyath al-Din Jamshid Kashani',
-        'dedicated' => 'Jamshid Kashani', 'home' => 'Inicio', 'magazine' => 'Revista',
+        'subtitle' => 'Dedicada a Ghiyath al-Din Jamshid Science',
+        'dedicated' => 'Jamshid Science', 'home' => 'Inicio', 'magazine' => 'Revista',
         'lessons' => 'Lecciones', 'chat_intl' => 'Chat Internacional',
         'admin_panel' => 'Panel', 'copyright' => '© 2026',
     ],
@@ -463,7 +463,7 @@ function get_site_stats() {
 function seo_meta($title, $description, $image = null, $url = null) {
     $html = "<title>" . sanitize($title) . "</title>\n";
     $html .= "<meta name='description' content='" . sanitize($description) . "'>\n";
-    $html .= "<meta name='keywords' content='ریاضی, فیزیک, پزشکی, داروسازی, کامپیوتر, علوم, اعداد اول, فاکتور, علم, پژوهش, کاشانی, jamshid kashani, persian science, multidisciplinary'>\n";
+    $html .= "<meta name='keywords' content='ریاضی, فیزیک, پزشکی, داروسازی, کامپیوتر, علوم, اعداد اول, فاکتور, علم, پژوهش, کاشانی, jamshid science, persian science, multidisciplinary'>\n";
     $html .= "<meta property='og:title' content='" . sanitize($title) . "'>\n";
     $html .= "<meta property='og:description' content='" . sanitize($description) . "'>\n";
     $html .= "<meta property='og:type' content='website'>\n";

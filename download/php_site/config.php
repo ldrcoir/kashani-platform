@@ -1,7 +1,7 @@
 <?php
 // config.php — تنظیمات (از env vars یا .env)
 $db_host = getenv('DB_HOST') ?: 'localhost';
-$db_name = getenv('DB_NAME') ?: 'kashani';
+$db_name = getenv('DB_NAME') ?: 'science';
 $db_user = getenv('DB_USER') ?: 'root';
 $db_pass = getenv('DB_PASS') ?: '';
 // Load .env if exists

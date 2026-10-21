@@ -141,7 +141,7 @@ CREATE TABLE IF NOT EXISTS compute_nodes (
 
 -- Insert default math series
 INSERT INTO math_series (name, name_en, name_ar, mathematician, mathematician_en, century, born_year, died_year, description, description_en, oeis_ref, formula, color, icon, sort_order) VALUES
-('کاشانی', 'Kashani', 'الكاشاني', 'غیاث‌الدین جمشید کاشانی', 'Ghiyath al-Din غیاث‌الدین جمشید کاشانی', 15, 1380, 1429, 'اعشار π و سینوس', 'Digits of π and sine theorem', NULL, 'floor(10^p × sin(π/p))', 'amber', '🔢', 1),
+('کاشانی', 'Science', 'الكاشاني', 'غیاث‌الدین جمشید کاشانی', 'Ghiyath al-Din غیاث‌الدین جمشید کاشانی', 15, 1380, 1429, 'اعشار π و سینوس', 'Digits of π and sine theorem', NULL, 'floor(10^p × sin(π/p))', 'amber', '🔢', 1),
 ('خیام', 'Khayyam', 'الخيام', 'Omar Khayyam', 'Omar Khayyam', 11, 1048, 1131, 'مثلث خیام', 'Khayyam triangle', 'A007318', 'C(n,k) mod 2', 'emerald', '📐', 2),
 ('بیرونی', 'Biruni', 'البيروني', 'Abu Rayhan al-Biruni', 'al-Biruni', 10, 973, 1048, 'فاصله‌های اول', 'Prime gaps', 'A005250', NULL, 'blue', '🌍', 3),
 ('کرجی', 'Karaji', 'الكرجي', 'Abu Bakr al-Karaji', 'al-Karaji', 10, 953, 1029, 'اعداد مثلثی', 'Triangular numbers', 'A000217', 'n(n+1)/2', 'purple', '🔺', 4),
