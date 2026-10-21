@@ -1,0 +1,104 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-android:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+    
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v3
+      with:
+        api-level: 34
+        build-tools-version: 34.0.0
+    
+    - name: Create Android Project
+      run: |
+        mkdir -p android-app/app/src/main/java/ir/science/platform
+        mkdir -p android-app/app/src/main/res/layout
+        mkdir -p android-app/app/src/main/res/values
+        cp download/android-app/MainActivity.java android-app/app/src/main/java/ir/science/platform/
+        cp download/android-app/activity_main.xml android-app/app/src/main/res/layout/
+        cp download/android-app/AndroidManifest.xml android-app/app/src/main/
+        
+        cat > android-app/settings.gradle << 'G'
+        pluginManagement {
+          repositories { google(); mavenCentral() }
+        }
+        dependencyResolutionManagement {
+          repositories { google(); mavenCentral() }
+        }
+        rootProject.name = "SciencePlatform"
+        include ':app'
+        G
+        
+        cat > android-app/build.gradle << 'G'
+        plugins {
+          id 'com.android.application' version '8.2.0' apply false
+        }
+        G
+        
+        cat > android-app/app/build.gradle << 'G'
+        plugins {
+          id 'com.android.application'
+        }
+        android {
+          namespace 'ir.science.platform'
+          compileSdk 34
+          defaultConfig {
+            applicationId "ir.science.platform"
+            minSdk 21
+            targetSdk 34
+            versionCode 1
+            versionName "1.0"
+          }
+          buildTypes {
+            release {
+              minifyEnabled true
+              proguardFiles getDefaultProguardFile('proguard-android-optimize.txt')
+            }
+          }
+        }
+        dependencies {
+          implementation 'androidx.appcompat:appcompat:1.6.1'
+          implementation 'androidx.webkit:webkit:1.8.0'
+        }
+        G
+        
+        cat > android-app/app/src/main/res/values/strings.xml << 'G'
+        <resources>
+          <string name="app_name">Science Platform</string>
+        </resources>
+        G
+        
+        cat > android-app/app/src/main/res/values/themes.xml << 'G'
+        <resources>
+          <style name="Theme.App" parent="android:Theme.Material.NoActionBar">
+            <item name="android:windowBackground">#0f172a</item>
+          </style>
+        </resources>
+        G
+    
+    - name: Build APK
+      working-directory: android-app
+      run: |
+        chmod +x gradlew 2>/dev/null || true
+        ./gradlew assembleRelease --no-daemon -x lint || ./gradlew assembleDebug --no-daemon -x lint
+    
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: science-platform-apk
+        path: android-app/app/build/outputs/apk/**/*.apk

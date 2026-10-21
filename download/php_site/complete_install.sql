@@ -644,3 +644,23 @@ INSERT INTO scientists (slug, name_fa, name_en, name_ar, full_name_fa, full_name
 ('perl', 'لری وال', 'Larry Wall', 'لاري وال', 'لری وال', 'Larry Wall', 'کامپیوتر', 20, 1954, null, 'لس‌آنجلس', null, 'سازنده‌ی Perl — زبان برنامه‌نویسی', 'Creator of Perl', '💻', 'purple', 82, 0),
 ('torvalds', 'لینوس توروالدز', 'Linus Torvalds', 'لينوس تورفالدس', 'لینوس بندیکت توروالدز', 'Linus Torvalds', 'کامپیوتر', 20, 1969, null, 'هلسینکی', null, 'سازنده‌ی Linux و Git', 'Creator of Linux and Git', '🐧', 'cyan', 83, 1)
 ON DUPLICATE KEY UPDATE name_fa=VALUES(name_fa);
+
+-- More scientists (batch 4) — target 80+
+INSERT INTO scientists (slug, name_fa, name_en, name_ar, full_name_fa, full_name_en, field, century, born_year, died_year, born_place, died_place, bio_fa, bio_en, icon, color, sort_order, is_featured) VALUES
+('bardeen', 'جان باردین', 'John Bardeen', 'جون باردين', 'جان باردین', 'John Bardeen', 'فیزیک', 20, 1908, 1991, 'مدیسون', 'باستون', 'تنها دو بار جایزه‌ی نوبل در فیزیک — ترانزیستور', 'Only double Nobel in physics — transistor', '⚡', 'blue', 84, 1),
+('shockley', 'ویلیام شاکلی', 'William Shockley', 'ويليام شوكلي', 'ویلیام برادفورد شاکلی', 'William Shockley', 'فیزیک', 20, 1910, 1989, 'لندن', 'استنفورد', 'اختراع ترانزیستور — جایزه‌ی نوبل', 'Invented transistor — Nobel Prize', '💻', 'cyan', 85, 0),
+('brattain', 'والتر براتین', 'Walter Brattain', 'والتر براتين', 'والتر هاوزر براتین', 'Walter Brattain', 'فیزیک', 20, 1902, 1987, 'شیامین', 'سیاتل', 'ترانزیستور — جایزه‌ی نوبل', 'Transistor — Nobel Prize', '💻', 'amber', 86, 0),
+('mozart', 'موتسارت', 'Wolfgang Mozart', 'موتسارت', 'یوهان کریزوستوم ولفگانگ آمادئوس موتسارت', 'Wolfgang Amadeus Mozart', 'موسیقی', 18, 1756, 1791, 'سالزبورگ', 'وین', 'نابغه‌ی موسیقی — ۶۰۰+ اثر', 'Music genius — 600+ works', '🎵', 'rose', 87, 0),
+('beethoven', 'بتهوون', 'Ludwig Beethoven', 'بيتهوفن', 'لودویگ فان بتهوون', 'Ludwig van Beethoven', 'موسیقی', 18, 1770, 1827, 'بن', 'وین', 'نابغه‌ی موسیقی — ناشنوا شد ولی ساخت', 'Music genius — composed when deaf', '🎵', 'indigo', 88, 0),
+('einstein-albert', 'آلبرت انیشتین', 'Albert Einstein', 'ألبرت أينشتاين', 'آلبرت انیشتین', 'Albert Einstein', 'فیزیک', 19, 1879, 1955, 'اولم', 'پریسنتون', 'نسبیت — E=mc² — جایزه‌ی نوبل', 'Relativity — E=mc² — Nobel', '⚛️', 'indigo', 89, 1),
+('bohr-niels', 'نیلز بوهر', 'Niels Bohr', 'نيلز بوهر', 'نیلز هنریک داوید بوهر', 'Niels Bohr', 'فیزیک', 19, 1885, 1962, 'کپنهاگ', 'کپنهاگ', 'مدل اتم بوهر — مکانیک کوانتومی — نوبل', 'Bohr model — quantum mechanics — Nobel', '⚛️', 'blue', 90, 1),
+('heisenberg-w', 'ورنر هایزنبرگ', 'Werner Heisenberg', 'فيرنر هايزنبرغ', 'ورنر کارل هایزنبرگ', 'Werner Heisenberg', 'فیزیک', 20, 1901, 1976, 'وورتسبورگ', 'مونیخ', 'اصل عدم قطعیت — نوبل', 'Uncertainty principle — Nobel', '⚛️', 'cyan', 91, 0),
+('schrodinger-e', 'اروین شرودینگر', 'Erwin Schrödinger', 'إروين شرودنغر', 'اروین شرودینگر', 'Erwin Schrödinger', 'فیزیک', 19, 1887, 1961, 'وین', 'وین', 'معادله شرودینگر — گربه شرودینگر — نوبل', 'Schrödinger equation — cat — Nobel', '🐈', 'purple', 92, 0),
+('pauli', 'ولفگانگ پاولی', 'Wolfgang Pauli', 'فولفغانغ باولي', 'ولفگانگ ارنست پاولی', 'Wolfgang Pauli', 'فیزیک', 20, 1900, 1958, 'وین', 'زوریخ', 'اصل طرد پاولی — نوبل', 'Pauli exclusion principle — Nobel', '⚛️', 'amber', 93, 0),
+('debroglie', 'لوئی دوبروی', 'Louis de Broglie', 'لويس دي بروغلي', 'لوئی ویکتور پیر رایمون دوبروی', 'Louis de Broglie', 'فیزیک', 19, 1892, 1987, 'دیپ', 'لووشه', 'موج-ذره — طول موج دوبروی — نوبل', 'Wave-particle — de Broglie wavelength — Nobel', '🌊', 'blue', 94, 0),
+('born', 'ماکس بورن', 'Max Born', 'ماكس بورن', 'ماکس بورن', 'Max Born', 'فیزیک', 19, 1882, 1970, 'برسلاو', 'گوتینگن', 'تفسیر احتمالی کوانتوم — نوبل', 'Probabilistic quantum interpretation — Nobel', '⚛️', 'cyan', 95, 0),
+('lander', 'رابرت لند', 'Robert Lander', 'روبرت لند', 'رابرت لند', 'Robert Lander', 'شیمی', 19, 1903, 1973, 'سانی', 'ریچموند', 'تحلیل گرمایی — تکنیک‌های آزمایشگاهی', 'Thermal analysis — lab techniques', '🧪', 'amber', 96, 0),
+('pare', 'امبروز پاره', 'Ambroise Paré', 'أمبرواز باري', 'امبروز پاره', 'Ambroise Paré', 'پزشکی', 16, 1510, 1590, 'لاوال', 'پاریس', 'پدر جراحی مدرن — بندآرteri', 'Father of modern surgery', '⚕️', 'green', 97, 0),
+('vesalius', 'وسالیوس', 'Andreas Vesalius', 'أندرياس فيساليوس', 'آندریاس وسالیوس', 'Andreas Vesalius', 'پزشکی', 16, 1514, 1564, 'برکسل', 'زاکنته', 'پدر آناتومی مدرن', 'Father of modern anatomy', '🫀', 'rose', 98, 0),
+('harvey', 'ویلیام هاروی', 'William Harvey', 'ويليام هارفي', 'ویلیام هاروی', 'William Harvey', 'پزشکی', 16, 1578, 1657, 'فولکستون', 'لندن', 'کشف گردش خون', 'Discovered blood circulation', '🫀', 'red', 99, 1)
+ON DUPLICATE KEY UPDATE name_fa=VALUES(name_fa);
