@@ -1,6 +1,0 @@
-[Main thread Sep 13 00:24] Mersenne number primality test program version 30.8
-[Main thread Sep 13 00:24] Optimizing for CPU architecture: Unknown Intel, L2 cache size: 2 MB, L3 cache size: 504 MB
-[Main thread Sep 13 00:24] Starting worker.
-[Work thread Sep 13 00:24] Worker starting
-[Work thread Sep 13 00:24] Setting affinity to run worker on CPU core #1
-[Work thread Sep 13 00:25] Setting affinity to run helper thread 1 on CPU core #2

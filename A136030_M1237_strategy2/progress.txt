@@ -1,4 +1,0 @@
-last_B1: 1e6
-last_curves: 500
-elapsed: 3506s
-time: 2026-09-08 04:15:36

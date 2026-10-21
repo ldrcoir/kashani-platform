@@ -1,0 +1,29 @@
+================================================================
+TASK: Factor 164 composites (303 digits, 3 factors of 80+ digits each)
+================================================================
+
+Each number below is a product of 3 prime numbers.
+Each prime factor has 80 or more digits.
+The numbers are in sinus class +0.5 (sin(30n) = +0.5).
+
+YOUR TASK:
+1. For each n=NUMBER, find all 3 prime factors
+2. Verify: product of the 3 factors must equal n
+3. All factors must be 80+ digits
+4. Output format:
+   n=NUMBER
+   factors=P1,P2,P3
+   ---
+   
+METHODS NEEDED:
+- ECM with large B1 (for 80+ digit factors, need B1=10^9+)
+- P-1/P+1 (if factor is smooth)
+- This is VERY hard — 80+ digit factors require massive computation
+
+IMPORTANT:
+- Do NOT submit to FactorDB
+- Save results locally only
+- These numbers match the structure of C303 (M(1237)/P70)
+
+OUTPUT FILE: results.txt (in same folder as this file)
+================================================================

@@ -1,9 +1,0 @@
-=== Program is ALIVE ===
-Time: 2026-09-05 12:19:26
-Target: M(1277) [idx=192]
-Threads: 4 (work division on same number)
-K_LIMIT: 100,000,000,000
-
-  (checkpoint error: [Errno 2] No such file or directory: '/home/z/my-project/A136030_Search_100B/checkpoint.json')
-
---- No results file yet ---

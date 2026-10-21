@@ -1,6 +1,0 @@
-phase: ecm_1e9
-step: 1/8
-B1: 1e9
-curves: 5000
-elapsed: 7171s (1.99h)
-time: 2026-09-09 06:29:47

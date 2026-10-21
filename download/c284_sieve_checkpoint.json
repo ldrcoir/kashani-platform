@@ -1,8 +1,0 @@
-{
-  "last_k_processed": 100000000000,
-  "timestamp": "2026-10-01 23:40:00",
-  "final": true,
-  "no_factor_found": true,
-  "worker0_last_k": 99959403981,
-  "worker1_last_k": 100000000000
-}

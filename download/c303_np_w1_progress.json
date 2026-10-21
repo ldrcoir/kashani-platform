@@ -1,9 +1,0 @@
-{
-  "worker_id": 1,
-  "last_q": 247401333096517,
-  "last_k": null,
-  "primes": 2900000,
-  "tested": 2371,
-  "pow_hits": 0,
-  "elapsed": 30.747565269470215
-}
