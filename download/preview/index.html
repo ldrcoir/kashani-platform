@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🔬 پلتفرم علمی چندرشته‌ای پارسی — پیش‌نمایش</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2/dist/tailwind.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+<style>
+body{font-family:'Vazirmatn',sans-serif}
+.card{transition:all 0.2s}
+.card:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(0,0,0,0.12)}
+.icon-btn{width:70px;height:70px;display:flex;align-items:center;justify-content:center;border-radius:16px;font-size:1.8rem;cursor:pointer;text-decoration:none}
+.icon-btn:hover{transform:scale(1.1)}
+.progress{height:6px;border-radius:3px;background:#e5e7eb;overflow:hidden}
+.progress-bar{height:100%;background:#3b82f6;border-radius:3px}
+.screenshot{border:2px solid #e5e7eb;border-radius:12px;overflow:hidden;margin:10px 0}
+</style>
+</head>
+<body class="bg-gray-50">
+
+<!-- Header Preview -->
+<div class="bg-white shadow-sm sticky top-0 z-50">
+<div class="max-w-6xl mx-auto px-4 py-2 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="text-2xl">🔬</span>
+<span class="font-bold text-sm">پلتفرم علمی پارسی</span>
+</div>
+<div class="flex items-center gap-1">
+<a class="icon-btn bg-blue-50 hover:bg-blue-100" title="آزمایشگاه">🧮</a>
+<a class="icon-btn bg-emerald-50 hover:bg-emerald-100" title="آموزش">📚</a>
+<a class="icon-btn bg-amber-50 hover:bg-amber-100" title="مجله">📰</a>
+<a class="icon-btn bg-purple-50 hover:bg-purple-100" title="چت">💬</a>
+<a class="icon-btn bg-rose-50 hover:bg-rose-100" title="AI">🤖</a>
+<a class="icon-btn bg-indigo-50 hover:bg-indigo-100" title="دانشمندان">🎓</a>
+<a class="icon-btn bg-cyan-50 hover:bg-cyan-100" title="شبکه">👥</a>
+<a class="icon-btn bg-gray-100" title="ورود">🔑</a>
+</div>
+</div>
+</div>
+
+<!-- Hero -->
+<div class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-8">
+<div class="max-w-6xl mx-auto px-4 text-center">
+<h1 class="text-3xl font-bold mb-2">🔬 پلتفرم علمی چندرشته‌ای</h1>
+<p class="text-sm opacity-90 mb-4">ریاضی • فیزیک • پزشکی • داروسازی • کامپیوتر</p>
+<div class="flex justify-center gap-4 text-center">
+<div><span class="text-2xl font-bold">۶۴,۵۷۴</span><br><span class="text-xs opacity-80">credit</span></div>
+<div><span class="text-2xl font-bold">۳۰,۵۳۹</span><br><span class="text-xs opacity-80">فاکتور</span></div>
+<div><span class="text-2xl font-bold">۰</span><br><span class="text-xs opacity-80">کاربر</span></div>
+<div><span class="text-2xl font-bold">۳۰+</span><br><span class="text-xs opacity-80">درس</span></div>
+</div>
+</div>
+</div>
+
+<!-- Quick Access Cards -->
+<div class="max-w-6xl mx-auto px-4 py-6">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+<div class="card bg-white rounded-xl p-4 text-center shadow">
+<div class="text-3xl mb-1">🧮</div><div class="font-bold text-sm">آزمایشگاه</div><div class="text-xs text-gray-500">فاکتور • اول • مرسن</div>
+</div>
+<div class="card bg-white rounded-xl p-4 text-center shadow">
+<div class="text-3xl mb-1">📚</div><div class="font-bold text-sm">آموزش</div><div class="text-xs text-gray-500">درس تعاملی</div>
+</div>
+<div class="card bg-white rounded-xl p-4 text-center shadow">
+<div class="text-3xl mb-1">🤖</div><div class="font-bold text-sm">دستیار AI</div><div class="text-xs text-gray-500">سوال بپرس</div>
+</div>
+<div class="card bg-white rounded-xl p-4 text-center shadow">
+<div class="text-3xl mb-1">💬</div><div class="font-bold text-sm">چت</div><div class="text-xs text-gray-500">صوتی + بین‌المللی</div>
+</div>
+<div class="card bg-white rounded-xl p-4 text-center shadow">
+<div class="text-3xl mb-1">📰</div><div class="font-bold text-sm">مجله</div><div class="text-xs text-gray-500">مقالات علمی</div>
+</div>
+<div class="card bg-white rounded-xl p-4 text-center shadow">
+<div class="text-3xl mb-1">🎓</div><div class="font-bold text-sm">دانشمندان</div><div class="text-xs text-gray-500">پارسی + جهانی</div>
+</div>
+<div class="card bg-white rounded-xl p-4 text-center shadow">
+<div class="text-3xl mb-1">👥</div><div class="font-bold text-sm">شبکه داوطلبین</div><div class="text-xs text-gray-500">پردازش مشارکتی</div>
+</div>
+<div class="card bg-white rounded-xl p-4 text-center shadow">
+<div class="text-3xl mb-1">📥</div><div class="font-bold text-sm">نرم‌افزار</div><div class="text-xs text-gray-500">دسکتاپ (Rust)</div>
+</div>
+</div>
+
+<!-- Progress -->
+<div class="bg-white rounded-xl shadow p-4 mb-4">
+<h3 class="font-bold text-sm mb-2">📈 پیشرفت بازه‌ها</h3>
+<div class="mb-2">
+<div class="flex justify-between text-xs mb-1">
+<span class="font-mono">۱ - ۲۰۰M</span>
+<span class="text-green-600">✅ کامل</span>
+</div>
+<div class="progress"><div class="progress-bar" style="width:100%"></div></div>
+</div>
+<div class="mb-2">
+<div class="flex justify-between text-xs mb-1">
+<span class="font-mono">۲۰۰M - ۱B</span>
+<span class="text-yellow-600">⏳ در حال</span>
+</div>
+<div class="progress"><div class="progress-bar" style="width:35%"></div></div>
+</div>
+</div>
+
+<!-- Scientists Preview -->
+<div class="bg-white rounded-xl shadow p-4 mb-4">
+<h3 class="font-bold text-sm mb-2">🎓 دانشمندان</h3>
+<div class="grid grid-cols-5 gap-2">
+<div class="text-center p-2 rounded-lg bg-amber-50"><div class="text-2xl">🔢</div><div class="text-xs font-bold">جمشید کاشانی</div></div>
+<div class="text-center p-2 rounded-lg bg-emerald-50"><div class="text-2xl">📐</div><div class="text-xs font-bold">عمر خیام</div></div>
+<div class="text-center p-2 rounded-lg bg-blue-50"><div class="text-2xl">🌍</div><div class="text-xs font-bold">بیرونی</div></div>
+<div class="text-center p-2 rounded-lg bg-rose-50"><div class="text-2xl">📝</div><div class="text-xs font-bold">خوارزمی</div></div>
+<div class="text-center p-2 rounded-lg bg-green-50"><div class="text-2xl">⚕️</div><div class="text-xs font-bold">ابن‌سینا</div></div>
+<div class="text-center p-2 rounded-lg bg-red-50"><div class="text-2xl">🔬</div><div class="text-xs font-bold">رازی</div></div>
+<div class="text-center p-2 rounded-lg bg-indigo-50"><div class="text-2xl">⚛️</div><div class="text-xs font-bold">انیشتین</div></div>
+<div class="text-center p-2 rounded-lg bg-amber-50"><div class="text-2xl">🍎</div><div class="text-xs font-bold">نیوتن</div></div>
+<div class="text-center p-2 rounded-lg bg-purple-50"><div class="text-2xl">∑</div><div class="text-xs font-bold">اویلر</div></div>
+<div class="text-center p-2 rounded-lg bg-cyan-50"><div class="text-2xl">💻</div><div class="text-xs font-bold">تورینگ</div></div>
+</div>
+</div>
+
+<!-- Chat Preview with Voice -->
+<div class="bg-white rounded-xl shadow p-4 mb-4">
+<h3 class="font-bold text-sm mb-2">💬 چت با چت صوتی 🎤</h3>
+<div class="bg-gray-50 rounded p-3 mb-2 text-sm">
+<div class="mb-2"><span class="text-xs text-blue-600 font-bold">کاربر:</span>اعداد اول چیست؟</div>
+<div><span class="text-xs text-purple-600 font-bold">🤖 AI:</span>اعداد اول اعداد طبیعی بزرگتر از ۱ هستند که فقط بر ۱ و خودشان بخش‌پذیرند...</div>
+</div>
+<div class="flex gap-2">
+<button class="px-2 py-1 bg-purple-100 text-purple-700 rounded text-sm">∑</button>
+<button class="px-2 py-1 bg-red-100 text-red-700 rounded text-sm">🎤</button>
+<input class="flex-1 px-3 py-1 border rounded text-sm" placeholder="پیام یا صحبت کنید...">
+<button class="bg-blue-600 text-white px-4 py-1 rounded text-sm">📤</button>
+</div>
+</div>
+
+<!-- Factor Lab Preview -->
+<div class="bg-white rounded-xl shadow p-4 mb-4">
+<h3 class="font-bold text-sm mb-2">🧮 آزمایشگاه فاکتور</h3>
+<div class="flex gap-2 mb-2">
+<input class="flex-1 px-3 py-2 border rounded text-sm font-mono" placeholder="12345678901234567890" dir="ltr">
+<button class="bg-blue-600 text-white px-4 py-2 rounded text-sm">🔍</button>
+</div>
+<div class="p-3 bg-gray-50 rounded text-sm">
+<div class="text-xs text-gray-500 mb-1">0ms</div>
+<div class="font-mono text-blue-700" dir="ltr">3 × 3 × 101 × 3541 × 3607 × 3803 × 27961</div>
+<div class="mt-2 flex gap-2 text-xs">
+<span class="bg-gray-100 px-2 py-1 rounded">فاکتور: 7</span>
+<span class="bg-gray-100 px-2 py-1 rounded">مرکب</span>
+</div>
+</div>
+</div>
+
+<!-- Rust App Preview -->
+<div class="bg-white rounded-xl shadow p-4 mb-4">
+<h3 class="font-bold text-sm mb-2">🖥️ نرم‌افزار دسکتاپ (Rust — ۹۴۴KB)</h3>
+<div class="bg-slate-900 text-emerald-400 rounded p-4 font-mono text-xs" dir="ltr">
+<div>═══════════════════════════════════════════════</div>
+<div>  volunteer-client v1.0.0 (Rust)</div>
+<div>  پلتفرم علمی چندرسته‌ای پارسی</div>
+<div>═══════════════════════════════════════════════</div>
+<div>&nbsp;</div>
+<div>📊 Benchmark محلی با 2 worker</div>
+<div>&nbsp;</div>
+<div>💻 CPU: x86_64 (2 cores)</div>
+<div>💾 RAM: 4041 MB total</div>
+<div>💿 Disk: 9 GB total, 6 GB free (nvme)</div>
+<div>&nbsp;</div>
+<div>📈 شمارش اعداد اول:</div>
+<div>  Primes found: 664579</div>
+<div>  Time: 0.77s</div>
+<div>  Rate: 13,000,778 numbers/sec</div>
+<div>&nbsp;</div>
+<div>📈 فاکتور کردن:</div>
+<div>  1000000007 is prime (0.018ms)</div>
+<div>  123456789012345678 = 2×3×3×3×...</div>
+<div>&nbsp;</div>
+<div>📚 زبان‌های پشتیبانی‌شده (29):</div>
+<div>  🇮🇷 فارسی | 🇬🇧 English | 🇸🇦 العربية</div>
+<div>  🇫🇷 Français | 🇩🇪 Deutsch | 🇪🇸 Español</div>
+<div>  🇷🇺 Русский | 🇨🇳 中文 | 🇯🇵 日本語</div>
+<div>  ... و ۲۰ زبان دیگر</div>
+</div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="bg-slate-900 text-slate-400 py-3">
+<div class="max-w-6xl mx-auto px-4 flex justify-between text-xs">
+<span>© 2026 — پلتفرم علمی پارسی</span>
+<div class="flex gap-3">
+<a class="hover:text-white">🔐 ادمین</a>
+<a class="hover:text-white">🔌 API</a>
+<a class="hover:text-white">🔢 OEIS</a>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
