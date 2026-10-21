@@ -57,3 +57,4 @@ download/task_bundles/
 download/task_bundles/
 download/auto_factor/held_30_digit_factors.json
 download/auto_factor/named_factors.json
+download/prompts/*_solutions.json
