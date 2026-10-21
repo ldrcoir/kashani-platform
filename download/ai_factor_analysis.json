@@ -1,0 +1,14 @@
+{
+  "samples_count": 950,
+  "p_1237_data_points": 1,
+  "feature_distributions": {
+    "is_prime_pct": 224.21052631578945,
+    "is_smooth_pct": 52.10526315789473,
+    "mult_1237_count": 0,
+    "power_of_2_count": 130
+  },
+  "candidates_generated": 101889,
+  "candidates_tested": 101889,
+  "candidates_prime_q": 2130,
+  "factor_found": null
+}

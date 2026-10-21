@@ -1,0 +1,80 @@
+Trial division log - 2026-09-06 00:03:11
+============================================================
+Time budget per prime: 180s
+Max k per prime: 50000000
+Targets: [1549, 1571, 1597, 1619, 1621, 1657]
+
+M(1549):
+  searching k in [1, 50000000], budget 180s
+    progress: k=6000000, elapsed=15s
+    progress: k=11700000, elapsed=30s
+    progress: k=17300000, elapsed=45s
+    progress: k=22900000, elapsed=61s
+    progress: k=28500000, elapsed=76s
+    progress: k=34100000, elapsed=91s
+    progress: k=39700000, elapsed=106s
+    progress: k=45400000, elapsed=121s
+    finished: k_tested=50000000, elapsed=133.4s
+M(1571):
+  searching k in [1, 50000000], budget 180s
+    progress: k=6000000, elapsed=15s
+    progress: k=11700000, elapsed=30s
+    progress: k=17400000, elapsed=45s
+    progress: k=23100000, elapsed=60s
+    progress: k=28800000, elapsed=76s
+    progress: k=34500000, elapsed=91s
+    progress: k=40100000, elapsed=106s
+    progress: k=45700000, elapsed=121s
+    finished: k_tested=50000000, elapsed=132.6s
+M(1597):
+  searching k in [1, 50000000], budget 180s
+    progress: k=6000000, elapsed=15s
+    progress: k=11700000, elapsed=30s
+    progress: k=17400000, elapsed=46s
+    progress: k=23100000, elapsed=61s
+    progress: k=28800000, elapsed=76s
+    progress: k=34500000, elapsed=91s
+    progress: k=40200000, elapsed=106s
+    progress: k=45900000, elapsed=121s
+    finished: k_tested=50000000, elapsed=132.1s
+M(1619):
+  searching k in [1, 50000000], budget 180s
+    progress: k=6000000, elapsed=15s
+    progress: k=11700000, elapsed=30s
+    progress: k=17400000, elapsed=45s
+    progress: k=23100000, elapsed=61s
+    progress: k=28800000, elapsed=76s
+    progress: k=34500000, elapsed=91s
+    progress: k=40300000, elapsed=106s
+    progress: k=46000000, elapsed=121s
+    finished: k_tested=50000000, elapsed=131.9s
+M(1621):
+  searching k in [1, 50000000], budget 180s
+    progress: k=6000000, elapsed=15s
+    progress: k=11700000, elapsed=30s
+    progress: k=17400000, elapsed=45s
+    progress: k=23100000, elapsed=61s
+    progress: k=28600000, elapsed=76s
+    progress: k=34300000, elapsed=91s
+    progress: k=40000000, elapsed=106s
+    progress: k=45600000, elapsed=121s
+    progress: k=49900000, elapsed=136s
+    finished: k_tested=50000000, elapsed=136.6s
+M(1657):
+  searching k in [1, 50000000], budget 180s
+    progress: k=4600000, elapsed=15s
+    progress: k=8700000, elapsed=30s
+    progress: k=12900000, elapsed=45s
+    progress: k=17200000, elapsed=61s
+    progress: k=21500000, elapsed=76s
+    progress: k=25600000, elapsed=91s
+    progress: k=29800000, elapsed=106s
+    progress: k=33900000, elapsed=121s
+    progress: k=37900000, elapsed=137s
+    progress: k=42100000, elapsed=152s
+    progress: k=46400000, elapsed=167s
+    finished: k_tested=50000000, elapsed=176.6s
+
+Summary:
+  Targets tried: 6
+  Factors found: 0

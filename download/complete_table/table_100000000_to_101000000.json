@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-19 01:34:32",
+  "range": "1 to 101000000",
+  "total_processed": 101000000,
+  "primes": 54208,
+  "composites_factored": 945793,
+  "unfactored_count": 0,
+  "unfactored_first": [],
+  "frontier_continuous": 101000000,
+  "time_seconds": 34.58061075210571,
+  "workers": 2,
+  "method": "Pollard rho with 200k iterations, multiprocessing"
+}

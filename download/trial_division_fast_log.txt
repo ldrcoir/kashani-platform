@@ -1,0 +1,38 @@
+Fast trial division log - 2026-09-06 05:52:49
+============================================================
+Budget per prime: 60s
+Parallel workers: 2
+Targets (6): [1549, 1571, 1597, 1619, 1621, 1657]
+
+[1/6] M(1549) - searching k from 1 ...
+  round 1: k ranges 1..100000001 (elapsed 0s)
+  round 2: k ranges 100000001..200000001 (elapsed 24s)
+  round 3: k ranges 200000001..300000001 (elapsed 47s)
+  no factor found in 71.0s, k_max ~ 300,000,001
+[2/6] M(1571) - searching k from 1 ...
+  round 1: k ranges 1..100000001 (elapsed 0s)
+  round 2: k ranges 100000001..200000001 (elapsed 24s)
+  round 3: k ranges 200000001..300000001 (elapsed 47s)
+  no factor found in 70.3s, k_max ~ 300,000,001
+[3/6] M(1597) - searching k from 1 ...
+  round 1: k ranges 1..100000001 (elapsed 0s)
+  round 2: k ranges 100000001..200000001 (elapsed 24s)
+  round 3: k ranges 200000001..300000001 (elapsed 48s)
+  no factor found in 71.1s, k_max ~ 300,000,001
+[4/6] M(1619) - searching k from 1 ...
+  round 1: k ranges 1..100000001 (elapsed 0s)
+  round 2: k ranges 100000001..200000001 (elapsed 24s)
+  round 3: k ranges 200000001..300000001 (elapsed 47s)
+  no factor found in 70.6s, k_max ~ 300,000,001
+[5/6] M(1621) - searching k from 1 ...
+  round 1: k ranges 1..100000001 (elapsed 0s)
+  round 2: k ranges 100000001..200000001 (elapsed 24s)
+  round 3: k ranges 200000001..300000001 (elapsed 47s)
+  no factor found in 70.7s, k_max ~ 300,000,001
+[6/6] M(1657) - searching k from 1 ...
+  round 1: k ranges 1..100000001 (elapsed 0s)
+  round 2: k ranges 100000001..200000001 (elapsed 25s)
+  round 3: k ranges 200000001..300000001 (elapsed 49s)
+  no factor found in 72.4s, k_max ~ 300,000,001
+
+Summary: 0/6 primes factored

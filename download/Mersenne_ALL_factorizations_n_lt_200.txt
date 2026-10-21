@@ -1,0 +1,407 @@
+Complete factorizations of ALL Mersenne numbers M(n) = 2^n - 1
+For ALL n from 2 to 199 (not just prime n)
+All factorizations verified: product of factors = M(n), all factors prime
+======================================================================
+
+Mersenne prime exponents (M(n) itself is prime): [2, 3, 5, 7, 13, 17, 19, 31, 61, 89, 107, 127]
+Number of Mersenne numbers factored: 198
+
+M(2) = 2^2 - 1 = 3 [MERSENNE PRIME]
+  (1 prime factors (with mult), M(2) has 1 digits)
+M(3) = 2^3 - 1 = 7 [MERSENNE PRIME]
+  (1 prime factors (with mult), M(3) has 1 digits)
+M(4) = 2^4 - 1 = 3 * 5
+  (2 prime factors (with mult), M(4) has 2 digits)
+M(5) = 2^5 - 1 = 31 [MERSENNE PRIME]
+  (1 prime factors (with mult), M(5) has 2 digits)
+M(6) = 2^6 - 1 = 3^2 * 7
+  (3 prime factors (with mult), M(6) has 2 digits)
+M(7) = 2^7 - 1 = 127 [MERSENNE PRIME]
+  (1 prime factors (with mult), M(7) has 3 digits)
+M(8) = 2^8 - 1 = 3 * 5 * 17
+  (3 prime factors (with mult), M(8) has 3 digits)
+M(9) = 2^9 - 1 = 7 * 73
+  (2 prime factors (with mult), M(9) has 3 digits)
+M(10) = 2^10 - 1 = 3 * 11 * 31
+  (3 prime factors (with mult), M(10) has 4 digits)
+M(11) = 2^11 - 1 = 23 * 89
+  (2 prime factors (with mult), M(11) has 4 digits)
+M(12) = 2^12 - 1 = 3^2 * 5 * 7 * 13
+  (5 prime factors (with mult), M(12) has 4 digits)
+M(13) = 2^13 - 1 = 8191 [MERSENNE PRIME]
+  (1 prime factors (with mult), M(13) has 4 digits)
+M(14) = 2^14 - 1 = 3 * 43 * 127
+  (3 prime factors (with mult), M(14) has 5 digits)
+M(15) = 2^15 - 1 = 7 * 31 * 151
+  (3 prime factors (with mult), M(15) has 5 digits)
+M(16) = 2^16 - 1 = 3 * 5 * 17 * 257
+  (4 prime factors (with mult), M(16) has 5 digits)
+M(17) = 2^17 - 1 = 131071 [MERSENNE PRIME]
+  (1 prime factors (with mult), M(17) has 6 digits)
+M(18) = 2^18 - 1 = 3^3 * 7 * 19 * 73
+  (6 prime factors (with mult), M(18) has 6 digits)
+M(19) = 2^19 - 1 = 524287 [MERSENNE PRIME]
+  (1 prime factors (with mult), M(19) has 6 digits)
+M(20) = 2^20 - 1 = 3 * 5^2 * 11 * 31 * 41
+  (6 prime factors (with mult), M(20) has 7 digits)
+M(21) = 2^21 - 1 = 7^2 * 127 * 337
+  (4 prime factors (with mult), M(21) has 7 digits)
+M(22) = 2^22 - 1 = 3 * 23 * 89 * 683
+  (4 prime factors (with mult), M(22) has 7 digits)
+M(23) = 2^23 - 1 = 47 * 178481
+  (2 prime factors (with mult), M(23) has 7 digits)
+M(24) = 2^24 - 1 = 3^2 * 5 * 7 * 13 * 17 * 241
+  (7 prime factors (with mult), M(24) has 8 digits)
+M(25) = 2^25 - 1 = 31 * 601 * 1801
+  (3 prime factors (with mult), M(25) has 8 digits)
+M(26) = 2^26 - 1 = 3 * 2731 * 8191
+  (3 prime factors (with mult), M(26) has 8 digits)
+M(27) = 2^27 - 1 = 7 * 73 * 262657
+  (3 prime factors (with mult), M(27) has 9 digits)
+M(28) = 2^28 - 1 = 3 * 5 * 29 * 43 * 113 * 127
+  (6 prime factors (with mult), M(28) has 9 digits)
+M(29) = 2^29 - 1 = 233 * 1103 * 2089
+  (3 prime factors (with mult), M(29) has 9 digits)
+M(30) = 2^30 - 1 = 3^2 * 7 * 11 * 31 * 151 * 331
+  (7 prime factors (with mult), M(30) has 10 digits)
+M(31) = 2^31 - 1 = 2147483647 [MERSENNE PRIME]
+  (1 prime factors (with mult), M(31) has 10 digits)
+M(32) = 2^32 - 1 = 3 * 5 * 17 * 257 * 65537
+  (5 prime factors (with mult), M(32) has 10 digits)
+M(33) = 2^33 - 1 = 7 * 23 * 89 * 599479
+  (4 prime factors (with mult), M(33) has 10 digits)
+M(34) = 2^34 - 1 = 3 * 43691 * 131071
+  (3 prime factors (with mult), M(34) has 11 digits)
+M(35) = 2^35 - 1 = 31 * 71 * 127 * 122921
+  (4 prime factors (with mult), M(35) has 11 digits)
+M(36) = 2^36 - 1 = 3^3 * 5 * 7 * 13 * 19 * 37 * 73 * 109
+  (10 prime factors (with mult), M(36) has 11 digits)
+M(37) = 2^37 - 1 = 223 * 616318177
+  (2 prime factors (with mult), M(37) has 12 digits)
+M(38) = 2^38 - 1 = 3 * 174763 * 524287
+  (3 prime factors (with mult), M(38) has 12 digits)
+M(39) = 2^39 - 1 = 7 * 79 * 8191 * 121369
+  (4 prime factors (with mult), M(39) has 12 digits)
+M(40) = 2^40 - 1 = 3 * 5^2 * 11 * 17 * 31 * 41 * 61681
+  (8 prime factors (with mult), M(40) has 13 digits)
+M(41) = 2^41 - 1 = 13367 * 164511353
+  (2 prime factors (with mult), M(41) has 13 digits)
+M(42) = 2^42 - 1 = 3^2 * 7^2 * 43 * 127 * 337 * 5419
+  (8 prime factors (with mult), M(42) has 13 digits)
+M(43) = 2^43 - 1 = 431 * 9719 * 2099863
+  (3 prime factors (with mult), M(43) has 13 digits)
+M(44) = 2^44 - 1 = 3 * 5 * 23 * 89 * 397 * 683 * 2113
+  (7 prime factors (with mult), M(44) has 14 digits)
+M(45) = 2^45 - 1 = 7 * 31 * 73 * 151 * 631 * 23311
+  (6 prime factors (with mult), M(45) has 14 digits)
+M(46) = 2^46 - 1 = 3 * 47 * 178481 * 2796203
+  (4 prime factors (with mult), M(46) has 14 digits)
+M(47) = 2^47 - 1 = 2351 * 4513 * 13264529
+  (3 prime factors (with mult), M(47) has 15 digits)
+M(48) = 2^48 - 1 = 3^2 * 5 * 7 * 13 * 17 * 97 * 241 * 257 * 673
+  (10 prime factors (with mult), M(48) has 15 digits)
+M(49) = 2^49 - 1 = 127 * 4432676798593
+  (2 prime factors (with mult), M(49) has 15 digits)
+M(50) = 2^50 - 1 = 3 * 11 * 31 * 251 * 601 * 1801 * 4051
+  (7 prime factors (with mult), M(50) has 16 digits)
+M(51) = 2^51 - 1 = 7 * 103 * 2143 * 11119 * 131071
+  (5 prime factors (with mult), M(51) has 16 digits)
+M(52) = 2^52 - 1 = 3 * 5 * 53 * 157 * 1613 * 2731 * 8191
+  (7 prime factors (with mult), M(52) has 16 digits)
+M(53) = 2^53 - 1 = 6361 * 69431 * 20394401
+  (3 prime factors (with mult), M(53) has 16 digits)
+M(54) = 2^54 - 1 = 3^4 * 7 * 19 * 73 * 87211 * 262657
+  (9 prime factors (with mult), M(54) has 17 digits)
+M(55) = 2^55 - 1 = 23 * 31 * 89 * 881 * 3191 * 201961
+  (6 prime factors (with mult), M(55) has 17 digits)
+M(56) = 2^56 - 1 = 3 * 5 * 17 * 29 * 43 * 113 * 127 * 15790321
+  (8 prime factors (with mult), M(56) has 17 digits)
+M(57) = 2^57 - 1 = 7 * 32377 * 524287 * 1212847
+  (4 prime factors (with mult), M(57) has 18 digits)
+M(58) = 2^58 - 1 = 3 * 59 * 233 * 1103 * 2089 * 3033169
+  (6 prime factors (with mult), M(58) has 18 digits)
+M(59) = 2^59 - 1 = 179951 * 3203431780337
+  (2 prime factors (with mult), M(59) has 18 digits)
+M(60) = 2^60 - 1 = 3^2 * 5^2 * 7 * 11 * 13 * 31 * 41 * 61 * 151 * 331 * 1321
+  (13 prime factors (with mult), M(60) has 19 digits)
+M(61) = 2^61 - 1 = 2305843009213693951 [MERSENNE PRIME]
+  (1 prime factors (with mult), M(61) has 19 digits)
+M(62) = 2^62 - 1 = 3 * 715827883 * 2147483647
+  (3 prime factors (with mult), M(62) has 19 digits)
+M(63) = 2^63 - 1 = 7^2 * 73 * 127 * 337 * 92737 * 649657
+  (7 prime factors (with mult), M(63) has 19 digits)
+M(64) = 2^64 - 1 = 3 * 5 * 17 * 257 * 641 * 65537 * 6700417
+  (7 prime factors (with mult), M(64) has 20 digits)
+M(65) = 2^65 - 1 = 31 * 8191 * 145295143558111
+  (3 prime factors (with mult), M(65) has 20 digits)
+M(66) = 2^66 - 1 = 3^2 * 7 * 23 * 67 * 89 * 683 * 20857 * 599479
+  (9 prime factors (with mult), M(66) has 20 digits)
+M(67) = 2^67 - 1 = 193707721 * 761838257287
+  (2 prime factors (with mult), M(67) has 21 digits)
+M(68) = 2^68 - 1 = 3 * 5 * 137 * 953 * 26317 * 43691 * 131071
+  (7 prime factors (with mult), M(68) has 21 digits)
+M(69) = 2^69 - 1 = 7 * 47 * 178481 * 10052678938039
+  (4 prime factors (with mult), M(69) has 21 digits)
+M(70) = 2^70 - 1 = 3 * 11 * 31 * 43 * 71 * 127 * 281 * 86171 * 122921
+  (9 prime factors (with mult), M(70) has 22 digits)
+M(71) = 2^71 - 1 = 228479 * 48544121 * 212885833
+  (3 prime factors (with mult), M(71) has 22 digits)
+M(72) = 2^72 - 1 = 3^3 * 5 * 7 * 13 * 17 * 19 * 37 * 73 * 109 * 241 * 433 * 38737
+  (14 prime factors (with mult), M(72) has 22 digits)
+M(73) = 2^73 - 1 = 439 * 2298041 * 9361973132609
+  (3 prime factors (with mult), M(73) has 22 digits)
+M(74) = 2^74 - 1 = 3 * 223 * 1777 * 25781083 * 616318177
+  (5 prime factors (with mult), M(74) has 23 digits)
+M(75) = 2^75 - 1 = 7 * 31 * 151 * 601 * 1801 * 100801 * 10567201
+  (7 prime factors (with mult), M(75) has 23 digits)
+M(76) = 2^76 - 1 = 3 * 5 * 229 * 457 * 174763 * 524287 * 525313
+  (7 prime factors (with mult), M(76) has 23 digits)
+M(77) = 2^77 - 1 = 23 * 89 * 127 * 581283643249112959
+  (4 prime factors (with mult), M(77) has 24 digits)
+M(78) = 2^78 - 1 = 3^2 * 7 * 79 * 2731 * 8191 * 121369 * 22366891
+  (8 prime factors (with mult), M(78) has 24 digits)
+M(79) = 2^79 - 1 = 2687 * 202029703 * 1113491139767
+  (3 prime factors (with mult), M(79) has 24 digits)
+M(80) = 2^80 - 1 = 3 * 5^2 * 11 * 17 * 31 * 41 * 257 * 61681 * 4278255361
+  (10 prime factors (with mult), M(80) has 25 digits)
+M(81) = 2^81 - 1 = 7 * 73 * 2593 * 71119 * 262657 * 97685839
+  (6 prime factors (with mult), M(81) has 25 digits)
+M(82) = 2^82 - 1 = 3 * 83 * 13367 * 164511353 * 8831418697
+  (5 prime factors (with mult), M(82) has 25 digits)
+M(83) = 2^83 - 1 = 167 * 57912614113275649087721
+  (2 prime factors (with mult), M(83) has 25 digits)
+M(84) = 2^84 - 1 = 3^2 * 5 * 7^2 * 13 * 29 * 43 * 113 * 127 * 337 * 1429 * 5419 * 14449
+  (14 prime factors (with mult), M(84) has 26 digits)
+M(85) = 2^85 - 1 = 31 * 131071 * 9520972806333758431
+  (3 prime factors (with mult), M(85) has 26 digits)
+M(86) = 2^86 - 1 = 3 * 431 * 9719 * 2099863 * 2932031007403
+  (5 prime factors (with mult), M(86) has 26 digits)
+M(87) = 2^87 - 1 = 7 * 233 * 1103 * 2089 * 4177 * 9857737155463
+  (6 prime factors (with mult), M(87) has 27 digits)
+M(88) = 2^88 - 1 = 3 * 5 * 17 * 23 * 89 * 353 * 397 * 683 * 2113 * 2931542417
+  (10 prime factors (with mult), M(88) has 27 digits)
+M(89) = 2^89 - 1 = 618970019642690137449562111 [MERSENNE PRIME]
+  (1 prime factors (with mult), M(89) has 27 digits)
+M(90) = 2^90 - 1 = 3^3 * 7 * 11 * 19 * 31 * 73 * 151 * 331 * 631 * 23311 * 18837001
+  (13 prime factors (with mult), M(90) has 28 digits)
+M(91) = 2^91 - 1 = 127 * 911 * 8191 * 112901153 * 23140471537
+  (5 prime factors (with mult), M(91) has 28 digits)
+M(92) = 2^92 - 1 = 3 * 5 * 47 * 277 * 1013 * 1657 * 30269 * 178481 * 2796203
+  (9 prime factors (with mult), M(92) has 28 digits)
+M(93) = 2^93 - 1 = 7 * 2147483647 * 658812288653553079
+  (3 prime factors (with mult), M(93) has 28 digits)
+M(94) = 2^94 - 1 = 3 * 283 * 2351 * 4513 * 13264529 * 165768537521
+  (6 prime factors (with mult), M(94) has 29 digits)
+M(95) = 2^95 - 1 = 31 * 191 * 524287 * 420778751 * 30327152671
+  (5 prime factors (with mult), M(95) has 29 digits)
+M(96) = 2^96 - 1 = 3^2 * 5 * 7 * 13 * 17 * 97 * 193 * 241 * 257 * 673 * 65537 * 22253377
+  (13 prime factors (with mult), M(96) has 29 digits)
+M(97) = 2^97 - 1 = 11447 * 13842607235828485645766393
+  (2 prime factors (with mult), M(97) has 30 digits)
+M(98) = 2^98 - 1 = 3 * 43 * 127 * 4363953127297 * 4432676798593
+  (5 prime factors (with mult), M(98) has 30 digits)
+M(99) = 2^99 - 1 = 7 * 23 * 73 * 89 * 199 * 153649 * 599479 * 33057806959
+  (8 prime factors (with mult), M(99) has 30 digits)
+M(100) = 2^100 - 1 = 3 * 5^3 * 11 * 31 * 41 * 101 * 251 * 601 * 1801 * 4051 * 8101 * 268501
+  (14 prime factors (with mult), M(100) has 31 digits)
+M(101) = 2^101 - 1 = 7432339208719 * 341117531003194129
+  (2 prime factors (with mult), M(101) has 31 digits)
+M(102) = 2^102 - 1 = 3^2 * 7 * 103 * 307 * 2143 * 2857 * 6529 * 11119 * 43691 * 131071
+  (11 prime factors (with mult), M(102) has 31 digits)
+M(103) = 2^103 - 1 = 2550183799 * 3976656429941438590393
+  (2 prime factors (with mult), M(103) has 32 digits)
+M(104) = 2^104 - 1 = 3 * 5 * 17 * 53 * 157 * 1613 * 2731 * 8191 * 858001 * 308761441
+  (10 prime factors (with mult), M(104) has 32 digits)
+M(105) = 2^105 - 1 = 7^2 * 31 * 71 * 127 * 151 * 337 * 29191 * 106681 * 122921 * 152041
+  (11 prime factors (with mult), M(105) has 32 digits)
+M(106) = 2^106 - 1 = 3 * 107 * 6361 * 69431 * 20394401 * 28059810762433
+  (6 prime factors (with mult), M(106) has 32 digits)
+M(107) = 2^107 - 1 = 162259276829213363391578010288127 [MERSENNE PRIME]
+  (1 prime factors (with mult), M(107) has 33 digits)
+M(108) = 2^108 - 1 = 3^4 * 5 * 7 * 13 * 19 * 37 * 73 * 109 * 87211 * 246241 * 262657 * 279073
+  (15 prime factors (with mult), M(108) has 33 digits)
+M(109) = 2^109 - 1 = 745988807 * 870035986098720987332873
+  (2 prime factors (with mult), M(109) has 33 digits)
+M(110) = 2^110 - 1 = 3 * 11^2 * 23 * 31 * 89 * 683 * 881 * 2971 * 3191 * 201961 * 48912491
+  (12 prime factors (with mult), M(110) has 34 digits)
+M(111) = 2^111 - 1 = 7 * 223 * 321679 * 26295457 * 319020217 * 616318177
+  (6 prime factors (with mult), M(111) has 34 digits)
+M(112) = 2^112 - 1 = 3 * 5 * 17 * 29 * 43 * 113 * 127 * 257 * 5153 * 15790321 * 54410972897
+  (11 prime factors (with mult), M(112) has 34 digits)
+M(113) = 2^113 - 1 = 3391 * 23279 * 65993 * 1868569 * 1066818132868207
+  (5 prime factors (with mult), M(113) has 35 digits)
+M(114) = 2^114 - 1 = 3^2 * 7 * 571 * 32377 * 174763 * 524287 * 1212847 * 160465489
+  (9 prime factors (with mult), M(114) has 35 digits)
+M(115) = 2^115 - 1 = 31 * 47 * 14951 * 178481 * 4036961 * 2646507710984041
+  (6 prime factors (with mult), M(115) has 35 digits)
+M(116) = 2^116 - 1 = 3 * 5 * 59 * 233 * 1103 * 2089 * 3033169 * 107367629 * 536903681
+  (9 prime factors (with mult), M(116) has 35 digits)
+M(117) = 2^117 - 1 = 7 * 73 * 79 * 937 * 6553 * 8191 * 86113 * 121369 * 7830118297
+  (9 prime factors (with mult), M(117) has 36 digits)
+M(118) = 2^118 - 1 = 3 * 2833 * 37171 * 179951 * 1824726041 * 3203431780337
+  (6 prime factors (with mult), M(118) has 36 digits)
+M(119) = 2^119 - 1 = 127 * 239 * 20231 * 131071 * 62983048367 * 131105292137
+  (6 prime factors (with mult), M(119) has 36 digits)
+M(120) = 2^120 - 1 = 3^2 * 5^2 * 7 * 11 * 13 * 17 * 31 * 41 * 61 * 151 * 241 * 331 * 1321 * 61681 * 4562284561
+  (17 prime factors (with mult), M(120) has 37 digits)
+M(121) = 2^121 - 1 = 23 * 89 * 727 * 1786393878363164227858270210279
+  (4 prime factors (with mult), M(121) has 37 digits)
+M(122) = 2^122 - 1 = 3 * 1772303994379887830538409413707126101
+  (2 prime factors (with mult), M(122) has 37 digits)
+M(123) = 2^123 - 1 = 7 * 13367 * 3887047 * 164511353 * 177722253954175633
+  (5 prime factors (with mult), M(123) has 38 digits)
+M(124) = 2^124 - 1 = 3 * 5 * 5581 * 8681 * 49477 * 384773 * 715827883 * 2147483647
+  (8 prime factors (with mult), M(124) has 38 digits)
+M(125) = 2^125 - 1 = 31 * 601 * 1801 * 269089806001 * 4710883168879506001
+  (5 prime factors (with mult), M(125) has 38 digits)
+M(126) = 2^126 - 1 = 3^3 * 7^2 * 19 * 43 * 73 * 127 * 337 * 5419 * 92737 * 649657 * 77158673929
+  (14 prime factors (with mult), M(126) has 38 digits)
+M(127) = 2^127 - 1 = 170141183460469231731687303715884105727 [MERSENNE PRIME]
+  (1 prime factors (with mult), M(127) has 39 digits)
+M(128) = 2^128 - 1 = 3 * 5 * 17 * 257 * 641 * 65537 * 274177 * 6700417 * 67280421310721
+  (9 prime factors (with mult), M(128) has 39 digits)
+M(129) = 2^129 - 1 = 7 * 431 * 9719 * 2099863 * 11053036065049294753459639
+  (5 prime factors (with mult), M(129) has 39 digits)
+M(130) = 2^130 - 1 = 3 * 11 * 31 * 131 * 2731 * 8191 * 409891 * 7623851 * 145295143558111
+  (9 prime factors (with mult), M(130) has 40 digits)
+M(131) = 2^131 - 1 = 263 * 10350794431055162386718619237468234569
+  (2 prime factors (with mult), M(131) has 40 digits)
+M(132) = 2^132 - 1 = 3^2 * 5 * 7 * 13 * 23 * 67 * 89 * 397 * 683 * 2113 * 20857 * 312709 * 599479 * 4327489
+  (15 prime factors (with mult), M(132) has 40 digits)
+M(133) = 2^133 - 1 = 127 * 524287 * 163537220852725398851434325720959
+  (3 prime factors (with mult), M(133) has 41 digits)
+M(134) = 2^134 - 1 = 3 * 7327657 * 193707721 * 761838257287 * 6713103182899
+  (5 prime factors (with mult), M(134) has 41 digits)
+M(135) = 2^135 - 1 = 7 * 31 * 73 * 151 * 271 * 631 * 23311 * 262657 * 348031 * 49971617830801
+  (10 prime factors (with mult), M(135) has 41 digits)
+M(136) = 2^136 - 1 = 3 * 5 * 17^2 * 137 * 953 * 26317 * 43691 * 131071 * 354689 * 2879347902817
+  (11 prime factors (with mult), M(136) has 41 digits)
+M(137) = 2^137 - 1 = 174224571863520493293247799005065324265471
+  (1 prime factors (with mult), M(137) has 42 digits)
+M(138) = 2^138 - 1 = 3^2 * 7 * 47 * 139 * 178481 * 2796203 * 168749965921 * 10052678938039
+  (9 prime factors (with mult), M(138) has 42 digits)
+M(139) = 2^139 - 1 = 5625767248687 * 123876132205208335762278423601
+  (2 prime factors (with mult), M(139) has 42 digits)
+M(140) = 2^140 - 1 = 3 * 5^2 * 11 * 29 * 31 * 41 * 43 * 71 * 113 * 127 * 281 * 86171 * 122921 * 7416361 * 47392381
+  (16 prime factors (with mult), M(140) has 43 digits)
+M(141) = 2^141 - 1 = 7 * 2351 * 4513 * 13264529 * 4375578271 * 646675035253258729
+  (6 prime factors (with mult), M(141) has 43 digits)
+M(142) = 2^142 - 1 = 3 * 228479 * 48544121 * 56409643 * 212885833 * 13952598148481
+  (6 prime factors (with mult), M(142) has 43 digits)
+M(143) = 2^143 - 1 = 23 * 89 * 8191 * 724153 * 158822951431 * 5782172113400990737
+  (6 prime factors (with mult), M(143) has 44 digits)
+M(144) = 2^144 - 1 = 3^3 * 5 * 7 * 13 * 17 * 19 * 37 * 73 * 97 * 109 * 241 * 257 * 433 * 577 * 673 * 38737 * 487824887233
+  (19 prime factors (with mult), M(144) has 44 digits)
+M(145) = 2^145 - 1 = 31 * 233 * 1103 * 2089 * 2679895157783862814690027494144991
+  (5 prime factors (with mult), M(145) has 44 digits)
+M(146) = 2^146 - 1 = 3 * 439 * 1753 * 2298041 * 9361973132609 * 1795918038741070627
+  (6 prime factors (with mult), M(146) has 44 digits)
+M(147) = 2^147 - 1 = 7^3 * 127 * 337 * 4432676798593 * 2741672362528725535068727
+  (7 prime factors (with mult), M(147) has 45 digits)
+M(148) = 2^148 - 1 = 3 * 5 * 149 * 223 * 593 * 1777 * 25781083 * 184481113 * 231769777 * 616318177
+  (10 prime factors (with mult), M(148) has 45 digits)
+M(149) = 2^149 - 1 = 713623846352979940529142984724747568191373311
+  (1 prime factors (with mult), M(149) has 45 digits)
+M(150) = 2^150 - 1 = 3^2 * 7 * 11 * 31 * 151 * 251 * 331 * 601 * 1801 * 4051 * 100801 * 10567201 * 1133836730401
+  (14 prime factors (with mult), M(150) has 46 digits)
+M(151) = 2^151 - 1 = 18121 * 55871 * 165799 * 2332951 * 7289088383388253664437433
+  (5 prime factors (with mult), M(151) has 46 digits)
+M(152) = 2^152 - 1 = 3 * 5 * 17 * 229 * 457 * 1217 * 148961 * 174763 * 524287 * 525313 * 24517014940753
+  (11 prime factors (with mult), M(152) has 46 digits)
+M(153) = 2^153 - 1 = 7 * 73 * 103 * 919 * 2143 * 11119 * 131071 * 75582488424179347083438319
+  (8 prime factors (with mult), M(153) has 47 digits)
+M(154) = 2^154 - 1 = 3 * 23 * 43 * 89 * 127 * 617 * 683 * 78233 * 35532364099 * 581283643249112959
+  (10 prime factors (with mult), M(154) has 47 digits)
+M(155) = 2^155 - 1 = 31^2 * 311 * 11471 * 73471 * 2147483647 * 4649919401 * 18158209813151
+  (8 prime factors (with mult), M(155) has 47 digits)
+M(156) = 2^156 - 1 = 3^2 * 5 * 7 * 13^2 * 53 * 79 * 157 * 313 * 1249 * 1613 * 2731 * 3121 * 8191 * 21841 * 121369 * 22366891
+  (18 prime factors (with mult), M(156) has 47 digits)
+M(157) = 2^157 - 1 = 852133201 * 60726444167 * 1654058017289 * 2134387368610417
+  (4 prime factors (with mult), M(157) has 48 digits)
+M(158) = 2^158 - 1 = 3 * 2687 * 202029703 * 1113491139767 * 201487636602438195784363
+  (5 prime factors (with mult), M(158) has 48 digits)
+M(159) = 2^159 - 1 = 7 * 6361 * 6679 * 69431 * 13960201 * 20394401 * 540701761 * 229890275929
+  (8 prime factors (with mult), M(159) has 48 digits)
+M(160) = 2^160 - 1 = 3 * 5^2 * 11 * 17 * 31 * 41 * 257 * 61681 * 65537 * 414721 * 4278255361 * 44479210368001
+  (13 prime factors (with mult), M(160) has 49 digits)
+M(161) = 2^161 - 1 = 47 * 127 * 1289 * 178481 * 3188767 * 45076044553 * 14808607715315782481
+  (7 prime factors (with mult), M(161) has 49 digits)
+M(162) = 2^162 - 1 = 3^5 * 7 * 19 * 73 * 163 * 2593 * 71119 * 87211 * 135433 * 262657 * 97685839 * 272010961
+  (16 prime factors (with mult), M(162) has 49 digits)
+M(163) = 2^163 - 1 = 150287 * 704161 * 110211473 * 27669118297 * 36230454570129675721
+  (5 prime factors (with mult), M(163) has 50 digits)
+M(164) = 2^164 - 1 = 3 * 5 * 83 * 10169 * 13367 * 181549 * 12112549 * 43249589 * 164511353 * 8831418697
+  (10 prime factors (with mult), M(164) has 50 digits)
+M(165) = 2^165 - 1 = 7 * 23 * 31 * 89 * 151 * 881 * 3191 * 201961 * 599479 * 2048568835297380486760231
+  (10 prime factors (with mult), M(165) has 50 digits)
+M(166) = 2^166 - 1 = 3 * 167 * 499 * 1163 * 2657 * 155377 * 13455809771 * 57912614113275649087721
+  (8 prime factors (with mult), M(166) has 50 digits)
+M(167) = 2^167 - 1 = 2349023 * 79638304766856507377778616296087448490695649
+  (2 prime factors (with mult), M(167) has 51 digits)
+M(168) = 2^168 - 1 = 3^2 * 5 * 7^2 * 13 * 17 * 29 * 43 * 113 * 127 * 241 * 337 * 1429 * 3361 * 5419 * 14449 * 15790321 * 88959882481
+  (19 prime factors (with mult), M(168) has 51 digits)
+M(169) = 2^169 - 1 = 4057 * 8191 * 6740339310641 * 3340762283952395329506327023033
+  (4 prime factors (with mult), M(169) has 51 digits)
+M(170) = 2^170 - 1 = 3 * 11 * 31 * 43691 * 131071 * 255461249081615393102146524966909113341
+  (6 prime factors (with mult), M(170) has 52 digits)
+M(171) = 2^171 - 1 = 7 * 73 * 32377 * 524287 * 1212847 * 93507247 * 3042645634792541312037847
+  (7 prime factors (with mult), M(171) has 52 digits)
+M(172) = 2^172 - 1 = 3 * 5 * 173 * 431 * 9719 * 101653 * 500177 * 2099863 * 1759217765581 * 2932031007403
+  (10 prime factors (with mult), M(172) has 52 digits)
+M(173) = 2^173 - 1 = 730753 * 1505447 * 10883113847869730192653064467986444125801
+  (3 prime factors (with mult), M(173) has 53 digits)
+M(174) = 2^174 - 1 = 3^2 * 7 * 59 * 233 * 1103 * 2089 * 4177 * 3033169 * 9857737155463 * 96076791871613611
+  (11 prime factors (with mult), M(174) has 53 digits)
+M(175) = 2^175 - 1 = 31 * 71 * 127 * 601 * 1801 * 39551 * 122921 * 60816001 * 535347624791488552837151
+  (9 prime factors (with mult), M(175) has 53 digits)
+M(176) = 2^176 - 1 = 3 * 5 * 17 * 23 * 89 * 257 * 353 * 397 * 683 * 2113 * 229153 * 119782433 * 2931542417 * 43872038849
+  (14 prime factors (with mult), M(176) has 53 digits)
+M(177) = 2^177 - 1 = 7 * 179951 * 184081 * 27989941729 * 3203431780337 * 9213624084535989031
+  (6 prime factors (with mult), M(177) has 54 digits)
+M(178) = 2^178 - 1 = 3 * 179 * 62020897 * 11503417956320339164987767897141568728042487
+  (4 prime factors (with mult), M(178) has 54 digits)
+M(179) = 2^179 - 1 = 359 * 1433 * 1489459109360039866456940197095433721664951999121
+  (3 prime factors (with mult), M(179) has 54 digits)
+M(180) = 2^180 - 1 = 3^3 * 5^2 * 7 * 11 * 13 * 19 * 31 * 37 * 41 * 61 * 73 * 109 * 151 * 181 * 331 * 631 * 1321 * 23311 * 54001 * 18837001 * 29247661
+  (24 prime factors (with mult), M(180) has 55 digits)
+M(181) = 2^181 - 1 = 43441 * 1164193 * 7648337 * 7923871097285295625344647665764672671
+  (4 prime factors (with mult), M(181) has 55 digits)
+M(182) = 2^182 - 1 = 3 * 43 * 127 * 911 * 2731 * 8191 * 224771 * 1210483 * 112901153 * 23140471537 * 25829691707
+  (11 prime factors (with mult), M(182) has 55 digits)
+M(183) = 2^183 - 1 = 7 * 367 * 55633 * 85781299764464652196831378020364843965355203991
+  (4 prime factors (with mult), M(183) has 56 digits)
+M(184) = 2^184 - 1 = 3 * 5 * 17 * 47 * 277 * 1013 * 1657 * 30269 * 178481 * 2796203 * 291280009243618888211558641
+  (11 prime factors (with mult), M(184) has 56 digits)
+M(185) = 2^185 - 1 = 31 * 223 * 616318177 * 11510062038035036086898638569115182202584031
+  (4 prime factors (with mult), M(185) has 56 digits)
+M(186) = 2^186 - 1 = 3^2 * 7 * 529510939 * 715827883 * 2147483647 * 2903110321 * 658812288653553079
+  (8 prime factors (with mult), M(186) has 56 digits)
+M(187) = 2^187 - 1 = 23 * 89 * 131071 * 707983 * 1032670816743843860998850056278950666491537
+  (5 prime factors (with mult), M(187) has 57 digits)
+M(188) = 2^188 - 1 = 3 * 5 * 283 * 2351 * 3761 * 4513 * 13264529 * 7484047069 * 165768537521 * 140737471578113
+  (10 prime factors (with mult), M(188) has 57 digits)
+M(189) = 2^189 - 1 = 7^2 * 73 * 127 * 337 * 92737 * 262657 * 649657 * 1560007 * 207617485544258392970753527
+  (10 prime factors (with mult), M(189) has 57 digits)
+M(190) = 2^190 - 1 = 3 * 11 * 31 * 191 * 2281 * 174763 * 524287 * 420778751 * 30327152671 * 3011347479614249131
+  (10 prime factors (with mult), M(190) has 58 digits)
+M(191) = 2^191 - 1 = 383 * 7068569257 * 39940132241 * 29026146430642485450392060175470857
+  (4 prime factors (with mult), M(191) has 58 digits)
+M(192) = 2^192 - 1 = 3^2 * 5 * 7 * 13 * 17 * 97 * 193 * 241 * 257 * 641 * 673 * 65537 * 6700417 * 22253377 * 18446744069414584321
+  (16 prime factors (with mult), M(192) has 58 digits)
+M(193) = 2^193 - 1 = 13821503 * 908309571742911138366904007937149297887842652780097
+  (2 prime factors (with mult), M(193) has 59 digits)
+M(194) = 2^194 - 1 = 3 * 971 * 1553 * 11447 * 31817 * 15238994337567792245232087644285403374588353
+  (6 prime factors (with mult), M(194) has 59 digits)
+M(195) = 2^195 - 1 = 7 * 31 * 79 * 151 * 8191 * 121369 * 19513747561065495810126835881293648540499961
+  (7 prime factors (with mult), M(195) has 59 digits)
+M(196) = 2^196 - 1 = 3 * 5 * 29 * 43 * 113 * 127 * 197 * 19707683773 * 4363953127297 * 4432676798593 * 4981857697937
+  (11 prime factors (with mult), M(196) has 60 digits)
+M(197) = 2^197 - 1 = 7487 * 26828803997912886929710867041891989490486893845712448833
+  (2 prime factors (with mult), M(197) has 60 digits)
+M(198) = 2^198 - 1 = 3^3 * 7 * 19 * 23 * 67 * 73 * 89 * 199 * 683 * 5347 * 20857 * 153649 * 599479 * 33057806959 * 242099935645987
+  (17 prime factors (with mult), M(198) has 60 digits)
+M(199) = 2^199 - 1 = 164504919713 * 4884164093883941177660049098586324302977543600799
+  (2 prime factors (with mult), M(199) has 60 digits)
+
+======================================================================
+Verification: All 198 factorizations verified OK

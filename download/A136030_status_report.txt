@@ -1,0 +1,58 @@
+A136030 Status Report
+============================================================
+Generated: 2026-09-06 00:02:07
+
+Complete-factorization database:
+  Source: A136030_complete_factorizations.txt
+  Total entries: 238
+    [FULL]  complete: 221
+    [PART]  partial:  17
+    [MERSE] Mersenne: 0
+
+A136030_factors_1_to_8000.txt:
+  Total rows: 8000
+  Missing before this pass: 270
+  Propagated in this pass:  0
+  Missing after this pass:  270
+
+Range breakdown of remaining missing entries:
+  n in       1-500: 0
+  n in    501-1000: 0
+  n in   1001-1500: 1
+  n in   1501-2000: 19
+  n in   2001-3000: 45
+  n in   3001-5000: 85
+  n in   5001-8000: 120
+
+First 30 remaining missing entries:
+  M(1277)
+  M(1549)
+  M(1571)
+  M(1597)
+  M(1619)
+  M(1621)
+  M(1657)
+  M(1669)
+  M(1699)
+  M(1733)
+  M(1747)
+  M(1753)
+  M(1759)
+  M(1787)
+  M(1831)
+  M(1867)
+  M(1873)
+  M(1889)
+  M(1907)
+  M(1949)
+  M(2029)
+  M(2053)
+  M(2129)
+  M(2137)
+  M(2143)
+  M(2153)
+  M(2161)
+  M(2221)
+  M(2237)
+  M(2239)
+

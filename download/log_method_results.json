@@ -1,0 +1,2702 @@
+[
+  {
+    "p": 11,
+    "F1": 23,
+    "F1_digits": 2,
+    "F2_digits": 2,
+    "F2_is_prime": true,
+    "second_factor": 89,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 23,
+    "F1": 47,
+    "F1_digits": 2,
+    "F2_digits": 6,
+    "F2_is_prime": true,
+    "second_factor": 178481,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 29,
+    "F1": 233,
+    "F1_digits": 3,
+    "F2_digits": 7,
+    "F2_is_prime": false,
+    "second_factor": 1103,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 37,
+    "F1": 223,
+    "F1_digits": 3,
+    "F2_digits": 9,
+    "F2_is_prime": true,
+    "second_factor": 616318177,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 41,
+    "F1": 13367,
+    "F1_digits": 5,
+    "F2_digits": 9,
+    "F2_is_prime": true,
+    "second_factor": 164511353,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 43,
+    "F1": 431,
+    "F1_digits": 3,
+    "F2_digits": 11,
+    "F2_is_prime": false,
+    "second_factor": 9719,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 47,
+    "F1": 2351,
+    "F1_digits": 4,
+    "F2_digits": 11,
+    "F2_is_prime": false,
+    "second_factor": 4513,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 53,
+    "F1": 6361,
+    "F1_digits": 4,
+    "F2_digits": 13,
+    "F2_is_prime": false,
+    "second_factor": 69431,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 59,
+    "F1": 179951,
+    "F1_digits": 6,
+    "F2_digits": 13,
+    "F2_is_prime": true,
+    "second_factor": 3203431780337,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 67,
+    "F1": 193707721,
+    "F1_digits": 9,
+    "F2_digits": 12,
+    "F2_is_prime": true,
+    "second_factor": 761838257287,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 71,
+    "F1": 228479,
+    "F1_digits": 6,
+    "F2_digits": 17,
+    "F2_is_prime": false,
+    "second_factor": 48544121,
+    "method": "log-method (found in 0.14s)"
+  },
+  {
+    "p": 73,
+    "F1": 439,
+    "F1_digits": 3,
+    "F2_digits": 20,
+    "F2_is_prime": false,
+    "second_factor": 2298041,
+    "method": "log-method (found in 0.01s)"
+  },
+  {
+    "p": 79,
+    "F1": 2687,
+    "F1_digits": 4,
+    "F2_digits": 21,
+    "F2_is_prime": false,
+    "second_factor": 202029703,
+    "method": "log-method (found in 0.54s)"
+  },
+  {
+    "p": 83,
+    "F1": 167,
+    "F1_digits": 3,
+    "F2_digits": 23,
+    "F2_is_prime": true,
+    "second_factor": 57912614113275649087721,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 97,
+    "F1": 11447,
+    "F1_digits": 5,
+    "F2_digits": 26,
+    "F2_is_prime": true,
+    "second_factor": 13842607235828485645766393,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 101,
+    "F1": 7432339208719,
+    "F1_digits": 13,
+    "F2_digits": 18,
+    "F2_is_prime": true,
+    "second_factor": 341117531003194129,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 103,
+    "F1": 2550183799,
+    "F1_digits": 10,
+    "F2_digits": 22,
+    "F2_is_prime": true,
+    "second_factor": 3976656429941438590393,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 109,
+    "F1": 745988807,
+    "F1_digits": 9,
+    "F2_digits": 24,
+    "F2_is_prime": true,
+    "second_factor": 870035986098720987332873,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 113,
+    "F1": 3391,
+    "F1_digits": 4,
+    "F2_digits": 31,
+    "F2_is_prime": false,
+    "second_factor": 23279,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 131,
+    "F1": 263,
+    "F1_digits": 3,
+    "F2_digits": 38,
+    "F2_is_prime": true,
+    "second_factor": 10350794431055162386718619237468234569,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 137,
+    "F1": 32032215596496435569,
+    "F1_digits": 20,
+    "F2_digits": 22,
+    "F2_is_prime": true,
+    "second_factor": 5439042183600204290159,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 139,
+    "F1": 5625767248687,
+    "F1_digits": 13,
+    "F2_digits": 30,
+    "F2_is_prime": true,
+    "second_factor": 123876132205208335762278423601,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 149,
+    "F1": 86656268566282183151,
+    "F1_digits": 20,
+    "F2_digits": 25,
+    "F2_is_prime": true,
+    "second_factor": 8235109336690846723986161,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 151,
+    "F1": 18121,
+    "F1_digits": 5,
+    "F2_digits": 42,
+    "F2_is_prime": false,
+    "second_factor": 55871,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 157,
+    "F1": 852133201,
+    "F1_digits": 9,
+    "F2_digits": 39,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 163,
+    "F1": 150287,
+    "F1_digits": 6,
+    "F2_digits": 44,
+    "F2_is_prime": false,
+    "second_factor": 704161,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 167,
+    "F1": 2349023,
+    "F1_digits": 7,
+    "F2_digits": 44,
+    "F2_is_prime": true,
+    "second_factor": 79638304766856507377778616296087448490695649,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 173,
+    "F1": 730753,
+    "F1_digits": 6,
+    "F2_digits": 47,
+    "F2_is_prime": false,
+    "second_factor": 1505447,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 179,
+    "F1": 359,
+    "F1_digits": 3,
+    "F2_digits": 52,
+    "F2_is_prime": false,
+    "second_factor": 1433,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 181,
+    "F1": 43441,
+    "F1_digits": 5,
+    "F2_digits": 50,
+    "F2_is_prime": false,
+    "second_factor": 1164193,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 191,
+    "F1": 383,
+    "F1_digits": 3,
+    "F2_digits": 55,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 193,
+    "F1": 13821503,
+    "F1_digits": 8,
+    "F2_digits": 51,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 197,
+    "F1": 7487,
+    "F1_digits": 4,
+    "F2_digits": 56,
+    "F2_is_prime": true,
+    "second_factor": 26828803997912886929710867041891989490486893845712448833,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 199,
+    "F1": 164504919713,
+    "F1_digits": 12,
+    "F2_digits": 49,
+    "F2_is_prime": true,
+    "second_factor": 4884164093883941177660049098586324302977543600799,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 211,
+    "F1": 15193,
+    "F1_digits": 5,
+    "F2_digits": 60,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 223,
+    "F1": 18287,
+    "F1_digits": 5,
+    "F2_digits": 63,
+    "F2_is_prime": false,
+    "second_factor": 196687,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 227,
+    "F1": 26986333437777017,
+    "F1_digits": 17,
+    "F2_digits": 52,
+    "F2_is_prime": true,
+    "second_factor": 7992177738205979626491506950867720953545660121688631,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 229,
+    "F1": 1504073,
+    "F1_digits": 7,
+    "F2_digits": 63,
+    "F2_is_prime": false,
+    "second_factor": 20492753,
+    "method": "log-method (found in 0.02s)"
+  },
+  {
+    "p": 233,
+    "F1": 1399,
+    "F1_digits": 4,
+    "F2_digits": 67,
+    "F2_is_prime": false,
+    "second_factor": 135607,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 239,
+    "F1": 479,
+    "F1_digits": 3,
+    "F2_digits": 70,
+    "F2_is_prime": false,
+    "second_factor": 1913,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 241,
+    "F1": 22000409,
+    "F1_digits": 8,
+    "F2_digits": 66,
+    "F2_is_prime": true,
+    "second_factor": 160619474372352289412737508720216839225805656328990879953332340439,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 251,
+    "F1": 503,
+    "F1_digits": 3,
+    "F2_digits": 73,
+    "F2_is_prime": false,
+    "second_factor": 54217,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 257,
+    "F1": 535006138814359,
+    "F1_digits": 15,
+    "F2_digits": 63,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 263,
+    "F1": 23671,
+    "F1_digits": 5,
+    "F2_digits": 75,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 269,
+    "F1": 13822297,
+    "F1_digits": 8,
+    "F2_digits": 74,
+    "F2_is_prime": true,
+    "second_factor": 68625988504811774259364670661552948915363901845035416371912463477873783063,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 271,
+    "F1": 15242475217,
+    "F1_digits": 11,
+    "F2_digits": 72,
+    "F2_is_prime": true,
+    "second_factor": 248927757868131890277330541567820045256364273970773286542188386932989391,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 277,
+    "F1": 1121297,
+    "F1_digits": 7,
+    "F2_digits": 78,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 281,
+    "F1": 80929,
+    "F1_digits": 5,
+    "F2_digits": 80,
+    "F2_is_prime": true,
+    "second_factor": 48009215293052652841860443273079338843737271906291675944391068955229998769420319,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 283,
+    "F1": 9623,
+    "F1_digits": 4,
+    "F2_digits": 82,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 293,
+    "F1": 40122362455616221971122353,
+    "F1_digits": 26,
+    "F2_digits": 63,
+    "F2_is_prime": true,
+    "second_factor": 396645227028138890415611220710757921643910743103031701971222447,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 307,
+    "F1": 14608903,
+    "F1_digits": 8,
+    "F2_digits": 86,
+    "F2_is_prime": false,
+    "second_factor": 85798519,
+    "method": "log-method (found in 0.06s)"
+  },
+  {
+    "p": 311,
+    "F1": 5344847,
+    "F1_digits": 7,
+    "F2_digits": 87,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 313,
+    "F1": 10960009,
+    "F1_digits": 8,
+    "F2_digits": 88,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 317,
+    "F1": 9511,
+    "F1_digits": 4,
+    "F2_digits": 92,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 331,
+    "F1": 16937389168607,
+    "F1_digits": 14,
+    "F2_digits": 87,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 337,
+    "F1": 18199,
+    "F1_digits": 5,
+    "F2_digits": 98,
+    "F2_is_prime": false,
+    "second_factor": 2806537,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 347,
+    "F1": 14143189112952632419639,
+    "F1_digits": 23,
+    "F2_digits": 83,
+    "F2_is_prime": true,
+    "second_factor": 20270345302545987116040069442814496729341666112096057885992643120463337596490211193,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 349,
+    "F1": 1779973928671,
+    "F1_digits": 13,
+    "F2_digits": 93,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 353,
+    "F1": 931921,
+    "F1_digits": 6,
+    "F2_digits": 101,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 359,
+    "F1": 719,
+    "F1_digits": 3,
+    "F2_digits": 106,
+    "F2_is_prime": false,
+    "second_factor": 855857,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 367,
+    "F1": 12479,
+    "F1_digits": 5,
+    "F2_digits": 107,
+    "F2_is_prime": false,
+    "second_factor": 51791041,
+    "method": "log-method (found in 0.03s)"
+  },
+  {
+    "p": 373,
+    "F1": 25569151,
+    "F1_digits": 8,
+    "F2_digits": 105,
+    "F2_is_prime": true,
+    "second_factor": 752440346497356983142327449546457327748644897934114291899411428982990336039662496766303354959577078458241,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 379,
+    "F1": 180818808679,
+    "F1_digits": 12,
+    "F2_digits": 103,
+    "F2_is_prime": true,
+    "second_factor": 6809649408891001685768937590233308625949604176033855796938978177320539702698633946720428389517879894953,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 383,
+    "F1": 1440847,
+    "F1_digits": 7,
+    "F2_digits": 110,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 389,
+    "F1": 56478911,
+    "F1_digits": 8,
+    "F2_digits": 110,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 397,
+    "F1": 2383,
+    "F1_digits": 4,
+    "F2_digits": 117,
+    "F2_is_prime": false,
+    "second_factor": 6353,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 401,
+    "F1": 856971565399,
+    "F1_digits": 12,
+    "F2_digits": 109,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 409,
+    "F1": 4480666067023,
+    "F1_digits": 13,
+    "F2_digits": 111,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 419,
+    "F1": 839,
+    "F1_digits": 3,
+    "F2_digits": 124,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 421,
+    "F1": 614002928307599,
+    "F1_digits": 15,
+    "F2_digits": 112,
+    "F2_is_prime": true,
+    "second_factor": 8819779591697258388298117725624832271141577326602771028307143781815455970700534027206522451123308835472505327249,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 431,
+    "F1": 863,
+    "F1_digits": 3,
+    "F2_digits": 127,
+    "F2_is_prime": false,
+    "second_factor": 3449,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 433,
+    "F1": 22086765417396827057,
+    "F1_digits": 20,
+    "F2_digits": 112,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 439,
+    "F1": 104110607,
+    "F1_digits": 9,
+    "F2_digits": 125,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 443,
+    "F1": 887,
+    "F1_digits": 3,
+    "F2_digits": 131,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 449,
+    "F1": 1256303,
+    "F1_digits": 7,
+    "F2_digits": 130,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 457,
+    "F1": 150327409,
+    "F1_digits": 9,
+    "F2_digits": 130,
+    "F2_is_prime": true,
+    "second_factor": 2475539419689929784935319344449409898291165097323714578650943035813830300993611462717419801770460539016610145009605554380104535919,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 461,
+    "F1": 2767,
+    "F1_digits": 4,
+    "F2_digits": 136,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 463,
+    "F1": 11113,
+    "F1_digits": 5,
+    "F2_digits": 136,
+    "F2_is_prime": false,
+    "second_factor": 3407681,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 467,
+    "F1": 121606801,
+    "F1_digits": 9,
+    "F2_digits": 133,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 479,
+    "F1": 33385343,
+    "F1_digits": 8,
+    "F2_digits": 137,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 487,
+    "F1": 4871,
+    "F1_digits": 4,
+    "F2_digits": 143,
+    "F2_is_prime": true,
+    "second_factor": 82033219963138371097689272308258116841679442057301643873942124991182012434598644913857356023840478815121709542915222280972560231358838127531337,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 491,
+    "F1": 983,
+    "F1_digits": 3,
+    "F2_digits": 145,
+    "F2_is_prime": false,
+    "second_factor": 7707719,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 499,
+    "F1": 20959,
+    "F1_digits": 5,
+    "F2_digits": 146,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 503,
+    "F1": 3213684984979279,
+    "F1_digits": 16,
+    "F2_digits": 136,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 509,
+    "F1": 12619129,
+    "F1_digits": 8,
+    "F2_digits": 147,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 523,
+    "F1": 160188778313202118610543685368878688932828701136501444932217468039063,
+    "F1_digits": 69,
+    "F2_digits": 90,
+    "F2_is_prime": true,
+    "second_factor": 171417691861249198128317096534322116476165056718630345094896620367860006486977101859504089,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 541,
+    "F1": 4312790327,
+    "F1_digits": 10,
+    "F2_digits": 154,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 547,
+    "F1": 5471,
+    "F1_digits": 4,
+    "F2_digits": 161,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 557,
+    "F1": 3343,
+    "F1_digits": 4,
+    "F2_digits": 165,
+    "F2_is_prime": false,
+    "second_factor": 21993703,
+    "method": "log-method (found in 0.01s)"
+  },
+  {
+    "p": 563,
+    "F1": 2815747080256641401887817,
+    "F1_digits": 25,
+    "F2_digits": 146,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 569,
+    "F1": 15854617,
+    "F1_digits": 8,
+    "F2_digits": 165,
+    "F2_is_prime": false,
+    "second_factor": 55470673,
+    "method": "log-method (found in 0.02s)"
+  },
+  {
+    "p": 571,
+    "F1": 5711,
+    "F1_digits": 4,
+    "F2_digits": 169,
+    "F2_is_prime": false,
+    "second_factor": 27409,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 577,
+    "F1": 3463,
+    "F1_digits": 4,
+    "F2_digits": 171,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 587,
+    "F1": 554129,
+    "F1_digits": 6,
+    "F2_digits": 171,
+    "F2_is_prime": false,
+    "second_factor": 2926783,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 593,
+    "F1": 104369,
+    "F1_digits": 6,
+    "F2_digits": 174,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 599,
+    "F1": 16659379034607403556537,
+    "F1_digits": 23,
+    "F2_digits": 159,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 601,
+    "F1": 3607,
+    "F1_digits": 4,
+    "F2_digits": 178,
+    "F2_is_prime": false,
+    "second_factor": 64863527,
+    "method": "log-method (found in 0.02s)"
+  },
+  {
+    "p": 613,
+    "F1": 44599476833089207,
+    "F1_digits": 17,
+    "F2_digits": 168,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 617,
+    "F1": 59233,
+    "F1_digits": 5,
+    "F2_digits": 181,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 619,
+    "F1": 110183,
+    "F1_digits": 6,
+    "F2_digits": 182,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 631,
+    "F1": 333628015107245479,
+    "F1_digits": 18,
+    "F2_digits": 173,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 641,
+    "F1": 35897,
+    "F1_digits": 5,
+    "F2_digits": 189,
+    "F2_is_prime": false,
+    "second_factor": 49999,
+    "method": "log-method (found in 0.00s)"
+  },
+  {
+    "p": 643,
+    "F1": 3189281,
+    "F1_digits": 7,
+    "F2_digits": 188,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 647,
+    "F1": 303303806129303896428103,
+    "F1_digits": 24,
+    "F2_digits": 172,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 653,
+    "F1": 78557207,
+    "F1_digits": 8,
+    "F2_digits": 189,
+    "F2_is_prime": false,
+    "second_factor": 289837969,
+    "method": "log-method (found in 0.10s)"
+  },
+  {
+    "p": 659,
+    "F1": 1319,
+    "F1_digits": 4,
+    "F2_digits": 196,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 661,
+    "F1": 1330270433,
+    "F1_digits": 10,
+    "F2_digits": 190,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 673,
+    "F1": 581163767,
+    "F1_digits": 9,
+    "F2_digits": 194,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 677,
+    "F1": 1943118631,
+    "F1_digits": 10,
+    "F2_digits": 195,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 683,
+    "F1": 1367,
+    "F1_digits": 4,
+    "F2_digits": 203,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 691,
+    "F1": 906642603313,
+    "F1_digits": 12,
+    "F2_digits": 197,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 701,
+    "F1": 796337,
+    "F1_digits": 6,
+    "F2_digits": 206,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 709,
+    "F1": 216868921,
+    "F1_digits": 9,
+    "F2_digits": 206,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 719,
+    "F1": 1439,
+    "F1_digits": 4,
+    "F2_digits": 214,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 727,
+    "F1": 17606291711815434037934881872331611670777491166445300472749449436575622328171096762265466521858927,
+    "F1_digits": 98,
+    "F2_digits": 122,
+    "F2_is_prime": true,
+    "second_factor": 40099499726183758517891939428601665707063794593443940689888526556802581529262728143398959743444150539520890742947533452401,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 733,
+    "F1": 694653525743,
+    "F1_digits": 12,
+    "F2_digits": 209,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 739,
+    "F1": 184603056517613273120809,
+    "F1_digits": 24,
+    "F2_digits": 200,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 743,
+    "F1": 1487,
+    "F1_digits": 4,
+    "F2_digits": 221,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 751,
+    "F1": 227640245125324450927745881868402667694620457976381782672549806487,
+    "F1_digits": 66,
+    "F2_digits": 161,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "log-method (not found in 2.00s)"
+  },
+  {
+    "p": 757,
+    "F1": 9815263,
+    "F1_digits": 7,
+    "F2_digits": 221,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 761,
+    "F1": 4567,
+    "F1_digits": 4,
+    "F2_digits": 226,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 769,
+    "F1": 1591805393,
+    "F1_digits": 10,
+    "F2_digits": 223,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 773,
+    "F1": 6864241,
+    "F1_digits": 7,
+    "F2_digits": 226,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 787,
+    "F1": 9951597611230279,
+    "F1_digits": 16,
+    "F2_digits": 221,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 797,
+    "F1": 2006858753,
+    "F1_digits": 10,
+    "F2_digits": 231,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 809,
+    "F1": 4148386731260605647525186547488842396461625774241327567978137,
+    "F1_digits": 61,
+    "F2_digits": 183,
+    "F2_is_prime": true,
+    "second_factor": 822976161770972830930301003163428309173701632995322298332566131941218475319456934681317262180441560179196983695741564512962292828041194778466080386250032973003303401916055540200393303,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 811,
+    "F1": 326023,
+    "F1_digits": 6,
+    "F2_digits": 239,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 821,
+    "F1": 419273207,
+    "F1_digits": 9,
+    "F2_digits": 239,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 823,
+    "F1": 1460915248436556406607,
+    "F1_digits": 22,
+    "F2_digits": 227,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 827,
+    "F1": 66161,
+    "F1_digits": 5,
+    "F2_digits": 245,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 829,
+    "F1": 72953,
+    "F1_digits": 5,
+    "F2_digits": 245,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 839,
+    "F1": 26849,
+    "F1_digits": 5,
+    "F2_digits": 249,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 853,
+    "F1": 2065711807,
+    "F1_digits": 10,
+    "F2_digits": 248,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 857,
+    "F1": 6857,
+    "F1_digits": 4,
+    "F2_digits": 255,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 859,
+    "F1": 7215601,
+    "F1_digits": 7,
+    "F2_digits": 252,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 863,
+    "F1": 8258911,
+    "F1_digits": 7,
+    "F2_digits": 253,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 877,
+    "F1": 35081,
+    "F1_digits": 5,
+    "F2_digits": 260,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 881,
+    "F1": 26431,
+    "F1_digits": 5,
+    "F2_digits": 261,
+    "F2_is_prime": true,
+    "second_factor": 609975771894476528674847741770477550690431975984816508022169315752408668993737964630175742325288277204552613243684812253451253427056346412559151033770967839107719594288877646641877521578455691636766459660797203894013905167748331753651455643293131241572177344321,
+    "method": "F2 prime (no need for log method)"
+  },
+  {
+    "p": 883,
+    "F1": 8831,
+    "F1_digits": 4,
+    "F2_digits": 262,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 887,
+    "F1": 16173559,
+    "F1_digits": 8,
+    "F2_digits": 260,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 907,
+    "F1": 1170031,
+    "F1_digits": 7,
+    "F2_digits": 267,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 911,
+    "F1": 1823,
+    "F1_digits": 4,
+    "F2_digits": 271,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 919,
+    "F1": 33554520197234177,
+    "F1_digits": 17,
+    "F2_digits": 261,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 929,
+    "F1": 13007,
+    "F1_digits": 5,
+    "F2_digits": 276,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 937,
+    "F1": 28111,
+    "F1_digits": 5,
+    "F2_digits": 278,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 941,
+    "F1": 7529,
+    "F1_digits": 4,
+    "F2_digits": 280,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 947,
+    "F1": 295130657,
+    "F1_digits": 9,
+    "F2_digits": 277,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 953,
+    "F1": 343081,
+    "F1_digits": 6,
+    "F2_digits": 282,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 967,
+    "F1": 23209,
+    "F1_digits": 5,
+    "F2_digits": 287,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 971,
+    "F1": 23917104973173909566916321016011885041962486321502513,
+    "F1_digits": 53,
+    "F2_digits": 240,
+    "F2_is_prime": true,
+    "second_factor": 834482397335843881285445792927969361381275057223361826888191434200105052431322393575712471044965653447937741446308603852137930453506871509750656656410424360864718909932497980500343771659079278211696733523141929625393481260173183573986844719,
+    "method": "F2 prime (no need for log method)"
+  },
+  {
+    "p": 977,
+    "F1": 867577,
+    "F1_digits": 6,
+    "F2_digits": 289,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 983,
+    "F1": 1808226257914551209964473260866417929207023,
+    "F1_digits": 43,
+    "F2_digits": 254,
+    "F2_is_prime": true,
+    "second_factor": 45209839598737454888157799084210075225046975601481681987111521281725588999045535885301058936190365151100735916490287107649823350094433392585022579143155571287365424342339018392987456924688165474686010222313483963161662633082568507647354753106455269543409,
+    "method": "F2 prime (no need for log method)"
+  },
+  {
+    "p": 991,
+    "F1": 8218291649,
+    "F1_digits": 10,
+    "F2_digits": 289,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 997,
+    "F1": 167560816514084819488737767976263150405095191554732902607,
+    "F1_digits": 57,
+    "F2_digits": 244,
+    "F2_is_prime": true,
+    "second_factor": 7993430605360222292860936960123884061988016846627213757686887976005930025638602973712891518592878944687759622084106508783413855778177367022158878920741413700868182301410439178049533828082651513160945607018874830040978453228378816647358334681553,
+    "method": "F2 prime (no need for log method)"
+  },
+  {
+    "p": 1009,
+    "F1": 3454817,
+    "F1_digits": 7,
+    "F2_digits": 298,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1013,
+    "F1": 6079,
+    "F1_digits": 4,
+    "F2_digits": 302,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1019,
+    "F1": 2039,
+    "F1_digits": 4,
+    "F2_digits": 304,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1021,
+    "F1": 40841,
+    "F1_digits": 5,
+    "F2_digits": 303,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1031,
+    "F1": 2063,
+    "F1_digits": 4,
+    "F2_digits": 308,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1033,
+    "F1": 196271,
+    "F1_digits": 6,
+    "F2_digits": 306,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1039,
+    "F1": 5080711,
+    "F1_digits": 7,
+    "F2_digits": 307,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1049,
+    "F1": 33569,
+    "F1_digits": 5,
+    "F2_digits": 312,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1051,
+    "F1": 3575503,
+    "F1_digits": 7,
+    "F2_digits": 310,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1061,
+    "F1": 46817226351072265620777670675006972301618979214252832875068976303839400413682313921168154465151768472420980044715745858522803980473207943564433,
+    "F1_digits": 143,
+    "F2_digits": 177,
+    "F2_is_prime": true,
+    "second_factor": 527739642811233917558838216073534609312522896254707972010583175760467054896492872702786549764052643493511382273226052631979775533936351462037464331880467187717179256707148303247,
+    "method": "direct (F2 prime)"
+  },
+  {
+    "p": 1063,
+    "F1": 1485761479,
+    "F1_digits": 10,
+    "F2_digits": 311,
+    "F2_is_prime": true,
+    "second_factor": 66517557928765134492647166359262125770048540134918600032539772976797724941006649947336554351613625288312893030278881874355220813711550648653256265159781898981118980688381522263839502394276270835812253759309013592355218624237843247884555485319300157747282772571077797101425120542577358619582373240968281790913033,
+    "method": "F2 prime (no need for log method)"
+  },
+  {
+    "p": 1069,
+    "F1": 17481727674576239,
+    "F1_digits": 17,
+    "F2_digits": 306,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1087,
+    "F1": 10722169,
+    "F1_digits": 8,
+    "F2_digits": 321,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1091,
+    "F1": 87281,
+    "F1_digits": 5,
+    "F2_digits": 324,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1093,
+    "F1": 43721,
+    "F1_digits": 5,
+    "F2_digits": 325,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1097,
+    "F1": 980719,
+    "F1_digits": 6,
+    "F2_digits": 325,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1103,
+    "F1": 2207,
+    "F1_digits": 4,
+    "F2_digits": 329,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1109,
+    "F1": 30963501968569,
+    "F1_digits": 14,
+    "F2_digits": 321,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1117,
+    "F1": 53617,
+    "F1_digits": 5,
+    "F2_digits": 332,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1123,
+    "F1": 777288435261989969,
+    "F1_digits": 18,
+    "F2_digits": 321,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1129,
+    "F1": 33871,
+    "F1_digits": 5,
+    "F2_digits": 336,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1151,
+    "F1": 284278475807,
+    "F1_digits": 12,
+    "F2_digits": 336,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1153,
+    "F1": 267497,
+    "F1_digits": 6,
+    "F2_digits": 342,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1163,
+    "F1": 848181715001,
+    "F1_digits": 12,
+    "F2_digits": 339,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1171,
+    "F1": 153606920351,
+    "F1_digits": 12,
+    "F2_digits": 342,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1181,
+    "F1": 4742897,
+    "F1_digits": 7,
+    "F2_digits": 349,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1187,
+    "F1": 256393,
+    "F1_digits": 6,
+    "F2_digits": 352,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1193,
+    "F1": 121687,
+    "F1_digits": 6,
+    "F2_digits": 355,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1201,
+    "F1": 57649,
+    "F1_digits": 5,
+    "F2_digits": 357,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1213,
+    "F1": 327511,
+    "F1_digits": 6,
+    "F2_digits": 360,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1217,
+    "F1": 1045741327,
+    "F1_digits": 10,
+    "F2_digits": 358,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1223,
+    "F1": 2447,
+    "F1_digits": 4,
+    "F2_digits": 365,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1229,
+    "F1": 36871,
+    "F1_digits": 5,
+    "F2_digits": 366,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1231,
+    "F1": 531793,
+    "F1_digits": 6,
+    "F2_digits": 365,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1237,
+    "F1": 2538207129840687799335203259492870476186248896616401346500027311795983,
+    "F1_digits": 70,
+    "F2_digits": 303,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1249,
+    "F1": 97423,
+    "F1_digits": 5,
+    "F2_digits": 371,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1259,
+    "F1": 875965965904153,
+    "F1_digits": 15,
+    "F2_digits": 365,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1277,
+    "F1": 1724716499241899864602425389894492014760761058306262762892810886087012338823944627660237293943404138481321,
+    "F1_digits": 106,
+    "F2_digits": 280,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1283,
+    "F1": 4824675346114250541198242904214396192319,
+    "F1_digits": 40,
+    "F2_digits": 347,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1289,
+    "F1": 15856636079,
+    "F1_digits": 11,
+    "F2_digits": 378,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1291,
+    "F1": 998943080897,
+    "F1_digits": 12,
+    "F2_digits": 377,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1297,
+    "F1": 12097392013313,
+    "F1_digits": 14,
+    "F2_digits": 378,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1301,
+    "F1": 161317830296866767945829203107381353,
+    "F1_digits": 36,
+    "F2_digits": 357,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1303,
+    "F1": 10444849,
+    "F1_digits": 8,
+    "F2_digits": 386,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1307,
+    "F1": 101286184577,
+    "F1_digits": 12,
+    "F2_digits": 383,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1319,
+    "F1": 712292734142687,
+    "F1_digits": 15,
+    "F2_digits": 383,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1321,
+    "F1": 7927,
+    "F1_digits": 4,
+    "F2_digits": 394,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1327,
+    "F1": 2730967,
+    "F1_digits": 7,
+    "F2_digits": 394,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1361,
+    "F1": 8167,
+    "F1_digits": 4,
+    "F2_digits": 406,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1367,
+    "F1": 10937,
+    "F1_digits": 5,
+    "F2_digits": 408,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1373,
+    "F1": 1957392737,
+    "F1_digits": 10,
+    "F2_digits": 405,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1381,
+    "F1": 8287,
+    "F1_digits": 4,
+    "F2_digits": 412,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1399,
+    "F1": 28875361,
+    "F1_digits": 8,
+    "F2_digits": 414,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1409,
+    "F1": 264136919719,
+    "F1_digits": 12,
+    "F2_digits": 413,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1423,
+    "F1": 1699063,
+    "F1_digits": 7,
+    "F2_digits": 423,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1427,
+    "F1": 19054580564725546974193126830978590503,
+    "F1_digits": 38,
+    "F2_digits": 393,
+    "F2_is_prime": true,
+    "second_factor": 194896670123696328156269134120822681184552271156762196692623500278186769012560609306337464155180109037021567036248432713804826974347324982845314516298826220368057469973782212443068993647106981768393154798060415573003290023993556586466582575088709662681143912557927345343354123522053949152047691547088524840258015743275902748079639542782275767951061476595038733481622280161931430727406749378409,
+    "method": "F2 prime (no need for log method)"
+  },
+  {
+    "p": 1429,
+    "F1": 1757766958557127850108708353,
+    "F1_digits": 28,
+    "F2_digits": 403,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1433,
+    "F1": 20063,
+    "F1_digits": 5,
+    "F2_digits": 428,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1439,
+    "F1": 2879,
+    "F1_digits": 4,
+    "F2_digits": 430,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1447,
+    "F1": 57881,
+    "F1_digits": 5,
+    "F2_digits": 431,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1451,
+    "F1": 2903,
+    "F1_digits": 4,
+    "F2_digits": 434,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1453,
+    "F1": 8719,
+    "F1_digits": 4,
+    "F2_digits": 434,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1459,
+    "F1": 14591,
+    "F1_digits": 5,
+    "F2_digits": 436,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1471,
+    "F1": 652662073639,
+    "F1_digits": 12,
+    "F2_digits": 432,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1481,
+    "F1": 71089,
+    "F1_digits": 5,
+    "F2_digits": 441,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1483,
+    "F1": 910188101009715972185070554697411008108729,
+    "F1_digits": 42,
+    "F2_digits": 405,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1487,
+    "F1": 24464753918382797416777,
+    "F1_digits": 23,
+    "F2_digits": 426,
+    "F2_is_prime": true,
+    "second_factor": 175009933839368008556479302682640897727456077691520740912236362003827065290874135105102795975432905798601401181403609355995081840100642220972240898355543470611233396258501258597994309096566372807134446436269587359554768309579912866305483348453611517633783614673786233054708013093749849863295794959081589044564777741220380175605646198425535142147112724674677211646388028334311807338582575850086965089329594366485156323334399751,
+    "method": "F2 prime (no need for log method)"
+  },
+  {
+    "p": 1489,
+    "F1": 71473,
+    "F1_digits": 5,
+    "F2_digits": 444,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1493,
+    "F1": 3788526319,
+    "F1_digits": 10,
+    "F2_digits": 440,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1499,
+    "F1": 2999,
+    "F1_digits": 4,
+    "F2_digits": 448,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1511,
+    "F1": 3023,
+    "F1_digits": 4,
+    "F2_digits": 452,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1523,
+    "F1": 2522089,
+    "F1_digits": 7,
+    "F2_digits": 453,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1531,
+    "F1": 88799,
+    "F1_digits": 5,
+    "F2_digits": 456,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1543,
+    "F1": 101839,
+    "F1_digits": 6,
+    "F2_digits": 460,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1549,
+    "F1": 168920851817441,
+    "F1_digits": 15,
+    "F2_digits": 453,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1553,
+    "F1": 14194270913,
+    "F1_digits": 11,
+    "F2_digits": 458,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1559,
+    "F1": 3119,
+    "F1_digits": 4,
+    "F2_digits": 466,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1567,
+    "F1": 29257873823,
+    "F1_digits": 11,
+    "F2_digits": 462,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1571,
+    "F1": 33788630721577,
+    "F1_digits": 14,
+    "F2_digits": 460,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1579,
+    "F1": 132272831,
+    "F1_digits": 9,
+    "F2_digits": 468,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1583,
+    "F1": 3167,
+    "F1_digits": 4,
+    "F2_digits": 474,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1597,
+    "F1": 46421116904392458242754417331076737,
+    "F1_digits": 35,
+    "F2_digits": 447,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1601,
+    "F1": 158098751,
+    "F1_digits": 9,
+    "F2_digits": 474,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1607,
+    "F1": 28927,
+    "F1_digits": 5,
+    "F2_digits": 480,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1609,
+    "F1": 2394193,
+    "F1_digits": 7,
+    "F2_digits": 478,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1613,
+    "F1": 165545417,
+    "F1_digits": 9,
+    "F2_digits": 478,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1621,
+    "F1": 649412561933038085071,
+    "F1_digits": 21,
+    "F2_digits": 468,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1627,
+    "F1": 25722871,
+    "F1_digits": 8,
+    "F2_digits": 483,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1637,
+    "F1": 81679753,
+    "F1_digits": 8,
+    "F2_digits": 485,
+    "F2_is_prime": true,
+    "second_factor": 74814966561517571585932474945269682608001433178628357476449926457188580641944848245987156168344564883140659218272357589056348417701711856080314673303320419166567911727310840587081316163487610998993220947118924141805739357620773346815514916183218902523417048877049522482181121140683523754411645291018726231605239367692714221281185847753029403205914280798614482916831812896491382127231314343811239125711148359395983099692623666206644131017325249745775869625033522165163578778833585262407,
+    "method": "F2 prime (no need for log method)"
+  },
+  {
+    "p": 1657,
+    "F1": 10788426156438350117334292343137689257142387557947087583,
+    "F1_digits": 56,
+    "F2_digits": 444,
+    "F2_is_prime": true,
+    "second_factor": 593942936623747360173556967393753642528623233468565634939317425361501274131577389249490962271239551797811188821145975696772915547742711746537191131671200442387161426836343436401387749400241072907299524326160128315343075054400855983048232251052395319664406958467037464229152567830913292700542582443248955887674093124966737490252996595421796092157015695264915125972574320064649336968104344529344820047048329468512467591074886539144622741014503137,
+    "method": "F2 prime (no need for log method)"
+  },
+  {
+    "p": 1663,
+    "F1": 16631,
+    "F1_digits": 5,
+    "F2_digits": 497,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1667,
+    "F1": 13337,
+    "F1_digits": 5,
+    "F2_digits": 498,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1669,
+    "F1": 112493750443412941745410571996247741731544451845539488817,
+    "F1_digits": 57,
+    "F2_digits": 447,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1693,
+    "F1": 10159,
+    "F1_digits": 5,
+    "F2_digits": 506,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1697,
+    "F1": 1235417,
+    "F1_digits": 7,
+    "F2_digits": 505,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1699,
+    "F1": 2714024454610151,
+    "F1_digits": 16,
+    "F2_digits": 497,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1709,
+    "F1": 379399,
+    "F1_digits": 6,
+    "F2_digits": 509,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1721,
+    "F1": 175543,
+    "F1_digits": 6,
+    "F2_digits": 513,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1723,
+    "F1": 17231,
+    "F1_digits": 5,
+    "F2_digits": 515,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1733,
+    "F1": 29042669704339553664002303,
+    "F1_digits": 26,
+    "F2_digits": 497,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1741,
+    "F1": 1002817,
+    "F1_digits": 7,
+    "F2_digits": 519,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1747,
+    "F1": 16811052664235873,
+    "F1_digits": 17,
+    "F2_digits": 510,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1759,
+    "F1": 5295124011028151,
+    "F1_digits": 16,
+    "F2_digits": 514,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1777,
+    "F1": 10663,
+    "F1_digits": 5,
+    "F2_digits": 531,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1783,
+    "F1": 107022793,
+    "F1_digits": 9,
+    "F2_digits": 529,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1787,
+    "F1": 838124596866091911697,
+    "F1_digits": 21,
+    "F2_digits": 518,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1789,
+    "F1": 39359,
+    "F1_digits": 5,
+    "F2_digits": 534,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1801,
+    "F1": 28817,
+    "F1_digits": 5,
+    "F2_digits": 538,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1811,
+    "F1": 3623,
+    "F1_digits": 4,
+    "F2_digits": 542,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1823,
+    "F1": 120319,
+    "F1_digits": 6,
+    "F2_digits": 544,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1831,
+    "F1": 21919356186601,
+    "F1_digits": 14,
+    "F2_digits": 538,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1847,
+    "F1": 33247,
+    "F1_digits": 5,
+    "F2_digits": 552,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1861,
+    "F1": 1023551,
+    "F1_digits": 7,
+    "F2_digits": 555,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1867,
+    "F1": 597702354293770769,
+    "F1_digits": 18,
+    "F2_digits": 545,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1871,
+    "F1": 14969,
+    "F1_digits": 5,
+    "F2_digits": 560,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1873,
+    "F1": 229751533588720817346889,
+    "F1_digits": 24,
+    "F2_digits": 541,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1877,
+    "F1": 15017,
+    "F1_digits": 5,
+    "F2_digits": 561,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1879,
+    "F1": 605039,
+    "F1_digits": 6,
+    "F2_digits": 560,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1889,
+    "F1": 62178021761,
+    "F1_digits": 11,
+    "F2_digits": 558,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1901,
+    "F1": 12147391,
+    "F1_digits": 8,
+    "F2_digits": 566,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1907,
+    "F1": 1685696416143478298579153,
+    "F1_digits": 25,
+    "F2_digits": 550,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1913,
+    "F1": 6301423,
+    "F1_digits": 7,
+    "F2_digits": 570,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1931,
+    "F1": 3863,
+    "F1_digits": 4,
+    "F2_digits": 578,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1933,
+    "F1": 645881023,
+    "F1_digits": 9,
+    "F2_digits": 574,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1949,
+    "F1": 4936745974543,
+    "F1_digits": 13,
+    "F2_digits": 575,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1951,
+    "F1": 16866820319,
+    "F1_digits": 11,
+    "F2_digits": 578,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1973,
+    "F1": 122327,
+    "F1_digits": 6,
+    "F2_digits": 589,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1979,
+    "F1": 32392273,
+    "F1_digits": 8,
+    "F2_digits": 589,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1987,
+    "F1": 67559,
+    "F1_digits": 5,
+    "F2_digits": 594,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1993,
+    "F1": 11959,
+    "F1_digits": 5,
+    "F2_digits": 596,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1997,
+    "F1": 395407,
+    "F1_digits": 6,
+    "F2_digits": 596,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 1999,
+    "F1": 1807097,
+    "F1_digits": 7,
+    "F2_digits": 596,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 2003,
+    "F1": 4007,
+    "F1_digits": 4,
+    "F2_digits": 600,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 2011,
+    "F1": 2171881,
+    "F1_digits": 7,
+    "F2_digits": 600,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 2017,
+    "F1": 9338711,
+    "F1_digits": 7,
+    "F2_digits": 601,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 2027,
+    "F1": 5405684681,
+    "F1_digits": 10,
+    "F2_digits": 601,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 2029,
+    "F1": 2174887297707195387137,
+    "F1_digits": 22,
+    "F2_digits": 590,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 2039,
+    "F1": 4079,
+    "F1_digits": 4,
+    "F2_digits": 611,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 2053,
+    "F1": 3994132379033469883845814767575996546561,
+    "F1_digits": 40,
+    "F2_digits": 579,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 2063,
+    "F1": 4127,
+    "F1_digits": 4,
+    "F2_digits": 618,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 2069,
+    "F1": 326903,
+    "F1_digits": 6,
+    "F2_digits": 618,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 2081,
+    "F1": 266369,
+    "F1_digits": 6,
+    "F2_digits": 622,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 2083,
+    "F1": 7269671,
+    "F1_digits": 7,
+    "F2_digits": 621,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 2087,
+    "F1": 561653441,
+    "F1_digits": 9,
+    "F2_digits": 620,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 2089,
+    "F1": 16673027617,
+    "F1_digits": 11,
+    "F2_digits": 619,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  },
+  {
+    "p": 2099,
+    "F1": 22858111,
+    "F1_digits": 8,
+    "F2_digits": 625,
+    "F2_is_prime": false,
+    "second_factor": null,
+    "method": "F2 too large for log method"
+  }
+]

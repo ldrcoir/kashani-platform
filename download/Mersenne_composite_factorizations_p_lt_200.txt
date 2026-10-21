@@ -1,0 +1,81 @@
+Complete factorizations of composite Mersenne numbers M(p) = 2^p - 1
+For prime p < 200 (excluding Mersenne prime exponents)
+All factorizations verified: product of factors = M(p), all factors prime
+======================================================================
+
+Mersenne prime exponents (excluded): [2, 3, 5, 7, 13, 17, 19, 31, 61, 89, 107, 127]
+Number of composite Mersennes factored: 34
+
+M(11) = 2^11 - 1 = 23 * 89
+  (2 prime factors, M(11) has 4 digits)
+M(23) = 2^23 - 1 = 47 * 178481
+  (2 prime factors, M(23) has 7 digits)
+M(29) = 2^29 - 1 = 233 * 1103 * 2089
+  (3 prime factors, M(29) has 9 digits)
+M(37) = 2^37 - 1 = 223 * 616318177
+  (2 prime factors, M(37) has 12 digits)
+M(41) = 2^41 - 1 = 13367 * 164511353
+  (2 prime factors, M(41) has 13 digits)
+M(43) = 2^43 - 1 = 431 * 9719 * 2099863
+  (3 prime factors, M(43) has 13 digits)
+M(47) = 2^47 - 1 = 2351 * 4513 * 13264529
+  (3 prime factors, M(47) has 15 digits)
+M(53) = 2^53 - 1 = 6361 * 69431 * 20394401
+  (3 prime factors, M(53) has 16 digits)
+M(59) = 2^59 - 1 = 179951 * 3203431780337
+  (2 prime factors, M(59) has 18 digits)
+M(67) = 2^67 - 1 = 193707721 * 761838257287
+  (2 prime factors, M(67) has 21 digits)
+M(71) = 2^71 - 1 = 228479 * 48544121 * 212885833
+  (3 prime factors, M(71) has 22 digits)
+M(73) = 2^73 - 1 = 439 * 2298041 * 9361973132609
+  (3 prime factors, M(73) has 22 digits)
+M(79) = 2^79 - 1 = 2687 * 202029703 * 1113491139767
+  (3 prime factors, M(79) has 24 digits)
+M(83) = 2^83 - 1 = 167 * 57912614113275649087721
+  (2 prime factors, M(83) has 25 digits)
+M(97) = 2^97 - 1 = 11447 * 13842607235828485645766393
+  (2 prime factors, M(97) has 30 digits)
+M(101) = 2^101 - 1 = 7432339208719 * 341117531003194129
+  (2 prime factors, M(101) has 31 digits)
+M(103) = 2^103 - 1 = 2550183799 * 3976656429941438590393
+  (2 prime factors, M(103) has 32 digits)
+M(109) = 2^109 - 1 = 745988807 * 870035986098720987332873
+  (2 prime factors, M(109) has 33 digits)
+M(113) = 2^113 - 1 = 3391 * 23279 * 65993 * 1868569 * 1066818132868207
+  (5 prime factors, M(113) has 35 digits)
+M(131) = 2^131 - 1 = 263 * 10350794431055162386718619237468234569
+  (2 prime factors, M(131) has 40 digits)
+M(137) = 2^137 - 1 = 32032215596496435569 * 5439042183600204290159
+  (2 prime factors, M(137) has 42 digits)
+M(139) = 2^139 - 1 = 5625767248687 * 123876132205208335762278423601
+  (2 prime factors, M(139) has 42 digits)
+M(149) = 2^149 - 1 = 86656268566282183151 * 8235109336690846723986161
+  (2 prime factors, M(149) has 45 digits)
+M(151) = 2^151 - 1 = 18121 * 55871 * 165799 * 2332951 * 7289088383388253664437433
+  (5 prime factors, M(151) has 46 digits)
+M(157) = 2^157 - 1 = 852133201 * 60726444167 * 1654058017289 * 2134387368610417
+  (4 prime factors, M(157) has 48 digits)
+M(163) = 2^163 - 1 = 150287 * 704161 * 110211473 * 27669118297 * 36230454570129675721
+  (5 prime factors, M(163) has 50 digits)
+M(167) = 2^167 - 1 = 2349023 * 79638304766856507377778616296087448490695649
+  (2 prime factors, M(167) has 51 digits)
+M(173) = 2^173 - 1 = 730753 * 1505447 * 70084436712553223 * 155285743288572277679887
+  (4 prime factors, M(173) has 53 digits)
+M(179) = 2^179 - 1 = 359 * 1433 * 1489459109360039866456940197095433721664951999121
+  (3 prime factors, M(179) has 54 digits)
+M(181) = 2^181 - 1 = 43441 * 1164193 * 7648337 * 7923871097285295625344647665764672671
+  (4 prime factors, M(181) has 55 digits)
+M(191) = 2^191 - 1 = 383 * 7068569257 * 39940132241 * 332584516519201 * 87274497124602996457
+  (5 prime factors, M(191) has 58 digits)
+M(193) = 2^193 - 1 = 13821503 * 61654440233248340616559 * 14732265321145317331353282383
+  (3 prime factors, M(193) has 59 digits)
+M(197) = 2^197 - 1 = 7487 * 26828803997912886929710867041891989490486893845712448833
+  (2 prime factors, M(197) has 60 digits)
+M(199) = 2^199 - 1 = 164504919713 * 4884164093883941177660049098586324302977543600799
+  (2 prime factors, M(199) has 60 digits)
+
+======================================================================
+Verification summary:
+  All factorizations verified: product = M(p), all factors prime
+  Total composite Mersennes factored: 34

@@ -1,0 +1,11 @@
+{
+  "last_k_processed": 100000000000,
+  "timestamp": "2026-09-30 00:02:46",
+  "final": true,
+  "no_factor_found": true,
+  "worker0_last_k": 99989941044,
+  "worker1_last_k": 100000000000,
+  "session_tested": 3257737,
+  "session_primes": 1214168,
+  "session_pow_hits": 0
+}

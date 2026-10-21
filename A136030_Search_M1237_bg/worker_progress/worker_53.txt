@@ -1,0 +1,11 @@
+worker_id: 53
+k_current: 4537600000
+k_lo: 4527600001
+k_hi: 4537600000
+primes_tested: 332976
+candidates_tested: 5000000
+factors_found: 0
+f2_digits: 303
+progress_pct: 100.0
+status: done
+time: 2026-09-07 00:14:35

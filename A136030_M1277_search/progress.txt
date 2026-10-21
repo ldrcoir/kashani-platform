@@ -1,0 +1,5 @@
+phase: pm1_1e8
+step: 4/10
+elapsed: 75s
+factors_found: 0
+time: 2026-09-09 04:19:31
